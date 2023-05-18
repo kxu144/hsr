@@ -11,7 +11,6 @@ app.use(cors({
 }));
 
 app.post("/upload", upload.single("file"), (req, res) => {
-  console.log("File uploaded");
 
   const file = req.file;
 
@@ -20,12 +19,11 @@ app.post("/upload", upload.single("file"), (req, res) => {
     return;
   }
 
-  res.send("File uploaded successfully.");
+  console.log("Uploaded " + file.path);
 
   // OCR processing using tesseract.js
   (async () => {
     const worker = await createWorker();
-    await worker.load();
     await worker.loadLanguage('eng');
     await worker.initialize('eng');
     const { data: { text } } = await worker.recognize(file.path);
