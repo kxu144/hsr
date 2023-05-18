@@ -23,8 +23,8 @@ app.post("/upload", upload.single("file"), (req, res) => {
   res.send("File uploaded successfully.");
 
   // OCR processing using tesseract.js
-  const worker = createWorker();
   (async () => {
+    const worker = await createWorker();
     await worker.load();
     await worker.loadLanguage('eng');
     await worker.initialize('eng');
