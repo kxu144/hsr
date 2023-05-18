@@ -1,6 +1,7 @@
 const express = require("express");
 const multer = require("multer");
 const cors = require('cors');
+const { createWorker } = require('tesseract.js');
 
 const app = express();
 const upload = multer({ dest: "uploads/" });
@@ -10,6 +11,8 @@ app.use(cors({
 }));
 
 app.post("/upload", upload.single("file"), (req, res) => {
+  console.log("File uploaded");
+
   const file = req.file;
 
   if (!file) {
@@ -17,10 +20,23 @@ app.post("/upload", upload.single("file"), (req, res) => {
     return;
   }
 
-  // Process the uploaded file here
-  // You can access the file details using `file.originalname`, `file.path`, etc.
-
   res.send("File uploaded successfully.");
+
+  // OCR processing using tesseract.js
+  const worker = createWorker();
+  (async () => {
+    await worker.load();
+    await worker.loadLanguage('eng');
+    await worker.initialize('eng');
+    const { data: { text } } = await worker.recognize(file.path);
+    console.log('OCR Result:', text);
+    await worker.terminate();
+
+    res.send(text);
+  })().catch(error => {
+    console.error('Error:', error);
+    res.status(500).send('Error during OCR processing.');
+  });
 });
 
 app.get("/", (req, res) => {
