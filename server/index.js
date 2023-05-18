@@ -1,10 +1,23 @@
-const http = require("http");
+const express = require("express");
+const multer = require("multer");
 
-const server = http.createServer((req, res) => {
-    res.writeHead(200, { "Content-Type": "text/plain" });
-    res.end("Hello World!");
+const app = express();
+const upload = multer({ dest: "uploads/" });
+
+app.post("/upload", upload.single("file"), (req, res) => {
+  const file = req.file;
+
+  if (!file) {
+    res.status(400).send("No file uploaded.");
+    return;
+  }
+
+  // Process the uploaded file here
+  // You can access the file details using `file.originalname`, `file.path`, etc.
+
+  res.send("File uploaded successfully.");
 });
 
-const PORT = process.env.PORT || 3000;
-
-server.listen(PORT, () => console.log("Server running on PORT " + PORT));
+app.listen(3000, () => {
+  console.log("Server is running on port 3000");
+});
