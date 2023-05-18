@@ -18,6 +18,10 @@ app.post("/upload", upload.single("file"), (req, res) => {
   res.send("File uploaded successfully.");
 });
 
-app.listen(3000, () => {
-  console.log("Server is running on port 3000");
+app.get("/", (req, res) => {
+  res.send("Hello World!");
+});
+
+app.listen(5000, () => {
+  console.log("Server is running on port 5000");
 });
