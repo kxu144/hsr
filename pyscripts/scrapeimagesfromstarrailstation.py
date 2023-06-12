@@ -3,8 +3,8 @@ import json
 import requests
 from bs4 import BeautifulSoup
 
-json_dir = "./data/characters"
-art_dir = "./lib/art"
+json_dir = "../hsr-website/data/characters"
+art_dir = "../hsr-website/lib/art"
 
 def getIMG(name, id):
     response = requests.get("https://starrailstation.com/en/character/" + name)  # Replace with the desired website URL

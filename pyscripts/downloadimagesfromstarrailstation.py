@@ -2,8 +2,8 @@ import json
 import os
 import requests
 
-json_dir = "./data/relics"
-relic_dir = "./lib/relic/art"
+json_dir = "../hsr-website/data/relics"
+relic_dir = "../hsr-website/lib/relic/art"
 
 def getIMG(id):
     url = "https://starrailstation.com/assets/" + id + ".webp"

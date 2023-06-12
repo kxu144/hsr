@@ -179,7 +179,64 @@
                 genCharStats();
             });
 
-            
+            // dropdown for lightcone
+            const dropdownLC = document.getElementById("dropdown-lc");
+            const LCOptions = document.getElementById("lc-options");
+            const buildLC = document.getElementById("build-lc");
+            LCOptions.addEventListener("click", function () {
+                buildLC.value = event.target.innerText;
+                if (buildLC.value) {
+                    genLCStats();
+                }
+            });
+            buildLC.addEventListener("click", function () {
+                LCOptions.style.display = "block";
+            });
+            buildLC.addEventListener("keyup", function () {
+                let options = LCOptions.querySelectorAll("div");
+                options.forEach((option) => {
+                    if (option.textContent.toLowerCase().indexOf(buildLC.value.toLowerCase()) > -1) {
+                        option.style.display = "";
+                    } else {
+                        option.style.display = "none";
+                    }
+                });
+            });
+            buildLC.addEventListener("blur", function () {
+                if (buildChar.value) {
+                    genLCStats();
+                }
+            });
+
+            // dropdown for character level
+            const dropdownLCLevel = document.getElementById("dropdown-lc-lvl");
+            const LCLevelOptions = document.getElementById("lc-lvl-options");
+            levels.forEach((level => {
+                var node = document.createElement("div");
+                node.innerText = level;
+                LCLevelOptions.appendChild(node);
+            }));
+            const buildLCLevel = document.getElementById("build-lc-lvl");
+            LCLevelOptions.addEventListener("click", function () {
+                buildLCLevel.value = event.target.innerText;
+                genLCStats();
+            });
+            buildLCLevel.addEventListener("click", function () {
+                LCLevelOptions.style.display = "block";
+            });
+            buildLCLevel.addEventListener("keyup", function () {
+                let options = LCLevelOptions.querySelectorAll("div");
+                options.forEach((option) => {
+                    if (option.textContent.toLowerCase().indexOf(buildLCLevel.value.toLowerCase()) > -1) {
+                        option.style.display = "";
+                    } else {
+                        option.style.display = "none";
+                    }
+                });
+            });
+            buildLCLevel.addEventListener("blur", function () {
+                genLCStats();
+            });
 
             // window
             window.addEventListener("click", function (event) {
@@ -193,6 +250,14 @@
                 if (!buildLevel.contains(event.target)) {
                     levelOptions.scrollTop = 0;
                     levelOptions.style.display = "none";
+                }
+                if (!buildLC.contains(event.target)) {
+                    LCOptions.scrollTop = 0;
+                    LCOptions.style.display = "none";
+                }
+                if (!buildLCLevel.contains(event.target)) {
+                    LCLevelOptions.scrollTop = 0;
+                    LCLevelOptions.style.display = "none";
                 }
             });
         </script>

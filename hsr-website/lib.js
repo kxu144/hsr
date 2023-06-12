@@ -339,6 +339,27 @@ function resetPopup() {
 
 // CHARACTERS.HTML
 
+function calcStats() {
+    const charHP = document.getElementById("char-hp");
+    const charATK = document.getElementById("char-atk");
+    const charDEF = document.getElementById("char-def");
+    const charSPD = document.getElementById("char-spd");
+    const charCRATE = document.getElementById("char-crate");
+    const charCDMG = document.getElementById("char-cdmg");
+    const charAGG = document.getElementById("char-agg");
+
+    // Update HP, ATK, and DEF values
+    charHP.value = parseInt(charHP.dataset.charhp) + (parseInt(charHP.dataset.lchp) || 0);
+    charATK.value = parseInt(charATK.dataset.charatk) + (parseInt(charATK.dataset.lcatk) || 0);
+    charDEF.value = parseInt(charDEF.dataset.chardef) + (parseInt(charDEF.dataset.lcdef) || 0);
+
+    // Update other stats values
+    charSPD.value = charSPD.dataset.charspd;
+    charCRATE.value = charCRATE.dataset.charcrate;
+    charCDMG.value = charCDMG.dataset.charcdmg;
+    charAGG.value = charAGG.dataset.charagg;
+}
+
 function genCharStats() {
     // get character and level
     const char = document.getElementById("build-char").value;
@@ -348,68 +369,112 @@ function genCharStats() {
 
     // preprocessing
     var name = char.toLowerCase().replaceAll(' ', '');
-    console.log(name);
     if (name == "march7th") name = "mar7th";
     else if (name == "trailblazer(fire)") name = "playergirl2";
     else if (name == "trailblazer(physical)") name = "playergirl";
 
     // get data
     fetch("data/characters/" + name + ".json")
-        .then(response => response.json())
-        .then(data => {
-            // character art
-            charImg.style.position = "absolute";
-            charImg.style.right = "2%";
-            charImg.style.top = "5%";
-            charImg.style.width = "60%";
-            charImg.style.maxHeight = "90%";
-            charImg.src = "./lib/char/art/" + data.artPath + ".webp";
+    .then(response => response.json())
+    .then(data => {
+        // character art
+        charImg.style.position = "absolute";
+        charImg.style.right = "2%";
+        charImg.style.top = "5%";
+        charImg.style.width = "60%";
+        charImg.style.maxHeight = "90%";
+        charImg.src = "./lib/char/art/" + data.artPath + ".webp";
 
-            // get stats
-            var promotion, extLvl;
-            if (levels.includes(level)) {
-                promotion = Math.max(Math.floor((levels.length - levels.indexOf(level)) / 2) - 1, 0);
-                if (level.includes('/')) {
-                    if (promotion == 0) {
-                        extLvl = 0;
-                    } else {
-                        extLvl = 10 * (promotion + 1) - 1;
-                    }
+        // get stats
+        var promotion, extLvl;
+        if (levels.includes(level)) {
+            promotion = Math.max(Math.floor((levels.length - levels.indexOf(level)) / 2) - 1, 0);
+            if (level.includes('/')) {
+                if (promotion == 0) {
+                    extLvl = 0;
                 } else {
-                    extLvl = parseInt(level) - 1;
+                    extLvl = 10 * (promotion + 1) - 1;
                 }
             } else {
-                promotion = Math.max(Math.floor((parseInt(level) - 1) / 10) - 1, 0);
                 extLvl = parseInt(level) - 1;
             }
-            const charStats = data.levelData[promotion];
-            document.getElementById("char-hp").value = Math.floor(charStats.hpBase + extLvl * charStats.hpAdd);
-            document.getElementById("char-atk").value = Math.floor(charStats.attackBase + extLvl * charStats.attackAdd);
-            document.getElementById("char-def").value = Math.floor(charStats.defenseBase + extLvl * charStats.defenseAdd);
-            document.getElementById("char-spd").value = Math.floor(charStats.speedBase + extLvl * charStats.speedAdd);
-            document.getElementById("char-crate").value = Math.floor(charStats.crate * 1000) / 10;
-            document.getElementById("char-cdmg").value = Math.floor(charStats.cdmg * 1000) / 10;
-            document.getElementById("char-agg").value = Math.floor(charStats.aggro);
+        } else {
+            promotion = Math.max(Math.floor((parseInt(level) - 1) / 10) - 1, 0);
+            extLvl = parseInt(level) - 1;
+        }
+        const charStats = data.levelData[promotion];
+        document.getElementById("char-hp").dataset.charhp = Math.floor(charStats.hpBase + extLvl * charStats.hpAdd);
+        document.getElementById("char-atk").dataset.charatk = Math.floor(charStats.attackBase + extLvl * charStats.attackAdd);
+        document.getElementById("char-def").dataset.chardef = Math.floor(charStats.defenseBase + extLvl * charStats.defenseAdd);
+        document.getElementById("char-spd").dataset.charspd = Math.floor(charStats.speedBase + extLvl * charStats.speedAdd);
+        document.getElementById("char-crate").dataset.charcrate = Math.floor(charStats.crate * 1000) / 10;
+        document.getElementById("char-cdmg").dataset.charcdmg = Math.floor(charStats.cdmg * 1000) / 10;
+        document.getElementById("char-agg").dataset.charagg = Math.floor(charStats.aggro);
+        calcStats();
 
-            // activate lightcone dropdowns
-            document.getElementById("build-lc").disabled = false;
-            document.getElementById("build-lc-lvl").disabled = false;
-        })
-        .catch(error => {
-            charImg.src = "";
-            document.getElementById("char-hp").value = "";
-            document.getElementById("char-atk").value = "";
-            document.getElementById("char-def").value = "";
-            document.getElementById("char-spd").value = "";
-            document.getElementById("char-crate").value = "";
-            document.getElementById("char-cdmg").value = "";
-            document.getElementById("char-agg").value = "";
+        // activate lightcone dropdowns
+        const charPath = data.baseType.name;
+        document.getElementById("build-lc").value = "";
+        document.getElementById("build-lc").disabled = false;
+        document.getElementById("build-lc-lvl").disabled = false;
+        const LCOptions = document.getElementById("lc-options");
+        LCOptions.innerHTML = "";
+        lightcones[charPath].forEach((lightcone => {
+            var node = document.createElement("div");
+            node.innerText = lightcone;
+            LCOptions.appendChild(node);
+        }));
+    })
+    .catch(error => {
+        charImg.src = "";
+        document.getElementById("char-hp").value = "";
+        document.getElementById("char-atk").value = "";
+        document.getElementById("char-def").value = "";
+        document.getElementById("char-spd").value = "";
+        document.getElementById("char-crate").value = "";
+        document.getElementById("char-cdmg").value = "";
+        document.getElementById("char-agg").value = "";
 
-            document.getElementById("build-lc").disabled = true;
-            document.getElementById("build-lc-lvl").disabled = true;
+        document.getElementById("build-lc").disabled = true;
+        document.getElementById("build-lc-lvl").disabled = true;
 
-            console.log("Error:", error);
-            return;
-        })
+        console.log("Error:", error);
+        return;
+    })
 }
 
+function genLCStats() {
+    // get lc and level
+    const lc = document.getElementById("build-lc").value;
+    const level = document.getElementById("build-lc-lvl").value;
+
+    fetch("data/lightcones/" + lightconesToID[lc])
+    .then(response => response.json())
+    .then(data => {
+        // get stats
+        var promotion, extLvl;
+        if (levels.includes(level)) {
+            promotion = Math.max(Math.floor((levels.length - levels.indexOf(level)) / 2) - 1, 0);
+            if (level.includes('/')) {
+                if (promotion == 0) {
+                    extLvl = 0;
+                } else {
+                    extLvl = 10 * (promotion + 1) - 1;
+                }
+            } else {
+                extLvl = parseInt(level) - 1;
+            }
+        } else {
+            promotion = Math.max(Math.floor((parseInt(level) - 1) / 10) - 1, 0);
+            extLvl = parseInt(level) - 1;
+        }
+        const lcStats = data.levelData[promotion];
+        document.getElementById("char-hp").dataset.lchp = Math.floor(lcStats.hpBase + extLvl * lcStats.hpAdd);
+        document.getElementById("char-atk").dataset.lcatk = Math.floor(lcStats.attackBase + extLvl * lcStats.attackAdd);
+        document.getElementById("char-def").dataset.lcdef = Math.floor(lcStats.defenseBase + extLvl * lcStats.defenseAdd);
+        calcStats();
+    })
+    .catch(error => {
+        console.log("Error:", error);
+    })
+}
