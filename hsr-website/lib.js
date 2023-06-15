@@ -348,16 +348,23 @@ function calcStats() {
     const charCDMG = document.getElementById("char-cdmg");
     const charAGG = document.getElementById("char-agg");
 
-    // Update HP, ATK, and DEF values
-    charHP.value = parseInt(charHP.dataset.charhp) + (parseInt(charHP.dataset.lchp) || 0);
-    charATK.value = parseInt(charATK.dataset.charatk) + (parseInt(charATK.dataset.lcatk) || 0);
-    charDEF.value = parseInt(charDEF.dataset.chardef) + (parseInt(charDEF.dataset.lcdef) || 0);
+    // Update stats
+    charHP.value = Math.floor((parseFloat(charHP.dataset.charhp) || 0) + (parseFloat(charHP.dataset.lchp) || 0));
+    charATK.value = Math.floor((parseFloat(charATK.dataset.charatk) || 0) + (parseFloat(charATK.dataset.lcatk) || 0));
+    charDEF.value = Math.floor((parseFloat(charDEF.dataset.chardef) || 0) + (parseFloat(charDEF.dataset.lcdef) || 0));
+    charSPD.value = Math.floor(parseFloat(charSPD.dataset.charspd) || 0);
+    charCRATE.value = Math.floor(parseFloat(charCRATE.dataset.charcrate) || 0);
+    charCDMG.value = Math.floor(parseFloat(charCDMG.dataset.charcdmg) || 0);
+    charAGG.value = Math.floor(parseFloat(charAGG.dataset.charagg) || 0);
 
-    // Update other stats values
-    charSPD.value = charSPD.dataset.charspd;
-    charCRATE.value = charCRATE.dataset.charcrate;
-    charCDMG.value = charCDMG.dataset.charcdmg;
-    charAGG.value = charAGG.dataset.charagg;
+
+    document.querySelector('[data-stat="hp"] span').innerText = `Char HP ${Math.floor(parseFloat(charHP.dataset.charhp) || 0)} + LC HP ${Math.floor(parseFloat(charHP.dataset.lchp) || 0)}`;
+    document.querySelector('[data-stat="atk"] span').innerText = `Char ATK ${Math.floor(parseFloat(charATK.dataset.charatk) || 0)} + LC ATK ${Math.floor(parseFloat(charATK.dataset.lcatk) || 0)}`;
+    document.querySelector('[data-stat="def"] span').innerText = `Char DEF ${Math.floor(parseFloat(charDEF.dataset.chardef) || 0)} + LC DEF ${Math.floor(parseFloat(charDEF.dataset.lcdef) || 0)}`;
+    document.querySelector('[data-stat="spd"] span').innerText = `Base SPD ${Math.floor(parseFloat(charSPD.dataset.charspd) || 0)}`;
+    document.querySelector('[data-stat="crate"] span').innerText = `Base Crit Rate ${Math.floor(parseFloat(charCRATE.dataset.charcrate) || 0)}`;
+    document.querySelector('[data-stat="cdmg"] span').innerText = `Base Crit DMG ${Math.floor(parseFloat(charCDMG.dataset.charcdmg) || 0)}`;
+    document.querySelector('[data-stat="agg"] span').innerText = `Base AGG ${Math.floor(parseFloat(charAGG.dataset.charagg) || 0)}`;
 }
 
 function genCharStats() {
@@ -374,7 +381,7 @@ function genCharStats() {
     else if (name == "trailblazer(physical)") name = "playergirl";
 
     // get data
-    fetch("data/characters/" + name + ".json")
+    fetch("./lib/char/json/" + name + ".json")
     .then(response => response.json())
     .then(data => {
         // character art
@@ -403,13 +410,13 @@ function genCharStats() {
             extLvl = parseInt(level) - 1;
         }
         const charStats = data.levelData[promotion];
-        document.getElementById("char-hp").dataset.charhp = Math.floor(charStats.hpBase + extLvl * charStats.hpAdd);
-        document.getElementById("char-atk").dataset.charatk = Math.floor(charStats.attackBase + extLvl * charStats.attackAdd);
-        document.getElementById("char-def").dataset.chardef = Math.floor(charStats.defenseBase + extLvl * charStats.defenseAdd);
-        document.getElementById("char-spd").dataset.charspd = Math.floor(charStats.speedBase + extLvl * charStats.speedAdd);
-        document.getElementById("char-crate").dataset.charcrate = Math.floor(charStats.crate * 1000) / 10;
-        document.getElementById("char-cdmg").dataset.charcdmg = Math.floor(charStats.cdmg * 1000) / 10;
-        document.getElementById("char-agg").dataset.charagg = Math.floor(charStats.aggro);
+        document.getElementById("char-hp").dataset.charhp = charStats.hpBase + extLvl * charStats.hpAdd;
+        document.getElementById("char-atk").dataset.charatk = charStats.attackBase + extLvl * charStats.attackAdd;
+        document.getElementById("char-def").dataset.chardef = charStats.defenseBase + extLvl * charStats.defenseAdd;
+        document.getElementById("char-spd").dataset.charspd = charStats.speedBase + extLvl * charStats.speedAdd;
+        document.getElementById("char-crate").dataset.charcrate = charStats.crate * 100;
+        document.getElementById("char-cdmg").dataset.charcdmg = charStats.cdmg * 100;
+        document.getElementById("char-agg").dataset.charagg = charStats.aggro;
         calcStats();
 
         // activate lightcone dropdowns
@@ -469,9 +476,9 @@ function genLCStats() {
             extLvl = parseInt(level) - 1;
         }
         const lcStats = data.levelData[promotion];
-        document.getElementById("char-hp").dataset.lchp = Math.floor(lcStats.hpBase + extLvl * lcStats.hpAdd);
-        document.getElementById("char-atk").dataset.lcatk = Math.floor(lcStats.attackBase + extLvl * lcStats.attackAdd);
-        document.getElementById("char-def").dataset.lcdef = Math.floor(lcStats.defenseBase + extLvl * lcStats.defenseAdd);
+        document.getElementById("char-hp").dataset.lchp = lcStats.hpBase + extLvl * lcStats.hpAdd;
+        document.getElementById("char-atk").dataset.lcatk =lcStats.attackBase + extLvl * lcStats.attackAdd;
+        document.getElementById("char-def").dataset.lcdef = lcStats.defenseBase + extLvl * lcStats.defenseAdd;
         calcStats();
     })
     .catch(error => {

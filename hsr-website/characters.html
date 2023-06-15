@@ -69,9 +69,33 @@
         position: absolute;
         top: 20%;
       }
+
+      .char-stat {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+      }
+      .char-stat .tooltiptext {
+        visibility: hidden;
+        background-color: #5d5d5d;
+        color: white;
+        font-size: 12px;
+        text-align: center;
+        white-space: nowrap;
+        border-radius: 4px;
+        padding: 5px 0;
+        position: absolute;
+        width: 147px;
+        height: 21px;
+        z-index: 1;
+      }
+      .char-stat:hover .tooltiptext {
+        visibility: visible;
+      }
     </style>
     <script src="api.js"></script>
     <script src="lib.js"></script>
+    <script src="dmg.js"></script>
     </head>
     <body>
         <button id="button-addchar">Add New Character</button>
@@ -97,17 +121,38 @@
                 <img id="char-img">
 
                 <div class="char-stats">
-                    <div>HP<input type="text" id="char-hp"></div>
-                    <div>ATK<input type="text" id="char-atk"></div>
-                    <div>DEF<input type="text" id="char-def"></div>
-                    <div>SPD<input type="text" id="char-spd"></div>
-                    <div>CRIT Rate<input type="text" id="char-crate"></div>
-                    <div>CRIT DMG<input type="text" id="char-cdmg"></div>
-                    <div>AGGRO<input type="text" id="char-agg"></div>
+                    <div class="char-stat" data-stat="hp">HP<input type="text" id="char-hp">
+                        <span class="tooltiptext"></span>
+                    </div>
+                    <div class="char-stat" data-stat="atk">ATK<input type="text" id="char-atk">
+                        <span class="tooltiptext"></span>
+                    </div>
+                    <div class="char-stat" data-stat="def">DEF<input type="text" id="char-def">
+                        <span class="tooltiptext"></span>
+                    </div>
+                    <div class="char-stat" data-stat="spd">SPD<input type="text" id="char-spd">
+                        <span class="tooltiptext"></span>
+                    </div>
+                    <div class="char-stat" data-stat="crate">CRIT Rate<input type="text" id="char-crate">
+                        <span class="tooltiptext"></span>
+                    </div>
+                    <div class="char-stat" data-stat="cdmg">CRIT DMG<input type="text" id="char-cdmg">
+                        <span class="tooltiptext"></span>
+                    </div>
+                    <div class="char-stat" data-stat="agg">AGGRO<input type="text" id="char-agg">
+                        <span class="tooltiptext"></span>
+                    </div>
+                </div>
+
+                <div id="optimize">
+                    <input type="text" 
                 </div>
             </div>
         </div>
         <script>
+            // calc initial stats
+            calcStats();
+
             // popup
             const buttonAddChar = document.getElementById("button-addchar");
             const popupAddChar = document.getElementById("popup-addchar");

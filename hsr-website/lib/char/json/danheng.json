@@ -1,0 +1,205 @@
+{
+  "name": "Dan Heng",
+  "spRequirement": 100,
+  "rarity": 4,
+  "artPath": "19cce3a97c45bc7321d9aa70a0f42de0cfe029264998988bdb0564e4f35e5082",
+  "damageType": {
+    "id": 16,
+    "iconPath": "a77d91df3b1045f9fa66ce1300c4d921c0f89e51135df8208904334e8a0f0b80",
+    "color": "#00FF9C",
+    "name": "Wind",
+    "rarity": 0
+  },
+  "baseType": {
+    "id": 0,
+    "iconPath": "f888d91738330cac6e95609d73ab3c9d4be23794bb22c5257171857c4c722262",
+    "altIconPath": "09f49c24cff05770b7c6decea7821c42fb5ddb87f1141b08d9a2c7d8d9344efc",
+    "color": "#FFFFFF",
+    "name": "The Hunt",
+    "rarity": 0
+  },
+  "levelData": [
+    {
+      "promotion": 0,
+      "maxLevel": 20,
+      "cost": [
+        {
+          "id": 29328,
+          "count": 3200
+        },
+        {
+          "id": 549438,
+          "count": 4
+        }
+      ],
+      "attackBase": 74.4,
+      "attackAdd": 3.72,
+      "hpBase": 120,
+      "hpAdd": 6,
+      "defenseBase": 54,
+      "defenseAdd": 2.7,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 75,
+      "speedBase": 110,
+      "speedAdd": 0
+    },
+    {
+      "promotion": 1,
+      "maxLevel": 30,
+      "cost": [
+        {
+          "id": 29328,
+          "count": 6400
+        },
+        {
+          "id": 549438,
+          "count": 8
+        }
+      ],
+      "attackBase": 104.16,
+      "attackAdd": 3.72,
+      "hpBase": 168,
+      "hpAdd": 6,
+      "defenseBase": 75.6,
+      "defenseAdd": 2.7,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 75,
+      "speedBase": 110,
+      "speedAdd": 0
+    },
+    {
+      "promotion": 2,
+      "maxLevel": 40,
+      "cost": [
+        {
+          "id": 29328,
+          "count": 12800
+        },
+        {
+          "id": 633379,
+          "count": 5
+        },
+        {
+          "id": 267805,
+          "count": 2
+        }
+      ],
+      "attackBase": 133.92,
+      "attackAdd": 3.72,
+      "hpBase": 216,
+      "hpAdd": 6,
+      "defenseBase": 97.2,
+      "defenseAdd": 2.7,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 75,
+      "speedBase": 110,
+      "speedAdd": 0
+    },
+    {
+      "promotion": 3,
+      "maxLevel": 50,
+      "cost": [
+        {
+          "id": 29328,
+          "count": 32000
+        },
+        {
+          "id": 633379,
+          "count": 8
+        },
+        {
+          "id": 267805,
+          "count": 5
+        }
+      ],
+      "attackBase": 163.68,
+      "attackAdd": 3.72,
+      "hpBase": 264,
+      "hpAdd": 6,
+      "defenseBase": 118.8,
+      "defenseAdd": 2.7,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 75,
+      "speedBase": 110,
+      "speedAdd": 0
+    },
+    {
+      "promotion": 4,
+      "maxLevel": 60,
+      "cost": [
+        {
+          "id": 29328,
+          "count": 64000
+        },
+        {
+          "id": 717320,
+          "count": 5
+        },
+        {
+          "id": 267805,
+          "count": 15
+        }
+      ],
+      "attackBase": 193.44,
+      "attackAdd": 3.72,
+      "hpBase": 312,
+      "hpAdd": 6,
+      "defenseBase": 140.4,
+      "defenseAdd": 2.7,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 75,
+      "speedBase": 110,
+      "speedAdd": 0
+    },
+    {
+      "promotion": 5,
+      "maxLevel": 70,
+      "cost": [
+        {
+          "id": 29328,
+          "count": 128000
+        },
+        {
+          "id": 717320,
+          "count": 7
+        },
+        {
+          "id": 267805,
+          "count": 28
+        }
+      ],
+      "attackBase": 223.2,
+      "attackAdd": 3.72,
+      "hpBase": 360,
+      "hpAdd": 6,
+      "defenseBase": 162,
+      "defenseAdd": 2.7,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 75,
+      "speedBase": 110,
+      "speedAdd": 0
+    },
+    {
+      "promotion": 6,
+      "maxLevel": 80,
+      "cost": [],
+      "attackBase": 252.96,
+      "attackAdd": 3.72,
+      "hpBase": 408,
+      "hpAdd": 6,
+      "defenseBase": 183.6,
+      "defenseAdd": 2.7,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 75,
+      "speedBase": 110,
+      "speedAdd": 0
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "name": "Trailblazer",
+  "spRequirement": 120,
+  "rarity": 5,
+  "artPath": "af3909adc707cbbaedbe5c5a1651ccd8636f7ad6bc675dce129a1251b53f7eee",
+  "damageType": {
+    "id": 1,
+    "iconPath": "ae78085438eecf2462f1256329b5aa2369f01b8cda6926ea0a08b1b8affe5108",
+    "color": "#FFFFFF",
+    "name": "Physical",
+    "rarity": 0
+  },
+  "baseType": {
+    "id": 0,
+    "iconPath": "57e114954f0de32a3762e77aa2fd4f791deb47497337366308c51de1d0f12430",
+    "altIconPath": "fccc485934c16aa04a6ddacdbfec82b1e59182ba83b560af62ed57b29033c308",
+    "color": "#FFFFFF",
+    "name": "Destruction",
+    "rarity": 0
+  },
+  "levelData": [
+    {
+      "promotion": 0,
+      "maxLevel": 20,
+      "cost": [
+        {
+          "id": 29328,
+          "count": 3200
+        },
+        {
+          "id": 549437,
+          "count": 4
+        }
+      ],
+      "attackBase": 84.48,
+      "attackAdd": 4.224,
+      "hpBase": 163.68,
+      "hpAdd": 8.184,
+      "defenseBase": 62.7,
+      "defenseAdd": 3.135,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 125,
+      "speedBase": 100,
+      "speedAdd": 0
+    },
+    {
+      "promotion": 1,
+      "maxLevel": 30,
+      "cost": [
+        {
+          "id": 29328,
+          "count": 6400
+        },
+        {
+          "id": 549437,
+          "count": 8
+        }
+      ],
+      "attackBase": 118.272,
+      "attackAdd": 4.224,
+      "hpBase": 229.152,
+      "hpAdd": 8.184,
+      "defenseBase": 87.78,
+      "defenseAdd": 3.135,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 125,
+      "speedBase": 100,
+      "speedAdd": 0
+    },
+    {
+      "promotion": 2,
+      "maxLevel": 40,
+      "cost": [
+        {
+          "id": 29328,
+          "count": 12800
+        },
+        {
+          "id": 633378,
+          "count": 5
+        },
+        {
+          "id": 782692,
+          "count": 4
+        }
+      ],
+      "attackBase": 152.064,
+      "attackAdd": 4.224,
+      "hpBase": 294.624,
+      "hpAdd": 8.184,
+      "defenseBase": 112.86,
+      "defenseAdd": 3.135,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 125,
+      "speedBase": 100,
+      "speedAdd": 0
+    },
+    {
+      "promotion": 3,
+      "maxLevel": 50,
+      "cost": [
+        {
+          "id": 29328,
+          "count": 32000
+        },
+        {
+          "id": 633378,
+          "count": 8
+        },
+        {
+          "id": 782692,
+          "count": 6
+        }
+      ],
+      "attackBase": 185.856,
+      "attackAdd": 4.224,
+      "hpBase": 360.096,
+      "hpAdd": 8.184,
+      "defenseBase": 137.94,
+      "defenseAdd": 3.135,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 125,
+      "speedBase": 100,
+      "speedAdd": 0
+    },
+    {
+      "promotion": 4,
+      "maxLevel": 60,
+      "cost": [
+        {
+          "id": 29328,
+          "count": 64000
+        },
+        {
+          "id": 717319,
+          "count": 5
+        },
+        {
+          "id": 782692,
+          "count": 8
+        }
+      ],
+      "attackBase": 219.648,
+      "attackAdd": 4.224,
+      "hpBase": 425.568,
+      "hpAdd": 8.184,
+      "defenseBase": 163.02,
+      "defenseAdd": 3.135,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 125,
+      "speedBase": 100,
+      "speedAdd": 0
+    },
+    {
+      "promotion": 5,
+      "maxLevel": 70,
+      "cost": [
+        {
+          "id": 29328,
+          "count": 128000
+        },
+        {
+          "id": 717319,
+          "count": 7
+        },
+        {
+          "id": 782692,
+          "count": 10
+        }
+      ],
+      "attackBase": 253.44,
+      "attackAdd": 4.224,
+      "hpBase": 491.04,
+      "hpAdd": 8.184,
+      "defenseBase": 188.1,
+      "defenseAdd": 3.135,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 125,
+      "speedBase": 100,
+      "speedAdd": 0
+    },
+    {
+      "promotion": 6,
+      "maxLevel": 80,
+      "cost": [],
+      "attackBase": 287.232,
+      "attackAdd": 4.224,
+      "hpBase": 556.512,
+      "hpAdd": 8.184,
+      "defenseBase": 213.18,
+      "defenseAdd": 3.135,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 125,
+      "speedBase": 100,
+      "speedAdd": 0
+    }
+  ]
+}
