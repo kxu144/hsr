@@ -455,6 +455,15 @@ function genLCStats() {
     const lc = document.getElementById("build-lc").value;
     const level = document.getElementById("build-lc-lvl").value;
 
+    if (!lc) {
+        console.log("Empty lightcone");
+        return;
+    }
+    if (!(lc in lightconesToID)) {
+        console.log('%s not valid lightcone', lc);
+        return;
+    }
+
     fetch("data/lightcones/" + lightconesToID[lc])
     .then(response => response.json())
     .then(data => {
