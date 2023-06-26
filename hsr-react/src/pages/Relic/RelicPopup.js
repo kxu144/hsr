@@ -1,10 +1,13 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Popup from "reactjs-popup";
 import 'reactjs-popup/dist/index.css';
 import { createWorker, createScheduler, PSM_SPARSE_TEXT } from 'tesseract.js';
+import Button from '@mui/material/Button';
 
 import { textToRelic } from '../../utils/relics';
 import RelicPreview, {  } from './RelicPreview';
+
+import "./RelicPopup.css";
 
 // Initialize OCR workers
 const initializeOCRScheduler = async () => {
@@ -52,7 +55,7 @@ function RelicPopup() {
             }
         };
 
-        addWorkers(8);
+        addWorkers(4);
 
     }, [scheduler]);
 
@@ -110,7 +113,7 @@ function RelicPopup() {
             
                     // Perform OCR on the thresholded image
                     performOCR(thresholdedImageDataUrl).then(relic => {
-                        setPreview(true);
+                        setPreview((arr) => [...arr, relic]);
                     });
                 };
         
@@ -122,22 +125,41 @@ function RelicPopup() {
     };
 
     // RELIC PREVIEW
-    const [preview, setPreview] = useState(false);
-      
+    const [preview, setPreview] = useState([]);
+
+    // ADD RELIC TO DATABASE
+    const addRelic = (relic) => {
+        console.log(relic);
+        const relics = JSON.parse(localStorage.getItem("relics") || "[]");
+        relics.push(relic);
+        localStorage.setItem("relics", JSON.stringify(relics));
+        setPreview((arr) => arr.slice(1));
+    };
+
+    // PASTE IMAGE
+    const fileInputRef = useRef(null);
+    useEffect(() => {
+        window.addEventListener("paste", (e) => {
+            if (fileInputRef.current) {
+                fileInputRef.current.files = e.clipboardData.files;
+                fileInputRef.current.dispatchEvent(new Event("change", { bubbles: true }));
+            }
+        });
+    }, []);
 
     return (
-        <Popup trigger={<button>Add New Relic</button>} onClose={() => {setPreview(false);}} modal nested>
+        <Popup trigger={<Button variant="contained">Add New Relic</Button>} onClose={() => {setPreview([]);}} modal nested>
         {
             close => (
                 <div className="modal">
                     <div className="content">
                         Relic Editor
                     </div>
-                    <input type="file" accept="image/*" disabled={!scheduler} onChange={uploadFiles} multiple />
-                    {preview ? <RelicPreview /> : null}
+                    <input type="file" ref={fileInputRef} accept="image/*" disabled={!scheduler} onChange={uploadFiles} multiple />
+                    {(preview && preview.length > 0) ? <RelicPreview relic={preview[0]} /> : null}
                     <div>
-                        <button>Add Relic</button>
-                        <button onClick={close}>Close</button>
+                        <Button variant="contained" disabled={!preview || preview.length === 0} onClick={() => {addRelic(preview[0]);}}>Add Relic</Button>
+                        <Button variant="contained" onClick={close}>Close</Button>
                     </div>
                 </div>
             )

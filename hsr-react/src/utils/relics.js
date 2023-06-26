@@ -39,6 +39,7 @@ export const STATS = [
     'effect res',
     'break effect',
     'spd',
+    'energy regeneration rate',
 ];
 
 export function textToRelic(text) {
