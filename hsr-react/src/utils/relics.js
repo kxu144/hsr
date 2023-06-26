@@ -42,6 +42,37 @@ export const STATS = [
     'energy regeneration rate',
 ];
 
+export const RELICSET2JSON = {
+    'Passerby of Wandering Cloud': '101.json',
+    'Musketeer of Wild Wheat': '102.json',
+    'Knight of Purity Palace': '103.json',
+    'Hunter of Glacial Forest': '104.json',
+    'Champion of Streetwise Boxing': '105.json',
+    'Guard of Wuthering Snow': '106.json',
+    'Firesmith of Lava-Forging': '107.json',
+    'Genius of Brilliant Stars': '108.json',
+    'Band of Sizzling Thunder': '109.json',
+    'Eagle of Twilight Line': '110.json',
+    'Thief of Shooting Meteor': '111.json',
+    'Wastelander of Banditry Desert': '112.json',
+    'Space Sealing Station': '301.json',
+    'Fleet of the Ageless': '302.json',
+    'Pan-Galactic Commercial Enterprise': '303.json',
+    'Belobog of the Architects': '304.json',
+    'Celestial Differentiator': '305.json',
+    'Inert Salsotto': '306.json',
+    'Talia: Kingdom of Banditry': '307.json',
+    'Sprightly Vonwacq': '308.json'
+};
+export const RELICSLOT2ID = {
+    "Head": "1",
+    "Hands": "2",
+    "Body": "3",
+    "Feet": "4",
+    "Planar Sphere": "5",
+    "Link Rope": "6",
+}
+
 export function textToRelic(text) {
     var relic = {
         "setKey": "",

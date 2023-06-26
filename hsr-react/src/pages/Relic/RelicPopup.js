@@ -23,7 +23,7 @@ const initializeOCRScheduler = async () => {
     return scheduler;
 };
 
-function RelicPopup() {
+function RelicPopup({ updateDatabase }) {
     
 
     // TESSERACT OCR
@@ -129,11 +129,20 @@ function RelicPopup() {
 
     // ADD RELIC TO DATABASE
     const addRelic = (relic) => {
-        console.log(relic);
-        const relics = JSON.parse(localStorage.getItem("relics") || "[]");
-        relics.push(relic);
+        setPreview(preview.slice(1));
+
+        const relics = JSON.parse(localStorage.getItem("relics") || "{}");
+        let i = 0;
+        while (String(i) in relics) {
+            i++;
+        }
+        relic.id = i;
+        console.log("Adding relic to db");
+        console.log(i, relic);
+        relics[String(i)] = relic;
         localStorage.setItem("relics", JSON.stringify(relics));
-        setPreview((arr) => arr.slice(1));
+
+        updateDatabase(key => key + 1);
     };
 
     // PASTE IMAGE

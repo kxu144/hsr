@@ -3,7 +3,9 @@ import Grid from '@mui/material/Grid';
 import RelicPreview from './RelicPreview';
 
 function RelicDatabase() {
-    const relics = JSON.parse(localStorage.getItem("relics") || "[]");
+    console.log("RENDER DATABASE");
+    const relics = Object.values(JSON.parse(localStorage.getItem("relics") || "{}"));
+    console.log(relics);
 
     return (
         <Grid container spacing={4}>
