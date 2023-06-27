@@ -3,8 +3,10 @@ import Popup from "reactjs-popup";
 import 'reactjs-popup/dist/index.css';
 import { createWorker, createScheduler, PSM_SPARSE_TEXT } from 'tesseract.js';
 import Button from '@mui/material/Button';
+import { IconButton } from "@mui/material";
+import DeleteIcon from '@mui/icons-material/Delete';
 
-import { textToRelic } from '../../utils/relics';
+import { MAX_QUEUE_LEN, textToRelic } from '../../utils/relics';
 import RelicPreview, {  } from './RelicPreview';
 
 import "./RelicPopup.css";
@@ -71,6 +73,11 @@ function RelicPopup({ updateDatabase }) {
         const files = event.target.files;
       
         for (let i = 0; i < files.length; i++) {
+            if (preview.length >= MAX_QUEUE_LEN) {
+                console.error("Exceeded MAX_QUEUE_LEN");
+                break;
+            }
+
             const file = files[i];
         
             // Create FileReader to read the file
@@ -163,7 +170,7 @@ function RelicPopup({ updateDatabase }) {
     }, []);
 
     return (
-        <Popup trigger={<Button variant="contained">Add New Relic</Button>} onClose={() => {setPreview([]);}} modal nested>
+        <Popup trigger={<Button variant="contained">Add New Relic</Button>} modal nested>
         {
             close => (
                 <div className="modal">
@@ -171,7 +178,14 @@ function RelicPopup({ updateDatabase }) {
                         Relic Editor
                     </div>
                     <input type="file" ref={fileInputRef} accept="image/*" disabled={!scheduler} onChange={uploadFiles} multiple />
-                    {(preview && preview.length > 0 && previewRelic) ? <RelicPreview relic={previewRelic} setRelic={setPreviewRelic} /> : null}
+                    {(preview && preview.length > 0 && previewRelic) ? 
+                    <div style={{position: 'relative'}}>
+                        <RelicPreview relic={previewRelic} setRelic={setPreviewRelic} />
+                        <IconButton aria-label="delete" onClick={() => {setPreview(preview.slice(1));}} >
+                                <DeleteIcon style={{ color: 'gray', position: 'absolute', bottom: '240px', left: '250px' }} />
+                        </IconButton>
+                    </div>
+                     : null}
                     <div>
                         <Button variant="contained" disabled={!preview || preview.length === 0} onClick={() => {addRelic(previewRelic);}}>Add Relic</Button>
                         <Button variant="contained" onClick={close}>Close</Button>

@@ -16,6 +16,8 @@ function RelicPreview({ relic, setRelic }) {
     ]);
     const [raw, setRaw] = useState(relic.raw);
 
+    const [id, setID] = useState(relic.id);
+
     const [artPath, setArtPath] = useState("");
     const [slotBlur, setSlotBlur] = useState(true);
     const [json, setJSON] = useState(null);
@@ -31,6 +33,7 @@ function RelicPreview({ relic, setRelic }) {
             ...Array.from({ length: Math.max(4 - Object.keys(relic.substats).length, 0) }, () => ["", ""]),
         ]);
         setRaw(relic.raw);
+        setID(relic.id);
         setSlotBlur(true);
         
     }, [relic]);
@@ -54,6 +57,9 @@ function RelicPreview({ relic, setRelic }) {
         }
     }, [setKey, slotKey, slotBlur]);
 
+
+    // INFER
+    // TODO: infer mainstat stat from lvl, mainstat
     useEffect(() => {
         const inferSlot = () => {
             console.log("INFERRING SLOT", json.pieces);
@@ -76,6 +82,8 @@ function RelicPreview({ relic, setRelic }) {
         }
     }, [relic, setRelic, raw, json, slotKey]);
 
+    //INFER END
+
     useEffect(() => {
         if (slotKey && json && slotKey.id in json.pieces) {
             setArtPath(`${process.env.PUBLIC_URL}/image/relics/${json.pieces[slotKey.id].iconPath}.webp`);
@@ -93,7 +101,7 @@ function RelicPreview({ relic, setRelic }) {
         
         if ("id" in relic) {
             const relics = JSON.parse(localStorage.getItem("relics") || "{}");
-            relics[String(relic.id)] = relic;
+            relics[String(id)] = relic;
             localStorage.setItem("relics", JSON.stringify(relics));
         }
     };
@@ -102,6 +110,7 @@ function RelicPreview({ relic, setRelic }) {
         <div style={{ position: 'relative', width: '286px', height: '315px' }}>
             <img alt="" src={blankRelic} style={{ width: '100%', position: 'absolute', top: 0, left: 0 }} />
             <img alt="" src={artPath} style={{ width: '35%', position: 'absolute', top: '20%', right: '20%' }}/>
+            
             <div style={{ color: 'white', fontSize: '15px' }}>
                 <Autocomplete 
                     isOptionEqualToValue={(o, value) => value === "" || o === value || o.label === value}

@@ -1,3 +1,5 @@
+export const MAX_QUEUE_LEN = 16;
+
 export const RELIC_TYPES = [
     'head',
     'hands',
