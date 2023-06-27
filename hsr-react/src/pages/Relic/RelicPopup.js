@@ -176,6 +176,9 @@ function RelicPopup({ updateDatabase }) {
         });
     }, []);
 
+    // UNDO?
+    const [delStack, setDelStack] = useState([]);
+
     return (
         <Popup trigger={<Button variant="contained">Add New Relic</Button>} onClose={() => {setNewScheduler(true);setPreview([]);}} modal nested>
         {
@@ -183,19 +186,20 @@ function RelicPopup({ updateDatabase }) {
                 <div className="modal">
                     <div className="content">
                         Relic Editor
+                        <input type="file" ref={fileInputRef} accept="image/*" disabled={!scheduler} onChange={uploadFiles} multiple />
+                        {(preview && preview.length > 0 && previewRelic) ? 
+                        <div style={{position: 'relative'}}>
+                            <RelicPreview relic={previewRelic} setRelic={setPreviewRelic} />
+                            <IconButton aria-label="delete" onClick={() => {setDelStack([previewRelic, ...delStack]);setPreview(preview.slice(1));}} >
+                                    <DeleteIcon style={{ color: 'gray', position: 'absolute', bottom: '240px', left: '250px' }} />
+                            </IconButton>
+                        </div>
+                        : null}
                     </div>
-                    <input type="file" ref={fileInputRef} accept="image/*" disabled={!scheduler} onChange={uploadFiles} multiple />
-                    {(preview && preview.length > 0 && previewRelic) ? 
-                    <div style={{position: 'relative'}}>
-                        <RelicPreview relic={previewRelic} setRelic={setPreviewRelic} />
-                        <IconButton aria-label="delete" onClick={() => {setPreview(preview.slice(1));}} >
-                                <DeleteIcon style={{ color: 'gray', position: 'absolute', bottom: '240px', left: '250px' }} />
-                        </IconButton>
-                    </div>
-                     : null}
-                    <div>
+                    <div style={{position: 'absolute', bottom: '20px'}}>
                         <Button variant="contained" disabled={!preview || preview.length === 0} onClick={() => {addRelic(previewRelic);}}>Add Relic</Button>
                         <Button variant="contained" onClick={close}>Close</Button>
+                        {(delStack && delStack.length !== 0) && <Button variant="contained" onClick={() => {setPreview([delStack[0], ...preview]);setDelStack(delStack.slice(1));}}>Undo Delete</Button>}
                     </div>
                 </div>
             )

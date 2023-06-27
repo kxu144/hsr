@@ -1,6 +1,5 @@
 import RelicPopup from "./RelicPopup";
 import RelicDatabase from "./RelicDatabase";
-import NavBar from "../NavBar";
 
 import { useState } from 'react';
 
