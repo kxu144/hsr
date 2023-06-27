@@ -29,16 +29,23 @@ function RelicPopup({ updateDatabase }) {
     
 
     // TESSERACT OCR
+    const [newScheduler, setNewScheduler] = useState(true);
     const [scheduler, setScheduler] = useState(null);
 
     useEffect(() => {
         const loadScheduler = async () => {
-            const scheduler = await initializeOCRScheduler();
-            setScheduler(scheduler);
+            if (scheduler) {
+                scheduler.terminate();
+            }
+            const copy = await initializeOCRScheduler();
+            setScheduler(copy);
         };
 
-        loadScheduler();
-    }, []);
+        if (newScheduler) {
+            loadScheduler();
+            setNewScheduler(false);
+        }
+    }, [scheduler, newScheduler]);
 
     useEffect(() => {
         const addWorkers = async (numWorkers) => {
@@ -170,7 +177,7 @@ function RelicPopup({ updateDatabase }) {
     }, []);
 
     return (
-        <Popup trigger={<Button variant="contained">Add New Relic</Button>} modal nested>
+        <Popup trigger={<Button variant="contained">Add New Relic</Button>} onClose={() => {setNewScheduler(true);setPreview([]);}} modal nested>
         {
             close => (
                 <div className="modal">

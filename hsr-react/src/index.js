@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Relic from './pages/Relic/Relic';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Relic from './pages/Relic/Relic';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Relic />
+  <App />
 );
 
 // If you want to start measuring performance in your app, pass a function
