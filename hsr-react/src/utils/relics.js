@@ -1,25 +1,3 @@
-export const RELIC_SETS = [
-    'Band of Sizzling Thunder',
-    'Belobog of the Architects',
-    'Celestial Differentiator',
-    'Champion of Streetwise Boxing',
-    'Eagle of Twilight Line',
-    'Firesmith of Lava-Forging',
-    'Fleet of the Ageless',
-    'Genius of the Brilliant Stars',
-    'Guard of Wuthering Snow',
-    'Hunter of Glacial Forest',
-    'Inert Salsotto',
-    'Knight of Purity Palace',
-    'Musketeer of Wild Wheat',
-    'Pan-Galactic Commercial Enterprise',
-    'Passerby of Wandering Cloud',
-    'Space Sealing Station',
-    'Sprightly Vonwacq',
-    'Talia: Kingdom of Banditry',
-    'Thief of Shooting Meteor',
-    'Wastelander of Banditry Desert',
-];
 export const RELIC_TYPES = [
     'head',
     'hands',
@@ -42,36 +20,36 @@ export const STATS = [
     'energy regeneration rate',
 ];
 
-export const RELICSET2JSON = {
-    'Passerby of Wandering Cloud': '101.json',
-    'Musketeer of Wild Wheat': '102.json',
-    'Knight of Purity Palace': '103.json',
-    'Hunter of Glacial Forest': '104.json',
-    'Champion of Streetwise Boxing': '105.json',
-    'Guard of Wuthering Snow': '106.json',
-    'Firesmith of Lava-Forging': '107.json',
-    'Genius of Brilliant Stars': '108.json',
-    'Band of Sizzling Thunder': '109.json',
-    'Eagle of Twilight Line': '110.json',
-    'Thief of Shooting Meteor': '111.json',
-    'Wastelander of Banditry Desert': '112.json',
-    'Space Sealing Station': '301.json',
-    'Fleet of the Ageless': '302.json',
-    'Pan-Galactic Commercial Enterprise': '303.json',
-    'Belobog of the Architects': '304.json',
-    'Celestial Differentiator': '305.json',
-    'Inert Salsotto': '306.json',
-    'Talia: Kingdom of Banditry': '307.json',
-    'Sprightly Vonwacq': '308.json'
-};
-export const RELICSLOT2ID = {
-    "Head": "1",
-    "Hands": "2",
-    "Body": "3",
-    "Feet": "4",
-    "Planar Sphere": "5",
-    "Link Rope": "6",
-}
+export const RELICSETS = [
+    {label: 'Passerby of Wandering Cloud', json: '101.json'},
+    {label: 'Musketeer of Wild Wheat', json: '102.json'},
+    {label: 'Knight of Purity Palace', json: '103.json'},
+    {label: 'Hunter of Glacial Forest', json: '104.json'},
+    {label: 'Champion of Streetwise Boxing', json: '105.json'},
+    {label: 'Guard of Wuthering Snow', json: '106.json'},
+    {label: 'Firesmith of Lava-Forging', json: '107.json'},
+    {label: 'Genius of Brilliant Stars', json: '108.json'},
+    {label: 'Band of Sizzling Thunder', json: '109.json'},
+    {label: 'Eagle of Twilight Line', json: '110.json'},
+    {label: 'Thief of Shooting Meteor', json: '111.json'},
+    {label: 'Wastelander of Banditry Desert', json: '112.json'},
+    {label: 'Space Sealing Station', json: '301.json'},
+    {label: 'Fleet of the Ageless', json: '302.json'},
+    {label: 'Pan-Galactic Commercial Enterprise', json: '303.json'},
+    {label: 'Belobog of the Architects', json: '304.json'},
+    {label: 'Celestial Differentiator', json: '305.json'},
+    {label: 'Inert Salsotto', json: '306.json'},
+    {label: 'Talia: Kingdom of Banditry', json: '307.json'},
+    {label: 'Sprightly Vonwacq', json: '308.json'},
+];
+export const RELICSLOTS = [
+    {label: "Head", id: "1"},
+    {label: "Hands", id: "2"},
+    {label: "Body", id: "3"},
+    {label: "Feet", id: "4"},
+    {label: "Planar Sphere", id: "5"},
+    {label: "Link Rope", id: "6"},
+]
 
 export function textToRelic(text) {
     var relic = {
@@ -83,20 +61,21 @@ export function textToRelic(text) {
         "location": "",
         "lock": false,
         "substats": {},
+        "raw": text,
     };
 
     // set
-    for (const set of RELIC_SETS) {
-        if (text.includes(set)) {
-            relic["setKey"] = set;
+    for (const set of RELICSETS) {
+        if (text.includes(set.label)) {
+            relic["setKey"] = set.label;
             break;
         }
     }
 
     // slot
-    for (const type of RELIC_TYPES) {
-        if (text.includes(type)) {
-            relic["slotKey"] = type;
+    for (const type of RELICSLOTS) {
+        if (text.includes(type.label)) {
+            relic["slotKey"] = type.label;
             break;
         }
     }

@@ -17,7 +17,7 @@ const initializeOCRScheduler = async () => {
     await worker.initialize('eng');
     await worker.setParameters({
         tessedit_pageseg_mode: PSM_SPARSE_TEXT,
-        tessedit_char_whitelist: "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.'%+ ",
+        tessedit_char_whitelist: "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.'%+- ",
     });
     scheduler.addWorker(worker);
     return scheduler;
@@ -47,7 +47,7 @@ function RelicPopup({ updateDatabase }) {
                     await worker.initialize('eng');
                     await worker.setParameters({
                         tessedit_pageseg_mode: PSM_SPARSE_TEXT,
-                        tessedit_char_whitelist: "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.'%+ ",
+                        tessedit_char_whitelist: "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.'%+- ",
                     });
                     scheduler.addWorker(worker);
                     console.log("Worker %d initialized", i);
@@ -126,6 +126,12 @@ function RelicPopup({ updateDatabase }) {
 
     // RELIC PREVIEW
     const [preview, setPreview] = useState([]);
+    const [previewRelic, setPreviewRelic] = useState(null);
+    useEffect(() => {
+        if (preview.length > 0) {
+            setPreviewRelic(preview[0]);
+        }
+    }, [preview]);
 
     // ADD RELIC TO DATABASE
     const addRelic = (relic) => {
@@ -165,9 +171,9 @@ function RelicPopup({ updateDatabase }) {
                         Relic Editor
                     </div>
                     <input type="file" ref={fileInputRef} accept="image/*" disabled={!scheduler} onChange={uploadFiles} multiple />
-                    {(preview && preview.length > 0) ? <RelicPreview relic={preview[0]} /> : null}
+                    {(preview && preview.length > 0 && previewRelic) ? <RelicPreview relic={previewRelic} setRelic={setPreviewRelic} /> : null}
                     <div>
-                        <Button variant="contained" disabled={!preview || preview.length === 0} onClick={() => {addRelic(preview[0]);}}>Add Relic</Button>
+                        <Button variant="contained" disabled={!preview || preview.length === 0} onClick={() => {addRelic(previewRelic);}}>Add Relic</Button>
                         <Button variant="contained" onClick={close}>Close</Button>
                     </div>
                 </div>
