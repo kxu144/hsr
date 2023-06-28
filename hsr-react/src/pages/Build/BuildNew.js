@@ -1,5 +1,6 @@
 import { Button } from "@mui/material";
 import Popup from "reactjs-popup";
+import BuildDisplay from "./BuildDisplay";
 
 function BuildNew() {
     return (
@@ -8,9 +9,9 @@ function BuildNew() {
             close => (
                 <div className="modal">
                     <div className="content">
-                        Test
+                        <BuildDisplay />
                     </div>
-                    <div>
+                    <div style={{position: 'absolute', bottom: '20px'}}>
                         <Button variant="contained" onClick={close}>Close</Button>
                     </div>
                 </div>

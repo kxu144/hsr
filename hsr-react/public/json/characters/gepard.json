@@ -1,0 +1,205 @@
+{
+  "name": "Gepard",
+  "spRequirement": 100,
+  "rarity": 5,
+  "artPath": "c5bcfec01ce392f42654d5be48bfeceb4ba8b53eeee3e5c9263f3c53b00a9174",
+  "damageType": {
+    "id": 4,
+    "iconPath": "3a4e72fd1d4a41926980ab22b12c81cde3147050577efcfdac462e0f60271b9f",
+    "color": "#47C7FD",
+    "name": "Ice",
+    "rarity": 0
+  },
+  "baseType": {
+    "id": 0,
+    "iconPath": "129eb76a6f0c9be69f8c2263f5e53030909c36d7e4de7a0571dd5665ac645b33",
+    "altIconPath": "9d034d41c43efff65e81e11d6215e3ce43eb0a2e32036648f707751a8d0a15b6",
+    "color": "#FFFFFF",
+    "name": "Preservation",
+    "rarity": 0
+  },
+  "levelData": [
+    {
+      "promotion": 0,
+      "maxLevel": 20,
+      "cost": [
+        {
+          "id": 29328,
+          "count": 4000
+        },
+        {
+          "id": 549407,
+          "count": 5
+        }
+      ],
+      "attackBase": 73.92,
+      "attackAdd": 3.696,
+      "hpBase": 190.08,
+      "hpAdd": 9.504,
+      "defenseBase": 89.1,
+      "defenseAdd": 4.455,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 150,
+      "speedBase": 92,
+      "speedAdd": 0
+    },
+    {
+      "promotion": 1,
+      "maxLevel": 30,
+      "cost": [
+        {
+          "id": 29328,
+          "count": 8000
+        },
+        {
+          "id": 549407,
+          "count": 10
+        }
+      ],
+      "attackBase": 103.488,
+      "attackAdd": 3.696,
+      "hpBase": 266.112,
+      "hpAdd": 9.504,
+      "defenseBase": 124.74,
+      "defenseAdd": 4.455,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 150,
+      "speedBase": 92,
+      "speedAdd": 0
+    },
+    {
+      "promotion": 2,
+      "maxLevel": 40,
+      "cost": [
+        {
+          "id": 29328,
+          "count": 16000
+        },
+        {
+          "id": 633348,
+          "count": 6
+        },
+        {
+          "id": 67219,
+          "count": 3
+        }
+      ],
+      "attackBase": 133.056,
+      "attackAdd": 3.696,
+      "hpBase": 342.144,
+      "hpAdd": 9.504,
+      "defenseBase": 160.38,
+      "defenseAdd": 4.455,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 150,
+      "speedBase": 92,
+      "speedAdd": 0
+    },
+    {
+      "promotion": 3,
+      "maxLevel": 50,
+      "cost": [
+        {
+          "id": 29328,
+          "count": 40000
+        },
+        {
+          "id": 633348,
+          "count": 9
+        },
+        {
+          "id": 67219,
+          "count": 7
+        }
+      ],
+      "attackBase": 162.624,
+      "attackAdd": 3.696,
+      "hpBase": 418.176,
+      "hpAdd": 9.504,
+      "defenseBase": 196.02,
+      "defenseAdd": 4.455,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 150,
+      "speedBase": 92,
+      "speedAdd": 0
+    },
+    {
+      "promotion": 4,
+      "maxLevel": 60,
+      "cost": [
+        {
+          "id": 29328,
+          "count": 80000
+        },
+        {
+          "id": 717289,
+          "count": 6
+        },
+        {
+          "id": 67219,
+          "count": 20
+        }
+      ],
+      "attackBase": 192.192,
+      "attackAdd": 3.696,
+      "hpBase": 494.208,
+      "hpAdd": 9.504,
+      "defenseBase": 231.66,
+      "defenseAdd": 4.455,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 150,
+      "speedBase": 92,
+      "speedAdd": 0
+    },
+    {
+      "promotion": 5,
+      "maxLevel": 70,
+      "cost": [
+        {
+          "id": 29328,
+          "count": 160000
+        },
+        {
+          "id": 717289,
+          "count": 9
+        },
+        {
+          "id": 67219,
+          "count": 35
+        }
+      ],
+      "attackBase": 221.76,
+      "attackAdd": 3.696,
+      "hpBase": 570.24,
+      "hpAdd": 9.504,
+      "defenseBase": 267.3,
+      "defenseAdd": 4.455,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 150,
+      "speedBase": 92,
+      "speedAdd": 0
+    },
+    {
+      "promotion": 6,
+      "maxLevel": 80,
+      "cost": [],
+      "attackBase": 251.328,
+      "attackAdd": 3.696,
+      "hpBase": 646.272,
+      "hpAdd": 9.504,
+      "defenseBase": 302.94,
+      "defenseAdd": 4.455,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 150,
+      "speedBase": 92,
+      "speedAdd": 0
+    }
+  ]
+}
