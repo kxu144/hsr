@@ -201,5 +201,1012 @@
       "speedBase": 98,
       "speedAdd": 0
     }
-  ]
+  ],
+  "talents": {
+    "Basic ATK": {
+      "name": "Cherry on Top!",
+      "desc": "Deals <span style=\"color:#7788ff;\">Quantum</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Qingque's ATK to a single enemy, and deals <span style=\"color:#7788ff;\">Quantum</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#2[i]%</nobr></span> of Qingque's ATK to enemies adjacent to it.<br />\"Cherry on Top!\" cannot recover Skill Points.",
+      "levelData": [
+        {
+          "level": 1,
+          "params": [
+            1.2,
+            0.5
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 2,
+          "params": [
+            1.44,
+            0.6
+          ],
+          "levelReq": 0,
+          "promotionReq": 2,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 4000
+            },
+            {
+              "id": 635675,
+              "count": 2
+            },
+            {
+              "id": 549437,
+              "count": 4
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            1.68,
+            0.7
+          ],
+          "levelReq": 0,
+          "promotionReq": 3,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 8000
+            },
+            {
+              "id": 920202,
+              "count": 2
+            },
+            {
+              "id": 633378,
+              "count": 2
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            1.92,
+            0.8
+          ],
+          "levelReq": 0,
+          "promotionReq": 4,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 16000
+            },
+            {
+              "id": 920202,
+              "count": 4
+            },
+            {
+              "id": 633378,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            2.16,
+            0.9
+          ],
+          "levelReq": 0,
+          "promotionReq": 5,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 36000
+            },
+            {
+              "id": 836261,
+              "count": 2
+            },
+            {
+              "id": 717319,
+              "count": 2
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            2.4,
+            1
+          ],
+          "levelReq": 0,
+          "promotionReq": 6,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 128000
+            },
+            {
+              "id": 836261,
+              "count": 6
+            },
+            {
+              "id": 717319,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            2.64,
+            1.1
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 8,
+          "params": [
+            2.88,
+            1.2
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 9,
+          "params": [
+            3.12,
+            1.3
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        }
+      ]
+    },
+    "Skill": {
+      "name": "A Scoop of Moon",
+      "desc": "Immediately draws <nobr>#1[i]</nobr> jade tile(s) and increases DMG by <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#2[i]%</nobr></span> until the end of the current turn. This effect can stack up to <nobr>#3[i]</nobr> time(s). The turn will not end after this Skill is used.",
+      "levelData": [
+        {
+          "level": 1,
+          "params": [
+            2,
+            0.14,
+            4
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 2,
+          "params": [
+            2,
+            0.154,
+            4
+          ],
+          "levelReq": 0,
+          "promotionReq": 1,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 2000
+            },
+            {
+              "id": 549437,
+              "count": 2
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            2,
+            0.168,
+            4
+          ],
+          "levelReq": 0,
+          "promotionReq": 2,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 4000
+            },
+            {
+              "id": 635675,
+              "count": 2
+            },
+            {
+              "id": 549437,
+              "count": 4
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            2,
+            0.182,
+            4
+          ],
+          "levelReq": 0,
+          "promotionReq": 3,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 8000
+            },
+            {
+              "id": 920202,
+              "count": 2
+            },
+            {
+              "id": 633378,
+              "count": 2
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            2,
+            0.196,
+            4
+          ],
+          "levelReq": 0,
+          "promotionReq": 4,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 16000
+            },
+            {
+              "id": 920202,
+              "count": 4
+            },
+            {
+              "id": 633378,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            2,
+            0.21,
+            4
+          ],
+          "levelReq": 0,
+          "promotionReq": 4,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 24000
+            },
+            {
+              "id": 920202,
+              "count": 6
+            },
+            {
+              "id": 633378,
+              "count": 5
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            2,
+            0.2275,
+            4
+          ],
+          "levelReq": 0,
+          "promotionReq": 5,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 36000
+            },
+            {
+              "id": 836261,
+              "count": 2
+            },
+            {
+              "id": 717319,
+              "count": 2
+            }
+          ]
+        },
+        {
+          "level": 8,
+          "params": [
+            2,
+            0.245,
+            4
+          ],
+          "levelReq": 0,
+          "promotionReq": 5,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 64000
+            },
+            {
+              "id": 836261,
+              "count": 4
+            },
+            {
+              "id": 270195,
+              "count": 1
+            },
+            {
+              "id": 717319,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 9,
+          "params": [
+            2,
+            0.2625,
+            4
+          ],
+          "levelReq": 0,
+          "promotionReq": 6,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 128000
+            },
+            {
+              "id": 836261,
+              "count": 6
+            },
+            {
+              "id": 270195,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "params": [
+            2,
+            0.28,
+            4
+          ],
+          "levelReq": 0,
+          "promotionReq": 6,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 240000
+            },
+            {
+              "id": 836261,
+              "count": 11
+            },
+            {
+              "id": 125435,
+              "count": 1
+            },
+            {
+              "id": 270195,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "level": 11,
+          "params": [
+            2,
+            0.294,
+            4
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 12,
+          "params": [
+            2,
+            0.308,
+            4
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 13,
+          "params": [
+            2,
+            0.322,
+            4
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 14,
+          "params": [
+            2,
+            0.336,
+            4
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 15,
+          "params": [
+            2,
+            0.35,
+            4
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        }
+      ]
+    },
+    "Ultimate": {
+      "name": "A Quartet? Woo-hoo!",
+      "desc": "Deals <span style=\"color:#7788ff;\">Quantum</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Qingque's ATK to all enemies, and obtain 4 jade tiles of the same suit.",
+      "levelData": [
+        {
+          "level": 1,
+          "params": [
+            1.2
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 2,
+          "params": [
+            1.28
+          ],
+          "levelReq": 0,
+          "promotionReq": 1,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 2000
+            },
+            {
+              "id": 549437,
+              "count": 2
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            1.36
+          ],
+          "levelReq": 0,
+          "promotionReq": 2,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 4000
+            },
+            {
+              "id": 635675,
+              "count": 2
+            },
+            {
+              "id": 549437,
+              "count": 4
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            1.44
+          ],
+          "levelReq": 0,
+          "promotionReq": 3,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 8000
+            },
+            {
+              "id": 920202,
+              "count": 2
+            },
+            {
+              "id": 633378,
+              "count": 2
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            1.52
+          ],
+          "levelReq": 0,
+          "promotionReq": 4,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 16000
+            },
+            {
+              "id": 920202,
+              "count": 4
+            },
+            {
+              "id": 633378,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            1.6
+          ],
+          "levelReq": 0,
+          "promotionReq": 4,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 24000
+            },
+            {
+              "id": 920202,
+              "count": 6
+            },
+            {
+              "id": 633378,
+              "count": 5
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            1.7
+          ],
+          "levelReq": 0,
+          "promotionReq": 5,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 36000
+            },
+            {
+              "id": 836261,
+              "count": 2
+            },
+            {
+              "id": 717319,
+              "count": 2
+            }
+          ]
+        },
+        {
+          "level": 8,
+          "params": [
+            1.8
+          ],
+          "levelReq": 0,
+          "promotionReq": 5,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 64000
+            },
+            {
+              "id": 836261,
+              "count": 4
+            },
+            {
+              "id": 270195,
+              "count": 1
+            },
+            {
+              "id": 717319,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 9,
+          "params": [
+            1.9
+          ],
+          "levelReq": 0,
+          "promotionReq": 6,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 128000
+            },
+            {
+              "id": 836261,
+              "count": 6
+            },
+            {
+              "id": 270195,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "params": [
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 6,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 240000
+            },
+            {
+              "id": 836261,
+              "count": 11
+            },
+            {
+              "id": 125435,
+              "count": 1
+            },
+            {
+              "id": 270195,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "level": 11,
+          "params": [
+            2.08
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 12,
+          "params": [
+            2.16
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 13,
+          "params": [
+            2.24
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 14,
+          "params": [
+            2.32
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 15,
+          "params": [
+            2.4
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        }
+      ]
+    },
+    "Talent": {
+      "name": "Celestial Jade",
+      "desc": "When an ally's turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time.<br />If Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the \"Hidden Hand\" state.<br />While in this state, Qingque cannot use her Skill again. At the same time, Qingque's ATK increases by <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span>, and her Basic ATK \"Flower Pick\" is enhanced, becoming \"Cherry on Top!\" The \"Hidden Hand\" state ends after using \"Cherry on Top!\".",
+      "levelData": [
+        {
+          "level": 1,
+          "params": [
+            0.36
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 2,
+          "params": [
+            0.396
+          ],
+          "levelReq": 0,
+          "promotionReq": 1,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 2000
+            },
+            {
+              "id": 549437,
+              "count": 2
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            0.432
+          ],
+          "levelReq": 0,
+          "promotionReq": 2,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 4000
+            },
+            {
+              "id": 635675,
+              "count": 2
+            },
+            {
+              "id": 549437,
+              "count": 4
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            0.468
+          ],
+          "levelReq": 0,
+          "promotionReq": 3,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 8000
+            },
+            {
+              "id": 920202,
+              "count": 2
+            },
+            {
+              "id": 633378,
+              "count": 2
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            0.504
+          ],
+          "levelReq": 0,
+          "promotionReq": 4,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 16000
+            },
+            {
+              "id": 920202,
+              "count": 4
+            },
+            {
+              "id": 633378,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            0.54
+          ],
+          "levelReq": 0,
+          "promotionReq": 4,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 24000
+            },
+            {
+              "id": 920202,
+              "count": 6
+            },
+            {
+              "id": 633378,
+              "count": 5
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            0.585
+          ],
+          "levelReq": 0,
+          "promotionReq": 5,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 36000
+            },
+            {
+              "id": 836261,
+              "count": 2
+            },
+            {
+              "id": 717319,
+              "count": 2
+            }
+          ]
+        },
+        {
+          "level": 8,
+          "params": [
+            0.63
+          ],
+          "levelReq": 0,
+          "promotionReq": 5,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 64000
+            },
+            {
+              "id": 836261,
+              "count": 4
+            },
+            {
+              "id": 270195,
+              "count": 1
+            },
+            {
+              "id": 717319,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 9,
+          "params": [
+            0.675
+          ],
+          "levelReq": 0,
+          "promotionReq": 6,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 128000
+            },
+            {
+              "id": 836261,
+              "count": 6
+            },
+            {
+              "id": 270195,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "params": [
+            0.72
+          ],
+          "levelReq": 0,
+          "promotionReq": 6,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 240000
+            },
+            {
+              "id": 836261,
+              "count": 11
+            },
+            {
+              "id": 125435,
+              "count": 1
+            },
+            {
+              "id": 270195,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "level": 11,
+          "params": [
+            0.756
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 12,
+          "params": [
+            0.792
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 13,
+          "params": [
+            0.828
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 14,
+          "params": [
+            0.864
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 15,
+          "params": [
+            0.9
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        }
+      ]
+    },
+    "": {
+      "name": "Attack",
+      "desc": "Attack an enemy, and when the battle starts, reduce their Toughness of the corresponding Type.",
+      "levelData": [
+        {
+          "level": 1,
+          "params": [],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        }
+      ]
+    },
+    "Technique": {
+      "name": "Game Solitaire",
+      "desc": "After using Technique, Qingque draws <nobr>#1[i]</nobr> jade tile(s) when the battle starts.",
+      "levelData": [
+        {
+          "level": 1,
+          "params": [
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        }
+      ]
+    }
+  }
 }

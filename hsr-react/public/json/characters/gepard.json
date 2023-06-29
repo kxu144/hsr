@@ -201,5 +201,1062 @@
       "speedBase": 92,
       "speedAdd": 0
     }
-  ]
+  ],
+  "talents": {
+    "Basic ATK": {
+      "name": "Fist of Conviction",
+      "desc": "Deals <span style=\"color:#47C7FD;\">Ice</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Gepard's ATK to a single enemy.",
+      "levelData": [
+        {
+          "level": 1,
+          "params": [
+            0.5
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 2,
+          "params": [
+            0.6
+          ],
+          "levelReq": 0,
+          "promotionReq": 2,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 5000
+            },
+            {
+              "id": 635668,
+              "count": 3
+            },
+            {
+              "id": 549407,
+              "count": 6
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            0.7
+          ],
+          "levelReq": 0,
+          "promotionReq": 3,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 10000
+            },
+            {
+              "id": 920195,
+              "count": 3
+            },
+            {
+              "id": 633348,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            0.8
+          ],
+          "levelReq": 0,
+          "promotionReq": 4,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 20000
+            },
+            {
+              "id": 920195,
+              "count": 5
+            },
+            {
+              "id": 633348,
+              "count": 4
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            0.9
+          ],
+          "levelReq": 0,
+          "promotionReq": 5,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 45000
+            },
+            {
+              "id": 836254,
+              "count": 3
+            },
+            {
+              "id": 717289,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            1
+          ],
+          "levelReq": 0,
+          "promotionReq": 6,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 160000
+            },
+            {
+              "id": 836254,
+              "count": 8
+            },
+            {
+              "id": 717289,
+              "count": 4
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            1.1
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 8,
+          "params": [
+            1.2
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 9,
+          "params": [
+            1.3
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        }
+      ]
+    },
+    "Skill": {
+      "name": "Daunting Smite",
+      "desc": "Deals <span style=\"color:#47C7FD;\">Ice</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Gepard's ATK to a single enemy, with a <nobr>#2[i]%</nobr> <u>base chance</u> to Freeze the enemy for <nobr>#3[i]</nobr> turn(s).<br />While Frozen, the enemy cannot take action and will take <u>Additional</u> <span style=\"color:#47C7FD;\">Ice</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#4[i]%</nobr></span> of Gepard's ATK at the beginning of each turn.",
+      "levelData": [
+        {
+          "level": 1,
+          "params": [
+            1,
+            0.65,
+            1,
+            0.3
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 2,
+          "params": [
+            1.1,
+            0.65,
+            1,
+            0.33
+          ],
+          "levelReq": 0,
+          "promotionReq": 1,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 2500
+            },
+            {
+              "id": 549407,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            1.2,
+            0.65,
+            1,
+            0.36
+          ],
+          "levelReq": 0,
+          "promotionReq": 2,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 5000
+            },
+            {
+              "id": 635668,
+              "count": 3
+            },
+            {
+              "id": 549407,
+              "count": 6
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            1.3,
+            0.65,
+            1,
+            0.39
+          ],
+          "levelReq": 0,
+          "promotionReq": 3,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 10000
+            },
+            {
+              "id": 920195,
+              "count": 3
+            },
+            {
+              "id": 633348,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            1.4,
+            0.65,
+            1,
+            0.42
+          ],
+          "levelReq": 0,
+          "promotionReq": 4,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 20000
+            },
+            {
+              "id": 920195,
+              "count": 5
+            },
+            {
+              "id": 633348,
+              "count": 4
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            1.5,
+            0.65,
+            1,
+            0.45
+          ],
+          "levelReq": 0,
+          "promotionReq": 4,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 30000
+            },
+            {
+              "id": 920195,
+              "count": 7
+            },
+            {
+              "id": 633348,
+              "count": 6
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            1.625,
+            0.65,
+            1,
+            0.4875
+          ],
+          "levelReq": 0,
+          "promotionReq": 5,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 45000
+            },
+            {
+              "id": 836254,
+              "count": 3
+            },
+            {
+              "id": 717289,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 8,
+          "params": [
+            1.75,
+            0.65,
+            1,
+            0.525
+          ],
+          "levelReq": 0,
+          "promotionReq": 5,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 80000
+            },
+            {
+              "id": 836254,
+              "count": 5
+            },
+            {
+              "id": 270195,
+              "count": 1
+            },
+            {
+              "id": 717289,
+              "count": 4
+            }
+          ]
+        },
+        {
+          "level": 9,
+          "params": [
+            1.875,
+            0.65,
+            1,
+            0.5625
+          ],
+          "levelReq": 0,
+          "promotionReq": 6,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 160000
+            },
+            {
+              "id": 836254,
+              "count": 8
+            },
+            {
+              "id": 125435,
+              "count": 1
+            },
+            {
+              "id": 270195,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "params": [
+            2,
+            0.65,
+            1,
+            0.6
+          ],
+          "levelReq": 0,
+          "promotionReq": 6,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 300000
+            },
+            {
+              "id": 836254,
+              "count": 14
+            },
+            {
+              "id": 125435,
+              "count": 1
+            },
+            {
+              "id": 270195,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "level": 11,
+          "params": [
+            2.1,
+            0.65,
+            1,
+            0.63
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 12,
+          "params": [
+            2.2,
+            0.65,
+            1,
+            0.66
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 13,
+          "params": [
+            2.3,
+            0.65,
+            1,
+            0.69
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 14,
+          "params": [
+            2.4,
+            0.65,
+            1,
+            0.72
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 15,
+          "params": [
+            2.5,
+            0.65,
+            1,
+            0.75
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        }
+      ]
+    },
+    "Ultimate": {
+      "name": "Enduring Bulwark",
+      "desc": "Applies a Shield to all allies, absorbing DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Gepard's DEF plus <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#3[i]</nobr></span> for <nobr>#2[i]</nobr> turn(s).",
+      "levelData": [
+        {
+          "level": 1,
+          "params": [
+            0.3,
+            3,
+            150
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 2,
+          "params": [
+            0.31875,
+            3,
+            240
+          ],
+          "levelReq": 0,
+          "promotionReq": 1,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 2500
+            },
+            {
+              "id": 549407,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            0.3375,
+            3,
+            307.5
+          ],
+          "levelReq": 0,
+          "promotionReq": 2,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 5000
+            },
+            {
+              "id": 635668,
+              "count": 3
+            },
+            {
+              "id": 549407,
+              "count": 6
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            0.35625,
+            3,
+            375
+          ],
+          "levelReq": 0,
+          "promotionReq": 3,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 10000
+            },
+            {
+              "id": 920195,
+              "count": 3
+            },
+            {
+              "id": 633348,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            0.375,
+            3,
+            420
+          ],
+          "levelReq": 0,
+          "promotionReq": 4,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 20000
+            },
+            {
+              "id": 920195,
+              "count": 5
+            },
+            {
+              "id": 633348,
+              "count": 4
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            0.39,
+            3,
+            465
+          ],
+          "levelReq": 0,
+          "promotionReq": 4,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 30000
+            },
+            {
+              "id": 920195,
+              "count": 7
+            },
+            {
+              "id": 633348,
+              "count": 6
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            0.405,
+            3,
+            498.75
+          ],
+          "levelReq": 0,
+          "promotionReq": 5,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 45000
+            },
+            {
+              "id": 836254,
+              "count": 3
+            },
+            {
+              "id": 717289,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 8,
+          "params": [
+            0.42,
+            3,
+            532.5
+          ],
+          "levelReq": 0,
+          "promotionReq": 5,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 80000
+            },
+            {
+              "id": 836254,
+              "count": 5
+            },
+            {
+              "id": 270195,
+              "count": 1
+            },
+            {
+              "id": 717289,
+              "count": 4
+            }
+          ]
+        },
+        {
+          "level": 9,
+          "params": [
+            0.435,
+            3,
+            566.25
+          ],
+          "levelReq": 0,
+          "promotionReq": 6,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 160000
+            },
+            {
+              "id": 836254,
+              "count": 8
+            },
+            {
+              "id": 125435,
+              "count": 1
+            },
+            {
+              "id": 270195,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "params": [
+            0.45,
+            3,
+            600
+          ],
+          "levelReq": 0,
+          "promotionReq": 6,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 300000
+            },
+            {
+              "id": 836254,
+              "count": 14
+            },
+            {
+              "id": 125435,
+              "count": 1
+            },
+            {
+              "id": 270195,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "level": 11,
+          "params": [
+            0.465,
+            3,
+            633.75
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 12,
+          "params": [
+            0.48,
+            3,
+            667.5
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 13,
+          "params": [
+            0.495,
+            3,
+            701.25
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 14,
+          "params": [
+            0.51,
+            3,
+            735
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 15,
+          "params": [
+            0.525,
+            3,
+            768.75
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        }
+      ]
+    },
+    "Talent": {
+      "name": "Unyielding Will",
+      "desc": "When struck with a killing blow, instead of becoming <u>knocked down</u>, Gepard's HP immediately restores to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of his Max HP. This effect can only trigger once per battle.",
+      "levelData": [
+        {
+          "level": 1,
+          "params": [
+            0.25
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 2,
+          "params": [
+            0.275
+          ],
+          "levelReq": 0,
+          "promotionReq": 1,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 2500
+            },
+            {
+              "id": 549407,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            0.3
+          ],
+          "levelReq": 0,
+          "promotionReq": 2,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 5000
+            },
+            {
+              "id": 635668,
+              "count": 3
+            },
+            {
+              "id": 549407,
+              "count": 6
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            0.325
+          ],
+          "levelReq": 0,
+          "promotionReq": 3,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 10000
+            },
+            {
+              "id": 920195,
+              "count": 3
+            },
+            {
+              "id": 633348,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            0.35
+          ],
+          "levelReq": 0,
+          "promotionReq": 4,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 20000
+            },
+            {
+              "id": 920195,
+              "count": 5
+            },
+            {
+              "id": 633348,
+              "count": 4
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            0.375
+          ],
+          "levelReq": 0,
+          "promotionReq": 4,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 30000
+            },
+            {
+              "id": 920195,
+              "count": 7
+            },
+            {
+              "id": 633348,
+              "count": 6
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            0.40625
+          ],
+          "levelReq": 0,
+          "promotionReq": 5,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 45000
+            },
+            {
+              "id": 836254,
+              "count": 3
+            },
+            {
+              "id": 717289,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 8,
+          "params": [
+            0.4375
+          ],
+          "levelReq": 0,
+          "promotionReq": 5,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 80000
+            },
+            {
+              "id": 836254,
+              "count": 5
+            },
+            {
+              "id": 270195,
+              "count": 1
+            },
+            {
+              "id": 717289,
+              "count": 4
+            }
+          ]
+        },
+        {
+          "level": 9,
+          "params": [
+            0.46875
+          ],
+          "levelReq": 0,
+          "promotionReq": 6,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 160000
+            },
+            {
+              "id": 836254,
+              "count": 8
+            },
+            {
+              "id": 125435,
+              "count": 1
+            },
+            {
+              "id": 270195,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "params": [
+            0.5
+          ],
+          "levelReq": 0,
+          "promotionReq": 6,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 300000
+            },
+            {
+              "id": 836254,
+              "count": 14
+            },
+            {
+              "id": 125435,
+              "count": 1
+            },
+            {
+              "id": 270195,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "level": 11,
+          "params": [
+            0.525
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 12,
+          "params": [
+            0.55
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 13,
+          "params": [
+            0.575
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 14,
+          "params": [
+            0.6
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 15,
+          "params": [
+            0.625
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        }
+      ]
+    },
+    "": {
+      "name": "Attack",
+      "desc": "Attack an enemy, and when the battle starts, reduce their Toughness of the corresponding Type.",
+      "levelData": [
+        {
+          "level": 1,
+          "params": [],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        }
+      ]
+    },
+    "Technique": {
+      "name": "Comradery",
+      "desc": "After Gepard uses his Technique, when the next battle begins, a Shield will be applied to all allies, absorbing DMG equal to <nobr>#1[i]%</nobr> of Gepard's DEF plus <nobr>#3[i]</nobr> for <nobr>#2[i]</nobr> turn(s).",
+      "levelData": [
+        {
+          "level": 1,
+          "params": [
+            0.24,
+            2,
+            150
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        }
+      ]
+    }
+  }
 }

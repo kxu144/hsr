@@ -16,8 +16,9 @@ def main():
             path = data["baseType"]["name"]
             if path not in paths:
                 print(filename, "failed to have a valid path")
-            res[path].append(data["name"])
+            res[path].append({"label": data["name"], "json": filename})
 
-    print(json.dumps(res, indent=4))
+    dumps = json.dumps(res, indent=4)
+    print(dumps.replace('"label"', 'label').replace('"json"', 'json'))
 
 main()

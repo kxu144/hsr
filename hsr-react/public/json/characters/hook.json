@@ -201,5 +201,1051 @@
       "speedBase": 94,
       "speedAdd": 0
     }
-  ]
+  ],
+  "talents": {
+    "Basic ATK": {
+      "name": "Hehe! Don't Get Burned!",
+      "desc": "Deals <span style=\"color:#F84F36;\">Fire</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Hook's ATK to a single enemy.",
+      "levelData": [
+        {
+          "level": 1,
+          "params": [
+            0.5
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 2,
+          "params": [
+            0.6
+          ],
+          "levelReq": 0,
+          "promotionReq": 2,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 4000
+            },
+            {
+              "id": 635673,
+              "count": 2
+            },
+            {
+              "id": 549408,
+              "count": 4
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            0.7
+          ],
+          "levelReq": 0,
+          "promotionReq": 3,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 8000
+            },
+            {
+              "id": 920200,
+              "count": 2
+            },
+            {
+              "id": 633349,
+              "count": 2
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            0.8
+          ],
+          "levelReq": 0,
+          "promotionReq": 4,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 16000
+            },
+            {
+              "id": 920200,
+              "count": 4
+            },
+            {
+              "id": 633349,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            0.9
+          ],
+          "levelReq": 0,
+          "promotionReq": 5,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 36000
+            },
+            {
+              "id": 836259,
+              "count": 2
+            },
+            {
+              "id": 717290,
+              "count": 2
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            1
+          ],
+          "levelReq": 0,
+          "promotionReq": 6,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 128000
+            },
+            {
+              "id": 836259,
+              "count": 6
+            },
+            {
+              "id": 717290,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            1.1
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 8,
+          "params": [
+            1.2
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 9,
+          "params": [
+            1.3
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        }
+      ]
+    },
+    "Skill": {
+      "name": "Hey! Remember Hook?",
+      "desc": "Deals <span style=\"color:#F84F36;\">Fire</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Hook's ATK to a single enemy, with a <nobr>#2[i]%</nobr> <u>base chance</u> to Burn them for <nobr>#3[i]</nobr> turn(s). Additionally, deals <span style=\"color:#F84F36;\">Fire</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#5[i]%</nobr></span> of Hook's ATK to enemies adjacent to it.<br />When afflicted with Burn, enemies will take <span style=\"color:#F84F36;\">Fire</span> DoT equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#4[i]%</nobr></span> of Hook's ATK at the beginning of each turn.",
+      "levelData": [
+        {
+          "level": 1,
+          "params": [
+            1.4,
+            1,
+            2,
+            0.25,
+            0.4
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 2,
+          "params": [
+            1.54,
+            1,
+            2,
+            0.275,
+            0.44
+          ],
+          "levelReq": 0,
+          "promotionReq": 1,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 2000
+            },
+            {
+              "id": 549408,
+              "count": 2
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            1.68,
+            1,
+            2,
+            0.3,
+            0.48
+          ],
+          "levelReq": 0,
+          "promotionReq": 2,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 4000
+            },
+            {
+              "id": 635673,
+              "count": 2
+            },
+            {
+              "id": 549408,
+              "count": 4
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            1.82,
+            1,
+            2,
+            0.325,
+            0.52
+          ],
+          "levelReq": 0,
+          "promotionReq": 3,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 8000
+            },
+            {
+              "id": 920200,
+              "count": 2
+            },
+            {
+              "id": 633349,
+              "count": 2
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            1.96,
+            1,
+            2,
+            0.35,
+            0.56
+          ],
+          "levelReq": 0,
+          "promotionReq": 4,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 16000
+            },
+            {
+              "id": 920200,
+              "count": 4
+            },
+            {
+              "id": 633349,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            2.1,
+            1,
+            2,
+            0.3875,
+            0.6
+          ],
+          "levelReq": 0,
+          "promotionReq": 4,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 24000
+            },
+            {
+              "id": 920200,
+              "count": 6
+            },
+            {
+              "id": 633349,
+              "count": 5
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            2.275,
+            1,
+            2,
+            0.4375,
+            0.65
+          ],
+          "levelReq": 0,
+          "promotionReq": 5,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 36000
+            },
+            {
+              "id": 836259,
+              "count": 2
+            },
+            {
+              "id": 717290,
+              "count": 2
+            }
+          ]
+        },
+        {
+          "level": 8,
+          "params": [
+            2.45,
+            1,
+            2,
+            0.5,
+            0.7
+          ],
+          "levelReq": 0,
+          "promotionReq": 5,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 64000
+            },
+            {
+              "id": 836259,
+              "count": 4
+            },
+            {
+              "id": 270195,
+              "count": 1
+            },
+            {
+              "id": 717290,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 9,
+          "params": [
+            2.625,
+            1,
+            2,
+            0.575,
+            0.75
+          ],
+          "levelReq": 0,
+          "promotionReq": 6,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 128000
+            },
+            {
+              "id": 836259,
+              "count": 6
+            },
+            {
+              "id": 270195,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "params": [
+            2.8,
+            1,
+            2,
+            0.65,
+            0.8
+          ],
+          "levelReq": 0,
+          "promotionReq": 6,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 240000
+            },
+            {
+              "id": 836259,
+              "count": 11
+            },
+            {
+              "id": 125435,
+              "count": 1
+            },
+            {
+              "id": 270195,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "level": 11,
+          "params": [
+            2.94,
+            1,
+            2,
+            0.6825,
+            0.84
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 12,
+          "params": [
+            3.08,
+            1,
+            2,
+            0.715,
+            0.88
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 13,
+          "params": [
+            3.22,
+            1,
+            2,
+            0.7475,
+            0.92
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 14,
+          "params": [
+            3.36,
+            1,
+            2,
+            0.78,
+            0.96
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 15,
+          "params": [
+            3.5,
+            1,
+            2,
+            0.8125,
+            1
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        }
+      ]
+    },
+    "Ultimate": {
+      "name": "Boom! Here Comes the Fire!",
+      "desc": "Deals <span style=\"color:#F84F36;\">Fire</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Hook's ATK to a single enemy.<br />After using Ultimate, the next Skill to be used is Enhanced, which deals DMG to a single enemy and enemies adjacent to it.",
+      "levelData": [
+        {
+          "level": 1,
+          "params": [
+            2.4
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 2,
+          "params": [
+            2.56
+          ],
+          "levelReq": 0,
+          "promotionReq": 1,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 2000
+            },
+            {
+              "id": 549408,
+              "count": 2
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            2.72
+          ],
+          "levelReq": 0,
+          "promotionReq": 2,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 4000
+            },
+            {
+              "id": 635673,
+              "count": 2
+            },
+            {
+              "id": 549408,
+              "count": 4
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            2.88
+          ],
+          "levelReq": 0,
+          "promotionReq": 3,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 8000
+            },
+            {
+              "id": 920200,
+              "count": 2
+            },
+            {
+              "id": 633349,
+              "count": 2
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            3.04
+          ],
+          "levelReq": 0,
+          "promotionReq": 4,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 16000
+            },
+            {
+              "id": 920200,
+              "count": 4
+            },
+            {
+              "id": 633349,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            3.2
+          ],
+          "levelReq": 0,
+          "promotionReq": 4,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 24000
+            },
+            {
+              "id": 920200,
+              "count": 6
+            },
+            {
+              "id": 633349,
+              "count": 5
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            3.4
+          ],
+          "levelReq": 0,
+          "promotionReq": 5,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 36000
+            },
+            {
+              "id": 836259,
+              "count": 2
+            },
+            {
+              "id": 717290,
+              "count": 2
+            }
+          ]
+        },
+        {
+          "level": 8,
+          "params": [
+            3.6
+          ],
+          "levelReq": 0,
+          "promotionReq": 5,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 64000
+            },
+            {
+              "id": 836259,
+              "count": 4
+            },
+            {
+              "id": 270195,
+              "count": 1
+            },
+            {
+              "id": 717290,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 9,
+          "params": [
+            3.8
+          ],
+          "levelReq": 0,
+          "promotionReq": 6,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 128000
+            },
+            {
+              "id": 836259,
+              "count": 6
+            },
+            {
+              "id": 270195,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "params": [
+            4
+          ],
+          "levelReq": 0,
+          "promotionReq": 6,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 240000
+            },
+            {
+              "id": 836259,
+              "count": 11
+            },
+            {
+              "id": 125435,
+              "count": 1
+            },
+            {
+              "id": 270195,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "level": 11,
+          "params": [
+            4.16
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 12,
+          "params": [
+            4.32
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 13,
+          "params": [
+            4.48
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 14,
+          "params": [
+            4.64
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 15,
+          "params": [
+            4.8
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        }
+      ]
+    },
+    "Talent": {
+      "name": "Ha! Oil to the Flames!",
+      "desc": "When attacking a target afflicted with Burn, deals <u>Additional</u> <span style=\"color:#F84F36;\">Fire</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Hook's ATK and regenerates <nobr>#2[i]</nobr> extra Energy.",
+      "levelData": [
+        {
+          "level": 1,
+          "params": [
+            0.5,
+            5
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 2,
+          "params": [
+            0.55,
+            5
+          ],
+          "levelReq": 0,
+          "promotionReq": 1,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 2000
+            },
+            {
+              "id": 549408,
+              "count": 2
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            0.6,
+            5
+          ],
+          "levelReq": 0,
+          "promotionReq": 2,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 4000
+            },
+            {
+              "id": 635673,
+              "count": 2
+            },
+            {
+              "id": 549408,
+              "count": 4
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            0.65,
+            5
+          ],
+          "levelReq": 0,
+          "promotionReq": 3,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 8000
+            },
+            {
+              "id": 920200,
+              "count": 2
+            },
+            {
+              "id": 633349,
+              "count": 2
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            0.7,
+            5
+          ],
+          "levelReq": 0,
+          "promotionReq": 4,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 16000
+            },
+            {
+              "id": 920200,
+              "count": 4
+            },
+            {
+              "id": 633349,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            0.75,
+            5
+          ],
+          "levelReq": 0,
+          "promotionReq": 4,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 24000
+            },
+            {
+              "id": 920200,
+              "count": 6
+            },
+            {
+              "id": 633349,
+              "count": 5
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            0.8125,
+            5
+          ],
+          "levelReq": 0,
+          "promotionReq": 5,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 36000
+            },
+            {
+              "id": 836259,
+              "count": 2
+            },
+            {
+              "id": 717290,
+              "count": 2
+            }
+          ]
+        },
+        {
+          "level": 8,
+          "params": [
+            0.875,
+            5
+          ],
+          "levelReq": 0,
+          "promotionReq": 5,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 64000
+            },
+            {
+              "id": 836259,
+              "count": 4
+            },
+            {
+              "id": 270195,
+              "count": 1
+            },
+            {
+              "id": 717290,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 9,
+          "params": [
+            0.9375,
+            5
+          ],
+          "levelReq": 0,
+          "promotionReq": 6,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 128000
+            },
+            {
+              "id": 836259,
+              "count": 6
+            },
+            {
+              "id": 270195,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "params": [
+            1,
+            5
+          ],
+          "levelReq": 0,
+          "promotionReq": 6,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 240000
+            },
+            {
+              "id": 836259,
+              "count": 11
+            },
+            {
+              "id": 125435,
+              "count": 1
+            },
+            {
+              "id": 270195,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "level": 11,
+          "params": [
+            1.05,
+            5
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 12,
+          "params": [
+            1.1,
+            5
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 13,
+          "params": [
+            1.15,
+            5
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 14,
+          "params": [
+            1.2,
+            5
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 15,
+          "params": [
+            1.25,
+            5
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        }
+      ]
+    },
+    "": {
+      "name": "Attack",
+      "desc": "Attack an enemy, and when the battle starts, reduce their Toughness of the corresponding Type.",
+      "levelData": [
+        {
+          "level": 1,
+          "params": [],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        }
+      ]
+    },
+    "Technique": {
+      "name": "Ack! Look at This Mess!",
+      "desc": "Immediately attacks the enemy. Upon entering battle, Hook deals <span style=\"color:#F84F36;\">Fire</span> DMG equal to <nobr>#4[i]%</nobr> of her ATK to a random enemy. In addition, there is a <nobr>#1[i]%</nobr> <u>base chance</u> to inflict Burn on every enemy for <nobr>#3[i]</nobr> turn(s).<br />When afflicted with Burn, enemies will take <span style=\"color:#F84F36;\">Fire</span> DoT equal to <nobr>#2[i]%</nobr> of Hook's ATK at the beginning of each turn.",
+      "levelData": [
+        {
+          "level": 1,
+          "params": [
+            1,
+            0.5,
+            3,
+            0.5
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        }
+      ]
+    }
+  }
 }

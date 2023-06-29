@@ -201,5 +201,1066 @@
       "speedBase": 98,
       "speedAdd": 0
     }
-  ]
+  ],
+  "talents": {
+    "Basic ATK": {
+      "name": "Behind the Kindness",
+      "desc": "Deals <span style=\"color:#FFFFFF;\">Physical</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Natasha's ATK to a single enemy.",
+      "levelData": [
+        {
+          "level": 1,
+          "params": [
+            0.5
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 2,
+          "params": [
+            0.6
+          ],
+          "levelReq": 0,
+          "promotionReq": 2,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 4000
+            },
+            {
+              "id": 635671,
+              "count": 2
+            },
+            {
+              "id": 549408,
+              "count": 4
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            0.7
+          ],
+          "levelReq": 0,
+          "promotionReq": 3,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 8000
+            },
+            {
+              "id": 920198,
+              "count": 2
+            },
+            {
+              "id": 633349,
+              "count": 2
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            0.8
+          ],
+          "levelReq": 0,
+          "promotionReq": 4,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 16000
+            },
+            {
+              "id": 920198,
+              "count": 4
+            },
+            {
+              "id": 633349,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            0.9
+          ],
+          "levelReq": 0,
+          "promotionReq": 5,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 36000
+            },
+            {
+              "id": 836257,
+              "count": 2
+            },
+            {
+              "id": 717290,
+              "count": 2
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            1
+          ],
+          "levelReq": 0,
+          "promotionReq": 6,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 128000
+            },
+            {
+              "id": 836257,
+              "count": 6
+            },
+            {
+              "id": 717290,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            1.1
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 8,
+          "params": [
+            1.2
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 9,
+          "params": [
+            1.3
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        }
+      ]
+    },
+    "Skill": {
+      "name": "Love, Heal, and Choose",
+      "desc": "Restores a single ally for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[f1]%</nobr></span> of Natasha's Max HP plus <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#4[i]</nobr></span>. Restores the ally for another <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#2[f1]%</nobr></span> of Natasha's Max HP plus <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#5[i]</nobr></span> at the beginning of each turn for <nobr>#3[i]</nobr> turn(s).",
+      "levelData": [
+        {
+          "level": 1,
+          "params": [
+            0.07,
+            0.048,
+            2,
+            70,
+            48
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 2,
+          "params": [
+            0.074375,
+            0.051,
+            2,
+            112,
+            76.8
+          ],
+          "levelReq": 0,
+          "promotionReq": 1,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 2000
+            },
+            {
+              "id": 549408,
+              "count": 2
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            0.07875,
+            0.054,
+            2,
+            143.5,
+            98.4
+          ],
+          "levelReq": 0,
+          "promotionReq": 2,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 4000
+            },
+            {
+              "id": 635671,
+              "count": 2
+            },
+            {
+              "id": 549408,
+              "count": 4
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            0.083125,
+            0.057,
+            2,
+            175,
+            120
+          ],
+          "levelReq": 0,
+          "promotionReq": 3,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 8000
+            },
+            {
+              "id": 920198,
+              "count": 2
+            },
+            {
+              "id": 633349,
+              "count": 2
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            0.0875,
+            0.06,
+            2,
+            196,
+            134.4
+          ],
+          "levelReq": 0,
+          "promotionReq": 4,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 16000
+            },
+            {
+              "id": 920198,
+              "count": 4
+            },
+            {
+              "id": 633349,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            0.091,
+            0.0624,
+            2,
+            217,
+            148.8
+          ],
+          "levelReq": 0,
+          "promotionReq": 4,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 24000
+            },
+            {
+              "id": 920198,
+              "count": 6
+            },
+            {
+              "id": 633349,
+              "count": 5
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            0.0945,
+            0.0648,
+            2,
+            232.75,
+            159.6
+          ],
+          "levelReq": 0,
+          "promotionReq": 5,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 36000
+            },
+            {
+              "id": 836257,
+              "count": 2
+            },
+            {
+              "id": 717290,
+              "count": 2
+            }
+          ]
+        },
+        {
+          "level": 8,
+          "params": [
+            0.098,
+            0.0672,
+            2,
+            248.5,
+            170.4
+          ],
+          "levelReq": 0,
+          "promotionReq": 5,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 64000
+            },
+            {
+              "id": 836257,
+              "count": 4
+            },
+            {
+              "id": 270195,
+              "count": 1
+            },
+            {
+              "id": 717290,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 9,
+          "params": [
+            0.1015,
+            0.0696,
+            2,
+            264.25,
+            181.2
+          ],
+          "levelReq": 0,
+          "promotionReq": 6,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 128000
+            },
+            {
+              "id": 836257,
+              "count": 6
+            },
+            {
+              "id": 270195,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "params": [
+            0.105,
+            0.072,
+            2,
+            280,
+            192
+          ],
+          "levelReq": 0,
+          "promotionReq": 6,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 240000
+            },
+            {
+              "id": 836257,
+              "count": 11
+            },
+            {
+              "id": 125435,
+              "count": 1
+            },
+            {
+              "id": 270195,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "level": 11,
+          "params": [
+            0.1085,
+            0.0744,
+            2,
+            295.75,
+            202.8
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 12,
+          "params": [
+            0.112,
+            0.0768,
+            2,
+            311.5,
+            213.6
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 13,
+          "params": [
+            0.1155,
+            0.0792,
+            2,
+            327.25,
+            224.4
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 14,
+          "params": [
+            0.119,
+            0.0816,
+            2,
+            343,
+            235.2
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 15,
+          "params": [
+            0.1225,
+            0.084,
+            2,
+            358.75,
+            246
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        }
+      ]
+    },
+    "Ultimate": {
+      "name": "Gift of Rebirth",
+      "desc": "Heals all allies for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[f1]%</nobr></span> of Natasha's Max HP plus <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#2[i]</nobr></span>.",
+      "levelData": [
+        {
+          "level": 1,
+          "params": [
+            0.092,
+            92
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 2,
+          "params": [
+            0.09775,
+            147.2
+          ],
+          "levelReq": 0,
+          "promotionReq": 1,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 2000
+            },
+            {
+              "id": 549408,
+              "count": 2
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            0.1035,
+            188.6
+          ],
+          "levelReq": 0,
+          "promotionReq": 2,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 4000
+            },
+            {
+              "id": 635671,
+              "count": 2
+            },
+            {
+              "id": 549408,
+              "count": 4
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            0.10925,
+            230
+          ],
+          "levelReq": 0,
+          "promotionReq": 3,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 8000
+            },
+            {
+              "id": 920198,
+              "count": 2
+            },
+            {
+              "id": 633349,
+              "count": 2
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            0.115,
+            257.6
+          ],
+          "levelReq": 0,
+          "promotionReq": 4,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 16000
+            },
+            {
+              "id": 920198,
+              "count": 4
+            },
+            {
+              "id": 633349,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            0.1196,
+            285.2
+          ],
+          "levelReq": 0,
+          "promotionReq": 4,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 24000
+            },
+            {
+              "id": 920198,
+              "count": 6
+            },
+            {
+              "id": 633349,
+              "count": 5
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            0.1242,
+            305.9
+          ],
+          "levelReq": 0,
+          "promotionReq": 5,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 36000
+            },
+            {
+              "id": 836257,
+              "count": 2
+            },
+            {
+              "id": 717290,
+              "count": 2
+            }
+          ]
+        },
+        {
+          "level": 8,
+          "params": [
+            0.1288,
+            326.6
+          ],
+          "levelReq": 0,
+          "promotionReq": 5,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 64000
+            },
+            {
+              "id": 836257,
+              "count": 4
+            },
+            {
+              "id": 270195,
+              "count": 1
+            },
+            {
+              "id": 717290,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 9,
+          "params": [
+            0.1334,
+            347.3
+          ],
+          "levelReq": 0,
+          "promotionReq": 6,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 128000
+            },
+            {
+              "id": 836257,
+              "count": 6
+            },
+            {
+              "id": 270195,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "params": [
+            0.138,
+            368
+          ],
+          "levelReq": 0,
+          "promotionReq": 6,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 240000
+            },
+            {
+              "id": 836257,
+              "count": 11
+            },
+            {
+              "id": 125435,
+              "count": 1
+            },
+            {
+              "id": 270195,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "level": 11,
+          "params": [
+            0.1426,
+            388.7
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 12,
+          "params": [
+            0.1472,
+            409.4
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 13,
+          "params": [
+            0.1518,
+            430.1
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 14,
+          "params": [
+            0.1564,
+            450.8
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 15,
+          "params": [
+            0.161,
+            471.5
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        }
+      ]
+    },
+    "Talent": {
+      "name": "Innervation",
+      "desc": "When healing allies with HP percentage at <nobr>#1[i]%</nobr> or lower, increases Natasha's Outgoing Healing by <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#2[i]%</nobr></span>. This effect also works on continuous healing.",
+      "levelData": [
+        {
+          "level": 1,
+          "params": [
+            0.3,
+            0.25
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 2,
+          "params": [
+            0.3,
+            0.275
+          ],
+          "levelReq": 0,
+          "promotionReq": 1,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 2000
+            },
+            {
+              "id": 549408,
+              "count": 2
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            0.3,
+            0.3
+          ],
+          "levelReq": 0,
+          "promotionReq": 2,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 4000
+            },
+            {
+              "id": 635671,
+              "count": 2
+            },
+            {
+              "id": 549408,
+              "count": 4
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            0.3,
+            0.325
+          ],
+          "levelReq": 0,
+          "promotionReq": 3,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 8000
+            },
+            {
+              "id": 920198,
+              "count": 2
+            },
+            {
+              "id": 633349,
+              "count": 2
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            0.3,
+            0.35
+          ],
+          "levelReq": 0,
+          "promotionReq": 4,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 16000
+            },
+            {
+              "id": 920198,
+              "count": 4
+            },
+            {
+              "id": 633349,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            0.3,
+            0.375
+          ],
+          "levelReq": 0,
+          "promotionReq": 4,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 24000
+            },
+            {
+              "id": 920198,
+              "count": 6
+            },
+            {
+              "id": 633349,
+              "count": 5
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            0.3,
+            0.40625
+          ],
+          "levelReq": 0,
+          "promotionReq": 5,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 36000
+            },
+            {
+              "id": 836257,
+              "count": 2
+            },
+            {
+              "id": 717290,
+              "count": 2
+            }
+          ]
+        },
+        {
+          "level": 8,
+          "params": [
+            0.3,
+            0.4375
+          ],
+          "levelReq": 0,
+          "promotionReq": 5,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 64000
+            },
+            {
+              "id": 836257,
+              "count": 4
+            },
+            {
+              "id": 270195,
+              "count": 1
+            },
+            {
+              "id": 717290,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 9,
+          "params": [
+            0.3,
+            0.46875
+          ],
+          "levelReq": 0,
+          "promotionReq": 6,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 128000
+            },
+            {
+              "id": 836257,
+              "count": 6
+            },
+            {
+              "id": 270195,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "params": [
+            0.3,
+            0.5
+          ],
+          "levelReq": 0,
+          "promotionReq": 6,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 240000
+            },
+            {
+              "id": 836257,
+              "count": 11
+            },
+            {
+              "id": 125435,
+              "count": 1
+            },
+            {
+              "id": 270195,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "level": 11,
+          "params": [
+            0.3,
+            0.525
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 12,
+          "params": [
+            0.3,
+            0.55
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 13,
+          "params": [
+            0.3,
+            0.575
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 14,
+          "params": [
+            0.3,
+            0.6
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 15,
+          "params": [
+            0.3,
+            0.625
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        }
+      ]
+    },
+    "": {
+      "name": "Attack",
+      "desc": "Attack an enemy, and when the battle starts, reduce their Toughness of the corresponding Type.",
+      "levelData": [
+        {
+          "level": 1,
+          "params": [],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        }
+      ]
+    },
+    "Technique": {
+      "name": "Hypnosis Research",
+      "desc": "Immediately attacks the enemy. After entering battle, deals <span style=\"color:#FFFFFF;\">Physical</span> DMG equal to <nobr>#4[i]%</nobr> of Natasha's ATK to a random enemy, with a <nobr>#1[i]%</nobr> <u>base chance</u> to Weaken all enemies.<br />While Weakened, enemies deal <nobr>#2[i]%</nobr> less DMG to allies for <nobr>#3[i]</nobr> turn(s).",
+      "levelData": [
+        {
+          "level": 1,
+          "params": [
+            1,
+            0.3,
+            1,
+            0.8
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        }
+      ]
+    }
+  }
 }

@@ -201,5 +201,1120 @@
       "speedBase": 98,
       "speedAdd": 0
     }
-  ]
+  ],
+  "talents": {
+    "Basic ATK": {
+      "name": "Diagnostic Kick",
+      "desc": "Deals <span style=\"color:#c75de2;\">Lightning</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Bailu's ATK to a single enemy.",
+      "levelData": [
+        {
+          "level": 1,
+          "params": [
+            0.5
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 2,
+          "params": [
+            0.6
+          ],
+          "levelReq": 0,
+          "promotionReq": 2,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 5000
+            },
+            {
+              "id": 635671,
+              "count": 3
+            },
+            {
+              "id": 549438,
+              "count": 6
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            0.7
+          ],
+          "levelReq": 0,
+          "promotionReq": 3,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 10000
+            },
+            {
+              "id": 920198,
+              "count": 3
+            },
+            {
+              "id": 633379,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            0.8
+          ],
+          "levelReq": 0,
+          "promotionReq": 4,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 20000
+            },
+            {
+              "id": 920198,
+              "count": 5
+            },
+            {
+              "id": 633379,
+              "count": 4
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            0.9
+          ],
+          "levelReq": 0,
+          "promotionReq": 5,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 45000
+            },
+            {
+              "id": 836257,
+              "count": 3
+            },
+            {
+              "id": 717320,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            1
+          ],
+          "levelReq": 0,
+          "promotionReq": 6,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 160000
+            },
+            {
+              "id": 836257,
+              "count": 8
+            },
+            {
+              "id": 717320,
+              "count": 4
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            1.1
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 8,
+          "params": [
+            1.2
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 9,
+          "params": [
+            1.3
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        }
+      ]
+    },
+    "Skill": {
+      "name": "Singing Among Clouds",
+      "desc": "Heals a single ally for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[f1]%</nobr></span> of Bailu's Max HP plus <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#2[i]</nobr></span>. Bailu then heals random allies <nobr>#4[i]</nobr> time(s). After each healing, HP restored from the next healing is reduced by <nobr>#3[i]%</nobr>.",
+      "levelData": [
+        {
+          "level": 1,
+          "params": [
+            0.078,
+            78,
+            0.15,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 2,
+          "params": [
+            0.082875,
+            124.8,
+            0.15,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 1,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 2500
+            },
+            {
+              "id": 549438,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            0.08775,
+            159.9,
+            0.15,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 2,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 5000
+            },
+            {
+              "id": 635671,
+              "count": 3
+            },
+            {
+              "id": 549438,
+              "count": 6
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            0.092625,
+            195,
+            0.15,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 3,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 10000
+            },
+            {
+              "id": 920198,
+              "count": 3
+            },
+            {
+              "id": 633379,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            0.0975,
+            218.4,
+            0.15,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 4,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 20000
+            },
+            {
+              "id": 920198,
+              "count": 5
+            },
+            {
+              "id": 633379,
+              "count": 4
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            0.1014,
+            241.8,
+            0.15,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 4,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 30000
+            },
+            {
+              "id": 920198,
+              "count": 7
+            },
+            {
+              "id": 633379,
+              "count": 6
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            0.1053,
+            259.35,
+            0.15,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 5,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 45000
+            },
+            {
+              "id": 836257,
+              "count": 3
+            },
+            {
+              "id": 717320,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 8,
+          "params": [
+            0.1092,
+            276.9,
+            0.15,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 5,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 80000
+            },
+            {
+              "id": 836257,
+              "count": 5
+            },
+            {
+              "id": 270195,
+              "count": 1
+            },
+            {
+              "id": 717320,
+              "count": 4
+            }
+          ]
+        },
+        {
+          "level": 9,
+          "params": [
+            0.1131,
+            294.45,
+            0.15,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 6,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 160000
+            },
+            {
+              "id": 836257,
+              "count": 8
+            },
+            {
+              "id": 125435,
+              "count": 1
+            },
+            {
+              "id": 270195,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "params": [
+            0.117,
+            312,
+            0.15,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 6,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 300000
+            },
+            {
+              "id": 836257,
+              "count": 14
+            },
+            {
+              "id": 125435,
+              "count": 1
+            },
+            {
+              "id": 270195,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "level": 11,
+          "params": [
+            0.1209,
+            329.55,
+            0.15,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 12,
+          "params": [
+            0.1248,
+            347.1,
+            0.15,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 13,
+          "params": [
+            0.1287,
+            364.65,
+            0.15,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 14,
+          "params": [
+            0.1326,
+            382.2,
+            0.15,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 15,
+          "params": [
+            0.1365,
+            399.75,
+            0.15,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        }
+      ]
+    },
+    "Ultimate": {
+      "name": "Felicitous Thunderleap",
+      "desc": "Heals all allies for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[f1]%</nobr></span> of Bailu's Max HP plus <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#2[i]</nobr></span>.<br />Bailu applies Invigoration to allies that are not already Invigorated. For those already Invigorated, Bailu extends the duration of their Invigoration by 1 turn.<br />The effect of Invigoration can last for <nobr>#3[i]</nobr> turn(s). This effect cannot stack.",
+      "levelData": [
+        {
+          "level": 1,
+          "params": [
+            0.09,
+            90,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 2,
+          "params": [
+            0.095625,
+            144,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 1,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 2500
+            },
+            {
+              "id": 549438,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            0.10125,
+            184.5,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 2,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 5000
+            },
+            {
+              "id": 635671,
+              "count": 3
+            },
+            {
+              "id": 549438,
+              "count": 6
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            0.106875,
+            225,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 3,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 10000
+            },
+            {
+              "id": 920198,
+              "count": 3
+            },
+            {
+              "id": 633379,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            0.1125,
+            252,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 4,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 20000
+            },
+            {
+              "id": 920198,
+              "count": 5
+            },
+            {
+              "id": 633379,
+              "count": 4
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            0.117,
+            279,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 4,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 30000
+            },
+            {
+              "id": 920198,
+              "count": 7
+            },
+            {
+              "id": 633379,
+              "count": 6
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            0.1215,
+            299.25,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 5,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 45000
+            },
+            {
+              "id": 836257,
+              "count": 3
+            },
+            {
+              "id": 717320,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 8,
+          "params": [
+            0.126,
+            319.5,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 5,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 80000
+            },
+            {
+              "id": 836257,
+              "count": 5
+            },
+            {
+              "id": 270195,
+              "count": 1
+            },
+            {
+              "id": 717320,
+              "count": 4
+            }
+          ]
+        },
+        {
+          "level": 9,
+          "params": [
+            0.1305,
+            339.75,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 6,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 160000
+            },
+            {
+              "id": 836257,
+              "count": 8
+            },
+            {
+              "id": 125435,
+              "count": 1
+            },
+            {
+              "id": 270195,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "params": [
+            0.135,
+            360,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 6,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 300000
+            },
+            {
+              "id": 836257,
+              "count": 14
+            },
+            {
+              "id": 125435,
+              "count": 1
+            },
+            {
+              "id": 270195,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "level": 11,
+          "params": [
+            0.1395,
+            380.25,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 12,
+          "params": [
+            0.144,
+            400.5,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 13,
+          "params": [
+            0.1485,
+            420.75,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 14,
+          "params": [
+            0.153,
+            441,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 15,
+          "params": [
+            0.1575,
+            461.25,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        }
+      ]
+    },
+    "Talent": {
+      "name": "Gourdful of Elixir",
+      "desc": "After an ally with Invigoration is hit, restores the ally's HP for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[f1]%</nobr></span> of Bailu's Max HP plus <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#2[i]</nobr></span>. This effect can trigger <nobr>#5[i]</nobr> time(s).<br />When an ally receives a killing blow, they will not be <u>knocked down</u>. Bailu immediately heals the ally for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#3[i]%</nobr></span> of Bailu's Max HP plus <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#4[i]</nobr></span> HP. This effect can be triggered 1 time per battle.",
+      "levelData": [
+        {
+          "level": 1,
+          "params": [
+            0.036,
+            36,
+            0.12,
+            120,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 2,
+          "params": [
+            0.03825,
+            57.6,
+            0.1275,
+            192,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 1,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 2500
+            },
+            {
+              "id": 549438,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            0.0405,
+            73.8,
+            0.135,
+            246,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 2,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 5000
+            },
+            {
+              "id": 635671,
+              "count": 3
+            },
+            {
+              "id": 549438,
+              "count": 6
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            0.04275,
+            90,
+            0.1425,
+            300,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 3,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 10000
+            },
+            {
+              "id": 920198,
+              "count": 3
+            },
+            {
+              "id": 633379,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            0.044999998,
+            100.8,
+            0.15,
+            336,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 4,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 20000
+            },
+            {
+              "id": 920198,
+              "count": 5
+            },
+            {
+              "id": 633379,
+              "count": 4
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            0.0468,
+            111.6,
+            0.156,
+            372,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 4,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 30000
+            },
+            {
+              "id": 920198,
+              "count": 7
+            },
+            {
+              "id": 633379,
+              "count": 6
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            0.0486,
+            119.7,
+            0.162,
+            399,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 5,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 45000
+            },
+            {
+              "id": 836257,
+              "count": 3
+            },
+            {
+              "id": 717320,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 8,
+          "params": [
+            0.0504,
+            127.8,
+            0.168,
+            426,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 5,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 80000
+            },
+            {
+              "id": 836257,
+              "count": 5
+            },
+            {
+              "id": 270195,
+              "count": 1
+            },
+            {
+              "id": 717320,
+              "count": 4
+            }
+          ]
+        },
+        {
+          "level": 9,
+          "params": [
+            0.0522,
+            135.9,
+            0.174,
+            453,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 6,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 160000
+            },
+            {
+              "id": 836257,
+              "count": 8
+            },
+            {
+              "id": 125435,
+              "count": 1
+            },
+            {
+              "id": 270195,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "params": [
+            0.054,
+            144,
+            0.18,
+            480,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 6,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 300000
+            },
+            {
+              "id": 836257,
+              "count": 14
+            },
+            {
+              "id": 125435,
+              "count": 1
+            },
+            {
+              "id": 270195,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "level": 11,
+          "params": [
+            0.0558,
+            152.1,
+            0.186,
+            507,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 12,
+          "params": [
+            0.0576,
+            160.2,
+            0.192,
+            534,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 13,
+          "params": [
+            0.0594,
+            168.3,
+            0.198,
+            561,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 14,
+          "params": [
+            0.0612,
+            176.4,
+            0.204,
+            588,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 15,
+          "params": [
+            0.063,
+            184.5,
+            0.21,
+            615,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        }
+      ]
+    },
+    "": {
+      "name": "Attack",
+      "desc": "Attack an enemy, and when the battle starts, reduce their Toughness of the corresponding Type.",
+      "levelData": [
+        {
+          "level": 1,
+          "params": [],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        }
+      ]
+    },
+    "Technique": {
+      "name": "Saunter in the Rain",
+      "desc": "After using Technique, at the start of the next battle, all allies are granted Invigoration for <nobr>#1[i]</nobr> turn(s).",
+      "levelData": [
+        {
+          "level": 1,
+          "params": [
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        }
+      ]
+    }
+  }
 }

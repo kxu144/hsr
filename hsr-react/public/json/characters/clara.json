@@ -201,5 +201,1091 @@
       "speedBase": 90,
       "speedAdd": 0
     }
-  ]
+  ],
+  "talents": {
+    "Basic ATK": {
+      "name": "I Want to Help",
+      "desc": "Deals <span style=\"color:#FFFFFF;\">Physical</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Clara's ATK to a single enemy.",
+      "levelData": [
+        {
+          "level": 1,
+          "params": [
+            0.5
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 2,
+          "params": [
+            0.6
+          ],
+          "levelReq": 0,
+          "promotionReq": 2,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 5000
+            },
+            {
+              "id": 635673,
+              "count": 3
+            },
+            {
+              "id": 549408,
+              "count": 6
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            0.7
+          ],
+          "levelReq": 0,
+          "promotionReq": 3,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 10000
+            },
+            {
+              "id": 920200,
+              "count": 3
+            },
+            {
+              "id": 633349,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            0.8
+          ],
+          "levelReq": 0,
+          "promotionReq": 4,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 20000
+            },
+            {
+              "id": 920200,
+              "count": 5
+            },
+            {
+              "id": 633349,
+              "count": 4
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            0.9
+          ],
+          "levelReq": 0,
+          "promotionReq": 5,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 45000
+            },
+            {
+              "id": 836259,
+              "count": 3
+            },
+            {
+              "id": 717290,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            1
+          ],
+          "levelReq": 0,
+          "promotionReq": 6,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 160000
+            },
+            {
+              "id": 836259,
+              "count": 8
+            },
+            {
+              "id": 717290,
+              "count": 4
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            1.1
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 8,
+          "params": [
+            1.2
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 9,
+          "params": [
+            1.3
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        }
+      ]
+    },
+    "Skill": {
+      "name": "Svarog Watches Over You",
+      "desc": "Deals <span style=\"color:#FFFFFF;\">Physical</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Clara's ATK to all enemies, and additionally deals <span style=\"color:#FFFFFF;\">Physical</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#2[i]%</nobr></span> of Clara's ATK to enemies marked by Svarog with a Mark of Counter.<br />All Marks of Counter will be removed after this Skill is used.",
+      "levelData": [
+        {
+          "level": 1,
+          "params": [
+            0.6,
+            0.6
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 2,
+          "params": [
+            0.66,
+            0.66
+          ],
+          "levelReq": 0,
+          "promotionReq": 1,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 2500
+            },
+            {
+              "id": 549408,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            0.72,
+            0.72
+          ],
+          "levelReq": 0,
+          "promotionReq": 2,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 5000
+            },
+            {
+              "id": 635673,
+              "count": 3
+            },
+            {
+              "id": 549408,
+              "count": 6
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            0.78,
+            0.78
+          ],
+          "levelReq": 0,
+          "promotionReq": 3,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 10000
+            },
+            {
+              "id": 920200,
+              "count": 3
+            },
+            {
+              "id": 633349,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            0.84,
+            0.84
+          ],
+          "levelReq": 0,
+          "promotionReq": 4,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 20000
+            },
+            {
+              "id": 920200,
+              "count": 5
+            },
+            {
+              "id": 633349,
+              "count": 4
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            0.9,
+            0.9
+          ],
+          "levelReq": 0,
+          "promotionReq": 4,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 30000
+            },
+            {
+              "id": 920200,
+              "count": 7
+            },
+            {
+              "id": 633349,
+              "count": 6
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            0.975,
+            0.975
+          ],
+          "levelReq": 0,
+          "promotionReq": 5,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 45000
+            },
+            {
+              "id": 836259,
+              "count": 3
+            },
+            {
+              "id": 717290,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 8,
+          "params": [
+            1.05,
+            1.05
+          ],
+          "levelReq": 0,
+          "promotionReq": 5,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 80000
+            },
+            {
+              "id": 836259,
+              "count": 5
+            },
+            {
+              "id": 270195,
+              "count": 1
+            },
+            {
+              "id": 717290,
+              "count": 4
+            }
+          ]
+        },
+        {
+          "level": 9,
+          "params": [
+            1.125,
+            1.125
+          ],
+          "levelReq": 0,
+          "promotionReq": 6,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 160000
+            },
+            {
+              "id": 836259,
+              "count": 8
+            },
+            {
+              "id": 125435,
+              "count": 1
+            },
+            {
+              "id": 270195,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "params": [
+            1.2,
+            1.2
+          ],
+          "levelReq": 0,
+          "promotionReq": 6,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 300000
+            },
+            {
+              "id": 836259,
+              "count": 14
+            },
+            {
+              "id": 125435,
+              "count": 1
+            },
+            {
+              "id": 270195,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "level": 11,
+          "params": [
+            1.26,
+            1.26
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 12,
+          "params": [
+            1.32,
+            1.32
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 13,
+          "params": [
+            1.38,
+            1.38
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 14,
+          "params": [
+            1.44,
+            1.44
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 15,
+          "params": [
+            1.5,
+            1.5
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        }
+      ]
+    },
+    "Ultimate": {
+      "name": "Promise, Not Command",
+      "desc": "After Clara uses Ultimate, DMG dealt to her is reduced by an extra <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#4[i]%</nobr></span>, and she has greatly increased chances of being attacked by enemies for <nobr>#3[i]</nobr> turn(s).<br />In addition, Svarog's <u>Counter</u> is enhanced. When an ally is attacked, Svarog immediately launches a <u>Counter</u>, and its DMG multiplier against the enemy increases by <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#2[i]%</nobr></span>. Enemies adjacent to it take <nobr>50%</nobr> of the DMG dealt to the target enemy. Enhanced <u>Counter(s)</u> can take effect <nobr>#5[i]</nobr> time(s).",
+      "levelData": [
+        {
+          "level": 1,
+          "params": [
+            5,
+            0.96,
+            2,
+            0.15,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 2,
+          "params": [
+            5,
+            1.024,
+            2,
+            0.16,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 1,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 2500
+            },
+            {
+              "id": 549408,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            5,
+            1.088,
+            2,
+            0.17,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 2,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 5000
+            },
+            {
+              "id": 635673,
+              "count": 3
+            },
+            {
+              "id": 549408,
+              "count": 6
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            5,
+            1.152,
+            2,
+            0.18,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 3,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 10000
+            },
+            {
+              "id": 920200,
+              "count": 3
+            },
+            {
+              "id": 633349,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            5,
+            1.216,
+            2,
+            0.19,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 4,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 20000
+            },
+            {
+              "id": 920200,
+              "count": 5
+            },
+            {
+              "id": 633349,
+              "count": 4
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            5,
+            1.28,
+            2,
+            0.2,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 4,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 30000
+            },
+            {
+              "id": 920200,
+              "count": 7
+            },
+            {
+              "id": 633349,
+              "count": 6
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            5,
+            1.36,
+            2,
+            0.2125,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 5,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 45000
+            },
+            {
+              "id": 836259,
+              "count": 3
+            },
+            {
+              "id": 717290,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 8,
+          "params": [
+            5,
+            1.44,
+            2,
+            0.225,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 5,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 80000
+            },
+            {
+              "id": 836259,
+              "count": 5
+            },
+            {
+              "id": 270195,
+              "count": 1
+            },
+            {
+              "id": 717290,
+              "count": 4
+            }
+          ]
+        },
+        {
+          "level": 9,
+          "params": [
+            5,
+            1.52,
+            2,
+            0.2375,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 6,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 160000
+            },
+            {
+              "id": 836259,
+              "count": 8
+            },
+            {
+              "id": 125435,
+              "count": 1
+            },
+            {
+              "id": 270195,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "params": [
+            5,
+            1.6,
+            2,
+            0.25,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 6,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 300000
+            },
+            {
+              "id": 836259,
+              "count": 14
+            },
+            {
+              "id": 125435,
+              "count": 1
+            },
+            {
+              "id": 270195,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "level": 11,
+          "params": [
+            5,
+            1.664,
+            2,
+            0.26,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 12,
+          "params": [
+            5,
+            1.728,
+            2,
+            0.27,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 13,
+          "params": [
+            5,
+            1.792,
+            2,
+            0.28,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 14,
+          "params": [
+            5,
+            1.856,
+            2,
+            0.29,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 15,
+          "params": [
+            5,
+            1.92,
+            2,
+            0.3,
+            2
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        }
+      ]
+    },
+    "Talent": {
+      "name": "Because We're Family",
+      "desc": "Under the protection of Svarog, DMG taken by Clara when hit by enemy attacks is reduced by <nobr>#3[i]%</nobr>. Svarog will mark enemies who attack Clara with his Mark of Counter and retaliate with a <u>Counter</u>, dealing <span style=\"color:#FFFFFF;\">Physical</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#2[i]%</nobr></span> of Clara's ATK.",
+      "levelData": [
+        {
+          "level": 1,
+          "params": [
+            1,
+            0.8,
+            0.1
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 2,
+          "params": [
+            1,
+            0.88,
+            0.1
+          ],
+          "levelReq": 0,
+          "promotionReq": 1,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 2500
+            },
+            {
+              "id": 549408,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            1,
+            0.96,
+            0.1
+          ],
+          "levelReq": 0,
+          "promotionReq": 2,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 5000
+            },
+            {
+              "id": 635673,
+              "count": 3
+            },
+            {
+              "id": 549408,
+              "count": 6
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            1,
+            1.04,
+            0.1
+          ],
+          "levelReq": 0,
+          "promotionReq": 3,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 10000
+            },
+            {
+              "id": 920200,
+              "count": 3
+            },
+            {
+              "id": 633349,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            1,
+            1.12,
+            0.1
+          ],
+          "levelReq": 0,
+          "promotionReq": 4,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 20000
+            },
+            {
+              "id": 920200,
+              "count": 5
+            },
+            {
+              "id": 633349,
+              "count": 4
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            1,
+            1.2,
+            0.1
+          ],
+          "levelReq": 0,
+          "promotionReq": 4,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 30000
+            },
+            {
+              "id": 920200,
+              "count": 7
+            },
+            {
+              "id": 633349,
+              "count": 6
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            1,
+            1.3,
+            0.1
+          ],
+          "levelReq": 0,
+          "promotionReq": 5,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 45000
+            },
+            {
+              "id": 836259,
+              "count": 3
+            },
+            {
+              "id": 717290,
+              "count": 3
+            }
+          ]
+        },
+        {
+          "level": 8,
+          "params": [
+            1,
+            1.4,
+            0.1
+          ],
+          "levelReq": 0,
+          "promotionReq": 5,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 80000
+            },
+            {
+              "id": 836259,
+              "count": 5
+            },
+            {
+              "id": 270195,
+              "count": 1
+            },
+            {
+              "id": 717290,
+              "count": 4
+            }
+          ]
+        },
+        {
+          "level": 9,
+          "params": [
+            1,
+            1.5,
+            0.1
+          ],
+          "levelReq": 0,
+          "promotionReq": 6,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 160000
+            },
+            {
+              "id": 836259,
+              "count": 8
+            },
+            {
+              "id": 125435,
+              "count": 1
+            },
+            {
+              "id": 270195,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "params": [
+            1,
+            1.6,
+            0.1
+          ],
+          "levelReq": 0,
+          "promotionReq": 6,
+          "cost": [
+            {
+              "id": 29328,
+              "count": 300000
+            },
+            {
+              "id": 836259,
+              "count": 14
+            },
+            {
+              "id": 125435,
+              "count": 1
+            },
+            {
+              "id": 270195,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "level": 11,
+          "params": [
+            1,
+            1.68,
+            0.1
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 12,
+          "params": [
+            1,
+            1.76,
+            0.1
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 13,
+          "params": [
+            1,
+            1.84,
+            0.1
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 14,
+          "params": [
+            1,
+            1.92,
+            0.1
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        },
+        {
+          "level": 15,
+          "params": [
+            1,
+            2,
+            0.1
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        }
+      ]
+    },
+    "": {
+      "name": "Attack",
+      "desc": "Attack an enemy, and when the battle starts, reduce their Toughness of the corresponding Type.",
+      "levelData": [
+        {
+          "level": 1,
+          "params": [],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        }
+      ]
+    },
+    "Technique": {
+      "name": "A Small Price for Victory",
+      "desc": "Immediately attacks the enemy. Upon entering battle, the chance Clara will be attacked by enemies increases for <nobr>#1[i]</nobr> turn(s).",
+      "levelData": [
+        {
+          "level": 1,
+          "params": [
+            2,
+            5
+          ],
+          "levelReq": 0,
+          "promotionReq": 0,
+          "cost": []
+        }
+      ]
+    }
+  }
 }
