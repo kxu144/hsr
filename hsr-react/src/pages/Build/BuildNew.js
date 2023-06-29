@@ -8,9 +8,7 @@ function BuildNew() {
         {
             close => (
                 <div className="modal">
-                    <div className="content">
-                        <BuildDisplay />
-                    </div>
+                    <BuildDisplay />
                     <div style={{position: 'absolute', bottom: '20px'}}>
                         <Button variant="contained" onClick={close}>Close</Button>
                     </div>

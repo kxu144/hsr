@@ -2,6 +2,7 @@ import { Autocomplete, List, ListItem, ListItemText, Slider, Stack, TextField } 
 import { CHARACTERS } from "../../utils/characters";
 import { useEffect, useState } from "react";
 import { LIGHTCONES } from "../../utils/lightcones";
+import LongMenu from "./OptimizationTarget";
 
 function BuildDisplay() {
     const [char, setChar] = useState(null);
@@ -44,6 +45,13 @@ function BuildDisplay() {
             setCharPath(charJSON.baseType.name);
         }
     }, [charJSON]);
+
+    useEffect(() => {
+        if (charPath && lcJSON && charPath !== lcJSON.baseType.name) {
+            setLC(null);
+            setLCJSON(null);
+        }
+    }, [charPath, lcJSON]);
 
     // SLIDERS
     useEffect(() => {
@@ -98,8 +106,20 @@ function BuildDisplay() {
                 atk: charStats.attackBase + (charLvl.lvl - 1) * charStats.attackAdd + lcStats.attackBase + (lcLvl.lvl - 1) * lcStats.attackAdd,
                 def: charStats.defenseBase + (charLvl.lvl - 1) * charStats.defenseAdd + lcStats.defenseBase + (lcLvl.lvl - 1) * lcStats.defenseAdd,
             });
+        } else {
+            setBaseStats(null);
         }
     }, [charJSON, lcJSON, charLvl, lcLvl]);
+
+    // OPTIMIZE TARGET
+    const [target, setTarget] = useState(null);
+    const [multiplier, setMultiplier] = useState(null);
+    useEffect(() => {
+        if (target && charJSON && charJSON.calc) {
+            console.log(target);
+            setMultiplier(charJSON.calc[target]);
+        }
+    }, [target, charJSON])
 
     return (
         <div>
@@ -128,10 +148,10 @@ function BuildDisplay() {
             }
             {charPath && 
                 <Autocomplete 
-                    isOptionEqualToValue={(o, v) => v === "" || o === v || o.label === v}
+                    isOptionEqualToValue={(o, v) => v === "" || o === v || o.label === v.label}
                     disablePortal disableClearable blurOnSelect options={(charPath && LIGHTCONES[charPath]) || null}
                     renderInput={(params) => <TextField {...params} label="Select lightcone" />}
-                    onChange={(_e, v) => {setLC(v);}}
+                    value={lc} onChange={(_e, v) => {setLC(v);}}
                 />
             }
             {lc &&
@@ -166,9 +186,9 @@ function BuildDisplay() {
 
                 </div>
             }
-            {/* <Autocomplete
-                disablePortal disableClearable blurOnSelect options
-            /> */}
+            {baseStats && charJSON && charJSON.calc &&
+                <LongMenu setTarget={setTarget}></LongMenu>
+            }
         </div>
     );
 }
