@@ -1,8 +1,8 @@
-import { Autocomplete, List, ListItem, ListItemText, Slider, Stack, TextField } from "@mui/material";
+import { Autocomplete, Slider, Stack, TextField } from "@mui/material";
 import { CHARACTERS } from "../../utils/characters";
 import { useEffect, useState } from "react";
 import { LIGHTCONES } from "../../utils/lightcones";
-import LongMenu from "./OptimizationTarget";
+import Character from "./optimize/Optimizer";
 
 function BuildDisplay() {
     const [char, setChar] = useState(null);
@@ -111,15 +111,9 @@ function BuildDisplay() {
         }
     }, [charJSON, lcJSON, charLvl, lcLvl]);
 
-    // OPTIMIZE TARGET
-    const [target, setTarget] = useState(null);
-    const [multiplier, setMultiplier] = useState(null);
-    useEffect(() => {
-        if (target && charJSON && charJSON.calc) {
-            console.log(target);
-            setMultiplier(charJSON.calc[target]);
-        }
-    }, [target, charJSON])
+    // TALENTS
+    const [talents, setTalents] = useState(['9', '15', '15', '15']);
+
 
     return (
         <div>
@@ -154,7 +148,7 @@ function BuildDisplay() {
                     value={lc} onChange={(_e, v) => {setLC(v);}}
                 />
             }
-            {lc &&
+            {charPath &&
                 <Stack spacing={2} direction="row" alignItems="center">
                     <TextField
                         variant="standard"
@@ -170,24 +164,32 @@ function BuildDisplay() {
                     />
                 </Stack>
             }
-            {baseStats &&
-                <div>
-                    <List>
-                        <ListItem disablePadding>
-                            <ListItemText primary={`HP: ${baseStats.hp}`} />
-                        </ListItem>
-                        <ListItem disablePadding>
-                            <ListItemText primary={`ATK: ${baseStats.atk}`} />
-                        </ListItem>
-                        <ListItem disablePadding>
-                            <ListItemText primary={`DEF: ${baseStats.def}`} />
-                        </ListItem>
-                    </List>
-
-                </div>
+            {lc &&
+                <Stack direction="row" alignItems="center">
+                    <Autocomplete 
+                        disablePortal disableClearable blurOnSelect options={['1','2','3','4','5','6','7','8','9']}
+                        renderInput={(params) => <TextField {...params} label="Basic ATK:" />}
+                        value={talents[0]} onChange={(_e, v) => {setTalents([v, talents[1], talents[2], talents[3]])}}
+                    />
+                    <Autocomplete 
+                        disablePortal disableClearable blurOnSelect options={['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15']}
+                        renderInput={(params) => <TextField {...params} label="Skill:" />}
+                        value={talents[1]} onChange={(_e, v) => {setTalents([talents[0], v, talents[2], talents[3]])}}
+                    />
+                    <Autocomplete 
+                        disablePortal disableClearable blurOnSelect options={['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15']}
+                        renderInput={(params) => <TextField {...params} label="Ultimate:" />}
+                        value={talents[2]} onChange={(_e, v) => {setTalents([talents[0], talents[1], v, talents[3]])}}
+                    />
+                    <Autocomplete 
+                        disablePortal disableClearable blurOnSelect options={['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15']}
+                        renderInput={(params) => <TextField {...params} label="Talent:" />}
+                        value={talents[3]} onChange={(_e, v) => {setTalents([talents[0], talents[1], talents[2], v])}}
+                    />
+                </Stack>
             }
-            {baseStats && charJSON && charJSON.calc &&
-                <LongMenu setTarget={setTarget}></LongMenu>
+            {char && charJSON && baseStats && talents &&
+                <Character name={char.label} json={charJSON} stats={baseStats} talents={talents} />
             }
         </div>
     );

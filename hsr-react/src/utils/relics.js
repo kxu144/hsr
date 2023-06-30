@@ -117,3 +117,44 @@ export function textToRelic(text) {
     return relic;
 }
 
+export function optimize(formula) {
+    // FLAG UNNECESSARY RELICS
+    const stats = Object.keys(formula);
+    const relics = JSON.parse(localStorage.getItem("relics") || "[]");
+    for (let i = 0; i < relics.length-1; i++) {
+        let r1 = relics[i];
+        for (let j = i+1; j < relics.length; j++) {
+            let r2 = relics[j];
+            let del1 = true;
+            let del2 = true;
+            for (let stat of stats) {
+                if ((r1.substats[stat] || 0) > (r2.substats[stat] || 0)) {
+                    del1 = false;
+                }
+                if ((r1.substats[stat] || 0) < (r2.substats[stat] || 0)) {
+                    del2 = false;
+                }
+                if (!del1 && !del2) {
+                    break;
+                }
+            }
+
+            if (del1) {
+                r1.delete = true;
+            } else if (del2) {
+                r2.delete = true;
+            }
+        }
+    }
+
+    var relics_by_type = {}
+    for (let type of RELIC_TYPES) {
+        relics_by_type[type] = [];
+    }
+    for (let relic of relics) {
+        if (!relic.deleted) {
+            relics_by_type[relic.slotKey].push(relic);
+        }
+    }
+    
+}
