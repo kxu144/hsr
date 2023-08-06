@@ -25,7 +25,7 @@ function BuildDisplay() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch(`${process.env.PUBLIC_URL}/json/characters/${char.json}`);
+                const response = await fetch(`${process.env.PUBLIC_URL}/json/chars/${char.json}`);
                 const json = await response.json();
                 console.log(json);
                 setCharJSON(json);
@@ -40,11 +40,35 @@ function BuildDisplay() {
     }, [char]);
 
     useEffect(() => {
-        if (charJSON) {
-            setCharImg(`${process.env.PUBLIC_URL}/image/characters/${charJSON.artPath}.webp`);
-            setCharPath(charJSON.baseType.name);
+        if (char) {
+            var img_str = char.label;
+            console.log("CHAR LABEL: %s", img_str);
+            if (img_str.includes("Trailblazer")) {
+                if (img_str === "Trailblazer (Physical)") {
+                    if (Math.random() < 0.5) {
+                        img_str = "playerboy";
+                    } else {
+                        img_str = "playergirl";
+                    }
+                } else if (img_str === "Trailblazer (Fire)") {
+                    if (Math.random() < 0.5) {
+                        img_str = "playerboy2";
+                    } else {
+                        img_str = "playergirl2";
+                    }
+                }
+            } else if (img_str === "March 7th") {
+                img_str = "mar7th";
+            }
+            setCharImg(`${process.env.PUBLIC_URL}/image/characters/${img_str.replace(/\s/g, '')}.webp`);
         }
-    }, [charJSON]);
+    }, [char]);
+
+    useEffect(() => {
+        if (charJSON) {
+            setCharPath(charJSON.path);
+        }
+    }, [charJSON])
 
     useEffect(() => {
         if (charPath && lcJSON && charPath !== lcJSON.baseType.name) {
@@ -100,11 +124,12 @@ function BuildDisplay() {
         if (charJSON && lcJSON) {
             const charStats = charJSON.levelData[charLvl.promotion];
             const lcStats = lcJSON.levelData[lcLvl.promotion];
+            console.log(charStats, charLvl);
             console.log(lcStats, lcLvl);
             setBaseStats({
                 hp: charStats.hpBase + (charLvl.lvl - 1) * charStats.hpAdd + lcStats.hpBase + (lcLvl.lvl - 1) * lcStats.hpAdd,
-                atk: charStats.attackBase + (charLvl.lvl - 1) * charStats.attackAdd + lcStats.attackBase + (lcLvl.lvl - 1) * lcStats.attackAdd,
-                def: charStats.defenseBase + (charLvl.lvl - 1) * charStats.defenseAdd + lcStats.defenseBase + (lcLvl.lvl - 1) * lcStats.defenseAdd,
+                atk: charStats.atkBase + (charLvl.lvl - 1) * charStats.atkAdd + lcStats.attackBase + (lcLvl.lvl - 1) * lcStats.attackAdd,
+                def: charStats.defBase + (charLvl.lvl - 1) * charStats.defAdd + lcStats.defenseBase + (lcLvl.lvl - 1) * lcStats.defenseAdd,
             });
         } else {
             setBaseStats(null);

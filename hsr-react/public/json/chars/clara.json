@@ -1,0 +1,468 @@
+{
+    "name": "Clara",
+    "rarity": 5,
+    "spRequirement": 110,
+    "element": "Physical",
+    "path": "Destruction",
+    "levelData": [
+        {
+            "atkBase": 100.32,
+            "atkAdd": 5.016,
+            "hpBase": 168.96,
+            "hpAdd": 8.448,
+            "defBase": 66,
+            "defAdd": 3.3,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 125,
+            "spdBase": 90,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 140.448,
+            "atkAdd": 5.016,
+            "hpBase": 236.544,
+            "hpAdd": 8.448,
+            "defBase": 92.4,
+            "defAdd": 3.3,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 125,
+            "spdBase": 90,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 180.576,
+            "atkAdd": 5.016,
+            "hpBase": 304.128,
+            "hpAdd": 8.448,
+            "defBase": 118.8,
+            "defAdd": 3.3,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 125,
+            "spdBase": 90,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 220.704,
+            "atkAdd": 5.016,
+            "hpBase": 371.712,
+            "hpAdd": 8.448,
+            "defBase": 145.2,
+            "defAdd": 3.3,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 125,
+            "spdBase": 90,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 260.832,
+            "atkAdd": 5.016,
+            "hpBase": 439.296,
+            "hpAdd": 8.448,
+            "defBase": 171.6,
+            "defAdd": 3.3,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 125,
+            "spdBase": 90,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 300.96,
+            "atkAdd": 5.016,
+            "hpBase": 506.88,
+            "hpAdd": 8.448,
+            "defBase": 198,
+            "defAdd": 3.3,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 125,
+            "spdBase": 90,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 341.088,
+            "atkAdd": 5.016,
+            "hpBase": 574.464,
+            "hpAdd": 8.448,
+            "defBase": 224.4,
+            "defAdd": 3.3,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 125,
+            "spdBase": 90,
+            "spdAdd": 0
+        }
+    ],
+    "eidolons": [
+        {
+            "name": "A Tall Figure",
+            "desc": "Using Skill will not remove Marks of Counter on the enemy.",
+            "params": []
+        },
+        {
+            "name": "A Tight Embrace",
+            "desc": "After using the Ultimate, ATK increases by <nobr>#1[i]%</nobr> for <nobr>#2[i]</nobr> turn(s).",
+            "params": [
+                0.3,
+                2
+            ]
+        },
+        {
+            "name": "Cold Steel Armor",
+            "desc": "Skill Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Basic ATK Lv. +1, up to a maximum of Lv. <nobr>10</nobr>.",
+            "params": []
+        },
+        {
+            "name": "Family's Warmth",
+            "desc": "After Clara is hit, the DMG taken by Clara is reduced by <nobr>#1[i]%</nobr>. This effect lasts until the start of her next turn.",
+            "params": [
+                0.3
+            ]
+        },
+        {
+            "name": "A Small Promise",
+            "desc": "Ultimate Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Talent Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.",
+            "params": []
+        },
+        {
+            "name": "Long Company",
+            "desc": "After other allies are hit, Svarog also has a <nobr>#1[i]%</nobr> fixed chance to trigger a Counter on the attacker and mark them with a Mark of Counter. When using Ultimate, the number of Enhanced Counters increases by <nobr>#2[i]</nobr>.",
+            "params": [
+                0.5,
+                1
+            ]
+        }
+    ],
+    "skills": {
+        "Basic ATK": {
+            "name": "I Want to Help",
+            "desc": "Deals <span style=\"color:#FFFFFF;\">Physical</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Clara's ATK to a single enemy.",
+            "ultCost": 0,
+            "break": 30,
+            "energy": 20,
+            "levelData": [
+                [
+                    0.5
+                ],
+                [
+                    0.6
+                ],
+                [
+                    0.7
+                ],
+                [
+                    0.8
+                ],
+                [
+                    0.9
+                ],
+                [
+                    1
+                ],
+                [
+                    1.1
+                ],
+                [
+                    1.2
+                ],
+                [
+                    1.3
+                ]
+            ]
+        },
+        "Skill": {
+            "name": "Svarog Watches Over You",
+            "desc": "Deals <span style=\"color:#FFFFFF;\">Physical</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Clara's ATK to all enemies, and additionally deals <span style=\"color:#FFFFFF;\">Physical</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> of Clara's ATK to enemies marked by Svarog with a Mark of Counter.<br />All Marks of Counter will be removed after this Skill is used.",
+            "ultCost": 0,
+            "break": 0,
+            "energy": 30,
+            "levelData": [
+                [
+                    0.6,
+                    0.6
+                ],
+                [
+                    0.66,
+                    0.66
+                ],
+                [
+                    0.72,
+                    0.72
+                ],
+                [
+                    0.78,
+                    0.78
+                ],
+                [
+                    0.84,
+                    0.84
+                ],
+                [
+                    0.9,
+                    0.9
+                ],
+                [
+                    0.975,
+                    0.975
+                ],
+                [
+                    1.05,
+                    1.05
+                ],
+                [
+                    1.125,
+                    1.125
+                ],
+                [
+                    1.2,
+                    1.2
+                ],
+                [
+                    1.26,
+                    1.26
+                ],
+                [
+                    1.32,
+                    1.32
+                ],
+                [
+                    1.38,
+                    1.38
+                ],
+                [
+                    1.44,
+                    1.44
+                ],
+                [
+                    1.5,
+                    1.5
+                ]
+            ]
+        },
+        "Ultimate": {
+            "name": "Promise, Not Command",
+            "desc": "After Clara uses Ultimate, DMG dealt to her is reduced by an extra <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]%</nobr></span>, and she has greatly increased chances of being attacked by enemies for <nobr>#3[i]</nobr> turn(s).<br />In addition, Svarog's <u>Counter</u> is enhanced. When an ally is attacked, Svarog immediately launches a <u>Counter</u>, and its DMG multiplier against the enemy increases by <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span>. Enemies adjacent to it take <nobr>50%</nobr> of the DMG dealt to the target enemy. Enhanced <u>Counter(s)</u> can take effect <nobr>#5[i]</nobr> time(s).",
+            "ultCost": 110,
+            "break": 0,
+            "energy": 5,
+            "levelData": [
+                [
+                    5,
+                    0.96,
+                    2,
+                    0.15,
+                    2
+                ],
+                [
+                    5,
+                    1.024,
+                    2,
+                    0.16,
+                    2
+                ],
+                [
+                    5,
+                    1.088,
+                    2,
+                    0.17,
+                    2
+                ],
+                [
+                    5,
+                    1.152,
+                    2,
+                    0.18,
+                    2
+                ],
+                [
+                    5,
+                    1.216,
+                    2,
+                    0.19,
+                    2
+                ],
+                [
+                    5,
+                    1.28,
+                    2,
+                    0.2,
+                    2
+                ],
+                [
+                    5,
+                    1.36,
+                    2,
+                    0.2125,
+                    2
+                ],
+                [
+                    5,
+                    1.44,
+                    2,
+                    0.225,
+                    2
+                ],
+                [
+                    5,
+                    1.52,
+                    2,
+                    0.2375,
+                    2
+                ],
+                [
+                    5,
+                    1.6,
+                    2,
+                    0.25,
+                    2
+                ],
+                [
+                    5,
+                    1.664,
+                    2,
+                    0.26,
+                    2
+                ],
+                [
+                    5,
+                    1.728,
+                    2,
+                    0.27,
+                    2
+                ],
+                [
+                    5,
+                    1.792,
+                    2,
+                    0.28,
+                    2
+                ],
+                [
+                    5,
+                    1.856,
+                    2,
+                    0.29,
+                    2
+                ],
+                [
+                    5,
+                    1.92,
+                    2,
+                    0.3,
+                    2
+                ]
+            ]
+        },
+        "Talent": {
+            "name": "Because We're Family",
+            "desc": "Under the protection of Svarog, DMG taken by Clara when hit by enemy attacks is reduced by <nobr>#3[i]%</nobr>. Svarog will mark enemies who attack Clara with his Mark of Counter and retaliate with a <u>Counter</u>, dealing <span style=\"color:#FFFFFF;\">Physical</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> of Clara's ATK.",
+            "ultCost": 0,
+            "break": 30,
+            "energy": 5,
+            "levelData": [
+                [
+                    1,
+                    0.8,
+                    0.1
+                ],
+                [
+                    1,
+                    0.88,
+                    0.1
+                ],
+                [
+                    1,
+                    0.96,
+                    0.1
+                ],
+                [
+                    1,
+                    1.04,
+                    0.1
+                ],
+                [
+                    1,
+                    1.12,
+                    0.1
+                ],
+                [
+                    1,
+                    1.2,
+                    0.1
+                ],
+                [
+                    1,
+                    1.3,
+                    0.1
+                ],
+                [
+                    1,
+                    1.4,
+                    0.1
+                ],
+                [
+                    1,
+                    1.5,
+                    0.1
+                ],
+                [
+                    1,
+                    1.6,
+                    0.1
+                ],
+                [
+                    1,
+                    1.68,
+                    0.1
+                ],
+                [
+                    1,
+                    1.76,
+                    0.1
+                ],
+                [
+                    1,
+                    1.84,
+                    0.1
+                ],
+                [
+                    1,
+                    1.92,
+                    0.1
+                ],
+                [
+                    1,
+                    2,
+                    0.1
+                ]
+            ]
+        },
+        "": {
+            "name": "Attack",
+            "desc": "Attack an enemy, and when the battle starts, reduce their Toughness of the corresponding Type.",
+            "ultCost": 0,
+            "break": 30,
+            "energy": 0,
+            "levelData": [
+                []
+            ]
+        },
+        "Technique": {
+            "name": "A Small Price for Victory",
+            "desc": "Immediately attacks the enemy. Upon entering battle, the chance Clara will be attacked by enemies increases for <nobr>#1[i]</nobr> turn(s).",
+            "ultCost": 0,
+            "break": 60,
+            "energy": 0,
+            "levelData": [
+                [
+                    2,
+                    5
+                ]
+            ]
+        }
+    }
+}

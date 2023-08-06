@@ -1,0 +1,411 @@
+{
+    "name": "Herta",
+    "rarity": 4,
+    "spRequirement": 110,
+    "element": "Ice",
+    "path": "Erudition",
+    "levelData": [
+        {
+            "atkBase": 79.2,
+            "atkAdd": 3.96,
+            "hpBase": 129.6,
+            "hpAdd": 6.48,
+            "defBase": 54,
+            "defAdd": 2.7,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 100,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 110.88,
+            "atkAdd": 3.96,
+            "hpBase": 181.44,
+            "hpAdd": 6.48,
+            "defBase": 75.6,
+            "defAdd": 2.7,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 100,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 142.56,
+            "atkAdd": 3.96,
+            "hpBase": 233.28,
+            "hpAdd": 6.48,
+            "defBase": 97.2,
+            "defAdd": 2.7,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 100,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 174.24,
+            "atkAdd": 3.96,
+            "hpBase": 285.12,
+            "hpAdd": 6.48,
+            "defBase": 118.8,
+            "defAdd": 2.7,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 100,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 205.92,
+            "atkAdd": 3.96,
+            "hpBase": 336.96,
+            "hpAdd": 6.48,
+            "defBase": 140.4,
+            "defAdd": 2.7,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 100,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 237.6,
+            "atkAdd": 3.96,
+            "hpBase": 388.8,
+            "hpAdd": 6.48,
+            "defBase": 162,
+            "defAdd": 2.7,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 100,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 269.28,
+            "atkAdd": 3.96,
+            "hpBase": 440.64,
+            "hpAdd": 6.48,
+            "defBase": 183.6,
+            "defAdd": 2.7,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 100,
+            "spdAdd": 0
+        }
+    ],
+    "eidolons": [
+        {
+            "name": "Kick You When You're Down",
+            "desc": "If the enemy's HP percentage is at <nobr>#1[i]%</nobr> or less, Herta's Basic ATK deals Additional Ice DMG equal to <nobr>#2[i]%</nobr> of Herta's ATK.",
+            "params": [
+                0.5,
+                0.4
+            ]
+        },
+        {
+            "name": "Keep the Ball Rolling",
+            "desc": "Every time Talent is triggered, this character's CRIT Rate increases by <nobr>#1[i]%</nobr>. This effect can stack up to <nobr>#2[i]</nobr> time(s).",
+            "params": [
+                0.03,
+                5
+            ]
+        },
+        {
+            "name": "That's the Kind of Girl I Am",
+            "desc": "Skill Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Basic ATK Lv. +1, up to a maximum of Lv. <nobr>10</nobr>.",
+            "params": []
+        },
+        {
+            "name": "Hit Where It Hurts",
+            "desc": "When Talent is triggered, DMG increases by <nobr>#1[i]%</nobr>.",
+            "params": [
+                0.1
+            ]
+        },
+        {
+            "name": "Cuss Big or Cuss Nothing",
+            "desc": "Ultimate Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Talent Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.",
+            "params": []
+        },
+        {
+            "name": "No One Can Betray Me",
+            "desc": "After using Ultimate, this character's ATK increases by <nobr>#1[i]%</nobr> for <nobr>#2[i]</nobr> turn(s).",
+            "params": [
+                0.25,
+                1
+            ]
+        }
+    ],
+    "skills": {
+        "Basic ATK": {
+            "name": "What Are You Looking At?",
+            "desc": "Deals <span style=\"color:#47C7FD;\">Ice</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Herta's ATK to a single enemy.",
+            "ultCost": 0,
+            "break": 30,
+            "energy": 20,
+            "levelData": [
+                [
+                    0.5
+                ],
+                [
+                    0.6
+                ],
+                [
+                    0.7
+                ],
+                [
+                    0.8
+                ],
+                [
+                    0.9
+                ],
+                [
+                    1
+                ],
+                [
+                    1.1
+                ],
+                [
+                    1.2
+                ],
+                [
+                    1.3
+                ]
+            ]
+        },
+        "Skill": {
+            "name": "One-Time Offer",
+            "desc": "Deals <span style=\"color:#47C7FD;\">Ice</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Herta's ATK to all enemies. If the enemy's HP percentage is <nobr>#2[i]%</nobr> or higher, DMG dealt to this target increases by <nobr>#3[i]%</nobr>.",
+            "ultCost": 0,
+            "break": 0,
+            "energy": 30,
+            "levelData": [
+                [
+                    0.5,
+                    0.5,
+                    0.2
+                ],
+                [
+                    0.55,
+                    0.5,
+                    0.2
+                ],
+                [
+                    0.6,
+                    0.5,
+                    0.2
+                ],
+                [
+                    0.65,
+                    0.5,
+                    0.2
+                ],
+                [
+                    0.7,
+                    0.5,
+                    0.2
+                ],
+                [
+                    0.75,
+                    0.5,
+                    0.2
+                ],
+                [
+                    0.8125,
+                    0.5,
+                    0.2
+                ],
+                [
+                    0.875,
+                    0.5,
+                    0.2
+                ],
+                [
+                    0.9375,
+                    0.5,
+                    0.2
+                ],
+                [
+                    1,
+                    0.5,
+                    0.2
+                ],
+                [
+                    1.05,
+                    0.5,
+                    0.2
+                ],
+                [
+                    1.1,
+                    0.5,
+                    0.2
+                ],
+                [
+                    1.15,
+                    0.5,
+                    0.2
+                ],
+                [
+                    1.2,
+                    0.5,
+                    0.2
+                ],
+                [
+                    1.25,
+                    0.5,
+                    0.2
+                ]
+            ]
+        },
+        "Ultimate": {
+            "name": "It's Magic, I Added Some Magic",
+            "desc": "Deals <span style=\"color:#47C7FD;\">Ice</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Herta's ATK to all enemies.",
+            "ultCost": 110,
+            "break": 0,
+            "energy": 5,
+            "levelData": [
+                [
+                    1.2
+                ],
+                [
+                    1.28
+                ],
+                [
+                    1.36
+                ],
+                [
+                    1.44
+                ],
+                [
+                    1.52
+                ],
+                [
+                    1.6
+                ],
+                [
+                    1.7
+                ],
+                [
+                    1.8
+                ],
+                [
+                    1.9
+                ],
+                [
+                    2
+                ],
+                [
+                    2.08
+                ],
+                [
+                    2.16
+                ],
+                [
+                    2.24
+                ],
+                [
+                    2.32
+                ],
+                [
+                    2.4
+                ]
+            ]
+        },
+        "Talent": {
+            "name": "Fine, I'll Do It Myself",
+            "desc": "When an ally's attack causes an enemy's HP percentage to fall to <nobr>#1[i]%</nobr> or lower, Herta will launch a <u>follow-up attack</u>, dealing <span style=\"color:#47C7FD;\">Ice</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> of Herta's ATK to all enemies.",
+            "ultCost": 0,
+            "break": 0,
+            "energy": 5,
+            "levelData": [
+                [
+                    0.5,
+                    0.25
+                ],
+                [
+                    0.5,
+                    0.265
+                ],
+                [
+                    0.5,
+                    0.28
+                ],
+                [
+                    0.5,
+                    0.295
+                ],
+                [
+                    0.5,
+                    0.31
+                ],
+                [
+                    0.5,
+                    0.325
+                ],
+                [
+                    0.5,
+                    0.34375
+                ],
+                [
+                    0.5,
+                    0.3625
+                ],
+                [
+                    0.5,
+                    0.38125
+                ],
+                [
+                    0.5,
+                    0.4
+                ],
+                [
+                    0.5,
+                    0.415
+                ],
+                [
+                    0.5,
+                    0.43
+                ],
+                [
+                    0.5,
+                    0.445
+                ],
+                [
+                    0.5,
+                    0.46
+                ],
+                [
+                    0.5,
+                    0.475
+                ]
+            ]
+        },
+        "": {
+            "name": "Attack",
+            "desc": "Attack an enemy, and when the battle starts, reduce their Toughness of the corresponding Type.",
+            "ultCost": 0,
+            "break": 30,
+            "energy": 0,
+            "levelData": [
+                []
+            ]
+        },
+        "Technique": {
+            "name": "It Can Still Be Optimized",
+            "desc": "After using her Technique, Herta's ATK increases by <nobr>#1[i]%</nobr> for <nobr>#2[i]</nobr> turn(s) at the beginning of the next battle.",
+            "ultCost": 0,
+            "break": 0,
+            "energy": 0,
+            "levelData": [
+                [
+                    0.4,
+                    3
+                ]
+            ]
+        }
+    }
+}

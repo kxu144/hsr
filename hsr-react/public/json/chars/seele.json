@@ -1,0 +1,409 @@
+{
+    "name": "Seele",
+    "rarity": 5,
+    "spRequirement": 120,
+    "element": "Quantum",
+    "path": "The Hunt",
+    "levelData": [
+        {
+            "atkBase": 87.12,
+            "atkAdd": 4.356,
+            "hpBase": 126.72,
+            "hpAdd": 6.336,
+            "defBase": 49.5,
+            "defAdd": 2.475,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 115,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 121.968,
+            "atkAdd": 4.356,
+            "hpBase": 177.408,
+            "hpAdd": 6.336,
+            "defBase": 69.3,
+            "defAdd": 2.475,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 115,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 156.816,
+            "atkAdd": 4.356,
+            "hpBase": 228.096,
+            "hpAdd": 6.336,
+            "defBase": 89.1,
+            "defAdd": 2.475,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 115,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 191.664,
+            "atkAdd": 4.356,
+            "hpBase": 278.784,
+            "hpAdd": 6.336,
+            "defBase": 108.9,
+            "defAdd": 2.475,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 115,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 226.512,
+            "atkAdd": 4.356,
+            "hpBase": 329.472,
+            "hpAdd": 6.336,
+            "defBase": 128.7,
+            "defAdd": 2.475,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 115,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 261.36,
+            "atkAdd": 4.356,
+            "hpBase": 380.16,
+            "hpAdd": 6.336,
+            "defBase": 148.5,
+            "defAdd": 2.475,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 115,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 296.208,
+            "atkAdd": 4.356,
+            "hpBase": 430.848,
+            "hpAdd": 6.336,
+            "defBase": 168.3,
+            "defAdd": 2.475,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 115,
+            "spdAdd": 0
+        }
+    ],
+    "eidolons": [
+        {
+            "name": "Extirpating Slash",
+            "desc": "When dealing DMG to an enemy whose HP percentage is <nobr>#1[i]%</nobr> or lower, CRIT Rate increases by <nobr>#2[i]%</nobr>.",
+            "params": [
+                0.8,
+                0.15
+            ]
+        },
+        {
+            "name": "Dancing Butterfly",
+            "desc": "The SPD Boost effect of Seele's Skill can stack up to <nobr>#1[i]</nobr> time(s).",
+            "params": [
+                2
+            ]
+        },
+        {
+            "name": "Dazzling Tumult",
+            "desc": "Skill Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Talent Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.",
+            "params": []
+        },
+        {
+            "name": "Flitting Phantasm",
+            "desc": "Seele regenerates <nobr>#1[i]</nobr> Energy when she defeats an enemy.",
+            "params": [
+                15
+            ]
+        },
+        {
+            "name": "Piercing Shards",
+            "desc": "Ultimate Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Basic ATK Lv. +1, up to a maximum of Lv. <nobr>10</nobr>.",
+            "params": []
+        },
+        {
+            "name": "Shattering Shambles",
+            "desc": "After Seele uses her Ultimate, inflict the target enemy with Butterfly Flurry for <nobr>#2[i]</nobr> turn(s). Enemies suffering from Butterfly Flurry will take Additional Quantum DMG equal to <nobr>#1[i]%</nobr> of Seele's Ultimate DMG every time they are attacked. If the target enemy is defeated by the Butterfly Flurry DMG triggered by other allies' attacks, Seele's Talent will not be triggered.<br />When Seele is knocked down, the Butterfly Flurry inflicted on the enemies will be removed.",
+            "params": [
+                0.15,
+                1
+            ]
+        }
+    ],
+    "skills": {
+        "Basic ATK": {
+            "name": "Thwack",
+            "desc": "Deals <span style=\"color:#7788ff;\">Quantum</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Seele's ATK to a single enemy.",
+            "ultCost": 0,
+            "break": 30,
+            "energy": 20,
+            "levelData": [
+                [
+                    0.5
+                ],
+                [
+                    0.6
+                ],
+                [
+                    0.7
+                ],
+                [
+                    0.8
+                ],
+                [
+                    0.9
+                ],
+                [
+                    1
+                ],
+                [
+                    1.1
+                ],
+                [
+                    1.2
+                ],
+                [
+                    1.3
+                ]
+            ]
+        },
+        "Skill": {
+            "name": "Sheathed Blade",
+            "desc": "Increases Seele's SPD by <nobr>#2[i]%</nobr> for <nobr>#3[i]</nobr> turn(s) and deals <span style=\"color:#7788ff;\">Quantum</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Seele's ATK to a single enemy.",
+            "ultCost": 0,
+            "break": 60,
+            "energy": 30,
+            "levelData": [
+                [
+                    1.1,
+                    0.25,
+                    2
+                ],
+                [
+                    1.21,
+                    0.25,
+                    2
+                ],
+                [
+                    1.32,
+                    0.25,
+                    2
+                ],
+                [
+                    1.43,
+                    0.25,
+                    2
+                ],
+                [
+                    1.54,
+                    0.25,
+                    2
+                ],
+                [
+                    1.65,
+                    0.25,
+                    2
+                ],
+                [
+                    1.7875,
+                    0.25,
+                    2
+                ],
+                [
+                    1.925,
+                    0.25,
+                    2
+                ],
+                [
+                    2.0625,
+                    0.25,
+                    2
+                ],
+                [
+                    2.2,
+                    0.25,
+                    2
+                ],
+                [
+                    2.31,
+                    0.25,
+                    2
+                ],
+                [
+                    2.42,
+                    0.25,
+                    2
+                ],
+                [
+                    2.53,
+                    0.25,
+                    2
+                ],
+                [
+                    2.64,
+                    0.25,
+                    2
+                ],
+                [
+                    2.75,
+                    0.25,
+                    2
+                ]
+            ]
+        },
+        "Ultimate": {
+            "name": "Butterfly Flurry",
+            "desc": "Seele enters the buffed state and deals <span style=\"color:#7788ff;\">Quantum</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of her ATK to a single enemy.",
+            "ultCost": 120,
+            "break": 90,
+            "energy": 5,
+            "levelData": [
+                [
+                    2.55
+                ],
+                [
+                    2.72
+                ],
+                [
+                    2.89
+                ],
+                [
+                    3.06
+                ],
+                [
+                    3.23
+                ],
+                [
+                    3.4
+                ],
+                [
+                    3.6125
+                ],
+                [
+                    3.825
+                ],
+                [
+                    4.0375
+                ],
+                [
+                    4.25
+                ],
+                [
+                    4.42
+                ],
+                [
+                    4.59
+                ],
+                [
+                    4.76
+                ],
+                [
+                    4.93
+                ],
+                [
+                    5.1
+                ]
+            ]
+        },
+        "Talent": {
+            "name": "Resurgence",
+            "desc": "Enters the buffed state upon defeating an enemy with Basic ATK, Skill, or Ultimate, and receives an <u>extra turn</u>. While in the buffed state, the DMG of Seele's attacks increases by <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> for <nobr>#2[i]</nobr> turn(s).<br />Enemies defeated in the <u>extra turn</u> provided by \"Resurgence\" will not trigger another \"Resurgence.\"",
+            "ultCost": 0,
+            "break": 0,
+            "energy": 0,
+            "levelData": [
+                [
+                    0.4,
+                    1
+                ],
+                [
+                    0.44,
+                    1
+                ],
+                [
+                    0.48,
+                    1
+                ],
+                [
+                    0.52,
+                    1
+                ],
+                [
+                    0.56,
+                    1
+                ],
+                [
+                    0.6,
+                    1
+                ],
+                [
+                    0.65,
+                    1
+                ],
+                [
+                    0.7,
+                    1
+                ],
+                [
+                    0.75,
+                    1
+                ],
+                [
+                    0.8,
+                    1
+                ],
+                [
+                    0.84,
+                    1
+                ],
+                [
+                    0.88,
+                    1
+                ],
+                [
+                    0.92,
+                    1
+                ],
+                [
+                    0.96,
+                    1
+                ],
+                [
+                    1,
+                    1
+                ]
+            ]
+        },
+        "": {
+            "name": "Attack",
+            "desc": "Attack an enemy, and when the battle starts, reduce their Toughness of the corresponding Type.",
+            "ultCost": 0,
+            "break": 30,
+            "energy": 0,
+            "levelData": [
+                []
+            ]
+        },
+        "Technique": {
+            "name": "Phantom Illusion",
+            "desc": "After using her Technique, Seele gains Stealth for <nobr>#1[i]</nobr> second(s). While Stealth is active, Seele cannot be detected by enemies. And when entering battle by attacking enemies, Seele will immediately enter the buffed state.",
+            "ultCost": 0,
+            "break": 0,
+            "energy": 0,
+            "levelData": [
+                [
+                    20
+                ]
+            ]
+        }
+    }
+}

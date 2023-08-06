@@ -1,0 +1,440 @@
+{
+    "name": "Serval",
+    "rarity": 4,
+    "spRequirement": 100,
+    "element": "Lightning",
+    "path": "Erudition",
+    "levelData": [
+        {
+            "atkBase": 88.8,
+            "atkAdd": 4.44,
+            "hpBase": 124.8,
+            "hpAdd": 6.24,
+            "defBase": 51,
+            "defAdd": 2.55,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 104,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 124.32,
+            "atkAdd": 4.44,
+            "hpBase": 174.72,
+            "hpAdd": 6.24,
+            "defBase": 71.4,
+            "defAdd": 2.55,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 104,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 159.84,
+            "atkAdd": 4.44,
+            "hpBase": 224.64,
+            "hpAdd": 6.24,
+            "defBase": 91.8,
+            "defAdd": 2.55,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 104,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 195.36,
+            "atkAdd": 4.44,
+            "hpBase": 274.56,
+            "hpAdd": 6.24,
+            "defBase": 112.2,
+            "defAdd": 2.55,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 104,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 230.88,
+            "atkAdd": 4.44,
+            "hpBase": 324.48,
+            "hpAdd": 6.24,
+            "defBase": 132.6,
+            "defAdd": 2.55,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 104,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 266.4,
+            "atkAdd": 4.44,
+            "hpBase": 374.4,
+            "hpAdd": 6.24,
+            "defBase": 153,
+            "defAdd": 2.55,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 104,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 301.92,
+            "atkAdd": 4.44,
+            "hpBase": 424.32,
+            "hpAdd": 6.24,
+            "defBase": 173.4,
+            "defAdd": 2.55,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 104,
+            "spdAdd": 0
+        }
+    ],
+    "eidolons": [
+        {
+            "name": "Echo Chamber",
+            "desc": "Basic ATK deals Lightning DMG equal to <nobr>#1[i]%</nobr> of the Basic ATK's DMG to a random enemy adjacent to the target of the Basic ATK.",
+            "params": [
+                0.6
+            ]
+        },
+        {
+            "name": "Encore!",
+            "desc": "Every time Serval's Talent is triggered to deal Additional DMG, she regenerates <nobr>#1[i]</nobr> Energy.",
+            "params": [
+                4
+            ]
+        },
+        {
+            "name": "Listen, the Heartbeat of the Gears",
+            "desc": "Skill Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Basic ATK Lv. +1, up to a maximum of Lv. <nobr>10</nobr>.",
+            "params": []
+        },
+        {
+            "name": "Make Some Noise!",
+            "desc": "Ultimate has a <nobr>#1[i]%</nobr> base chance to apply Shock to any enemies not currently Shocked. This Shock has the same effects as the one applied by Skill.",
+            "params": [
+                1
+            ]
+        },
+        {
+            "name": "Belobog's Loudest Roar!",
+            "desc": "Ultimate Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Talent Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.",
+            "params": []
+        },
+        {
+            "name": "This Song Rocks to Heaven!",
+            "desc": "Serval deals <nobr>#1[i]%</nobr> more DMG to Shocked enemies.",
+            "params": [
+                0.3
+            ]
+        }
+    ],
+    "skills": {
+        "Basic ATK": {
+            "name": "Roaring Thunderclap",
+            "desc": "Deals <span style=\"color:#c75de2;\">Lightning</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Serval's ATK to a single enemy.",
+            "ultCost": 0,
+            "break": 30,
+            "energy": 20,
+            "levelData": [
+                [
+                    0.5
+                ],
+                [
+                    0.6
+                ],
+                [
+                    0.7
+                ],
+                [
+                    0.8
+                ],
+                [
+                    0.9
+                ],
+                [
+                    1
+                ],
+                [
+                    1.1
+                ],
+                [
+                    1.2
+                ],
+                [
+                    1.3
+                ]
+            ]
+        },
+        "Skill": {
+            "name": "Lightning Flash",
+            "desc": "Deals <span style=\"color:#c75de2;\">Lightning</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Serval's ATK to a single enemy and <span style=\"color:#c75de2;\">Lightning</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> of Serval's ATK to enemies adjacent to it, with a <nobr>#3[i]%</nobr> <u>base chance</u> for enemies hit to become Shocked for <nobr>#4[i]</nobr> turn(s).<br />While Shocked, enemies take <span style=\"color:#c75de2;\">Lightning</span> DoT equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#5[i]%</nobr></span> of Serval's ATK at the beginning of each turn.",
+            "ultCost": 0,
+            "break": 60,
+            "energy": 30,
+            "levelData": [
+                [
+                    0.7,
+                    0.3,
+                    0.8,
+                    2,
+                    0.4
+                ],
+                [
+                    0.77,
+                    0.33,
+                    0.8,
+                    2,
+                    0.44
+                ],
+                [
+                    0.84,
+                    0.36,
+                    0.8,
+                    2,
+                    0.48
+                ],
+                [
+                    0.91,
+                    0.39,
+                    0.8,
+                    2,
+                    0.52
+                ],
+                [
+                    0.98,
+                    0.42,
+                    0.8,
+                    2,
+                    0.56
+                ],
+                [
+                    1.05,
+                    0.45,
+                    0.8,
+                    2,
+                    0.62
+                ],
+                [
+                    1.1375,
+                    0.4875,
+                    0.8,
+                    2,
+                    0.7
+                ],
+                [
+                    1.225,
+                    0.525,
+                    0.8,
+                    2,
+                    0.8
+                ],
+                [
+                    1.3125,
+                    0.5625,
+                    0.8,
+                    2,
+                    0.92
+                ],
+                [
+                    1.4,
+                    0.6,
+                    0.8,
+                    2,
+                    1.04
+                ],
+                [
+                    1.47,
+                    0.63,
+                    0.8,
+                    2,
+                    1.092
+                ],
+                [
+                    1.54,
+                    0.66,
+                    0.8,
+                    2,
+                    1.144
+                ],
+                [
+                    1.61,
+                    0.69,
+                    0.8,
+                    2,
+                    1.196
+                ],
+                [
+                    1.68,
+                    0.72,
+                    0.8,
+                    2,
+                    1.248
+                ],
+                [
+                    1.75,
+                    0.75,
+                    0.8,
+                    2,
+                    1.3
+                ]
+            ]
+        },
+        "Ultimate": {
+            "name": "Here Comes the Mechanical Fever",
+            "desc": "Deals <span style=\"color:#c75de2;\">Lightning</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Serval's ATK to all enemies. Enemies already Shocked will extend the duration of their Shock state by <nobr>#2[i]</nobr> turn(s).",
+            "ultCost": 100,
+            "break": 0,
+            "energy": 5,
+            "levelData": [
+                [
+                    1.08,
+                    2
+                ],
+                [
+                    1.152,
+                    2
+                ],
+                [
+                    1.224,
+                    2
+                ],
+                [
+                    1.296,
+                    2
+                ],
+                [
+                    1.368,
+                    2
+                ],
+                [
+                    1.44,
+                    2
+                ],
+                [
+                    1.53,
+                    2
+                ],
+                [
+                    1.62,
+                    2
+                ],
+                [
+                    1.71,
+                    2
+                ],
+                [
+                    1.8,
+                    2
+                ],
+                [
+                    1.872,
+                    2
+                ],
+                [
+                    1.944,
+                    2
+                ],
+                [
+                    2.016,
+                    2
+                ],
+                [
+                    2.088,
+                    2
+                ],
+                [
+                    2.16,
+                    2
+                ]
+            ]
+        },
+        "Talent": {
+            "name": "Galvanic Chords",
+            "desc": "After Serval attacks, deals <u>Additional</u> <span style=\"color:#c75de2;\">Lightning</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Serval's ATK to all Shocked enemies.",
+            "ultCost": 0,
+            "break": 0,
+            "energy": 0,
+            "levelData": [
+                [
+                    0.36
+                ],
+                [
+                    0.396
+                ],
+                [
+                    0.432
+                ],
+                [
+                    0.468
+                ],
+                [
+                    0.504
+                ],
+                [
+                    0.54
+                ],
+                [
+                    0.585
+                ],
+                [
+                    0.63
+                ],
+                [
+                    0.675
+                ],
+                [
+                    0.72
+                ],
+                [
+                    0.756
+                ],
+                [
+                    0.792
+                ],
+                [
+                    0.828
+                ],
+                [
+                    0.864
+                ],
+                [
+                    0.9
+                ]
+            ]
+        },
+        "": {
+            "name": "Attack",
+            "desc": "Attack an enemy, and when the battle starts, reduce their Toughness of the corresponding Type.",
+            "ultCost": 0,
+            "break": 30,
+            "energy": 0,
+            "levelData": [
+                []
+            ]
+        },
+        "Technique": {
+            "name": "Good Night, Belobog",
+            "desc": "Immediately attacks the enemy. After entering battle, deals <span style=\"color:#c75de2;\">Lightning</span> DMG equal to <nobr>#4[i]%</nobr> of Serval's ATK to a random enemy, with a <nobr>#1[i]%</nobr> <u>base chance</u> for all enemies to become Shocked for <nobr>#3[i]</nobr> turn(s).<br />While Shocked, enemies will take <span style=\"color:#c75de2;\">Lightning</span> DoT equal to <nobr>#2[i]%</nobr> of Serval's ATK at the beginning of each turn.",
+            "ultCost": 0,
+            "break": 60,
+            "energy": 0,
+            "levelData": [
+                [
+                    1,
+                    0.5,
+                    3,
+                    0.5
+                ]
+            ]
+        }
+    }
+}

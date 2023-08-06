@@ -1,0 +1,406 @@
+{
+    "name": "Asta",
+    "rarity": 4,
+    "spRequirement": 120,
+    "element": "Fire",
+    "path": "Harmony",
+    "levelData": [
+        {
+            "atkBase": 69.6,
+            "atkAdd": 3.48,
+            "hpBase": 139.2,
+            "hpAdd": 6.96,
+            "defBase": 63,
+            "defAdd": 3.15,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 100,
+            "spdBase": 106,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 97.44,
+            "atkAdd": 3.48,
+            "hpBase": 194.88,
+            "hpAdd": 6.96,
+            "defBase": 88.2,
+            "defAdd": 3.15,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 100,
+            "spdBase": 106,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 125.28,
+            "atkAdd": 3.48,
+            "hpBase": 250.56,
+            "hpAdd": 6.96,
+            "defBase": 113.4,
+            "defAdd": 3.15,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 100,
+            "spdBase": 106,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 153.12,
+            "atkAdd": 3.48,
+            "hpBase": 306.24,
+            "hpAdd": 6.96,
+            "defBase": 138.6,
+            "defAdd": 3.15,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 100,
+            "spdBase": 106,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 180.96,
+            "atkAdd": 3.48,
+            "hpBase": 361.92,
+            "hpAdd": 6.96,
+            "defBase": 163.8,
+            "defAdd": 3.15,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 100,
+            "spdBase": 106,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 208.8,
+            "atkAdd": 3.48,
+            "hpBase": 417.6,
+            "hpAdd": 6.96,
+            "defBase": 189,
+            "defAdd": 3.15,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 100,
+            "spdBase": 106,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 236.64,
+            "atkAdd": 3.48,
+            "hpBase": 473.28,
+            "hpAdd": 6.96,
+            "defBase": 214.2,
+            "defAdd": 3.15,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 100,
+            "spdBase": 106,
+            "spdAdd": 0
+        }
+    ],
+    "eidolons": [
+        {
+            "name": "Star Sings Sans Verses or Vocals",
+            "desc": "When using Skill, deals DMG for 1 extra time to a random enemy.",
+            "params": []
+        },
+        {
+            "name": "Moon Speaks in Wax and Wane",
+            "desc": "After using her Ultimate, Asta's Charging stacks will not be reduced in the next turn.",
+            "params": [
+                1
+            ]
+        },
+        {
+            "name": "Meteor Showers for Wish and Want",
+            "desc": "Skill Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Talent Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.",
+            "params": []
+        },
+        {
+            "name": "Aurora Basks in Beauty and Bliss",
+            "desc": "Asta's Energy Regeneration Rate increases by <nobr>#2[i]%</nobr> when she has <nobr>#1[i]</nobr> or more Charging stacks.",
+            "params": [
+                2,
+                0.15
+            ]
+        },
+        {
+            "name": "Nebula Secludes in Runes and Riddles",
+            "desc": "Ultimate Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Basic ATK Lv. +1, up to a maximum of Lv. <nobr>10</nobr>.",
+            "params": []
+        },
+        {
+            "name": "Galaxy Dreams in Calm and Comfort",
+            "desc": "Charging stack(s) lost in each turn is reduced by <nobr>#1[i]</nobr>.",
+            "params": [
+                1
+            ]
+        }
+    ],
+    "skills": {
+        "Basic ATK": {
+            "name": "Spectrum Beam",
+            "desc": "Deals <span style=\"color:#F84F36;\">Fire</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Asta's ATK to a single enemy.",
+            "ultCost": 0,
+            "break": 30,
+            "energy": 20,
+            "levelData": [
+                [
+                    0.5
+                ],
+                [
+                    0.6
+                ],
+                [
+                    0.7
+                ],
+                [
+                    0.8
+                ],
+                [
+                    0.9
+                ],
+                [
+                    1
+                ],
+                [
+                    1.1
+                ],
+                [
+                    1.2
+                ],
+                [
+                    1.3
+                ]
+            ]
+        },
+        "Skill": {
+            "name": "Meteor Storm",
+            "desc": "Deals <span style=\"color:#F84F36;\">Fire</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Asta's ATK to a single enemy and further deals DMG for 4 extra times, with each time dealing <span style=\"color:#F84F36;\">Fire</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Asta's ATK to a random enemy.",
+            "ultCost": 0,
+            "break": 30,
+            "energy": 6,
+            "levelData": [
+                [
+                    0.25
+                ],
+                [
+                    0.275
+                ],
+                [
+                    0.3
+                ],
+                [
+                    0.325
+                ],
+                [
+                    0.35
+                ],
+                [
+                    0.375
+                ],
+                [
+                    0.40625
+                ],
+                [
+                    0.4375
+                ],
+                [
+                    0.46875
+                ],
+                [
+                    0.5
+                ],
+                [
+                    0.525
+                ],
+                [
+                    0.55
+                ],
+                [
+                    0.575
+                ],
+                [
+                    0.6
+                ],
+                [
+                    0.625
+                ]
+            ]
+        },
+        "Ultimate": {
+            "name": "Astral Blessing",
+            "desc": "Increases SPD of all allies by <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]</nobr></span> for <nobr>#2[i]</nobr> turn(s).",
+            "ultCost": 120,
+            "break": 0,
+            "energy": 5,
+            "levelData": [
+                [
+                    36,
+                    2
+                ],
+                [
+                    37.4,
+                    2
+                ],
+                [
+                    38.8,
+                    2
+                ],
+                [
+                    40.2,
+                    2
+                ],
+                [
+                    41.6,
+                    2
+                ],
+                [
+                    43,
+                    2
+                ],
+                [
+                    44.75,
+                    2
+                ],
+                [
+                    46.5,
+                    2
+                ],
+                [
+                    48.25,
+                    2
+                ],
+                [
+                    50,
+                    2
+                ],
+                [
+                    51.4,
+                    2
+                ],
+                [
+                    52.8,
+                    2
+                ],
+                [
+                    54.2,
+                    2
+                ],
+                [
+                    55.6,
+                    2
+                ],
+                [
+                    57,
+                    2
+                ]
+            ]
+        },
+        "Talent": {
+            "name": "Astrometry",
+            "desc": "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has <span style=\"color:#F84F36;\">Fire</span> Weakness.<br />For every stack of Charging Asta has, all allies' ATK increases by <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[f1]%</nobr></span>, up to <nobr>#2[i]</nobr> time(s).<br />Starting from her second turn, Asta's Charging stack count is reduced by <nobr>#3[i]</nobr> at the beginning of every turn.",
+            "ultCost": 0,
+            "break": 0,
+            "energy": 0,
+            "levelData": [
+                [
+                    0.07,
+                    5,
+                    3
+                ],
+                [
+                    0.077,
+                    5,
+                    3
+                ],
+                [
+                    0.084,
+                    5,
+                    3
+                ],
+                [
+                    0.091,
+                    5,
+                    3
+                ],
+                [
+                    0.098,
+                    5,
+                    3
+                ],
+                [
+                    0.105,
+                    5,
+                    3
+                ],
+                [
+                    0.11375,
+                    5,
+                    3
+                ],
+                [
+                    0.1225,
+                    5,
+                    3
+                ],
+                [
+                    0.13125,
+                    5,
+                    3
+                ],
+                [
+                    0.14,
+                    5,
+                    3
+                ],
+                [
+                    0.147,
+                    5,
+                    3
+                ],
+                [
+                    0.154,
+                    5,
+                    3
+                ],
+                [
+                    0.161,
+                    5,
+                    3
+                ],
+                [
+                    0.168,
+                    5,
+                    3
+                ],
+                [
+                    0.175,
+                    5,
+                    3
+                ]
+            ]
+        },
+        "": {
+            "name": "Attack",
+            "desc": "Attack an enemy, and when the battle starts, reduce their Toughness of the corresponding Type.",
+            "ultCost": 0,
+            "break": 30,
+            "energy": 0,
+            "levelData": [
+                []
+            ]
+        },
+        "Technique": {
+            "name": "Miracle Flash",
+            "desc": "Immediately attacks the enemy. After entering battle, deals <span style=\"color:#F84F36;\">Fire</span> DMG equal to <nobr>#1[i]%</nobr> of Asta's ATK to all enemies.",
+            "ultCost": 0,
+            "break": 60,
+            "energy": 0,
+            "levelData": [
+                [
+                    0.5
+                ]
+            ]
+        }
+    }
+}

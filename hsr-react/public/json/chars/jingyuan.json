@@ -1,0 +1,469 @@
+{
+    "name": "Jing Yuan",
+    "rarity": 5,
+    "spRequirement": 130,
+    "element": "Lightning",
+    "path": "Erudition",
+    "levelData": [
+        {
+            "atkBase": 95.04,
+            "atkAdd": 4.752,
+            "hpBase": 158.4,
+            "hpAdd": 7.92,
+            "defBase": 66,
+            "defAdd": 3.3,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 99,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 133.056,
+            "atkAdd": 4.752,
+            "hpBase": 221.76,
+            "hpAdd": 7.92,
+            "defBase": 92.4,
+            "defAdd": 3.3,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 99,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 171.072,
+            "atkAdd": 4.752,
+            "hpBase": 285.12,
+            "hpAdd": 7.92,
+            "defBase": 118.8,
+            "defAdd": 3.3,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 99,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 209.088,
+            "atkAdd": 4.752,
+            "hpBase": 348.48,
+            "hpAdd": 7.92,
+            "defBase": 145.2,
+            "defAdd": 3.3,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 99,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 247.104,
+            "atkAdd": 4.752,
+            "hpBase": 411.84,
+            "hpAdd": 7.92,
+            "defBase": 171.6,
+            "defAdd": 3.3,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 99,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 285.12,
+            "atkAdd": 4.752,
+            "hpBase": 475.2,
+            "hpAdd": 7.92,
+            "defBase": 198,
+            "defAdd": 3.3,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 99,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 323.136,
+            "atkAdd": 4.752,
+            "hpBase": 538.56,
+            "hpAdd": 7.92,
+            "defBase": 224.4,
+            "defAdd": 3.3,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 99,
+            "spdAdd": 0
+        }
+    ],
+    "eidolons": [
+        {
+            "name": "Slash, Seas Split",
+            "desc": "When Lightning-Lord attacks, the DMG multiplier on enemies adjacent to the target enemy increases by an extra amount equal to <nobr>#1[i]%</nobr> of the DMG multiplier against the target enemy.",
+            "params": [
+                0.25
+            ]
+        },
+        {
+            "name": "Swing, Skies Squashed",
+            "desc": "After Lightning-Lord takes action, DMG caused by Jing Yuan's Basic ATK, Skill, and Ultimate increases by <nobr>#1[i]%</nobr> for <nobr>#2[i]</nobr> turn(s).",
+            "params": [
+                0.2,
+                2
+            ]
+        },
+        {
+            "name": "Strike, Suns Subdued",
+            "desc": "Ultimate Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Basic ATK Lv. +1, up to a maximum of Lv. <nobr>10</nobr>.",
+            "params": []
+        },
+        {
+            "name": "Spin, Stars Sieged",
+            "desc": "For each hit performed by the Lightning-Lord when it takes action, Jing Yuan regenerates <nobr>#1[i]</nobr> Energy.",
+            "params": [
+                2
+            ]
+        },
+        {
+            "name": "Stride, Spoils Seized",
+            "desc": "Skill Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Talent Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.",
+            "params": []
+        },
+        {
+            "name": "Sweep, Souls Slain",
+            "desc": "Each hit performed by the Lightning-Lord when it takes action will make the target enemy Vulnerable.<br />While Vulnerable, enemies receive <nobr>#1[i]%</nobr> more DMG until the end of the Lightning-Lord's current turn, stacking up to <nobr>#2[i]</nobr> time(s).",
+            "params": [
+                0.12,
+                3
+            ]
+        }
+    ],
+    "skills": {
+        "Basic ATK": {
+            "name": "Glistening Light",
+            "desc": "Jing Yuan deals <span style=\"color:#c75de2;\">Lightning</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of his ATK to a single enemy.",
+            "ultCost": 0,
+            "break": 30,
+            "energy": 20,
+            "levelData": [
+                [
+                    0.5
+                ],
+                [
+                    0.6
+                ],
+                [
+                    0.7
+                ],
+                [
+                    0.8
+                ],
+                [
+                    0.9
+                ],
+                [
+                    1
+                ],
+                [
+                    1.1
+                ],
+                [
+                    1.2
+                ],
+                [
+                    1.3
+                ]
+            ]
+        },
+        "Skill": {
+            "name": "Rifting Zenith",
+            "desc": "Deals <span style=\"color:#c75de2;\">Lightning</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Jing Yuan's ATK to all enemies and increases <span style=\"color:#c75de2;\">Lightning</span>-Lord's Hits Per Action by <nobr>#2[i]</nobr> for the next turn.",
+            "ultCost": 0,
+            "break": 0,
+            "energy": 30,
+            "levelData": [
+                [
+                    0.5,
+                    2
+                ],
+                [
+                    0.55,
+                    2
+                ],
+                [
+                    0.6,
+                    2
+                ],
+                [
+                    0.65,
+                    2
+                ],
+                [
+                    0.7,
+                    2
+                ],
+                [
+                    0.75,
+                    2
+                ],
+                [
+                    0.8125,
+                    2
+                ],
+                [
+                    0.875,
+                    2
+                ],
+                [
+                    0.9375,
+                    2
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    1.05,
+                    2
+                ],
+                [
+                    1.1,
+                    2
+                ],
+                [
+                    1.15,
+                    2
+                ],
+                [
+                    1.2,
+                    2
+                ],
+                [
+                    1.25,
+                    2
+                ]
+            ]
+        },
+        "Ultimate": {
+            "name": "Lightbringer",
+            "desc": "Deals <span style=\"color:#c75de2;\">Lightning</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Jing Yuan's ATK to all enemies and increases <span style=\"color:#c75de2;\">Lightning</span>-Lord's Hits Per Action by <nobr>#2[i]</nobr> for the next turn.",
+            "ultCost": 130,
+            "break": 0,
+            "energy": 5,
+            "levelData": [
+                [
+                    1.2,
+                    3
+                ],
+                [
+                    1.28,
+                    3
+                ],
+                [
+                    1.36,
+                    3
+                ],
+                [
+                    1.44,
+                    3
+                ],
+                [
+                    1.52,
+                    3
+                ],
+                [
+                    1.6,
+                    3
+                ],
+                [
+                    1.7,
+                    3
+                ],
+                [
+                    1.8,
+                    3
+                ],
+                [
+                    1.9,
+                    3
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    2.08,
+                    3
+                ],
+                [
+                    2.16,
+                    3
+                ],
+                [
+                    2.24,
+                    3
+                ],
+                [
+                    2.32,
+                    3
+                ],
+                [
+                    2.4,
+                    3
+                ]
+            ]
+        },
+        "Talent": {
+            "name": "Prana Extirpated",
+            "desc": "Summons <span style=\"color:#c75de2;\">Lightning</span>-Lord at the start of the battle. <span style=\"color:#c75de2;\">Lightning</span>-Lord has <nobr>#1[i]</nobr> base SPD and <nobr>#4[i]</nobr> base Hits Per Action. When the <span style=\"color:#c75de2;\">Lightning</span>-Lord takes action, its hits are considered as <u>follow-up attacks</u>, with each hit dealing <span style=\"color:#c75de2;\">Lightning</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> of Jing Yuan's ATK to a random single enemy, and enemies adjacent to it also receive <span style=\"color:#c75de2;\">Lightning</span> DMG equal to <nobr>#5[i]%</nobr> of the DMG dealt to the target enemy.<br />The <span style=\"color:#c75de2;\">Lightning</span>-Lord's Hits Per Action can reach a max of <nobr>#6[i]</nobr>. Every time <span style=\"color:#c75de2;\">Lightning</span>-Lord's Hits Per Action increases by 1, its SPD increases by <nobr>#3[i]</nobr>. After the <span style=\"color:#c75de2;\">Lightning</span>-Lord's action ends, its SPD and Hits Per Action return to their base values.<br />When Jing Yuan is <u>knocked down</u>, the <span style=\"color:#c75de2;\">Lightning</span>-Lord will disappear.<br />When Jing Yuan is affected by <u>Crowd Control debuff</u>, the <span style=\"color:#c75de2;\">Lightning</span>-Lord is unable to take action.",
+            "ultCost": 0,
+            "break": 15,
+            "energy": 0,
+            "levelData": [
+                [
+                    60,
+                    0.33,
+                    10,
+                    3,
+                    0.25,
+                    10
+                ],
+                [
+                    60,
+                    0.363,
+                    10,
+                    3,
+                    0.25,
+                    10
+                ],
+                [
+                    60,
+                    0.396,
+                    10,
+                    3,
+                    0.25,
+                    10
+                ],
+                [
+                    60,
+                    0.429,
+                    10,
+                    3,
+                    0.25,
+                    10
+                ],
+                [
+                    60,
+                    0.462,
+                    10,
+                    3,
+                    0.25,
+                    10
+                ],
+                [
+                    60,
+                    0.495,
+                    10,
+                    3,
+                    0.25,
+                    10
+                ],
+                [
+                    60,
+                    0.53625,
+                    10,
+                    3,
+                    0.25,
+                    10
+                ],
+                [
+                    60,
+                    0.5775,
+                    10,
+                    3,
+                    0.25,
+                    10
+                ],
+                [
+                    60,
+                    0.61875,
+                    10,
+                    3,
+                    0.25,
+                    10
+                ],
+                [
+                    60,
+                    0.66,
+                    10,
+                    3,
+                    0.25,
+                    10
+                ],
+                [
+                    60,
+                    0.693,
+                    10,
+                    3,
+                    0.25,
+                    10
+                ],
+                [
+                    60,
+                    0.726,
+                    10,
+                    3,
+                    0.25,
+                    10
+                ],
+                [
+                    60,
+                    0.759,
+                    10,
+                    3,
+                    0.25,
+                    10
+                ],
+                [
+                    60,
+                    0.792,
+                    10,
+                    3,
+                    0.25,
+                    10
+                ],
+                [
+                    60,
+                    0.825,
+                    10,
+                    3,
+                    0.25,
+                    10
+                ]
+            ]
+        },
+        "": {
+            "name": "Attack",
+            "desc": "Attacks an enemy, and when the battle starts, reduces their Toughness of the corresponding Type.",
+            "ultCost": 0,
+            "break": 30,
+            "energy": 0,
+            "levelData": [
+                []
+            ]
+        },
+        "Technique": {
+            "name": "Spirit Invocation",
+            "desc": "After the Technique is used, the <span style=\"color:#c75de2;\">Lightning</span>-Lord's Hits Per Action in the first turn increases by <nobr>#1[i]</nobr> at the start of the next battle.",
+            "ultCost": 0,
+            "break": 0,
+            "energy": 0,
+            "levelData": [
+                [
+                    3
+                ]
+            ]
+        }
+    }
+}

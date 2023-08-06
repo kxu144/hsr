@@ -1,0 +1,448 @@
+{
+    "name": "Sushang",
+    "rarity": 4,
+    "spRequirement": 120,
+    "element": "Physical",
+    "path": "The Hunt",
+    "levelData": [
+        {
+            "atkBase": 76.8,
+            "atkAdd": 3.84,
+            "hpBase": 124.8,
+            "hpAdd": 6.24,
+            "defBase": 57,
+            "defAdd": 2.85,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 107,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 107.52,
+            "atkAdd": 3.84,
+            "hpBase": 174.72,
+            "hpAdd": 6.24,
+            "defBase": 79.8,
+            "defAdd": 2.85,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 107,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 138.24,
+            "atkAdd": 3.84,
+            "hpBase": 224.64,
+            "hpAdd": 6.24,
+            "defBase": 102.6,
+            "defAdd": 2.85,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 107,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 168.96,
+            "atkAdd": 3.84,
+            "hpBase": 274.56,
+            "hpAdd": 6.24,
+            "defBase": 125.4,
+            "defAdd": 2.85,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 107,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 199.68,
+            "atkAdd": 3.84,
+            "hpBase": 324.48,
+            "hpAdd": 6.24,
+            "defBase": 148.2,
+            "defAdd": 2.85,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 107,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 230.4,
+            "atkAdd": 3.84,
+            "hpBase": 374.4,
+            "hpAdd": 6.24,
+            "defBase": 171,
+            "defAdd": 2.85,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 107,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 261.12,
+            "atkAdd": 3.84,
+            "hpBase": 424.32,
+            "hpAdd": 6.24,
+            "defBase": 193.8,
+            "defAdd": 2.85,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 107,
+            "spdAdd": 0
+        }
+    ],
+    "eidolons": [
+        {
+            "name": "Cut With Ease",
+            "desc": "After using Skill against a Weakness Broken enemy, regenerates 1 Skill Point.",
+            "params": []
+        },
+        {
+            "name": "Refine in Toil",
+            "desc": "After Sword Stance is triggered, the DMG taken by Sushang is reduced by <nobr>#1[i]%</nobr> for 1 turn.",
+            "params": [
+                0.2
+            ]
+        },
+        {
+            "name": "Rise From Fame",
+            "desc": "Ultimate Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Talent Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.",
+            "params": []
+        },
+        {
+            "name": "Cleave With Heart",
+            "desc": "Sushang's Break Effect increases by <nobr>#1[i]%</nobr>.",
+            "params": [
+                0.4
+            ]
+        },
+        {
+            "name": "Prevail via Taixu",
+            "desc": "Skill Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Basic ATK Lv. +1, up to a maximum of Lv. <nobr>10</nobr>.",
+            "params": []
+        },
+        {
+            "name": "Dwell Like Water",
+            "desc": "Talent's SPD Boost is stackable and can stack up to 2 times. Additionally, after entering battle, Sushang immediately gains 1 stack of her Talent's SPD Boost.",
+            "params": []
+        }
+    ],
+    "skills": {
+        "Basic ATK": {
+            "name": "Cloudfencer Art: Starshine",
+            "desc": "Deals <span style=\"color:#FFFFFF;\">Physical</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Sushang's ATK to a single enemy.",
+            "ultCost": 0,
+            "break": 30,
+            "energy": 20,
+            "levelData": [
+                [
+                    0.5
+                ],
+                [
+                    0.6
+                ],
+                [
+                    0.7
+                ],
+                [
+                    0.8
+                ],
+                [
+                    0.9
+                ],
+                [
+                    1
+                ],
+                [
+                    1.1
+                ],
+                [
+                    1.2
+                ],
+                [
+                    1.3
+                ]
+            ]
+        },
+        "Skill": {
+            "name": "Cloudfencer Art: Mountainfall",
+            "desc": "Deals <span style=\"color:#FFFFFF;\">Physical</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Sushang's ATK to a single enemy. In addition, there is a <nobr>#3[i]%</nobr> chance to trigger Sword Stance on the final hit, dealing <u>Additional</u> <span style=\"color:#FFFFFF;\">Physical</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> of Sushang's ATK to the enemy.<br />If the enemy is inflicted with <u>Weakness Break</u>, Sword Stance is guaranteed to trigger.",
+            "ultCost": 0,
+            "break": 60,
+            "energy": 30,
+            "levelData": [
+                [
+                    1.05,
+                    0.5,
+                    0.33
+                ],
+                [
+                    1.155,
+                    0.55,
+                    0.33
+                ],
+                [
+                    1.26,
+                    0.6,
+                    0.33
+                ],
+                [
+                    1.365,
+                    0.65,
+                    0.33
+                ],
+                [
+                    1.47,
+                    0.7,
+                    0.33
+                ],
+                [
+                    1.575,
+                    0.75,
+                    0.33
+                ],
+                [
+                    1.70625,
+                    0.8125,
+                    0.33
+                ],
+                [
+                    1.8375,
+                    0.875,
+                    0.33
+                ],
+                [
+                    1.96875,
+                    0.9375,
+                    0.33
+                ],
+                [
+                    2.1,
+                    1,
+                    0.33
+                ],
+                [
+                    2.205,
+                    1.05,
+                    0.33
+                ],
+                [
+                    2.31,
+                    1.1,
+                    0.33
+                ],
+                [
+                    2.415,
+                    1.15,
+                    0.33
+                ],
+                [
+                    2.52,
+                    1.2,
+                    0.33
+                ],
+                [
+                    2.625,
+                    1.25,
+                    0.33
+                ]
+            ]
+        },
+        "Ultimate": {
+            "name": "Shape of Taixu: Dawn Herald",
+            "desc": "Deals <span style=\"color:#FFFFFF;\">Physical</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Sushang's ATK to a single enemy target, and she immediately takes action again. In addition, Sushang's ATK increases by <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]%</nobr></span> and using her Skill has 2 extra chances to trigger Sword Stance for <nobr>#2[i]</nobr> turn(s).<br />Sword Stance triggered from the extra chances deals <nobr>#3[i]%</nobr> of the original DMG.",
+            "ultCost": 120,
+            "break": 90,
+            "energy": 5,
+            "levelData": [
+                [
+                    1.92,
+                    2,
+                    0.5,
+                    0.18
+                ],
+                [
+                    2.048,
+                    2,
+                    0.5,
+                    0.192
+                ],
+                [
+                    2.176,
+                    2,
+                    0.5,
+                    0.204
+                ],
+                [
+                    2.304,
+                    2,
+                    0.5,
+                    0.216
+                ],
+                [
+                    2.432,
+                    2,
+                    0.5,
+                    0.228
+                ],
+                [
+                    2.56,
+                    2,
+                    0.5,
+                    0.24
+                ],
+                [
+                    2.72,
+                    2,
+                    0.5,
+                    0.255
+                ],
+                [
+                    2.88,
+                    2,
+                    0.5,
+                    0.27
+                ],
+                [
+                    3.04,
+                    2,
+                    0.5,
+                    0.285
+                ],
+                [
+                    3.2,
+                    2,
+                    0.5,
+                    0.3
+                ],
+                [
+                    3.328,
+                    2,
+                    0.5,
+                    0.312
+                ],
+                [
+                    3.456,
+                    2,
+                    0.5,
+                    0.324
+                ],
+                [
+                    3.584,
+                    2,
+                    0.5,
+                    0.336
+                ],
+                [
+                    3.712,
+                    2,
+                    0.5,
+                    0.348
+                ],
+                [
+                    3.84,
+                    2,
+                    0.5,
+                    0.36
+                ]
+            ]
+        },
+        "Talent": {
+            "name": "Dancing Blade",
+            "desc": "When an enemy has their Weakness Broken on the field, Sushang's SPD increases by <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[f2]%</nobr></span> for <nobr>#2[i]</nobr> turn(s).",
+            "ultCost": 0,
+            "break": 0,
+            "energy": 0,
+            "levelData": [
+                [
+                    0.15,
+                    2
+                ],
+                [
+                    0.155,
+                    2
+                ],
+                [
+                    0.16,
+                    2
+                ],
+                [
+                    0.165,
+                    2
+                ],
+                [
+                    0.17,
+                    2
+                ],
+                [
+                    0.175,
+                    2
+                ],
+                [
+                    0.18125,
+                    2
+                ],
+                [
+                    0.1875,
+                    2
+                ],
+                [
+                    0.19375,
+                    2
+                ],
+                [
+                    0.2,
+                    2
+                ],
+                [
+                    0.205,
+                    2
+                ],
+                [
+                    0.21,
+                    2
+                ],
+                [
+                    0.215,
+                    2
+                ],
+                [
+                    0.22,
+                    2
+                ],
+                [
+                    0.225,
+                    2
+                ]
+            ]
+        },
+        "": {
+            "name": "Attack",
+            "desc": "Attack an enemy, and when the battle starts, reduce their Toughness of the corresponding Type.",
+            "ultCost": 0,
+            "break": 30,
+            "energy": 0,
+            "levelData": [
+                []
+            ]
+        },
+        "Technique": {
+            "name": "Cloudfencer Art: Warcry",
+            "desc": "Immediately attacks the enemy. Upon entering battle, Sushang deals <span style=\"color:#FFFFFF;\">Physical</span> DMG equal to <nobr>#1[i]%</nobr> of her ATK to all enemies.",
+            "ultCost": 0,
+            "break": 60,
+            "energy": 0,
+            "levelData": [
+                [
+                    0.8
+                ]
+            ]
+        }
+    }
+}

@@ -1,0 +1,468 @@
+{
+    "name": "Yanqing",
+    "rarity": 5,
+    "spRequirement": 140,
+    "element": "Ice",
+    "path": "The Hunt",
+    "levelData": [
+        {
+            "atkBase": 92.4,
+            "atkAdd": 4.62,
+            "hpBase": 121.44,
+            "hpAdd": 6.072,
+            "defBase": 56.1,
+            "defAdd": 2.805,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 109,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 129.36,
+            "atkAdd": 4.62,
+            "hpBase": 170.016,
+            "hpAdd": 6.072,
+            "defBase": 78.54,
+            "defAdd": 2.805,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 109,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 166.32,
+            "atkAdd": 4.62,
+            "hpBase": 218.592,
+            "hpAdd": 6.072,
+            "defBase": 100.98,
+            "defAdd": 2.805,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 109,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 203.28,
+            "atkAdd": 4.62,
+            "hpBase": 267.168,
+            "hpAdd": 6.072,
+            "defBase": 123.42,
+            "defAdd": 2.805,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 109,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 240.24,
+            "atkAdd": 4.62,
+            "hpBase": 315.744,
+            "hpAdd": 6.072,
+            "defBase": 145.86,
+            "defAdd": 2.805,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 109,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 277.2,
+            "atkAdd": 4.62,
+            "hpBase": 364.32,
+            "hpAdd": 6.072,
+            "defBase": 168.3,
+            "defAdd": 2.805,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 109,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 314.16,
+            "atkAdd": 4.62,
+            "hpBase": 412.896,
+            "hpAdd": 6.072,
+            "defBase": 190.74,
+            "defAdd": 2.805,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 109,
+            "spdAdd": 0
+        }
+    ],
+    "eidolons": [
+        {
+            "name": "Svelte Saber",
+            "desc": "When Yanqing attacks a Frozen enemy, he deals Additional Ice DMG equal to <nobr>#1[i]%</nobr> of his ATK.",
+            "params": [
+                0.6
+            ]
+        },
+        {
+            "name": "Supine Serenade",
+            "desc": "When Soulsteel Sync is active, Energy Regeneration Rate increases by an extra <nobr>#1[i]%</nobr>.",
+            "params": [
+                0.1
+            ]
+        },
+        {
+            "name": "Sword Savant",
+            "desc": "Skill Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Basic ATK Lv. +1, up to a maximum of Lv. <nobr>10</nobr>.",
+            "params": []
+        },
+        {
+            "name": "Searing Sting",
+            "desc": "When the current HP percentage is <nobr>#1[i]%</nobr> or higher, Ice RES PEN increases by <nobr>#2[i]%</nobr>.",
+            "params": [
+                0.8,
+                0.12
+            ]
+        },
+        {
+            "name": "Surging Strife",
+            "desc": "Ultimate Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Talent Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.",
+            "params": []
+        },
+        {
+            "name": "Swift Swoop",
+            "desc": "If the buffs from Soulsteel Sync or the Ultimate are in effect when an enemy is defeated, the duration of these buffs is extended by 1 turn.",
+            "params": []
+        }
+    ],
+    "skills": {
+        "Basic ATK": {
+            "name": "Frost Thorn",
+            "desc": "Deals <span style=\"color:#47C7FD;\">Ice</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Yanqing's ATK to a single enemy.",
+            "ultCost": 0,
+            "break": 30,
+            "energy": 20,
+            "levelData": [
+                [
+                    0.5
+                ],
+                [
+                    0.6
+                ],
+                [
+                    0.7
+                ],
+                [
+                    0.8
+                ],
+                [
+                    0.9
+                ],
+                [
+                    1
+                ],
+                [
+                    1.1
+                ],
+                [
+                    1.2
+                ],
+                [
+                    1.3
+                ]
+            ]
+        },
+        "Skill": {
+            "name": "Darting Ironthorn",
+            "desc": "Deals <span style=\"color:#47C7FD;\">Ice</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Yanqing's ATK to a single enemy and activates Soulsteel Sync for 1 turn.",
+            "ultCost": 0,
+            "break": 60,
+            "energy": 30,
+            "levelData": [
+                [
+                    1.1
+                ],
+                [
+                    1.21
+                ],
+                [
+                    1.32
+                ],
+                [
+                    1.43
+                ],
+                [
+                    1.54
+                ],
+                [
+                    1.65
+                ],
+                [
+                    1.7875
+                ],
+                [
+                    1.925
+                ],
+                [
+                    2.0625
+                ],
+                [
+                    2.2
+                ],
+                [
+                    2.31
+                ],
+                [
+                    2.42
+                ],
+                [
+                    2.53
+                ],
+                [
+                    2.64
+                ],
+                [
+                    2.75
+                ]
+            ]
+        },
+        "Ultimate": {
+            "name": "Amidst the Raining Bliss",
+            "desc": "Increases Yanqing's CRIT Rate by <nobr>#1[i]%</nobr>. When Soulsteel Sync is active, increases Yanqing's CRIT DMG by an extra <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span>. This <u>buff</u> lasts for one turn. Afterwards, deals <span style=\"color:#47C7FD;\">Ice</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]%</nobr></span> of Yanqing's ATK to a single enemy.",
+            "ultCost": 140,
+            "break": 90,
+            "energy": 5,
+            "levelData": [
+                [
+                    0.6,
+                    0.3,
+                    2.1
+                ],
+                [
+                    0.6,
+                    0.32,
+                    2.24
+                ],
+                [
+                    0.6,
+                    0.34,
+                    2.38
+                ],
+                [
+                    0.6,
+                    0.36,
+                    2.52
+                ],
+                [
+                    0.6,
+                    0.38,
+                    2.66
+                ],
+                [
+                    0.6,
+                    0.4,
+                    2.8
+                ],
+                [
+                    0.6,
+                    0.425,
+                    2.975
+                ],
+                [
+                    0.6,
+                    0.45,
+                    3.15
+                ],
+                [
+                    0.6,
+                    0.475,
+                    3.325
+                ],
+                [
+                    0.6,
+                    0.5,
+                    3.5
+                ],
+                [
+                    0.6,
+                    0.52,
+                    3.64
+                ],
+                [
+                    0.6,
+                    0.54,
+                    3.78
+                ],
+                [
+                    0.6,
+                    0.56,
+                    3.92
+                ],
+                [
+                    0.6,
+                    0.58,
+                    4.06
+                ],
+                [
+                    0.6,
+                    0.6,
+                    4.2
+                ]
+            ]
+        },
+        "Talent": {
+            "name": "One With the Sword",
+            "desc": "When Soulsteel Sync is active, Yanqing is less likely to be attacked by enemies. Yanqing's CRIT Rate increases by <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[f1]%</nobr></span> and his CRIT DMG increases by <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span>. After Yanqing attacks an enemy, there is a <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]%</nobr></span> <u>fixed chance</u> to perform a <u>follow-up attack</u>, dealing <span style=\"color:#47C7FD;\">Ice</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]%</nobr></span> of Yanqing's ATK to the enemy, which has a <nobr>#6[i]%</nobr> <u>base chance</u> to Freeze the enemy for 1 turn.<br />The Frozen target cannot take action and receives <u>Additional</u> <span style=\"color:#47C7FD;\">Ice</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#5[i]%</nobr></span> of Yanqing's ATK at the beginning of each turn.<br />When Yanqing receives DMG, the Soulsteel Sync effect will disappear.",
+            "ultCost": 0,
+            "break": 30,
+            "energy": 10,
+            "levelData": [
+                [
+                    0.15,
+                    0.15,
+                    0.5,
+                    0.25,
+                    0.25,
+                    0.65
+                ],
+                [
+                    0.155,
+                    0.165,
+                    0.51,
+                    0.275,
+                    0.275,
+                    0.65
+                ],
+                [
+                    0.16,
+                    0.18,
+                    0.52,
+                    0.3,
+                    0.3,
+                    0.65
+                ],
+                [
+                    0.165,
+                    0.195,
+                    0.53,
+                    0.325,
+                    0.325,
+                    0.65
+                ],
+                [
+                    0.17,
+                    0.21,
+                    0.54,
+                    0.35,
+                    0.35,
+                    0.65
+                ],
+                [
+                    0.175,
+                    0.225,
+                    0.55,
+                    0.375,
+                    0.375,
+                    0.65
+                ],
+                [
+                    0.18125,
+                    0.24375,
+                    0.5625,
+                    0.40625,
+                    0.40625,
+                    0.65
+                ],
+                [
+                    0.1875,
+                    0.2625,
+                    0.575,
+                    0.4375,
+                    0.4375,
+                    0.65
+                ],
+                [
+                    0.19375,
+                    0.28125,
+                    0.5875,
+                    0.46875,
+                    0.46875,
+                    0.65
+                ],
+                [
+                    0.2,
+                    0.3,
+                    0.6,
+                    0.5,
+                    0.5,
+                    0.65
+                ],
+                [
+                    0.205,
+                    0.315,
+                    0.61,
+                    0.525,
+                    0.525,
+                    0.65
+                ],
+                [
+                    0.21,
+                    0.33,
+                    0.62,
+                    0.55,
+                    0.55,
+                    0.65
+                ],
+                [
+                    0.215,
+                    0.345,
+                    0.63,
+                    0.575,
+                    0.575,
+                    0.65
+                ],
+                [
+                    0.22,
+                    0.36,
+                    0.64,
+                    0.6,
+                    0.6,
+                    0.65
+                ],
+                [
+                    0.225,
+                    0.375,
+                    0.65,
+                    0.625,
+                    0.625,
+                    0.65
+                ]
+            ]
+        },
+        "": {
+            "name": "Attack",
+            "desc": "Attack an enemy, and when the battle starts, reduce their Toughness of the corresponding Type.",
+            "ultCost": 0,
+            "break": 30,
+            "energy": 0,
+            "levelData": [
+                []
+            ]
+        },
+        "Technique": {
+            "name": "The One True Sword",
+            "desc": "After using his Technique, at the start of the next battle, Yanqing deals <nobr>#2[i]%</nobr> more DMG for <nobr>#3[i]</nobr> turn(s) to enemies whose current HP is <nobr>#1[i]%</nobr> or higher.",
+            "ultCost": 0,
+            "break": 0,
+            "energy": 0,
+            "levelData": [
+                [
+                    0.5,
+                    0.3,
+                    2
+                ]
+            ]
+        }
+    }
+}

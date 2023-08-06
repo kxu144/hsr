@@ -1,18 +1,12 @@
-import { Button, List, ListItem, ListItemText } from "@mui/material";
-import LongMenu from "../OptimizationTarget";
+import { Autocomplete, Button, List, ListItem, ListItemText, TextField } from "@mui/material";
 import Yanqing from "./Yanqing";
 import { useEffect, useState } from "react";
+import TargetMenu from "./TargetMenu";
+import { optimize } from "../../../utils/relics";
 
 function Character({ name, json, stats, talents }) {
     // OPTIMIZE TARGET
     const [target, setTarget] = useState(null);
-    const [multiplier, setMultiplier] = useState(null);
-    useEffect(() => {
-        if (target && json && json.dmg) {
-            console.log(target);
-            setMultiplier(json.dmg[target]);
-        }
-    }, [target, json]);
 
     
 
@@ -21,7 +15,7 @@ function Character({ name, json, stats, talents }) {
         switch (name) {
             case 'Yanqing':
                 return (
-                    <Yanqing json={json} mult={multiplier} stats={stats} />
+                    <Yanqing json={json} mult={target} stats={stats} />
                 );
             default:
                 return (
@@ -30,9 +24,14 @@ function Character({ name, json, stats, talents }) {
         }
     }
 
-    const getDMG = (dmg, talentLvl) => {
-        return stats[dmg.stat] * dmg.multipliers[talentLvl]
-    }
+    const optimizeBuild = () => {
+        if (!target) {
+            return;
+        }
+        if (target.section === "stats") {
+            optimize(stats, {[target.label]: 1});
+        }
+    };
 
     return (
         <div>
@@ -52,7 +51,7 @@ function Character({ name, json, stats, talents }) {
 
                 </div>
             }
-            {stats && json && json.dmg && talents &&
+            {/* {stats && json && json.dmg && talents &&
                 <List>
                     <ListItem disablePadding>
                         {["Basic ATK", "Skill", "Ultimate"].map((talent, i) => (
@@ -60,12 +59,12 @@ function Character({ name, json, stats, talents }) {
                         ))}
                     </ListItem>
                 </List>
+            } */}
+            {stats && json &&
+                <TargetMenu state={target} func={setTarget} />
             }
-            {stats && json && json.dmg &&
-                <LongMenu setTarget={setTarget}></LongMenu>
-            }
-            <Button variant="contained" disabled={!target}>Optimize</Button>
-            {multiplier && getChar(name, json, stats)}
+            <Button variant="contained" disabled={!target} onClick={optimizeBuild}>Optimize</Button>
+            {/* {multiplier && getChar(name, json, stats)} */}
         </div>
     );
 }

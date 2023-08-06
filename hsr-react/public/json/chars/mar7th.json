@@ -1,0 +1,487 @@
+{
+    "name": "March 7th",
+    "rarity": 4,
+    "spRequirement": 120,
+    "element": "Ice",
+    "path": "Preservation",
+    "levelData": [
+        {
+            "atkBase": 69.6,
+            "atkAdd": 3.48,
+            "hpBase": 144,
+            "hpAdd": 7.2,
+            "defBase": 78,
+            "defAdd": 3.9,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 150,
+            "spdBase": 101,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 97.44,
+            "atkAdd": 3.48,
+            "hpBase": 201.6,
+            "hpAdd": 7.2,
+            "defBase": 109.2,
+            "defAdd": 3.9,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 150,
+            "spdBase": 101,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 125.28,
+            "atkAdd": 3.48,
+            "hpBase": 259.2,
+            "hpAdd": 7.2,
+            "defBase": 140.4,
+            "defAdd": 3.9,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 150,
+            "spdBase": 101,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 153.12,
+            "atkAdd": 3.48,
+            "hpBase": 316.8,
+            "hpAdd": 7.2,
+            "defBase": 171.6,
+            "defAdd": 3.9,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 150,
+            "spdBase": 101,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 180.96,
+            "atkAdd": 3.48,
+            "hpBase": 374.4,
+            "hpAdd": 7.2,
+            "defBase": 202.8,
+            "defAdd": 3.9,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 150,
+            "spdBase": 101,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 208.8,
+            "atkAdd": 3.48,
+            "hpBase": 432,
+            "hpAdd": 7.2,
+            "defBase": 234,
+            "defAdd": 3.9,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 150,
+            "spdBase": 101,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 236.64,
+            "atkAdd": 3.48,
+            "hpBase": 489.6,
+            "hpAdd": 7.2,
+            "defBase": 265.2,
+            "defAdd": 3.9,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 150,
+            "spdBase": 101,
+            "spdAdd": 0
+        }
+    ],
+    "eidolons": [
+        {
+            "name": "Memory of You",
+            "desc": "Every time March 7th's Ultimate Freezes a target, she regenerates <nobr>#1[i]</nobr> Energy.",
+            "params": [
+                6
+            ]
+        },
+        {
+            "name": "Memory of It",
+            "desc": "Upon entering battle, grants a Shield equal to <nobr>#1[i]%</nobr> of March 7th's DEF plus <nobr>#3[i]</nobr> to the ally with the lowest HP percentage, lasting for <nobr>#2[i]</nobr> turn(s).",
+            "params": [
+                0.24,
+                3,
+                320
+            ]
+        },
+        {
+            "name": "Memory of Everything",
+            "desc": "Ultimate Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Basic ATK Lv. +1, up to a maximum of Lv. <nobr>10</nobr>.",
+            "params": []
+        },
+        {
+            "name": "Never Forfeit Again",
+            "desc": "The Talent's Counter effect can be triggered 1 more time in each turn. The DMG dealt by Counter increases by an amount that is equal to <nobr>#1[i]%</nobr> of March 7th's DEF.",
+            "params": [
+                0.3
+            ]
+        },
+        {
+            "name": "Never Forget Again",
+            "desc": "Skill Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Talent Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.",
+            "params": []
+        },
+        {
+            "name": "Just Like This, Always...",
+            "desc": "Allies under the protection of the Shield granted by the Skill restores HP equal to <nobr>#1[i]%</nobr> of their Max HP plus <nobr>#2[i]</nobr> at the beginning of each turn.",
+            "params": [
+                0.04,
+                106
+            ]
+        }
+    ],
+    "skills": {
+        "Basic ATK": {
+            "name": "Frigid Cold Arrow",
+            "desc": "Deals <span style=\"color:#47C7FD;\">Ice</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of March 7th's ATK to a single enemy.",
+            "ultCost": 0,
+            "break": 30,
+            "energy": 20,
+            "levelData": [
+                [
+                    0.5
+                ],
+                [
+                    0.6
+                ],
+                [
+                    0.7
+                ],
+                [
+                    0.8
+                ],
+                [
+                    0.9
+                ],
+                [
+                    1
+                ],
+                [
+                    1.1
+                ],
+                [
+                    1.2
+                ],
+                [
+                    1.3
+                ]
+            ]
+        },
+        "Skill": {
+            "name": "The Power of Cuteness",
+            "desc": "Provides a single ally with a Shield that can absorb DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of March 7th's DEF plus <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]</nobr></span> for <nobr>#2[i]</nobr> turn(s).<br />If the ally's current HP percentage is <nobr>#3[i]%</nobr> or higher, greatly increases the chance of enemies attacking that ally.",
+            "ultCost": 0,
+            "break": 0,
+            "energy": 30,
+            "levelData": [
+                [
+                    0.38,
+                    3,
+                    0.3,
+                    190,
+                    5
+                ],
+                [
+                    0.40375,
+                    3,
+                    0.3,
+                    304,
+                    5
+                ],
+                [
+                    0.4275,
+                    3,
+                    0.3,
+                    389.5,
+                    5
+                ],
+                [
+                    0.45125,
+                    3,
+                    0.3,
+                    475,
+                    5
+                ],
+                [
+                    0.475,
+                    3,
+                    0.3,
+                    532,
+                    5
+                ],
+                [
+                    0.494,
+                    3,
+                    0.3,
+                    589,
+                    5
+                ],
+                [
+                    0.513,
+                    3,
+                    0.3,
+                    631.75,
+                    5
+                ],
+                [
+                    0.532,
+                    3,
+                    0.3,
+                    674.5,
+                    5
+                ],
+                [
+                    0.551,
+                    3,
+                    0.3,
+                    717.25,
+                    5
+                ],
+                [
+                    0.57,
+                    3,
+                    0.3,
+                    760,
+                    5
+                ],
+                [
+                    0.589,
+                    3,
+                    0.3,
+                    802.75,
+                    5
+                ],
+                [
+                    0.608,
+                    3,
+                    0.3,
+                    845.5,
+                    5
+                ],
+                [
+                    0.627,
+                    3,
+                    0.3,
+                    888.25,
+                    5
+                ],
+                [
+                    0.646,
+                    3,
+                    0.3,
+                    931,
+                    5
+                ],
+                [
+                    0.665,
+                    3,
+                    0.3,
+                    973.75,
+                    5
+                ]
+            ]
+        },
+        "Ultimate": {
+            "name": "Glacial Cascade",
+            "desc": "Deals <span style=\"color:#47C7FD;\">Ice</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of March 7th's ATK to all enemies. Hit enemies have a <nobr>#2[i]%</nobr> <u>base chance</u> to be Frozen for <nobr>#3[i]</nobr> turn(s).<br />While Frozen, enemies cannot take action and will receive <u>Additional</u> <span style=\"color:#47C7FD;\">Ice</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]%</nobr></span> of March 7th's ATK at the beginning of each turn.",
+            "ultCost": 120,
+            "break": 0,
+            "energy": 5,
+            "levelData": [
+                [
+                    0.9,
+                    0.5,
+                    1,
+                    0.3
+                ],
+                [
+                    0.96,
+                    0.5,
+                    1,
+                    0.33
+                ],
+                [
+                    1.02,
+                    0.5,
+                    1,
+                    0.36
+                ],
+                [
+                    1.08,
+                    0.5,
+                    1,
+                    0.39
+                ],
+                [
+                    1.14,
+                    0.5,
+                    1,
+                    0.42
+                ],
+                [
+                    1.2,
+                    0.5,
+                    1,
+                    0.45
+                ],
+                [
+                    1.275,
+                    0.5,
+                    1,
+                    0.4875
+                ],
+                [
+                    1.35,
+                    0.5,
+                    1,
+                    0.525
+                ],
+                [
+                    1.425,
+                    0.5,
+                    1,
+                    0.5625
+                ],
+                [
+                    1.5,
+                    0.5,
+                    1,
+                    0.6
+                ],
+                [
+                    1.56,
+                    0.5,
+                    1,
+                    0.63
+                ],
+                [
+                    1.62,
+                    0.5,
+                    1,
+                    0.66
+                ],
+                [
+                    1.68,
+                    0.5,
+                    1,
+                    0.69
+                ],
+                [
+                    1.74,
+                    0.5,
+                    1,
+                    0.72
+                ],
+                [
+                    1.8,
+                    0.5,
+                    1,
+                    0.75
+                ]
+            ]
+        },
+        "Talent": {
+            "name": "Girl Power",
+            "desc": "After a Shielded ally is attacked by an enemy, March 7th immediately <u>Counters</u>, dealing <span style=\"color:#47C7FD;\">Ice</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of her ATK. This effect can be triggered <nobr>#2[i]</nobr> time(s) each turn.",
+            "ultCost": 0,
+            "break": 30,
+            "energy": 10,
+            "levelData": [
+                [
+                    0.5,
+                    2
+                ],
+                [
+                    0.55,
+                    2
+                ],
+                [
+                    0.6,
+                    2
+                ],
+                [
+                    0.65,
+                    2
+                ],
+                [
+                    0.7,
+                    2
+                ],
+                [
+                    0.75,
+                    2
+                ],
+                [
+                    0.8125,
+                    2
+                ],
+                [
+                    0.875,
+                    2
+                ],
+                [
+                    0.9375,
+                    2
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    1.05,
+                    2
+                ],
+                [
+                    1.1,
+                    2
+                ],
+                [
+                    1.15,
+                    2
+                ],
+                [
+                    1.2,
+                    2
+                ],
+                [
+                    1.25,
+                    2
+                ]
+            ]
+        },
+        "": {
+            "name": "Attack",
+            "desc": "Attack an enemy, and when the battle starts, reduce their Toughness of the corresponding Type.",
+            "ultCost": 0,
+            "break": 30,
+            "energy": 0,
+            "levelData": [
+                []
+            ]
+        },
+        "Technique": {
+            "name": "Freezing Beauty",
+            "desc": "Immediately attacks the enemy. After entering battle, there is a <nobr>#1[i]%</nobr> <u>base chance</u> to Freeze a random enemy for <nobr>#2[i]</nobr> turn(s).<br />While Frozen, the enemy cannot take action and will take <u>Additional</u> <span style=\"color:#47C7FD;\">Ice</span> DMG equal to <nobr>#3[i]%</nobr> of March 7th's ATK at the beginning of each turn.",
+            "ultCost": 0,
+            "break": 60,
+            "energy": 0,
+            "levelData": [
+                [
+                    1,
+                    1,
+                    0.5
+                ]
+            ]
+        }
+    }
+}

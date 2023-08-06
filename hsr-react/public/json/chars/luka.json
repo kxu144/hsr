@@ -1,0 +1,509 @@
+{
+    "name": "Luka",
+    "rarity": 4,
+    "spRequirement": 130,
+    "element": "Physical",
+    "path": "Nihility",
+    "levelData": [
+        {
+            "atkBase": 79.2,
+            "atkAdd": 3.96,
+            "hpBase": 124.8,
+            "hpAdd": 6.24,
+            "defBase": 66,
+            "defAdd": 3.3,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 100,
+            "spdBase": 103,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 110.88,
+            "atkAdd": 3.96,
+            "hpBase": 174.72,
+            "hpAdd": 6.24,
+            "defBase": 92.4,
+            "defAdd": 3.3,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 100,
+            "spdBase": 103,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 142.56,
+            "atkAdd": 3.96,
+            "hpBase": 224.64,
+            "hpAdd": 6.24,
+            "defBase": 118.8,
+            "defAdd": 3.3,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 100,
+            "spdBase": 103,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 174.24,
+            "atkAdd": 3.96,
+            "hpBase": 274.56,
+            "hpAdd": 6.24,
+            "defBase": 145.2,
+            "defAdd": 3.3,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 100,
+            "spdBase": 103,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 205.92,
+            "atkAdd": 3.96,
+            "hpBase": 324.48,
+            "hpAdd": 6.24,
+            "defBase": 171.6,
+            "defAdd": 3.3,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 100,
+            "spdBase": 103,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 237.6,
+            "atkAdd": 3.96,
+            "hpBase": 374.4,
+            "hpAdd": 6.24,
+            "defBase": 198,
+            "defAdd": 3.3,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 100,
+            "spdBase": 103,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 269.28,
+            "atkAdd": 3.96,
+            "hpBase": 424.32,
+            "hpAdd": 6.24,
+            "defBase": 224.4,
+            "defAdd": 3.3,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 100,
+            "spdBase": 103,
+            "spdAdd": 0
+        }
+    ],
+    "eidolons": [
+        {
+            "name": "Fighting Endlessly",
+            "desc": "When Luka takes action, if the target enemy is Bleeding, increases DMG dealt by Luka by <nobr>#1[i]%</nobr> for <nobr>#2[i]</nobr> turn(s).",
+            "params": [
+                0.15,
+                2
+            ]
+        },
+        {
+            "name": "The Enemy is Weak, I am Strong",
+            "desc": "If the Skill hits an enemy target with Physical Weakness, gain <nobr>#1[i]</nobr> stack(s) of Fighting Will.",
+            "params": [
+                1
+            ]
+        },
+        {
+            "name": "Born for the Ring",
+            "desc": "Skill Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Talent Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.",
+            "params": []
+        },
+        {
+            "name": "Never Turning Back",
+            "desc": "For every stack of Fighting Will obtained, increases ATK by <nobr>#1[i]%</nobr>, stacking up to <nobr>#2[i]</nobr> time(s).",
+            "params": [
+                0.05,
+                4
+            ]
+        },
+        {
+            "name": "The Spirit of Wildfire",
+            "desc": "Ultimate Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Basic ATK Lv. +1, up to a maximum of Lv. <nobr>10</nobr>.",
+            "params": []
+        },
+        {
+            "name": "A Champion's Applause",
+            "desc": "After the Enhanced Basic ATK's \"Rising Uppercut\" hits a Bleeding enemy target, the Bleed status will immediately deal DMG 1 time equal to <nobr>#1[i]%</nobr> of the original DMG for every hit of Direct Punch already unleashed during the current Enhanced Basic ATK.",
+            "params": [
+                0.08
+            ]
+        }
+    ],
+    "skills": {
+        "Basic ATK": {
+            "name": "Sky-Shatter Fist",
+            "desc": "Consumes 2 stacks of Fighting Will. First, uses Direct Punch to deal 3 hits, with each hit dealing <span style=\"color:#FFFFFF;\">Physical</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Luka's ATK to a single enemy target.<br />Then, uses Rising Uppercut to deal 1 hit, dealing <span style=\"color:#FFFFFF;\">Physical</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> of Luka's ATK to the single enemy target.",
+            "ultCost": 0,
+            "break": "60",
+            "energy": "20",
+            "levelData": [
+                [
+                    0.1,
+                    0.4
+                ],
+                [
+                    0.12,
+                    0.48
+                ],
+                [
+                    0.14,
+                    0.56
+                ],
+                [
+                    0.16,
+                    0.64
+                ],
+                [
+                    0.18,
+                    0.72
+                ],
+                [
+                    0.2,
+                    0.8
+                ],
+                [
+                    0.22,
+                    0.88
+                ],
+                [
+                    0.24,
+                    0.96
+                ],
+                [
+                    0.26,
+                    1.04
+                ]
+            ]
+        },
+        "Skill": {
+            "name": "Lacerating Fist",
+            "desc": "Deals <span style=\"color:#FFFFFF;\">Physical</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Luka's ATK to a single enemy target. In addition, there is a <nobr>#2[i]%</nobr> <u>base chance</u> to inflict Bleed on them, lasting for <nobr>#5[i]</nobr> turn(s).<br />While Bleeding, the enemy will take <nobr>#3[f1]%</nobr> of their Max HP as <span style=\"color:#FFFFFF;\">Physical</span> DoT at the start of each turn. This DMG will not exceed more than <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]%</nobr></span> of Luka's ATK.",
+            "ultCost": 0,
+            "break": "60",
+            "energy": "30",
+            "levelData": [
+                [
+                    0.6,
+                    1,
+                    0.24,
+                    1.3,
+                    3
+                ],
+                [
+                    0.66,
+                    1,
+                    0.24,
+                    1.43,
+                    3
+                ],
+                [
+                    0.72,
+                    1,
+                    0.24,
+                    1.56,
+                    3
+                ],
+                [
+                    0.78,
+                    1,
+                    0.24,
+                    1.69,
+                    3
+                ],
+                [
+                    0.84,
+                    1,
+                    0.24,
+                    1.82,
+                    3
+                ],
+                [
+                    0.9,
+                    1,
+                    0.24,
+                    2.015,
+                    3
+                ],
+                [
+                    0.975,
+                    1,
+                    0.24,
+                    2.275,
+                    3
+                ],
+                [
+                    1.05,
+                    1,
+                    0.24,
+                    2.6,
+                    3
+                ],
+                [
+                    1.125,
+                    1,
+                    0.24,
+                    2.99,
+                    3
+                ],
+                [
+                    1.2,
+                    1,
+                    0.24,
+                    3.38,
+                    3
+                ],
+                [
+                    1.26,
+                    1,
+                    0.24,
+                    3.549,
+                    3
+                ],
+                [
+                    1.32,
+                    1,
+                    0.24,
+                    3.718,
+                    3
+                ],
+                [
+                    1.38,
+                    1,
+                    0.24,
+                    3.887,
+                    3
+                ],
+                [
+                    1.44,
+                    1,
+                    0.24,
+                    4.056,
+                    3
+                ],
+                [
+                    1.5,
+                    1,
+                    0.24,
+                    4.225,
+                    3
+                ]
+            ]
+        },
+        "Ultimate": {
+            "name": "Coup de Gr\u00e2ce",
+            "desc": "Receives <nobr>#5[i]</nobr> stack(s) of Fighting Will, with a <nobr>#2[i]%</nobr> <u>base chance</u> to increase a single enemy target's DMG received by <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[f1]%</nobr></span> for <nobr>#4[i]</nobr> turn(s). Then, deals <span style=\"color:#FFFFFF;\">Physical</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Luka's ATK to the target.",
+            "ultCost": 130,
+            "break": "90",
+            "energy": "5",
+            "levelData": [
+                [
+                    1.98,
+                    1,
+                    0.12,
+                    3,
+                    2
+                ],
+                [
+                    2.112,
+                    1,
+                    0.128,
+                    3,
+                    2
+                ],
+                [
+                    2.244,
+                    1,
+                    0.13599999,
+                    3,
+                    2
+                ],
+                [
+                    2.376,
+                    1,
+                    0.144,
+                    3,
+                    2
+                ],
+                [
+                    2.508,
+                    1,
+                    0.152,
+                    3,
+                    2
+                ],
+                [
+                    2.64,
+                    1,
+                    0.16,
+                    3,
+                    2
+                ],
+                [
+                    2.805,
+                    1,
+                    0.17,
+                    3,
+                    2
+                ],
+                [
+                    2.97,
+                    1,
+                    0.18,
+                    3,
+                    2
+                ],
+                [
+                    3.135,
+                    1,
+                    0.19,
+                    3,
+                    2
+                ],
+                [
+                    3.3,
+                    1,
+                    0.2,
+                    3,
+                    2
+                ],
+                [
+                    3.432,
+                    1,
+                    0.208,
+                    3,
+                    2
+                ],
+                [
+                    3.564,
+                    1,
+                    0.216,
+                    3,
+                    2
+                ],
+                [
+                    3.696,
+                    1,
+                    0.224,
+                    3,
+                    2
+                ],
+                [
+                    3.828,
+                    1,
+                    0.232,
+                    3,
+                    2
+                ],
+                [
+                    3.96,
+                    1,
+                    0.24,
+                    3,
+                    2
+                ]
+            ]
+        },
+        "Talent": {
+            "name": "Flying Sparks",
+            "desc": "After Luka uses his Basic ATK \"Direct Punch\" or Skill \"Lacerating Fist,\" he receives <nobr>#1[i]</nobr> stack(s) of Fighting Will, up to 4 stacks. When he has 2 or more stacks of Fighting Will, his Basic ATK \"Direct Punch\" is enhanced to \"Sky-Shatter Fist.\" After his Enhanced Basic ATK's \"Rising Uppercut\" hits a Bleeding enemy target, the Bleed status will immediately deal DMG for 1 time equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> of the original DMG to the target. At the start of battle, Luka will possess 1 stack of Fighting Will.",
+            "ultCost": 0,
+            "break": "0",
+            "energy": "0",
+            "levelData": [
+                [
+                    1,
+                    0.68
+                ],
+                [
+                    1,
+                    0.697
+                ],
+                [
+                    1,
+                    0.714
+                ],
+                [
+                    1,
+                    0.731
+                ],
+                [
+                    1,
+                    0.748
+                ],
+                [
+                    1,
+                    0.765
+                ],
+                [
+                    1,
+                    0.78625
+                ],
+                [
+                    1,
+                    0.8075
+                ],
+                [
+                    1,
+                    0.82875
+                ],
+                [
+                    1,
+                    0.85
+                ],
+                [
+                    1,
+                    0.867
+                ],
+                [
+                    1,
+                    0.884
+                ],
+                [
+                    1,
+                    0.901
+                ],
+                [
+                    1,
+                    0.918
+                ],
+                [
+                    1,
+                    0.935
+                ]
+            ]
+        },
+        "": {
+            "name": "Attack",
+            "desc": "Attack an enemy, and when the battle starts, reduce their Toughness of the corresponding Type.",
+            "ultCost": 0,
+            "break": "30",
+            "energy": "0",
+            "levelData": [
+                []
+            ]
+        },
+        "Technique": {
+            "name": "Anticipator",
+            "desc": "Immediately attacks the enemy. Upon entering battle, Luka deals <span style=\"color:#FFFFFF;\">Physical</span> DMG equal to <nobr>#1[i]%</nobr> of his ATK to a random single enemy with a <nobr>#2[i]%</nobr> <u>base chance</u> to inflict his Skill's Bleed effect on the target. Then, Luka gains 1 additional stack of Fighting Will.",
+            "ultCost": 0,
+            "break": "60",
+            "energy": "0",
+            "levelData": [
+                [
+                    0.5,
+                    1
+                ]
+            ]
+        }
+    }
+}

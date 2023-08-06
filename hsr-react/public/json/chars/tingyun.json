@@ -1,0 +1,437 @@
+{
+    "name": "Tingyun",
+    "rarity": 4,
+    "spRequirement": 130,
+    "element": "Lightning",
+    "path": "Harmony",
+    "levelData": [
+        {
+            "atkBase": 72,
+            "atkAdd": 3.6,
+            "hpBase": 115.2,
+            "hpAdd": 5.76,
+            "defBase": 54,
+            "defAdd": 2.7,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 100,
+            "spdBase": 112,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 100.8,
+            "atkAdd": 3.6,
+            "hpBase": 161.28,
+            "hpAdd": 5.76,
+            "defBase": 75.6,
+            "defAdd": 2.7,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 100,
+            "spdBase": 112,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 129.6,
+            "atkAdd": 3.6,
+            "hpBase": 207.36,
+            "hpAdd": 5.76,
+            "defBase": 97.2,
+            "defAdd": 2.7,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 100,
+            "spdBase": 112,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 158.4,
+            "atkAdd": 3.6,
+            "hpBase": 253.44,
+            "hpAdd": 5.76,
+            "defBase": 118.8,
+            "defAdd": 2.7,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 100,
+            "spdBase": 112,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 187.2,
+            "atkAdd": 3.6,
+            "hpBase": 299.52,
+            "hpAdd": 5.76,
+            "defBase": 140.4,
+            "defAdd": 2.7,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 100,
+            "spdBase": 112,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 216,
+            "atkAdd": 3.6,
+            "hpBase": 345.6,
+            "hpAdd": 5.76,
+            "defBase": 162,
+            "defAdd": 2.7,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 100,
+            "spdBase": 112,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 244.8,
+            "atkAdd": 3.6,
+            "hpBase": 391.68,
+            "hpAdd": 5.76,
+            "defBase": 183.6,
+            "defAdd": 2.7,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 100,
+            "spdBase": 112,
+            "spdAdd": 0
+        }
+    ],
+    "eidolons": [
+        {
+            "name": "Windfall of Lucky Springs",
+            "desc": "After using their Ultimate, the ally with Benediction gains a <nobr>#1[i]%</nobr> increase in SPD for 1 turn.",
+            "params": [
+                0.2
+            ]
+        },
+        {
+            "name": "Gainfully Gives, Givingly Gains",
+            "desc": "The ally with Benediction regenerates <nobr>#1[i]</nobr> Energy after defeating an enemy. This effect can only be triggered once per turn.",
+            "params": [
+                5
+            ]
+        },
+        {
+            "name": "Halcyon Bequest",
+            "desc": "Ultimate Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Basic ATK Lv. +1, up to a maximum of Lv. <nobr>10</nobr>.",
+            "params": []
+        },
+        {
+            "name": "Jovial Versatility",
+            "desc": "The DMG multiplier provided by Benediction increases by <nobr>#1[i]%</nobr>.",
+            "params": [
+                0.2
+            ]
+        },
+        {
+            "name": "Sauntering Coquette",
+            "desc": "Skill Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Talent Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.",
+            "params": []
+        },
+        {
+            "name": "Peace Brings Wealth to All",
+            "desc": "Ultimate regenerates <nobr>#1[i]</nobr> more Energy for the target ally.",
+            "params": [
+                10
+            ]
+        }
+    ],
+    "skills": {
+        "Basic ATK": {
+            "name": "Dislodged",
+            "desc": "Tingyun deals <span style=\"color:#c75de2;\">Lightning</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of her ATK to a single enemy.",
+            "ultCost": 0,
+            "break": 30,
+            "energy": 20,
+            "levelData": [
+                [
+                    0.5
+                ],
+                [
+                    0.6
+                ],
+                [
+                    0.7
+                ],
+                [
+                    0.8
+                ],
+                [
+                    0.9
+                ],
+                [
+                    1
+                ],
+                [
+                    1.1
+                ],
+                [
+                    1.2
+                ],
+                [
+                    1.3
+                ]
+            ]
+        },
+        "Skill": {
+            "name": "Soothing Melody",
+            "desc": "Grants a single ally with Benediction to increase their ATK by <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span>, up to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]%</nobr></span> of Tingyun's current ATK.<br />When the ally with Benediction attacks, they will deal <u>Additional</u> <span style=\"color:#c75de2;\">Lightning</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of that ally's ATK for 1 time.<br />Benediction lasts for <nobr>#3[i]</nobr> turn(s) and is only effective on the most recent receiver of Tingyun's Skill.",
+            "ultCost": 0,
+            "break": 0,
+            "energy": 30,
+            "levelData": [
+                [
+                    0.2,
+                    0.25,
+                    3,
+                    0.15
+                ],
+                [
+                    0.22,
+                    0.275,
+                    3,
+                    0.16
+                ],
+                [
+                    0.24,
+                    0.3,
+                    3,
+                    0.17
+                ],
+                [
+                    0.26,
+                    0.325,
+                    3,
+                    0.18
+                ],
+                [
+                    0.28,
+                    0.35,
+                    3,
+                    0.19
+                ],
+                [
+                    0.3,
+                    0.375,
+                    3,
+                    0.2
+                ],
+                [
+                    0.325,
+                    0.40625,
+                    3,
+                    0.2125
+                ],
+                [
+                    0.35,
+                    0.4375,
+                    3,
+                    0.225
+                ],
+                [
+                    0.375,
+                    0.46875,
+                    3,
+                    0.2375
+                ],
+                [
+                    0.4,
+                    0.5,
+                    3,
+                    0.25
+                ],
+                [
+                    0.42,
+                    0.525,
+                    3,
+                    0.26
+                ],
+                [
+                    0.44,
+                    0.55,
+                    3,
+                    0.27
+                ],
+                [
+                    0.46,
+                    0.575,
+                    3,
+                    0.28
+                ],
+                [
+                    0.48,
+                    0.6,
+                    3,
+                    0.29
+                ],
+                [
+                    0.5,
+                    0.625,
+                    3,
+                    0.3
+                ]
+            ]
+        },
+        "Ultimate": {
+            "name": "Amidst the Rejoicing Clouds",
+            "desc": "Regenerates <nobr>#1[i]</nobr> Energy for a single ally and increases the target's DMG by <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]%</nobr></span> for <nobr>#2[i]</nobr> turn(s).",
+            "ultCost": 130,
+            "break": 0,
+            "energy": 5,
+            "levelData": [
+                [
+                    50,
+                    2,
+                    0.2
+                ],
+                [
+                    50,
+                    2,
+                    0.23
+                ],
+                [
+                    50,
+                    2,
+                    0.26
+                ],
+                [
+                    50,
+                    2,
+                    0.29
+                ],
+                [
+                    50,
+                    2,
+                    0.32
+                ],
+                [
+                    50,
+                    2,
+                    0.35
+                ],
+                [
+                    50,
+                    2,
+                    0.3875
+                ],
+                [
+                    50,
+                    2,
+                    0.425
+                ],
+                [
+                    50,
+                    2,
+                    0.4625
+                ],
+                [
+                    50,
+                    2,
+                    0.5
+                ],
+                [
+                    50,
+                    2,
+                    0.53
+                ],
+                [
+                    50,
+                    2,
+                    0.56
+                ],
+                [
+                    50,
+                    2,
+                    0.59
+                ],
+                [
+                    50,
+                    2,
+                    0.62
+                ],
+                [
+                    50,
+                    2,
+                    0.65
+                ]
+            ]
+        },
+        "Talent": {
+            "name": "Violet Sparknado",
+            "desc": "When an enemy is attacked by Tingyun, the ally with Benediction immediately deals <u>Additional</u> <span style=\"color:#c75de2;\">Lightning</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of that ally's ATK to the same enemy.",
+            "ultCost": 0,
+            "break": 0,
+            "energy": 0,
+            "levelData": [
+                [
+                    0.3
+                ],
+                [
+                    0.33
+                ],
+                [
+                    0.36
+                ],
+                [
+                    0.39
+                ],
+                [
+                    0.42
+                ],
+                [
+                    0.45
+                ],
+                [
+                    0.4875
+                ],
+                [
+                    0.525
+                ],
+                [
+                    0.5625
+                ],
+                [
+                    0.6
+                ],
+                [
+                    0.63
+                ],
+                [
+                    0.66
+                ],
+                [
+                    0.69
+                ],
+                [
+                    0.72
+                ],
+                [
+                    0.75
+                ]
+            ]
+        },
+        "": {
+            "name": "Attack",
+            "desc": "Attack an enemy, and when the battle starts, reduce their Toughness of the corresponding Type.",
+            "ultCost": 0,
+            "break": 30,
+            "energy": 0,
+            "levelData": [
+                []
+            ]
+        },
+        "Technique": {
+            "name": "Gentle Breeze",
+            "desc": "Tingyun immediately regenerates <nobr>#1[i]</nobr> Energy upon using her Technique.",
+            "ultCost": 0,
+            "break": 0,
+            "energy": 0,
+            "levelData": [
+                [
+                    50
+                ]
+            ]
+        }
+    }
+}

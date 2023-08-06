@@ -1,0 +1,581 @@
+{
+    "name": "Blade",
+    "rarity": 5,
+    "spRequirement": 130,
+    "element": "Wind",
+    "path": "Destruction",
+    "levelData": [
+        {
+            "atkBase": 73.92,
+            "atkAdd": 3.696,
+            "hpBase": 184.8,
+            "hpAdd": 9.24,
+            "defBase": 66,
+            "defAdd": 3.3,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 125,
+            "spdBase": 97,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 103.488,
+            "atkAdd": 3.696,
+            "hpBase": 258.72,
+            "hpAdd": 9.24,
+            "defBase": 92.4,
+            "defAdd": 3.3,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 125,
+            "spdBase": 97,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 133.056,
+            "atkAdd": 3.696,
+            "hpBase": 332.64,
+            "hpAdd": 9.24,
+            "defBase": 118.8,
+            "defAdd": 3.3,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 125,
+            "spdBase": 97,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 162.624,
+            "atkAdd": 3.696,
+            "hpBase": 406.56,
+            "hpAdd": 9.24,
+            "defBase": 145.2,
+            "defAdd": 3.3,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 125,
+            "spdBase": 97,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 192.192,
+            "atkAdd": 3.696,
+            "hpBase": 480.48,
+            "hpAdd": 9.24,
+            "defBase": 171.6,
+            "defAdd": 3.3,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 125,
+            "spdBase": 97,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 221.76,
+            "atkAdd": 3.696,
+            "hpBase": 554.4,
+            "hpAdd": 9.24,
+            "defBase": 198,
+            "defAdd": 3.3,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 125,
+            "spdBase": 97,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 251.328,
+            "atkAdd": 3.696,
+            "hpBase": 628.32,
+            "hpAdd": 9.24,
+            "defBase": 224.4,
+            "defAdd": 3.3,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 125,
+            "spdBase": 97,
+            "spdAdd": 0
+        }
+    ],
+    "eidolons": [
+        {
+            "name": "Blade Cuts the Deepest in Hell",
+            "desc": "Blade's Ultimate deals additionally increased DMG to a single enemy target, with the increased amount equal to <nobr>#1[i]%</nobr> of Blade's total HP loss in the current battle.<br />The total HP Blade has lost in the current battle is capped at <nobr>#2[i]%</nobr> of his Max HP. This value will be reset and re-accumulated after his Ultimate has been used.",
+            "params": [
+                1.5,
+                0.9
+            ]
+        },
+        {
+            "name": "Ten Thousand Sorrows From One Broken Dream",
+            "desc": "When Blade is in the Hellscape state, his CRIT Rate increases by <nobr>#1[i]%</nobr>.",
+            "params": [
+                0.15
+            ]
+        },
+        {
+            "name": "Hardened Blade Bleeds Coldest Shade",
+            "desc": "Ultimate Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Talent Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.",
+            "params": []
+        },
+        {
+            "name": "Rejected by Death, Infected With Life",
+            "desc": "When Blade's current HP drops to <nobr>50%</nobr> or lower of his Max HP, increases his Max HP by <nobr>#1[i]%</nobr>. Stacks up to <nobr>#2[i]</nobr> time(s).",
+            "params": [
+                0.2,
+                2
+            ]
+        },
+        {
+            "name": "Death By Ten Lords' Gaze",
+            "desc": "Skill Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Basic ATK Lv. +1, up to a maximum of Lv. <nobr>10</nobr>.",
+            "params": []
+        },
+        {
+            "name": "Reborn Into an Empty Husk",
+            "desc": "The maximum number of Charge stacks is reduced to 4. The DMG of the follow-up attack triggered by Blade's Talent additionally increases by <nobr>#1[i]%</nobr> of his Max HP.",
+            "params": [
+                0.5
+            ]
+        }
+    ],
+    "skills": {
+        "Basic ATK": {
+            "name": "Forest of Swords",
+            "desc": "Consumes HP equal to <nobr>#1[i]%</nobr> of Blade's Max HP and deals <span style=\"color:#00FF9C;\">Wind</span> DMG equal to the sum of <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> of his ATK and <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]%</nobr></span> of his Max HP to a single enemy. In addition, deals <span style=\"color:#00FF9C;\">Wind</span> DMG equal to the sum of <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]%</nobr></span> of Blade's ATK and <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#5[i]%</nobr></span> of his Max HP to adjacent targets.<br />If Blade's current HP is insufficient, his HP will be reduced to 1 when using Forest of Swords.<br />Forest of Swords cannot regenerate Skill Points.",
+            "ultCost": 0,
+            "break": "60 + 30/adjacent",
+            "energy": "30",
+            "levelData": [
+                [
+                    0.1,
+                    0.2,
+                    0.08,
+                    0.5,
+                    0.2
+                ],
+                [
+                    0.1,
+                    0.24,
+                    0.096,
+                    0.6,
+                    0.24
+                ],
+                [
+                    0.1,
+                    0.28,
+                    0.112,
+                    0.7,
+                    0.28
+                ],
+                [
+                    0.1,
+                    0.32,
+                    0.128,
+                    0.8,
+                    0.32
+                ],
+                [
+                    0.1,
+                    0.36,
+                    0.144,
+                    0.9,
+                    0.36
+                ],
+                [
+                    0.1,
+                    0.4,
+                    0.16,
+                    1,
+                    0.4
+                ],
+                [
+                    0.1,
+                    0.44,
+                    0.176,
+                    1.1,
+                    0.44
+                ],
+                [
+                    0.1,
+                    0.48,
+                    0.192,
+                    1.2,
+                    0.48
+                ],
+                [
+                    0.1,
+                    0.52,
+                    0.208,
+                    1.3,
+                    0.52
+                ]
+            ]
+        },
+        "Skill": {
+            "name": "Hellscape",
+            "desc": "Consumes HP equal to <nobr>#1[i]%</nobr> of Blade's Max HP to enter the Hellscape state.<br />When Hellscape is active, his Skill cannot be used, his DMG dealt increases by <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]%</nobr></span>, and his Basic ATK Shard Sword is enhanced to Forest of Swords for <nobr>#2[i]</nobr> turn(s).<br />If Blade's current HP is insufficient, his HP will be reduced to 1 when he uses his Skill.<br />This Skill does not regenerate Energy. Using this Skill does not end the current turn.",
+            "ultCost": 0,
+            "break": "0",
+            "energy": "0",
+            "levelData": [
+                [
+                    0.3,
+                    3,
+                    1,
+                    0.12
+                ],
+                [
+                    0.3,
+                    3,
+                    1,
+                    0.148
+                ],
+                [
+                    0.3,
+                    3,
+                    1,
+                    0.176
+                ],
+                [
+                    0.3,
+                    3,
+                    1,
+                    0.204
+                ],
+                [
+                    0.3,
+                    3,
+                    1,
+                    0.232
+                ],
+                [
+                    0.3,
+                    3,
+                    1,
+                    0.26
+                ],
+                [
+                    0.3,
+                    3,
+                    1,
+                    0.295
+                ],
+                [
+                    0.3,
+                    3,
+                    1,
+                    0.33
+                ],
+                [
+                    0.3,
+                    3,
+                    1,
+                    0.365
+                ],
+                [
+                    0.3,
+                    3,
+                    1,
+                    0.4
+                ],
+                [
+                    0.3,
+                    3,
+                    1,
+                    0.428
+                ],
+                [
+                    0.3,
+                    3,
+                    1,
+                    0.456
+                ],
+                [
+                    0.3,
+                    3,
+                    1,
+                    0.484
+                ],
+                [
+                    0.3,
+                    3,
+                    1,
+                    0.512
+                ],
+                [
+                    0.3,
+                    3,
+                    1,
+                    0.54
+                ]
+            ]
+        },
+        "Ultimate": {
+            "name": "Death Sentence",
+            "desc": "Sets Blade's current HP to <nobr>50%</nobr> of his Max HP and deals to a single enemy <span style=\"color:#00FF9C;\">Wind</span> DMG equal to the sum of <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of his ATK, <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> of his Max HP, and <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#5[i]%</nobr></span> of the total HP he has lost in the current battle. At the same time, deals <span style=\"color:#00FF9C;\">Wind</span> DMG to adjacent targets equal to the sum of <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[f1]%</nobr></span> of his ATK, <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]%</nobr></span> of his Max HP, and <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#6[i]%</nobr></span> of the total HP he has lost in the current battle.<br />The total HP Blade has lost in the current battle is capped at <nobr>#7[i]%</nobr> of his Max HP. This value will be reset and re-accumulated after his Ultimate has been used.",
+            "ultCost": 130,
+            "break": "60/hit",
+            "energy": "5",
+            "levelData": [
+                [
+                    0.24,
+                    0.6,
+                    0.096,
+                    0.24,
+                    0.6,
+                    0.24,
+                    0.9
+                ],
+                [
+                    0.256,
+                    0.64,
+                    0.1024,
+                    0.256,
+                    0.64,
+                    0.256,
+                    0.9
+                ],
+                [
+                    0.272,
+                    0.68,
+                    0.1088,
+                    0.272,
+                    0.68,
+                    0.272,
+                    0.9
+                ],
+                [
+                    0.288,
+                    0.72,
+                    0.1152,
+                    0.288,
+                    0.72,
+                    0.288,
+                    0.9
+                ],
+                [
+                    0.304,
+                    0.76,
+                    0.1216,
+                    0.304,
+                    0.76,
+                    0.304,
+                    0.9
+                ],
+                [
+                    0.32,
+                    0.8,
+                    0.128,
+                    0.32,
+                    0.8,
+                    0.32,
+                    0.9
+                ],
+                [
+                    0.34,
+                    0.85,
+                    0.13599999,
+                    0.34,
+                    0.85,
+                    0.34,
+                    0.9
+                ],
+                [
+                    0.36,
+                    0.9,
+                    0.144,
+                    0.36,
+                    0.9,
+                    0.36,
+                    0.9
+                ],
+                [
+                    0.38,
+                    0.95,
+                    0.152,
+                    0.38,
+                    0.95,
+                    0.38,
+                    0.9
+                ],
+                [
+                    0.4,
+                    1,
+                    0.16,
+                    0.4,
+                    1,
+                    0.4,
+                    0.9
+                ],
+                [
+                    0.416,
+                    1.04,
+                    0.1664,
+                    0.416,
+                    1.04,
+                    0.416,
+                    0.9
+                ],
+                [
+                    0.432,
+                    1.08,
+                    0.1728,
+                    0.432,
+                    1.08,
+                    0.432,
+                    0.9
+                ],
+                [
+                    0.448,
+                    1.12,
+                    0.1792,
+                    0.448,
+                    1.12,
+                    0.448,
+                    0.9
+                ],
+                [
+                    0.464,
+                    1.16,
+                    0.1856,
+                    0.464,
+                    1.16,
+                    0.464,
+                    0.9
+                ],
+                [
+                    0.48,
+                    1.2,
+                    0.192,
+                    0.48,
+                    1.2,
+                    0.48,
+                    0.9
+                ]
+            ]
+        },
+        "Talent": {
+            "name": "Shuhu's Gift",
+            "desc": "When Blade sustains DMG or consumes his HP, he gains 1 stack of Charge, stacking up to 5 times. A max of 1 Charge stack can be gained every time he is attacked.<br />When Charge stack reaches maximum, immediately launches a <u>follow-up attack</u> on all enemies, dealing <span style=\"color:#00FF9C;\">Wind</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> of Blade's ATK plus <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]%</nobr></span> of his Max HP. At the same time, restores Blade's HP by <nobr>#3[i]%</nobr> of his Max HP. After the follow-up attack, all Charges are consumed.",
+            "ultCost": 0,
+            "break": "30/hit",
+            "energy": "10",
+            "levelData": [
+                [
+                    3,
+                    0.22,
+                    0.25,
+                    0.55
+                ],
+                [
+                    3,
+                    0.242,
+                    0.25,
+                    0.605
+                ],
+                [
+                    3,
+                    0.264,
+                    0.25,
+                    0.66
+                ],
+                [
+                    3,
+                    0.286,
+                    0.25,
+                    0.715
+                ],
+                [
+                    3,
+                    0.308,
+                    0.25,
+                    0.77
+                ],
+                [
+                    3,
+                    0.33,
+                    0.25,
+                    0.825
+                ],
+                [
+                    3,
+                    0.3575,
+                    0.25,
+                    0.89375
+                ],
+                [
+                    3,
+                    0.385,
+                    0.25,
+                    0.9625
+                ],
+                [
+                    3,
+                    0.4125,
+                    0.25,
+                    1.03125
+                ],
+                [
+                    3,
+                    0.44,
+                    0.25,
+                    1.1
+                ],
+                [
+                    3,
+                    0.462,
+                    0.25,
+                    1.155
+                ],
+                [
+                    3,
+                    0.484,
+                    0.25,
+                    1.21
+                ],
+                [
+                    3,
+                    0.506,
+                    0.25,
+                    1.265
+                ],
+                [
+                    3,
+                    0.528,
+                    0.25,
+                    1.32
+                ],
+                [
+                    3,
+                    0.55,
+                    0.25,
+                    1.375
+                ]
+            ]
+        },
+        "": {
+            "name": "Attack",
+            "desc": "Attack an enemy, and when the battle starts, reduce their Toughness of the corresponding Type.",
+            "ultCost": 0,
+            "break": "30",
+            "energy": "0",
+            "levelData": [
+                []
+            ]
+        },
+        "Technique": {
+            "name": "Karma Wind",
+            "desc": "Immediately attacks the enemy. After entering combat, consumes <nobr>#2[i]%</nobr> of Blade's Max HP while dealing <span style=\"color:#00FF9C;\">Wind</span> DMG equal to <nobr>#1[i]%</nobr> of his Max HP to all enemies.<br />If Blade's current HP is insufficient, his HP will be reduced to 1 when this Technique is used.",
+            "ultCost": 0,
+            "break": "60",
+            "energy": "0",
+            "levelData": [
+                [
+                    0.4,
+                    0.2
+                ]
+            ]
+        }
+    }
+}

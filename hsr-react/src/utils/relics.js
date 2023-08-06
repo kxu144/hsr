@@ -117,44 +117,104 @@ export function textToRelic(text) {
     return relic;
 }
 
-export function optimize(formula) {
+export function optimize(baseStats, formula) {
     // FLAG UNNECESSARY RELICS
     const stats = Object.keys(formula);
-    const relics = JSON.parse(localStorage.getItem("relics") || "[]");
-    for (let i = 0; i < relics.length-1; i++) {
-        let r1 = relics[i];
-        for (let j = i+1; j < relics.length; j++) {
-            let r2 = relics[j];
-            let del1 = true;
-            let del2 = true;
-            for (let stat of stats) {
-                if ((r1.substats[stat] || 0) > (r2.substats[stat] || 0)) {
-                    del1 = false;
-                }
-                if ((r1.substats[stat] || 0) < (r2.substats[stat] || 0)) {
-                    del2 = false;
-                }
-                if (!del1 && !del2) {
-                    break;
-                }
-            }
+    const relics = Object.values(JSON.parse(localStorage.getItem("relics") || "{}"));
 
-            if (del1) {
-                r1.delete = true;
-            } else if (del2) {
-                r2.delete = true;
-            }
-        }
-    }
+    // for (let i = 0; i < relics.length-1; i++) {
+    //     let r1 = relics[i];
+    //     if (r1.delete) {
+    //         continue;
+    //     }
+    //     for (let j = i+1; j < relics.length; j++) {
+    //         let r2 = relics[j];
+    //         if (r2.delete) {
+    //             continue;
+    //         }
+    //         let del1 = true;
+    //         let del2 = true;
+    //         for (let stat of stats) {
+    //             if ((r1.substats[stat] || 0) > (r2.substats[stat] || 0)) {
+    //                 del1 = false;
+    //             }
+    //             if ((r1.substats[stat] || 0) < (r2.substats[stat] || 0)) {
+    //                 del2 = false;
+    //             }
+    //             if (!del1 && !del2) {
+    //                 break;
+    //             }
+    //         }
+
+    //         if (del1) {
+    //             r1.delete = true;
+    //             relics[i] = r1;
+    //         } else if (del2) {
+    //             r2.delete = true;
+    //             relics[j] = r2;
+    //         }
+    //     }
+    // }
 
     var relics_by_type = {}
     for (let type of RELIC_TYPES) {
         relics_by_type[type] = [];
     }
     for (let relic of relics) {
-        if (!relic.deleted) {
-            relics_by_type[relic.slotKey].push(relic);
+        relics_by_type[relic.slotKey.toLowerCase()].push(relic);
+    }
+    for (let type of RELIC_TYPES) {
+        if (relics_by_type[type].length == 0) {
+            relics_by_type[type].push({});
         }
     }
-    
+
+    console.log("RELICS:");
+    console.log(JSON.stringify(relics_by_type));
+    console.log("RELIC LENGTH: %d", relics.length);
+
+    var num_combos = relics_by_type['head'].length * relics_by_type['hands'].length * relics_by_type['body'].length * relics_by_type['feet'].length * relics_by_type['planar sphere'].length * relics_by_type['link rope'].length;
+    console.log("NUM COMBOS: %d", num_combos);
+
+    for (let head of relics_by_type['head']) {
+        for (let hands of relics_by_type['hands']) {
+            for (let body of relics_by_type['body']) {
+                for (let feet of relics_by_type['feet']) {
+                    for (let sphere of relics_by_type['planar sphere']) {
+                        for (let rope of relics_by_type['link rope']) {
+                            console.log("EVAL RELICS");
+                            evalRelicCombo(baseStats, [head, hands, body, feet, sphere, rope], stats, formula);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+export function evalRelicCombo(baseStats, relics, stats, formula) {
+
+    console.log(relics);
+    // TODO: apply relic set bonuses
+    var percentStats = {};
+    var flatStats = {};
+    for (let stat of stats) {
+        percentStats[stat] = 0;
+        flatStats[stat] = 0;
+    }
+    for (let relic of relics) {
+        if (relic.substats === undefined) {
+            continue;
+        }
+        for (let stat of stats) {
+            if (relic.substats[stat] !== undefined) {
+                flatStats[stat] += relic.substats[stat];
+            } else if (relic.substats[stat + "%"] !== undefined) {
+                percentStats[stat] += relic.substats[stat];
+            }
+        }
+    }
+
+    console.log(JSON.stringify(percentStats));
+    console.log(JSON.stringify(flatStats));
 }

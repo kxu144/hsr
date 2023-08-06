@@ -2,6 +2,8 @@ import { Button } from "@mui/material";
 import Popup from "reactjs-popup";
 import BuildDisplay from "./BuildDisplay";
 
+import "./BuildNew.css";
+
 function BuildNew() {
     return (
         <Popup trigger={<Button variant="contained">New Build</Button>} onClose={() => {}} modal nested>

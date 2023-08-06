@@ -1,0 +1,470 @@
+{
+    "name": "Luocha",
+    "rarity": 5,
+    "spRequirement": 100,
+    "element": "Imaginary",
+    "path": "Abundance",
+    "levelData": [
+        {
+            "atkBase": 102.96,
+            "atkAdd": 5.148,
+            "hpBase": 174.24,
+            "hpAdd": 8.712,
+            "defBase": 49.5,
+            "defAdd": 2.475,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 100,
+            "spdBase": 101,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 144.144,
+            "atkAdd": 5.148,
+            "hpBase": 243.936,
+            "hpAdd": 8.712,
+            "defBase": 69.3,
+            "defAdd": 2.475,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 100,
+            "spdBase": 101,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 185.328,
+            "atkAdd": 5.148,
+            "hpBase": 313.632,
+            "hpAdd": 8.712,
+            "defBase": 89.1,
+            "defAdd": 2.475,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 100,
+            "spdBase": 101,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 226.512,
+            "atkAdd": 5.148,
+            "hpBase": 383.328,
+            "hpAdd": 8.712,
+            "defBase": 108.9,
+            "defAdd": 2.475,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 100,
+            "spdBase": 101,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 267.696,
+            "atkAdd": 5.148,
+            "hpBase": 453.024,
+            "hpAdd": 8.712,
+            "defBase": 128.7,
+            "defAdd": 2.475,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 100,
+            "spdBase": 101,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 308.88,
+            "atkAdd": 5.148,
+            "hpBase": 522.72,
+            "hpAdd": 8.712,
+            "defBase": 148.5,
+            "defAdd": 2.475,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 100,
+            "spdBase": 101,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 350.064,
+            "atkAdd": 5.148,
+            "hpBase": 592.416,
+            "hpAdd": 8.712,
+            "defBase": 168.3,
+            "defAdd": 2.475,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 100,
+            "spdBase": 101,
+            "spdAdd": 0
+        }
+    ],
+    "eidolons": [
+        {
+            "name": "Ablution of the Quick",
+            "desc": "While the Field is active, ATK of all allies increases by <nobr>#1[i]%</nobr>.",
+            "params": [
+                0.2
+            ]
+        },
+        {
+            "name": "Bestowal From the Pure",
+            "desc": "When his Skill is triggered, if the target ally's HP is lower than <nobr>50%</nobr>, Luocha's Outgoing Healing increases by <nobr>#1[i]%</nobr>. If the target ally's HP is at <nobr>50%</nobr> or higher, the ally receives a Shield that can absorb DMG equal to <nobr>#2[i]%</nobr> of Luocha's ATK plus <nobr>#3[i]</nobr>, lasting for <nobr>#4[i]</nobr> turns.",
+            "params": [
+                0.3,
+                0.18,
+                240,
+                2
+            ]
+        },
+        {
+            "name": "Surveyal by the Fool",
+            "desc": "Skill Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Basic ATK Lv. +1, up to a maximum of Lv. <nobr>10</nobr>.",
+            "params": []
+        },
+        {
+            "name": "Heavy Lies the Crown",
+            "desc": "When Luocha's Field is active, enemies become Weakened and deal <nobr>#1[i]%</nobr> less DMG.",
+            "params": [
+                0.12
+            ]
+        },
+        {
+            "name": "Cicatrix 'Neath the Pain",
+            "desc": "Ultimate Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Talent Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.",
+            "params": []
+        },
+        {
+            "name": "Reunion With the Dust",
+            "desc": "When Ultimate is used, there is a <nobr>#1[i]%</nobr> fixed chance to reduce all enemies' All-Type RES by <nobr>#2[i]%</nobr> for <nobr>#3[i]</nobr> turn(s).",
+            "params": [
+                1,
+                0.2,
+                2
+            ]
+        }
+    ],
+    "skills": {
+        "Basic ATK": {
+            "name": "Thorns of the Abyss",
+            "desc": "Deals <span style=\"color:#F4D258;\">Imaginary</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Luocha's ATK to a single enemy.",
+            "ultCost": 0,
+            "break": 30,
+            "energy": 20,
+            "levelData": [
+                [
+                    0.5
+                ],
+                [
+                    0.6
+                ],
+                [
+                    0.7
+                ],
+                [
+                    0.8
+                ],
+                [
+                    0.9
+                ],
+                [
+                    1
+                ],
+                [
+                    1.1
+                ],
+                [
+                    1.2
+                ],
+                [
+                    1.3
+                ]
+            ]
+        },
+        "Skill": {
+            "name": "Prayer of Abyss Flower",
+            "desc": "After using his Skill, Luocha immediately restores the target ally's HP equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Luocha's ATK plus <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]</nobr></span>. Meanwhile, Luocha gains 1 stack of Abyss Flower.<br />When any ally's HP percentage drops to <nobr>#3[i]%</nobr> or lower, an effect equivalent to Luocha's Skill will immediately be triggered and applied to this ally for one time (without consuming Skill Points). This effect can be triggered again after <nobr>#4[i]</nobr> turn(s).",
+            "ultCost": 0,
+            "break": 0,
+            "energy": 30,
+            "levelData": [
+                [
+                    0.4,
+                    200,
+                    0.5,
+                    2
+                ],
+                [
+                    0.425,
+                    320,
+                    0.5,
+                    2
+                ],
+                [
+                    0.45,
+                    410,
+                    0.5,
+                    2
+                ],
+                [
+                    0.475,
+                    500,
+                    0.5,
+                    2
+                ],
+                [
+                    0.5,
+                    560,
+                    0.5,
+                    2
+                ],
+                [
+                    0.52,
+                    620,
+                    0.5,
+                    2
+                ],
+                [
+                    0.54,
+                    665,
+                    0.5,
+                    2
+                ],
+                [
+                    0.56,
+                    710,
+                    0.5,
+                    2
+                ],
+                [
+                    0.58,
+                    755,
+                    0.5,
+                    2
+                ],
+                [
+                    0.6,
+                    800,
+                    0.5,
+                    2
+                ],
+                [
+                    0.62,
+                    845,
+                    0.5,
+                    2
+                ],
+                [
+                    0.64,
+                    890,
+                    0.5,
+                    2
+                ],
+                [
+                    0.66,
+                    935,
+                    0.5,
+                    2
+                ],
+                [
+                    0.68,
+                    980,
+                    0.5,
+                    2
+                ],
+                [
+                    0.7,
+                    1025,
+                    0.5,
+                    2
+                ]
+            ]
+        },
+        "Ultimate": {
+            "name": "Death Wish",
+            "desc": "Removes <nobr>#2[i]</nobr> <u>buff(s)</u> from all enemies and deals <span style=\"color:#F4D258;\">Imaginary</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Luocha's ATK to all enemies. Luocha gains 1 stack of Abyss Flower.",
+            "ultCost": 100,
+            "break": 0,
+            "energy": 5,
+            "levelData": [
+                [
+                    1.2,
+                    1
+                ],
+                [
+                    1.28,
+                    1
+                ],
+                [
+                    1.36,
+                    1
+                ],
+                [
+                    1.44,
+                    1
+                ],
+                [
+                    1.52,
+                    1
+                ],
+                [
+                    1.6,
+                    1
+                ],
+                [
+                    1.7,
+                    1
+                ],
+                [
+                    1.8,
+                    1
+                ],
+                [
+                    1.9,
+                    1
+                ],
+                [
+                    2,
+                    1
+                ],
+                [
+                    2.08,
+                    1
+                ],
+                [
+                    2.16,
+                    1
+                ],
+                [
+                    2.24,
+                    1
+                ],
+                [
+                    2.32,
+                    1
+                ],
+                [
+                    2.4,
+                    1
+                ]
+            ]
+        },
+        "Talent": {
+            "name": "Cycle of Life",
+            "desc": "When Abyss Flower reaches <nobr>#1[i]</nobr> stacks, Luocha consumes all stacks of Abyss Flower to deploy a Field against the enemy.<br />When any enemy in the Field is attacked by an ally, the attacking ally's HP is immediately restored by an amount equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[f1]%</nobr></span> of Luocha's ATK plus <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]</nobr></span>.<br />The Field's effect lasts for <nobr>#3[i]</nobr> turns. When Luocha is knocked down, the Field will be dispelled.",
+            "ultCost": 0,
+            "break": 0,
+            "energy": 0,
+            "levelData": [
+                [
+                    2,
+                    0.12,
+                    2,
+                    60
+                ],
+                [
+                    2,
+                    0.1275,
+                    2,
+                    96
+                ],
+                [
+                    2,
+                    0.135,
+                    2,
+                    123
+                ],
+                [
+                    2,
+                    0.1425,
+                    2,
+                    150
+                ],
+                [
+                    2,
+                    0.15,
+                    2,
+                    168
+                ],
+                [
+                    2,
+                    0.156,
+                    2,
+                    186
+                ],
+                [
+                    2,
+                    0.162,
+                    2,
+                    199.5
+                ],
+                [
+                    2,
+                    0.168,
+                    2,
+                    213
+                ],
+                [
+                    2,
+                    0.174,
+                    2,
+                    226.5
+                ],
+                [
+                    2,
+                    0.18,
+                    2,
+                    240
+                ],
+                [
+                    2,
+                    0.186,
+                    2,
+                    253.5
+                ],
+                [
+                    2,
+                    0.192,
+                    2,
+                    267
+                ],
+                [
+                    2,
+                    0.198,
+                    2,
+                    280.5
+                ],
+                [
+                    2,
+                    0.204,
+                    2,
+                    294
+                ],
+                [
+                    2,
+                    0.21,
+                    2,
+                    307.5
+                ]
+            ]
+        },
+        "": {
+            "name": "Attack",
+            "desc": "Attack an enemy, and when the battle starts, reduce their Toughness of the corresponding Type.",
+            "ultCost": 0,
+            "break": 30,
+            "energy": 0,
+            "levelData": [
+                []
+            ]
+        },
+        "Technique": {
+            "name": "Mercy of a Fool",
+            "desc": "After the Technique is used, the Talent will be immediately triggered at the start of the next battle.",
+            "ultCost": 0,
+            "break": 0,
+            "energy": 0,
+            "levelData": [
+                []
+            ]
+        }
+    }
+}

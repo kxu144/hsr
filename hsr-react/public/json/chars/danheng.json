@@ -1,0 +1,435 @@
+{
+    "name": "Dan Heng",
+    "rarity": 4,
+    "spRequirement": 100,
+    "element": "Wind",
+    "path": "The Hunt",
+    "levelData": [
+        {
+            "atkBase": 74.4,
+            "atkAdd": 3.72,
+            "hpBase": 120,
+            "hpAdd": 6,
+            "defBase": 54,
+            "defAdd": 2.7,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 110,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 104.16,
+            "atkAdd": 3.72,
+            "hpBase": 168,
+            "hpAdd": 6,
+            "defBase": 75.6,
+            "defAdd": 2.7,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 110,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 133.92,
+            "atkAdd": 3.72,
+            "hpBase": 216,
+            "hpAdd": 6,
+            "defBase": 97.2,
+            "defAdd": 2.7,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 110,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 163.68,
+            "atkAdd": 3.72,
+            "hpBase": 264,
+            "hpAdd": 6,
+            "defBase": 118.8,
+            "defAdd": 2.7,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 110,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 193.44,
+            "atkAdd": 3.72,
+            "hpBase": 312,
+            "hpAdd": 6,
+            "defBase": 140.4,
+            "defAdd": 2.7,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 110,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 223.2,
+            "atkAdd": 3.72,
+            "hpBase": 360,
+            "hpAdd": 6,
+            "defBase": 162,
+            "defAdd": 2.7,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 110,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 252.96,
+            "atkAdd": 3.72,
+            "hpBase": 408,
+            "hpAdd": 6,
+            "defBase": 183.6,
+            "defAdd": 2.7,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 75,
+            "spdBase": 110,
+            "spdAdd": 0
+        }
+    ],
+    "eidolons": [
+        {
+            "name": "The Higher You Fly, the Harder You Fall",
+            "desc": "When the target enemy's current HP percentage is greater than or equal to <nobr>#1[i]%</nobr>, CRIT Rate increases by <nobr>#2[i]%</nobr>.",
+            "params": [
+                0.5,
+                0.12
+            ]
+        },
+        {
+            "name": "Quell the Venom Octet, Quench the Vice O'Flame",
+            "desc": "Reduces Talent cooldown by 1 turn.",
+            "params": []
+        },
+        {
+            "name": "Seen and Unseen",
+            "desc": "Skill Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Basic ATK Lv. +1, up to a maximum of Lv. <nobr>10</nobr>.",
+            "params": []
+        },
+        {
+            "name": "Roaring Dragon and Soaring Sun",
+            "desc": "When Dan Heng uses his Ultimate to defeat an enemy, he will immediately take action again.",
+            "params": []
+        },
+        {
+            "name": "A Drop of Rain Feeds a Torrent",
+            "desc": "Ultimate Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Talent Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.",
+            "params": []
+        },
+        {
+            "name": "The Troubled Soul Lies in Wait",
+            "desc": "The Slow state triggered by Skill reduces the enemy's SPD by an extra <nobr>#1[i]%</nobr>.",
+            "params": [
+                0.08
+            ]
+        }
+    ],
+    "skills": {
+        "Basic ATK": {
+            "name": "Cloudlancer Art: North Wind",
+            "desc": "Deals <span style=\"color:#00FF9C;\">Wind</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Dan Heng's ATK to a single enemy.",
+            "ultCost": 0,
+            "break": 30,
+            "energy": 20,
+            "levelData": [
+                [
+                    0.5
+                ],
+                [
+                    0.6
+                ],
+                [
+                    0.7
+                ],
+                [
+                    0.8
+                ],
+                [
+                    0.9
+                ],
+                [
+                    1
+                ],
+                [
+                    1.1
+                ],
+                [
+                    1.2
+                ],
+                [
+                    1.3
+                ]
+            ]
+        },
+        "Skill": {
+            "name": "Cloudlancer Art: Torrent",
+            "desc": "Deals <span style=\"color:#00FF9C;\">Wind</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Dan Heng's ATK to a single enemy.<br />On a CRIT Hit, there is a <nobr>#4[i]%</nobr> <u>base chance</u> to reduce the target's SPD by <nobr>#2[i]%</nobr> for <nobr>#3[i]</nobr> turn(s).",
+            "ultCost": 0,
+            "break": 60,
+            "energy": 30,
+            "levelData": [
+                [
+                    1.3,
+                    0.12,
+                    2,
+                    1
+                ],
+                [
+                    1.43,
+                    0.12,
+                    2,
+                    1
+                ],
+                [
+                    1.56,
+                    0.12,
+                    2,
+                    1
+                ],
+                [
+                    1.69,
+                    0.12,
+                    2,
+                    1
+                ],
+                [
+                    1.82,
+                    0.12,
+                    2,
+                    1
+                ],
+                [
+                    1.95,
+                    0.12,
+                    2,
+                    1
+                ],
+                [
+                    2.1125,
+                    0.12,
+                    2,
+                    1
+                ],
+                [
+                    2.275,
+                    0.12,
+                    2,
+                    1
+                ],
+                [
+                    2.4375,
+                    0.12,
+                    2,
+                    1
+                ],
+                [
+                    2.6,
+                    0.12,
+                    2,
+                    1
+                ],
+                [
+                    2.73,
+                    0.12,
+                    2,
+                    1
+                ],
+                [
+                    2.86,
+                    0.12,
+                    2,
+                    1
+                ],
+                [
+                    2.99,
+                    0.12,
+                    2,
+                    1
+                ],
+                [
+                    3.12,
+                    0.12,
+                    2,
+                    1
+                ],
+                [
+                    3.25,
+                    0.12,
+                    2,
+                    1
+                ]
+            ]
+        },
+        "Ultimate": {
+            "name": "Ethereal Dream",
+            "desc": "Deals <span style=\"color:#00FF9C;\">Wind</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Dan Heng's ATK to a single enemy. If the enemy is Slowed, the Ultimate's DMG multiplier increases by <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span>.",
+            "ultCost": 100,
+            "break": 90,
+            "energy": 5,
+            "levelData": [
+                [
+                    2.4,
+                    0.72
+                ],
+                [
+                    2.56,
+                    0.768
+                ],
+                [
+                    2.72,
+                    0.816
+                ],
+                [
+                    2.88,
+                    0.864
+                ],
+                [
+                    3.04,
+                    0.912
+                ],
+                [
+                    3.2,
+                    0.96
+                ],
+                [
+                    3.4,
+                    1.02
+                ],
+                [
+                    3.6,
+                    1.08
+                ],
+                [
+                    3.8,
+                    1.14
+                ],
+                [
+                    4,
+                    1.2
+                ],
+                [
+                    4.16,
+                    1.248
+                ],
+                [
+                    4.32,
+                    1.296
+                ],
+                [
+                    4.48,
+                    1.344
+                ],
+                [
+                    4.64,
+                    1.392
+                ],
+                [
+                    4.8,
+                    1.44
+                ]
+            ]
+        },
+        "Talent": {
+            "name": "Superiority of Reach",
+            "desc": "When Dan Heng is the target of an ally's Ability, his next attack's <span style=\"color:#00FF9C;\">Wind</span> <u>RES PEN</u> increases by <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>. This effect can be triggered again after <nobr>#2[i]</nobr> turn(s).",
+            "ultCost": 0,
+            "break": 0,
+            "energy": 0,
+            "levelData": [
+                [
+                    0.18,
+                    2
+                ],
+                [
+                    0.198,
+                    2
+                ],
+                [
+                    0.216,
+                    2
+                ],
+                [
+                    0.234,
+                    2
+                ],
+                [
+                    0.252,
+                    2
+                ],
+                [
+                    0.27,
+                    2
+                ],
+                [
+                    0.2925,
+                    2
+                ],
+                [
+                    0.315,
+                    2
+                ],
+                [
+                    0.3375,
+                    2
+                ],
+                [
+                    0.36,
+                    2
+                ],
+                [
+                    0.378,
+                    2
+                ],
+                [
+                    0.396,
+                    2
+                ],
+                [
+                    0.414,
+                    2
+                ],
+                [
+                    0.432,
+                    2
+                ],
+                [
+                    0.45,
+                    2
+                ]
+            ]
+        },
+        "": {
+            "name": "Attack",
+            "desc": "Attack an enemy, and when the battle starts, reduce their Toughness of the corresponding Type.",
+            "ultCost": 0,
+            "break": 30,
+            "energy": 0,
+            "levelData": [
+                []
+            ]
+        },
+        "Technique": {
+            "name": "Splitting Spearhead",
+            "desc": "After Dan Heng uses his Technique, his ATK increases by <nobr>#1[i]%</nobr> at the start of the next battle for <nobr>#2[i]</nobr> turn(s).",
+            "ultCost": 0,
+            "break": 0,
+            "energy": 0,
+            "levelData": [
+                [
+                    0.4,
+                    3
+                ]
+            ]
+        }
+    }
+}

@@ -1,0 +1,440 @@
+{
+    "name": "Gepard",
+    "rarity": 5,
+    "spRequirement": 100,
+    "element": "Ice",
+    "path": "Preservation",
+    "levelData": [
+        {
+            "atkBase": 73.92,
+            "atkAdd": 3.696,
+            "hpBase": 190.08,
+            "hpAdd": 9.504,
+            "defBase": 89.1,
+            "defAdd": 4.455,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 150,
+            "spdBase": 92,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 103.488,
+            "atkAdd": 3.696,
+            "hpBase": 266.112,
+            "hpAdd": 9.504,
+            "defBase": 124.74,
+            "defAdd": 4.455,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 150,
+            "spdBase": 92,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 133.056,
+            "atkAdd": 3.696,
+            "hpBase": 342.144,
+            "hpAdd": 9.504,
+            "defBase": 160.38,
+            "defAdd": 4.455,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 150,
+            "spdBase": 92,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 162.624,
+            "atkAdd": 3.696,
+            "hpBase": 418.176,
+            "hpAdd": 9.504,
+            "defBase": 196.02,
+            "defAdd": 4.455,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 150,
+            "spdBase": 92,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 192.192,
+            "atkAdd": 3.696,
+            "hpBase": 494.208,
+            "hpAdd": 9.504,
+            "defBase": 231.66,
+            "defAdd": 4.455,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 150,
+            "spdBase": 92,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 221.76,
+            "atkAdd": 3.696,
+            "hpBase": 570.24,
+            "hpAdd": 9.504,
+            "defBase": 267.3,
+            "defAdd": 4.455,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 150,
+            "spdBase": 92,
+            "spdAdd": 0
+        },
+        {
+            "atkBase": 251.328,
+            "atkAdd": 3.696,
+            "hpBase": 646.272,
+            "hpAdd": 9.504,
+            "defBase": 302.94,
+            "defAdd": 4.455,
+            "crate": 0.05,
+            "cdmg": 0.5,
+            "aggro": 150,
+            "spdBase": 92,
+            "spdAdd": 0
+        }
+    ],
+    "eidolons": [
+        {
+            "name": "Due Diligence",
+            "desc": "When using Skill, increases the base chance to Freeze target enemy by <nobr>#1[i]%</nobr>.",
+            "params": [
+                0.35
+            ]
+        },
+        {
+            "name": "Lingering Cold",
+            "desc": "After an enemy Frozen by Skill is unfrozen, their SPD is reduced by <nobr>#1[i]%</nobr> for <nobr>#2[i]</nobr> turn(s).",
+            "params": [
+                0.2,
+                1
+            ]
+        },
+        {
+            "name": "Never Surrender",
+            "desc": "Ultimate Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Talent Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.",
+            "params": []
+        },
+        {
+            "name": "Faith Moves Mountains",
+            "desc": "When Gepard is in battle, all allies' Effect RES increases by <nobr>#1[i]%</nobr>.",
+            "params": [
+                0.2
+            ]
+        },
+        {
+            "name": "Cold Iron Fist",
+            "desc": "Skill Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Basic ATK Lv. +1, up to a maximum of Lv. <nobr>10</nobr>.",
+            "params": []
+        },
+        {
+            "name": "Unyielding Resolve",
+            "desc": "When his Talent is triggered, Gepard immediately takes action again and restores extra HP equal to <nobr>#1[i]%</nobr> of his Max HP.",
+            "params": [
+                0.5
+            ]
+        }
+    ],
+    "skills": {
+        "Basic ATK": {
+            "name": "Fist of Conviction",
+            "desc": "Deals <span style=\"color:#47C7FD;\">Ice</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Gepard's ATK to a single enemy.",
+            "ultCost": 0,
+            "break": 30,
+            "energy": 20,
+            "levelData": [
+                [
+                    0.5
+                ],
+                [
+                    0.6
+                ],
+                [
+                    0.7
+                ],
+                [
+                    0.8
+                ],
+                [
+                    0.9
+                ],
+                [
+                    1
+                ],
+                [
+                    1.1
+                ],
+                [
+                    1.2
+                ],
+                [
+                    1.3
+                ]
+            ]
+        },
+        "Skill": {
+            "name": "Daunting Smite",
+            "desc": "Deals <span style=\"color:#47C7FD;\">Ice</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Gepard's ATK to a single enemy, with a <nobr>#2[i]%</nobr> <u>base chance</u> to Freeze the enemy for <nobr>#3[i]</nobr> turn(s).<br />While Frozen, the enemy cannot take action and will take <u>Additional</u> <span style=\"color:#47C7FD;\">Ice</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]%</nobr></span> of Gepard's ATK at the beginning of each turn.",
+            "ultCost": 0,
+            "break": 60,
+            "energy": 30,
+            "levelData": [
+                [
+                    1,
+                    0.65,
+                    1,
+                    0.3
+                ],
+                [
+                    1.1,
+                    0.65,
+                    1,
+                    0.33
+                ],
+                [
+                    1.2,
+                    0.65,
+                    1,
+                    0.36
+                ],
+                [
+                    1.3,
+                    0.65,
+                    1,
+                    0.39
+                ],
+                [
+                    1.4,
+                    0.65,
+                    1,
+                    0.42
+                ],
+                [
+                    1.5,
+                    0.65,
+                    1,
+                    0.45
+                ],
+                [
+                    1.625,
+                    0.65,
+                    1,
+                    0.4875
+                ],
+                [
+                    1.75,
+                    0.65,
+                    1,
+                    0.525
+                ],
+                [
+                    1.875,
+                    0.65,
+                    1,
+                    0.5625
+                ],
+                [
+                    2,
+                    0.65,
+                    1,
+                    0.6
+                ],
+                [
+                    2.1,
+                    0.65,
+                    1,
+                    0.63
+                ],
+                [
+                    2.2,
+                    0.65,
+                    1,
+                    0.66
+                ],
+                [
+                    2.3,
+                    0.65,
+                    1,
+                    0.69
+                ],
+                [
+                    2.4,
+                    0.65,
+                    1,
+                    0.72
+                ],
+                [
+                    2.5,
+                    0.65,
+                    1,
+                    0.75
+                ]
+            ]
+        },
+        "Ultimate": {
+            "name": "Enduring Bulwark",
+            "desc": "Applies a Shield to all allies, absorbing DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Gepard's DEF plus <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]</nobr></span> for <nobr>#2[i]</nobr> turn(s).",
+            "ultCost": 100,
+            "break": 0,
+            "energy": 5,
+            "levelData": [
+                [
+                    0.3,
+                    3,
+                    150
+                ],
+                [
+                    0.31875,
+                    3,
+                    240
+                ],
+                [
+                    0.3375,
+                    3,
+                    307.5
+                ],
+                [
+                    0.35625,
+                    3,
+                    375
+                ],
+                [
+                    0.375,
+                    3,
+                    420
+                ],
+                [
+                    0.39,
+                    3,
+                    465
+                ],
+                [
+                    0.405,
+                    3,
+                    498.75
+                ],
+                [
+                    0.42,
+                    3,
+                    532.5
+                ],
+                [
+                    0.435,
+                    3,
+                    566.25
+                ],
+                [
+                    0.45,
+                    3,
+                    600
+                ],
+                [
+                    0.465,
+                    3,
+                    633.75
+                ],
+                [
+                    0.48,
+                    3,
+                    667.5
+                ],
+                [
+                    0.495,
+                    3,
+                    701.25
+                ],
+                [
+                    0.51,
+                    3,
+                    735
+                ],
+                [
+                    0.525,
+                    3,
+                    768.75
+                ]
+            ]
+        },
+        "Talent": {
+            "name": "Unyielding Will",
+            "desc": "When struck with a killing blow, instead of becoming <u>knocked down</u>, Gepard's HP immediately restores to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of his Max HP. This effect can only trigger once per battle.",
+            "ultCost": 0,
+            "break": 0,
+            "energy": 0,
+            "levelData": [
+                [
+                    0.25
+                ],
+                [
+                    0.275
+                ],
+                [
+                    0.3
+                ],
+                [
+                    0.325
+                ],
+                [
+                    0.35
+                ],
+                [
+                    0.375
+                ],
+                [
+                    0.40625
+                ],
+                [
+                    0.4375
+                ],
+                [
+                    0.46875
+                ],
+                [
+                    0.5
+                ],
+                [
+                    0.525
+                ],
+                [
+                    0.55
+                ],
+                [
+                    0.575
+                ],
+                [
+                    0.6
+                ],
+                [
+                    0.625
+                ]
+            ]
+        },
+        "": {
+            "name": "Attack",
+            "desc": "Attack an enemy, and when the battle starts, reduce their Toughness of the corresponding Type.",
+            "ultCost": 0,
+            "break": 30,
+            "energy": 0,
+            "levelData": [
+                []
+            ]
+        },
+        "Technique": {
+            "name": "Comradery",
+            "desc": "After Gepard uses his Technique, when the next battle begins, a Shield will be applied to all allies, absorbing DMG equal to <nobr>#1[i]%</nobr> of Gepard's DEF plus <nobr>#3[i]</nobr> for <nobr>#2[i]</nobr> turn(s).",
+            "ultCost": 0,
+            "break": 0,
+            "energy": 0,
+            "levelData": [
+                [
+                    0.24,
+                    2,
+                    150
+                ]
+            ]
+        }
+    }
+}
