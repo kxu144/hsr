@@ -1,0 +1,24 @@
+{
+ "iconPath": "2295a433e9419402d7a8404f2928a9dcc83828df7154fb6f32aee71feacda1e0",
+ "name": "Kafka: Dinner Party",
+ "rarity": 5,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 241590,
+  "type": 505,
+  "purposeId": 0,
+  "iconPath": "2295a433e9419402d7a8404f2928a9dcc83828df7154fb6f32aee71feacda1e0",
+  "name": "Kafka: Dinner Party",
+  "desc": "Avatar reward obtained from unlocking Nameless Honor.",
+  "lore": "Kafka on a special mission.<br /><br />\"Promise me, forget everything about tonight.\"",
+  "purpose": "",
+  "rarity": 5,
+  "rewardPath": "/material/241590",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "241590"
+}

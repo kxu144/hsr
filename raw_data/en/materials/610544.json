@@ -1,0 +1,26 @@
+{
+ "iconPath": "054d91bc6d9775dc66ba6d0c7d7e089abb6497935887673f968b0e1e9063db06",
+ "name": "Relic Remains",
+ "rarity": 5,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 610544,
+  "type": 601,
+  "purposeId": 10,
+  "iconPath": "054d91bc6d9775dc66ba6d0c7d7e089abb6497935887673f968b0e1e9063db06",
+  "name": "Relic Remains",
+  "desc": "Material salvaged from Relics.",
+  "lore": "Broken parts of a relic that is one step away from decomposing into the Lightdust floating in the Fragmentum.<br /><br />\"Don't take them for mere scraps. I can restore them to their original state.\"",
+  "purpose": "Consumables",
+  "rarity": 5,
+  "rewardPath": "/material/610544",
+  "comeFrom": [
+   "Salvage Relic"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "610544"
+}

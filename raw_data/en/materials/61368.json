@@ -1,0 +1,24 @@
+{
+ "iconPath": "b67d8c4fd7db4fd99be1faf844b710457781eba10304a3babebf83af45d88407",
+ "name": "Planar Ornaments",
+ "rarity": 2,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 61368,
+  "type": 802,
+  "purposeId": 0,
+  "iconPath": "b67d8c4fd7db4fd99be1faf844b710457781eba10304a3babebf83af45d88407",
+  "name": "Planar Ornaments",
+  "desc": "Artificial relics made by Herta in imitation to the principles behind the Fragmentum. Its data are sourced from the Simulated Universe.",
+  "lore": "Artificial relics made in imitation to the principles behind the Fragmentum. Worlds that exist in theory are stored within spherical Planar Ornaments.<br /><br />\"It's like a kind of Relic, but much bigger... and much more condensed.\"",
+  "purpose": "",
+  "rarity": 2,
+  "rewardPath": "/material/61368",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "61368"
+}

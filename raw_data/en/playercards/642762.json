@@ -1,0 +1,24 @@
+{
+ "iconPath": "28f392fe5c76a8504b2dcfb7b887fd74f6856223ebb862273003223d8f8e69d7",
+ "name": "Himeko \u2014 Welcome",
+ "rarity": 5,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 642762,
+  "type": 505,
+  "purposeId": 0,
+  "iconPath": "28f392fe5c76a8504b2dcfb7b887fd74f6856223ebb862273003223d8f8e69d7",
+  "name": "Himeko \u2014 Welcome",
+  "desc": "Avatar reward obtained from unlocking Nameless Honor.",
+  "lore": "Himeko, participant of the Express Crew Newbie Welcome Party.<br /><br />\"It's a newbie tradition: You can't leave until you've finished three cups of coffee.\"",
+  "purpose": "",
+  "rarity": 5,
+  "rewardPath": "/material/642762",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "642762"
+}

@@ -127,9 +127,12 @@ function BuildDisplay() {
             console.log(charStats, charLvl);
             console.log(lcStats, lcLvl);
             setBaseStats({
-                hp: charStats.hpBase + (charLvl.lvl - 1) * charStats.hpAdd + lcStats.hpBase + (lcLvl.lvl - 1) * lcStats.hpAdd,
-                atk: charStats.atkBase + (charLvl.lvl - 1) * charStats.atkAdd + lcStats.attackBase + (lcLvl.lvl - 1) * lcStats.attackAdd,
-                def: charStats.defBase + (charLvl.lvl - 1) * charStats.defAdd + lcStats.defenseBase + (lcLvl.lvl - 1) * lcStats.defenseAdd,
+                "hp": charStats.hpBase + (charLvl.lvl - 1) * charStats.hpAdd + lcStats.hpBase + (lcLvl.lvl - 1) * lcStats.hpAdd,
+                "atk": charStats.atkBase + (charLvl.lvl - 1) * charStats.atkAdd + lcStats.attackBase + (lcLvl.lvl - 1) * lcStats.attackAdd,
+                "def": charStats.defBase + (charLvl.lvl - 1) * charStats.defAdd + lcStats.defenseBase + (lcLvl.lvl - 1) * lcStats.defenseAdd,
+                "crit rate": charStats.crate * 100,
+                "crit dmg": charStats.cdmg * 100,
+                "spd": charStats.spdBase + (charLvl.lvl - 1) * charStats.spdAdd,
             });
         } else {
             setBaseStats(null);

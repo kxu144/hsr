@@ -1,0 +1,112 @@
+{
+ "iconPath": "911aa637ad7ad14f589891ff6d2efa1a10fea312c499e162a20efa60a6c2f3e0",
+ "name": "Punitive Energy",
+ "rarity": 2,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 872000,
+  "type": 502,
+  "purposeId": 10,
+  "iconPath": "911aa637ad7ad14f589891ff6d2efa1a10fea312c499e162a20efa60a6c2f3e0",
+  "name": "Punitive Energy",
+  "desc": "Upon use, immediately recovers 4 Technique Points for your team, but each team member loses HP equal to <nobr>15%</nobr> of their Max HP.",
+  "lore": "Energy drink that tastes strange. Drinking it almost feels like some punishment game.<br />Just looking at it fills you with determination.<br /><br />\"If anger can be used as energy, mine is off the charts.\"",
+  "purpose": "Consumables",
+  "rarity": 2,
+  "rewardPath": "/material/872000",
+  "comeFrom": [
+   "All-in-One Synthesis Machine"
+  ]
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "af49f8c10262045a4f9e4740703b52056b5f396b48b99c2d130c22f3dbfa99d9",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards",
+    "Embers Exchange"
+   ]
+  },
+  "273405": {
+   "id": 273405,
+   "type": 502,
+   "purposeId": 10,
+   "iconPath": "d69d74e6fcb7d7d77f123d62f26274fbc7ef9ef83975b965a1b5354de0fb1517",
+   "name": "Trash",
+   "desc": "Upon use, immediately causes a single ally to lose HP equal to <nobr>15%</nobr> of their Max HP.",
+   "lore": "Worthless trash.<br />Better carry some with you.<br /><br />\"Some say that in the deep retreats of the Galaxy, an invisible portal will open to those carrying a piece of junk.\"",
+   "purpose": "Consumables",
+   "rarity": 1,
+   "rewardPath": "/material/273405",
+   "comeFrom": [
+    "Found in destructible objects in Jarilo-VI"
+   ]
+  },
+  "757744": {
+   "id": 757744,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "1603e1e0c8be925b5d5fd7a767acd60f0fe7a33122e56a5e506aae91b824a779",
+   "name": "Virtual Particle",
+   "desc": "Tier 2 Synthesis Material",
+   "lore": "Tiny particles commonly found in the universe but cannot be observed in theory.<br />Scientists are good at transforming theories into reality.<br /><br />\"I've got a virtual particle and an anti virtual particle here. How do we turn them into a real particle and a real antiparticle? Now, look closely...\"",
+   "purpose": "Synthesis material",
+   "rarity": 2,
+   "rewardPath": "/material/757744",
+   "comeFrom": [
+    "Storage Zone: Baryons or other enemies",
+    "Found in destructible objects in the Herta Space Station",
+    "Grocery Stand"
+   ]
+  },
+  "872132": {
+   "id": 872132,
+   "type": 507,
+   "purposeId": 19,
+   "iconPath": "97b725bf30cb93710ab886445989ccfc097aef5eccb30e05da6a347f35fb4c9f",
+   "name": "Recipe: Punitive Energy",
+   "desc": "A simple equation. When entered into the Synthesizer, it will unlock a new recipe.",
+   "lore": "",
+   "purpose": "Recipe",
+   "rarity": 2,
+   "rewardPath": "/material/872132",
+   "comeFrom": []
+  }
+ },
+ "composeData": [
+  {
+   "items": [
+    {
+     "id": 273405,
+     "count": 1
+    },
+    {
+     "id": 757744,
+     "count": 3
+    },
+    {
+     "id": 872132,
+     "count": 1
+    }
+   ],
+   "tag": {
+    "name": "Restorative Consumables",
+    "type": "Consumables",
+    "icon": "8743e720b0f60c4b11bc7f188cf7b5ae3921e2cf3dacfdd180f1bcb5a1bae09e"
+   }
+  }
+ ],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "872000"
+}

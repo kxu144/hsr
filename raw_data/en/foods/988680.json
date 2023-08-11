@@ -1,0 +1,112 @@
+{
+ "iconPath": "a6f8641066372eb1dd69ffcd649ca67c1fd6ce2c97de954167d49e866dcbac1a",
+ "name": "Antimatter Field Generator",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 988680,
+  "type": 502,
+  "purposeId": 10,
+  "iconPath": "a6f8641066372eb1dd69ffcd649ca67c1fd6ce2c97de954167d49e866dcbac1a",
+  "name": "Antimatter Field Generator",
+  "desc": "Upon use, increases ATK of all allies by <nobr>260</nobr> and CRIT Rate by 8% for the next battle.",
+  "lore": "Despite being blessed by Nanook the Aeon and having the know-how of making a multitude of heavy weaponry, some members of the Antimatter Legion still prefer primitive non-firearms. The Voidrangers implant Antimatter Field Generators into their arms to form formidable Field Blades.<br /><br />\"Like a hot knife through butter.\"",
+  "purpose": "Consumables",
+  "rarity": 3,
+  "rewardPath": "/material/988680",
+  "comeFrom": [
+   "All-in-One Synthesis Machine"
+  ]
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "af49f8c10262045a4f9e4740703b52056b5f396b48b99c2d130c22f3dbfa99d9",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards",
+    "Embers Exchange"
+   ]
+  },
+  "440482": {
+   "id": 440482,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "ddb56aa872e9c58b68f5cff4584d630bf36c681554c077ab9a103eb95f233e89",
+   "name": "Strange Matter of Destruction",
+   "desc": "Tier 3 Synthesis Material",
+   "lore": "Strange matter that seems to possess the power of destruction.<br />Resembling fire but not quite, it is neither cold nor hot and will damage anything that comes into contact with it for over <nobr>12</nobr> seconds.<br />Could be the Antimatter Legion's version of trash.<br /><br />\"Creatures that received blessing from Nanook all have twisted appearances.\"",
+   "purpose": "Synthesis material",
+   "rarity": 3,
+   "rewardPath": "/material/440482",
+   "comeFrom": [
+    "Storage Zone: Voidranger: Reavers or other enemies"
+   ]
+  },
+  "557157": {
+   "id": 557157,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "75da0e2c6bf18e07ff5d5060087474cd866da66cdd488404cc50229f63ffbd0b",
+   "name": "Meteoric Alloy",
+   "desc": "Tier 2 Synthesis Material",
+   "lore": "Resilient meteoric ironsand.<br />Its tenacity is far superior to solid boulders.<br /><br />\"Let's grab as much as we can. Qlipoth will need them.\"<br />\"I have no idea whether the Aeon need them or not. All I know is that the IPC will pay big bucks for them.\"",
+   "purpose": "Synthesis material",
+   "rarity": 2,
+   "rewardPath": "/material/557157",
+   "comeFrom": [
+    "Robot Settlement: Automatons or other enemies",
+    "Found in destructible objects in Jarilo-VI",
+    "Administrative District Shop"
+   ]
+  },
+  "988812": {
+   "id": 988812,
+   "type": 507,
+   "purposeId": 19,
+   "iconPath": "97b725bf30cb93710ab886445989ccfc097aef5eccb30e05da6a347f35fb4c9f",
+   "name": "Recipe: Antimatter Field Generator",
+   "desc": "A simple equation. When entered into the Synthesizer, it will unlock a new recipe.",
+   "lore": "",
+   "purpose": "Recipe",
+   "rarity": 3,
+   "rewardPath": "/material/988812",
+   "comeFrom": []
+  }
+ },
+ "composeData": [
+  {
+   "items": [
+    {
+     "id": 557157,
+     "count": 4
+    },
+    {
+     "id": 440482,
+     "count": 3
+    },
+    {
+     "id": 988812,
+     "count": 1
+    }
+   ],
+   "tag": {
+    "name": "Attack Consumables",
+    "type": "Consumables",
+    "icon": "8743e720b0f60c4b11bc7f188cf7b5ae3921e2cf3dacfdd180f1bcb5a1bae09e"
+   }
+  }
+ ],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "988680"
+}

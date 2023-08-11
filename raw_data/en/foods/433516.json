@@ -1,0 +1,24 @@
+{
+ "iconPath": "a7a7cd374372abce5fa3976f885350afaccc97f14aa4af2d14c218e9117810b0",
+ "name": "Rejuvenation Pellet",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 433516,
+  "type": 502,
+  "purposeId": 10,
+  "iconPath": "a7a7cd374372abce5fa3976f885350afaccc97f14aa4af2d14c218e9117810b0",
+  "name": "Rejuvenation Pellet",
+  "desc": "When used, instantly replenish 2 Technique Points for the team.",
+  "lore": "It is said that it cures all diseases, but it is actually hawthorn pills.<br />It's really delicious though.<br /><br />\"Promotion of the medicinal properties of health products is prohibited by the law.\"<br />\"Officer, I am wronged! This is not a health product. This is just food. Try it if you don't believe me.\"",
+  "purpose": "Consumables",
+  "rarity": 3,
+  "rewardPath": "/material/433516",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "433516"
+}

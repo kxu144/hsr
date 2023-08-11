@@ -1,0 +1,283 @@
+{
+ "iconPath": "4739fca7a1030fea7868366b1fae3a46d81bf3cf5485ecf9343c72b25eba6eb8",
+ "name": "Destroyer's Final Road",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 985668,
+  "type": 601,
+  "purposeId": 4,
+  "iconPath": "4739fca7a1030fea7868366b1fae3a46d81bf3cf5485ecf9343c72b25eba6eb8",
+  "name": "Destroyer's Final Road",
+  "desc": "Advanced level-up material for Traces.",
+  "lore": "The Leviathan's heart has stopped beating, but its mind lives on despite being trapped in a case. As long as the lid is closed, its mind is simultaneously both alive and dead, driving the engine of destruction.<br /><br />\"Doomsday Beast, a blight made in the Warforge using what's left of a Leviathan and the weeping bones of thousands of the dead. It longs for the destruction of the universe and itself.\"",
+  "purpose": "Trace Materials",
+  "rarity": 4,
+  "rewardPath": "/material/985668",
+  "comeFrom": [
+   "Echo of War (Supply Zone)"
+  ]
+ },
+ "itemReferences": {
+  "61765": {
+   "id": 61765,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "1cc00d638b5643d706fcc9f3e14e7083a7c9ab005b077a728830acbee6c79629",
+   "name": "Arlan",
+   "desc": "",
+   "lore": "The head of Herta Space Station's Security Department.<br />This quiet boy hopes to protect the researchers who value their pursuit of knowledge, and to help them to complete their work.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/character/arlan",
+   "comeFrom": []
+  },
+  "91539": {
+   "id": 91539,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "96034716e935317c6b9128f24f97d2a8515a349b32ccfd97c7c18a2936fe0ba1",
+   "name": "Silver Wolf",
+   "desc": "",
+   "lore": "A member of the Stellaron Hunters and a genius hacker.<br />She sees the universe as a massive immersive simulation game and has fun with it.<br />She's mastered the skill known as \"aether editing,\" which can be used to tamper with the data of reality.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/silverwolf",
+   "comeFrom": []
+  },
+  "175480": {
+   "id": 175480,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "11b1bb275e65fe29cce86f8b27a624e6bc0621f40cc1aa2bcd75b3a8e2e0ddec",
+   "name": "March 7th",
+   "desc": "",
+   "lore": "A girl who once slumbered in eternal ice and knows nothing about her past.<br />To find out the truth about her origins, she decided to travel with the Astral Express.<br />As of right now, she has prepared about <nobr>67</nobr> different versions of her life story for herself.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/character/mar7th",
+   "comeFrom": []
+  },
+  "175713": {
+   "id": 175713,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "aab8b27e07015f6ccd8732aa36f9094bdc445d4cac65451e5bc1854094f6b1e2",
+   "name": "Trailblazer",
+   "desc": "",
+   "lore": "A girl/boy who boarded the Astral Express.<br />They chose to travel with the Astral Express to eliminate the dangers posed by the Stellaron.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/playerboy",
+   "comeFrom": []
+  },
+  "215955": {
+   "id": 215955,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "540466b61166cc9f54014cacad3701dd7e159647ca15208014d4ceb4ba93c397",
+   "name": "Jing Yuan",
+   "desc": "",
+   "lore": "The Divine Foresight, one of the Seven Arbiter-Generals of the Xianzhou Alliance, leads the Cloud Knights of the Xianzhou Luofu.<br />A student of the Luofu's previous Sword Champion, though not known for his martial prowess.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/jingyuan",
+   "comeFrom": []
+  },
+  "376066": {
+   "id": 376066,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "e651d4b59021ed37425d9465a03a4eac1fd086883a32554926a88f2e5e1017a2",
+   "name": "Himeko",
+   "desc": "",
+   "lore": "The one who repaired the Astral Express.<br />To witness the vast starry sky, she decided to travel with the Astral Express.<br />Her hobby is brewing hand-made coffee.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/himeko",
+   "comeFrom": []
+  },
+  "376067": {
+   "id": 376067,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "9e04eef55fb427ebf4218e4e9a96c94df3da870da73c90211e73ae6c36ae960e",
+   "name": "Herta",
+   "desc": "",
+   "lore": "Member <nobr>83</nobr> of the Genius Society. The real master of the space station.<br />An incredibly intelligent yet unsympathetic scientist.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/character/herta",
+   "comeFrom": []
+  },
+  "376299": {
+   "id": 376299,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "bde722de0b0a725884ca960e7232356aa8324982e173c22e4121a24f50674981",
+   "name": "Trailblazer",
+   "desc": "",
+   "lore": "A girl/boy who boarded the Astral Express.<br />They chose to travel with the Astral Express to eliminate the dangers posed by the Stellaron.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/playerboy2",
+   "comeFrom": []
+  },
+  "416541": {
+   "id": 416541,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "b79ba01fcb3755088c6d718dcd75d9bb1664706e42e9768c1fb1c06ba2c4e453",
+   "name": "Tingyun",
+   "desc": "",
+   "lore": "Amicassador of the Sky-Faring Commission of the Xianzhou Luofu.<br />She travels with business delegates, forging trade relationships and alliances with many worlds.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/character/tingyun",
+   "comeFrom": []
+  },
+  "460007": {
+   "id": 460007,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "c7c50636ad0c7813b6ffaefc92ad561e8d12bc7915caff44c799780279e3bcf5",
+   "name": "Dan Heng",
+   "desc": "",
+   "lore": "A cold and reserved young man who is reticent about his past.<br />To avoid his kin, he decided to travel with the Astral Express.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/character/danheng",
+   "comeFrom": []
+  },
+  "460240": {
+   "id": 460240,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "55062ef1a50d252f1e2ff0f9930c60afc52f6890bb0da10971c350121c1d3ae8",
+   "name": "Trailblazer",
+   "desc": "",
+   "lore": "A girl/boy who boarded the Astral Express.<br />They chose to travel with the Astral Express to eliminate the dangers posed by the Stellaron.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/playergirl",
+   "comeFrom": []
+  },
+  "890953": {
+   "id": 890953,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "684aa0773c40e70a866269e6432b305c2697472da43f7b33c443d142fc266e3c",
+   "name": "Welt",
+   "desc": "",
+   "lore": "A seasoned member of the Express Crew.<br />The passion buried in his heart burns anew as he enjoys this fresh adventure.<br />Occasionally, he would sketch the experiences in a notebook.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/welt",
+   "comeFrom": []
+  },
+  "891186": {
+   "id": 891186,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "20af1fa026ccafd46ca14155f39290d855c20e323ebccae4eca9e14d9bcc3894",
+   "name": "Trailblazer",
+   "desc": "",
+   "lore": "A girl/boy who boarded the Astral Express.<br />They chose to travel with the Astral Express to eliminate the dangers posed by the Stellaron.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/playergirl2",
+   "comeFrom": []
+  },
+  "931428": {
+   "id": 931428,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "1f1cd84e7a8305b16b6123512c96cb5cb1523628f6849360d810aac6b6e26f52",
+   "name": "Yukong",
+   "desc": "",
+   "lore": "Head of the Sky-Faring Commission on the Xianzhou Luofu. Yukong was a seasoned pilot and a deadshot.<br />Since heading up the commission, she's been buried under mountains of paperwork.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/character/yukong",
+   "comeFrom": []
+  },
+  "945120": {
+   "id": 945120,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "dc547d1379777a6176fe3ea2826a954bc5cf2eee24b24e2f42973ba8ae8580f8",
+   "name": "Asta",
+   "desc": "",
+   "lore": "The lead researcher of Herta Space Station and a lady from a renowned family.<br />She's an astronomer overflowing with curiosity, and excels at managing the disparate staff of the space station.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/character/asta",
+   "comeFrom": []
+  }
+ },
+ "composeData": [],
+ "avatarUsedBy": [
+  {
+   "id": 215955,
+   "rarity": 5
+  },
+  {
+   "id": 91539,
+   "rarity": 5
+  },
+  {
+   "id": 890953,
+   "rarity": 5
+  },
+  {
+   "id": 376066,
+   "rarity": 5
+  },
+  {
+   "id": 175713,
+   "rarity": 5
+  },
+  {
+   "id": 460240,
+   "rarity": 5
+  },
+  {
+   "id": 376299,
+   "rarity": 5
+  },
+  {
+   "id": 891186,
+   "rarity": 5
+  },
+  {
+   "id": 931428,
+   "rarity": 4
+  },
+  {
+   "id": 416541,
+   "rarity": 4
+  },
+  {
+   "id": 376067,
+   "rarity": 4
+  },
+  {
+   "id": 945120,
+   "rarity": 4
+  },
+  {
+   "id": 61765,
+   "rarity": 4
+  },
+  {
+   "id": 460007,
+   "rarity": 4
+  },
+  {
+   "id": 175480,
+   "rarity": 4
+  }
+ ],
+ "equipmentUsedBy": [],
+ "pageId": "985668"
+}

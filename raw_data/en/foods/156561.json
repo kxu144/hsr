@@ -1,0 +1,224 @@
+{
+ "iconPath": "57eaa77327ebc785603783e0d19ea33031058eedc0479586891e44b0a14a5016",
+ "name": "Vomit Inducing Agent",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 156561,
+  "type": 502,
+  "purposeId": 10,
+  "iconPath": "57eaa77327ebc785603783e0d19ea33031058eedc0479586891e44b0a14a5016",
+  "name": "Vomit Inducing Agent",
+  "desc": "Upon use, immediately causes a single ally to lose HP equal to <nobr>99%</nobr> of their Max HP and greatly reduces their Satiety.",
+  "lore": "Don't bite off more than you can chew. But when you do, use some of this and let it work wonders.<br />You become more resolute when holding it.<br /><br />\"No one is born a loser. Always have faith in yourself.\"",
+  "purpose": "Consumables",
+  "rarity": 3,
+  "rewardPath": "/material/156561",
+  "comeFrom": [
+   "All-in-One Synthesis Machine"
+  ]
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "af49f8c10262045a4f9e4740703b52056b5f396b48b99c2d130c22f3dbfa99d9",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards",
+    "Embers Exchange"
+   ]
+  },
+  "72014": {
+   "id": 72014,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "b28d55bbfe31290893d1ac03c0d1747e94638a846387ed6b493de94a7c7f4074",
+   "name": "Hard Chip of Nihility",
+   "desc": "Tier 3 Synthesis Material",
+   "lore": "A chip made of iron that seems to possess the power of Nihility.<br />It may have been a coin that people use to buy things.<br />But apparently, as the engravings on it fade away, its value went with them.<br /><br />\"I don't know what I'm writing between these quotation marks. What's the point of this item description? My life is meaningless, so is this piece of flavor text.\"",
+   "purpose": "Synthesis material",
+   "rarity": 3,
+   "rewardPath": "/material/72014",
+   "comeFrom": [
+    "Rivet Town: Imaginary Weavers or other enemies"
+   ]
+  },
+  "155955": {
+   "id": 155955,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "372cc5a9fd892f4c2db6a5d505404405726581cecd41fe7d526d15d29e5897e4",
+   "name": "Preservation Construction Material",
+   "desc": "Tier 3 Synthesis Material",
+   "lore": "Construction materials that seem to possess the power of Preservation.<br />When mixed with water it forms a paste, when exposed to air it turns rock-hard.<br />Please do not use together with Solid Water.<br /><br />\"I regret to say that Intelligentsia Guild's research on the material used to build the Subspace Crystalline Barrier by Amber Lord still needs time to reveal its nature.\"<br />\"I'm sure it's not cement \u2014 am I right, Taravan?\"",
+   "purpose": "Synthesis material",
+   "rarity": 3,
+   "rewardPath": "/material/155955",
+   "comeFrom": [
+    "Corridor of Fading Echoes: Everwinter Shadewalkers or other enemies"
+   ]
+  },
+  "156693": {
+   "id": 156693,
+   "type": 507,
+   "purposeId": 19,
+   "iconPath": "97b725bf30cb93710ab886445989ccfc097aef5eccb30e05da6a347f35fb4c9f",
+   "name": "Recipe: Vomit Inducing Agent",
+   "desc": "A simple equation. When entered into the Synthesizer, it will unlock a new recipe.",
+   "lore": "",
+   "purpose": "Recipe",
+   "rarity": 3,
+   "rewardPath": "/material/156693",
+   "comeFrom": []
+  },
+  "272600": {
+   "id": 272600,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "d0ce941a66912f8ec3334de85b1f982f765577205a044979c6524e6e3c1e25c1",
+   "name": "Slime of Harmony",
+   "desc": "Tier 3 Synthesis Material",
+   "lore": "A torus that seems to possess the power of Harmony.<br />It only has one surface. No matter where you depart, you're destined to not reach your destination.<br />A tiny complaint would be that it is a bit sticky, as if it does not want to let you go.<br /><br />\"All are connected and the wind of blessing breathes across the lands!\"",
+   "purpose": "Synthesis material",
+   "rarity": 3,
+   "rewardPath": "/material/272600",
+   "comeFrom": [
+    "Stargazer Navalia: Entranced Ingenium: Obedient Dracolion or other enemies"
+   ]
+  },
+  "273405": {
+   "id": 273405,
+   "type": 502,
+   "purposeId": 10,
+   "iconPath": "d69d74e6fcb7d7d77f123d62f26274fbc7ef9ef83975b965a1b5354de0fb1517",
+   "name": "Trash",
+   "desc": "Upon use, immediately causes a single ally to lose HP equal to <nobr>15%</nobr> of their Max HP.",
+   "lore": "Worthless trash.<br />Better carry some with you.<br /><br />\"Some say that in the deep retreats of the Galaxy, an invisible portal will open to those carrying a piece of junk.\"",
+   "purpose": "Consumables",
+   "rarity": 1,
+   "rewardPath": "/material/273405",
+   "comeFrom": [
+    "Found in destructible objects in Jarilo-VI"
+   ]
+  },
+  "356541": {
+   "id": 356541,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "2afe0de1db31d9b352c11ed04032e32a338c41ae832efa77de81d343d0d94229",
+   "name": "Tree Bark of Erudition",
+   "desc": "Tier 3 Synthesis Material",
+   "lore": "Dried tree bark that seems to possess the power of Erudition.<br />Its creases tell the story of the years passed and the wisdom of nature.<br />It says a lot more when beaten into pulp used for papermaking.<br /><br />\"The wisdom of mankind is contained in this one word.\"",
+   "purpose": "Synthesis material",
+   "rarity": 3,
+   "rewardPath": "/material/356541",
+   "comeFrom": [
+    "Robot Settlement: Automatons or other enemies"
+   ]
+  },
+  "440482": {
+   "id": 440482,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "ddb56aa872e9c58b68f5cff4584d630bf36c681554c077ab9a103eb95f233e89",
+   "name": "Strange Matter of Destruction",
+   "desc": "Tier 3 Synthesis Material",
+   "lore": "Strange matter that seems to possess the power of destruction.<br />Resembling fire but not quite, it is neither cold nor hot and will damage anything that comes into contact with it for over <nobr>12</nobr> seconds.<br />Could be the Antimatter Legion's version of trash.<br /><br />\"Creatures that received blessing from Nanook all have twisted appearances.\"",
+   "purpose": "Synthesis material",
+   "rarity": 3,
+   "rewardPath": "/material/440482",
+   "comeFrom": [
+    "Storage Zone: Voidranger: Reavers or other enemies"
+   ]
+  },
+  "641068": {
+   "id": 641068,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "881502cd912cb7669f4a46f4314772c5c38b77ab9caaef1dc8cf7fa49612740b",
+   "name": "Stone of The Hunt",
+   "desc": "Tier 3 Synthesis Material",
+   "lore": "Small stone with the power of The Hunt.<br />As if guided by someone's will, it moves by itself towards a certain direction.<br />Sounds like what a magnet would do? I assure you it is not.<br /><br />\"The destination lies where my arrow is heading.\"",
+   "purpose": "Synthesis material",
+   "rarity": 3,
+   "rewardPath": "/material/641068",
+   "comeFrom": [
+    "Grocery Stand"
+   ]
+  },
+  "757713": {
+   "id": 757713,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "a9424421597a1fb72ef968b6e3848d86527e53297e4c4af3038556cc6cb0b7e8",
+   "name": "Ambergris of Abundance",
+   "desc": "Tier 3 Synthesis Material",
+   "lore": "Jelly-like substance that contains the power of Abundance.<br />Firm but not stiff, with notes of fragrance, it fills your heart with hope the moment it touches your fingertip.<br />Do not ask what it's made of.<br /><br />\"It gives you longevity and abundance, dispelling misfortune and illness.\"",
+   "purpose": "Synthesis material",
+   "rarity": 3,
+   "rewardPath": "/material/757713",
+   "comeFrom": [
+    "Cloudford: Mara-Struck Soldiers or other enemies"
+   ]
+  }
+ },
+ "composeData": [
+  {
+   "items": [
+    {
+     "id": 273405,
+     "count": 8
+    },
+    {
+     "id": 440482,
+     "count": 1
+    },
+    {
+     "id": 757713,
+     "count": 1
+    },
+    {
+     "id": 641068,
+     "count": 1
+    },
+    {
+     "id": 155955,
+     "count": 1
+    },
+    {
+     "id": 72014,
+     "count": 1
+    },
+    {
+     "id": 356541,
+     "count": 1
+    },
+    {
+     "id": 272600,
+     "count": 1
+    },
+    {
+     "id": 156693,
+     "count": 1
+    }
+   ],
+   "tag": {
+    "name": "Special Consumables",
+    "type": "Consumables",
+    "icon": "8743e720b0f60c4b11bc7f188cf7b5ae3921e2cf3dacfdd180f1bcb5a1bae09e"
+   }
+  }
+ ],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "156561"
+}

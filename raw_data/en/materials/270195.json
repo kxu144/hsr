@@ -1,0 +1,266 @@
+{
+ "iconPath": "e4e921f4de5d1ca7628ee1ae03dd74abb5227a8be2d12428213308ebf81a7d04",
+ "name": "Guardian's Lament",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 270195,
+  "type": 601,
+  "purposeId": 4,
+  "iconPath": "e4e921f4de5d1ca7628ee1ae03dd74abb5227a8be2d12428213308ebf81a7d04",
+  "name": "Guardian's Lament",
+  "desc": "Advanced level-up material for Traces.",
+  "lore": "Together with this visor, the twisted wish of a Guardian also lies broken.<br />She had wanted to find a way out for her people to escape the Everwinter, but ended up becoming a puppet of a consciousness beyond her.<br /><br />\"Supreme Guardian, the title passed down to generations of Belobog's rulers, the one who looked after all the people \u2014 It never occurred to anyone that the Guardians themselves also long for care and protection.\"",
+  "purpose": "Trace Materials",
+  "rarity": 4,
+  "rewardPath": "/material/270195",
+  "comeFrom": [
+   "Echo of War (Everwinter Hill)"
+  ]
+ },
+ "itemReferences": {
+  "23680": {
+   "id": 23680,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "5d5294b648440faa149071070ae33699785b2b906e917ca65f14b2086ab6d3c4",
+   "name": "Sampo",
+   "desc": "",
+   "lore": "A merchant who freely travels between the Overworld and the Underworld.<br />He acts like he is everyone's friend, is enthusiastically humorous, and is good at bantering.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/character/sampo",
+   "comeFrom": []
+  },
+  "48073": {
+   "id": 48073,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "f6ef5d375d72d70ff30fd9c9a5d87afb58f9b017b105e71a7b70ac4e8c3c3c4d",
+   "name": "Sushang",
+   "desc": "",
+   "lore": "Born on the Xianzhou Yaoqing, sent to the Cloud Knights of the Luofu for military training.<br />She wields her family sword, a gift from her mother, and longs for the future she will go on to write.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/character/sushang",
+   "comeFrom": []
+  },
+  "53454": {
+   "id": 53454,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "37152658acf6abd9fd71da2d54818cb65bbc35554787be9019a5cd3e9f0922c4",
+   "name": "Pela",
+   "desc": "",
+   "lore": "An intelligence officer for the Silvermane Guards.<br />She has a serious personality and is revered by other members of the Silvermane Guards.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/character/pela",
+   "comeFrom": []
+  },
+  "107621": {
+   "id": 107621,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "728425bbe4a304ee49741d45fbe20983c9aef56bba15415188be5ebba94b1176",
+   "name": "Hook",
+   "desc": "",
+   "lore": "Boss (self-proclaimed) of an Underworld adventure squad, The Moles.<br />She loves freedom and sees life as a series of adventures.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/character/hook",
+   "comeFrom": []
+  },
+  "170099": {
+   "id": 170099,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "e225b1f25ff6cb6cd3abd86df8b37cac66f5c7519a06093522e50aa9f97f793c",
+   "name": "Clara",
+   "desc": "",
+   "lore": "A vagrant girl who lives with robots.<br />She is introverted, gentle, and has a pure heart.<br />She wishes for all Underworlders to become a family.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/clara",
+   "comeFrom": []
+  },
+  "270122": {
+   "id": 270122,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "9760b3d8dc2f3ccb3e40e7d828c829c53b229c69811f23bbe56736ebdac7200d",
+   "name": "Yanqing",
+   "desc": "",
+   "lore": "General Jing Yuan's retainer. A gifted swordsman who hasn't even come of age.<br />No one can best Yanqing when he holds a sword in hand.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/yanqing",
+   "comeFrom": []
+  },
+  "332600": {
+   "id": 332600,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "6bea90f23bb97f9219aad9f73f1501b1ea7c1f956946fe598dde7d44c401488a",
+   "name": "Luocha",
+   "desc": "",
+   "lore": "Carrying a coffin wherever he goes, he is a foreign trader who came from beyond the stellar seas.<br />Has excellent medical skills.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/luocha",
+   "comeFrom": []
+  },
+  "337981": {
+   "id": 337981,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "15523f3647986fee34b61fe1fa520b566255cf9b4dafa815574791cf761d07bf",
+   "name": "Bronya",
+   "desc": "",
+   "lore": "Heir apparent to the Supreme Guardian of Belobog.<br />She possesses pride befitting of a princess, but also the determination and integrity of a soldier.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/bronya",
+   "comeFrom": []
+  },
+  "454626": {
+   "id": 454626,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "735bad4a156a5c89c6cc4d109a481b2b0824061fb34bbfe5462b988ae49f8804",
+   "name": "Seele",
+   "desc": "",
+   "lore": "A resident of the Underworld and the backbone of Wildfire. She goes by the alias \"Babochka.\"<br />She has a frank personality, but there is a delicate and sensitive hidden side to her deep in her heart.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/seele",
+   "comeFrom": []
+  },
+  "500482": {
+   "id": 500482,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "6c798127b50979196f42813638e25017d2e975a6fc41057bfd87d37757c95ad5",
+   "name": "Qingque",
+   "desc": "",
+   "lore": "Diviner of the Divination Commission on the Xianzhou Luofu, and a librarian.<br />Always slacks off and is about to be demoted to a \"door guardian.\"",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/character/qingque",
+   "comeFrom": []
+  },
+  "500483": {
+   "id": 500483,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "51d60322aa0c03f444c3547835e0aa48da78961cef14db1d13966ebb2279e4aa",
+   "name": "Bailu",
+   "desc": "",
+   "lore": "The High Elder of the Vidyadhara, who is also known as the \"Healer Lady\" on the Luofu.<br />She uses her unique medical science and the medical treatment that can only be provided by the Vidyadhara dragon race to save lives.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/bailu",
+   "comeFrom": []
+  },
+  "538567": {
+   "id": 538567,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "5c66640338faaa79d6fbc92bf9710cd40c6a1c57045b34ff43a5d368297f4842",
+   "name": "Serval",
+   "desc": "",
+   "lore": "A Belobog mechanic who used to be a researcher for the Technology Division of the Architects.<br />As Gepard Landau's elder sister, her personality stands in stark contrast to her brother's.<br />She loves an ancient form of music known as \"rock 'n' roll\" that was popular before the Eternal Freeze.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/character/serval",
+   "comeFrom": []
+  },
+  "885572": {
+   "id": 885572,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "684daf4ea4d50237434957743cf6b300245f40da92fa6b92dc2798adf5b17ba9",
+   "name": "Gepard",
+   "desc": "",
+   "lore": "A captain in the Silvermane Guards and an outstanding warrior of Belobog.<br />He is meticulous and vigilant to the core and is always true to himself.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/gepard",
+   "comeFrom": []
+  },
+  "969513": {
+   "id": 969513,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "a335b20a8e91beb32d0b8ed58333c63860a71c3952d2c0ad09c3d2f7743816e3",
+   "name": "Natasha",
+   "desc": "",
+   "lore": "A doctor from the Underworld and a caregiver of children.<br />Alongside her kindness and caring, she also has a hidden dangerous side.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/character/natasha",
+   "comeFrom": []
+  }
+ },
+ "composeData": [],
+ "avatarUsedBy": [
+  {
+   "id": 500483,
+   "rarity": 5
+  },
+  {
+   "id": 270122,
+   "rarity": 5
+  },
+  {
+   "id": 332600,
+   "rarity": 5
+  },
+  {
+   "id": 170099,
+   "rarity": 5
+  },
+  {
+   "id": 885572,
+   "rarity": 5
+  },
+  {
+   "id": 454626,
+   "rarity": 5
+  },
+  {
+   "id": 337981,
+   "rarity": 5
+  },
+  {
+   "id": 48073,
+   "rarity": 4
+  },
+  {
+   "id": 500482,
+   "rarity": 4
+  },
+  {
+   "id": 107621,
+   "rarity": 4
+  },
+  {
+   "id": 23680,
+   "rarity": 4
+  },
+  {
+   "id": 53454,
+   "rarity": 4
+  },
+  {
+   "id": 969513,
+   "rarity": 4
+  },
+  {
+   "id": 538567,
+   "rarity": 4
+  }
+ ],
+ "equipmentUsedBy": [],
+ "pageId": "270195"
+}

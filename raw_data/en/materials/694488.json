@@ -1,0 +1,27 @@
+{
+ "iconPath": "1911d7bb4aad22029e82a9b17a0005674864038b6b61e86976ace8277267d9f6",
+ "name": "Condensed Aether",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 694488,
+  "type": 601,
+  "purposeId": 5,
+  "iconPath": "1911d7bb4aad22029e82a9b17a0005674864038b6b61e86976ace8277267d9f6",
+  "name": "Condensed Aether",
+  "desc": "Enhancement material for Light Cones, provides <nobr>2000</nobr> Light Cone EXP.",
+  "lore": "A can of Aether refined through special techniques.<br /><br />\"Handle with care, do not drop or place pressure upon it. If damages and leaks occur, please refer to chapter II of the Leak Disaster Response Manual for emergency response.\"",
+  "purpose": "Light Cone EXP Material",
+  "rarity": 3,
+  "rewardPath": "/material/694488",
+  "comeFrom": [
+   "Calyx (Backwater Pass)",
+   "Embers Exchange"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "694488"
+}

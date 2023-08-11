@@ -1,0 +1,24 @@
+{
+ "iconPath": "8a3ca7f8c5e5f3477bb141b32a27888d313f682d0b90132604123974f859f65d",
+ "name": "Relic Coffret: Band of Sizzling Thunder",
+ "rarity": 5,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 751502,
+  "type": 501,
+  "purposeId": 15,
+  "iconPath": "8a3ca7f8c5e5f3477bb141b32a27888d313f682d0b90132604123974f859f65d",
+  "name": "Relic Coffret: Band of Sizzling Thunder",
+  "desc": "A device used to collect and restore the Lightdust in the Fragmentum to its original form. Use this to obtain a random 5-star relic from the Band of Sizzling Thunder set.",
+  "lore": "You never know what's in the box until you open it.<br /><br />\"So it's essentially like buying a lottery ticket?\"<br />\"At least we don't need to worry about finding a cat that is both dead and alive.\"",
+  "purpose": "Relic Coffret",
+  "rarity": 5,
+  "rewardPath": "/material/751502",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "751502"
+}

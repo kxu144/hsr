@@ -1,0 +1,26 @@
+{
+ "iconPath": "273d29b3b2487f7ce527454cfc5c9b326f38aa22573afea550027f6fecbbd2ce",
+ "name": "Lost Crystal",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 610546,
+  "type": 601,
+  "purposeId": 6,
+  "iconPath": "273d29b3b2487f7ce527454cfc5c9b326f38aa22573afea550027f6fecbbd2ce",
+  "name": "Lost Crystal",
+  "desc": "Enhancement material for Relics. Provides <nobr>1000</nobr> Relic EXP.",
+  "lore": "A Fragmentum dust crystal that had densified after being reduced to its original form.<br /><br />\"This must not be placed together with the ores offered to the Amber Lord. This is a creation of the Stellaron and goes against the will of Preservation.\"",
+  "purpose": "Relic EXP Material",
+  "rarity": 4,
+  "rewardPath": "/material/610546",
+  "comeFrom": [
+   "Forgotten Hall"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "610546"
+}

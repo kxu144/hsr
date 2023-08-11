@@ -1,0 +1,24 @@
+{
+ "iconPath": "94b952791f13182d807f0846b737a2b07695cc92b34874b9ee8918300c8a23cb",
+ "name": "Blade: Dinner Party",
+ "rarity": 5,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 95171,
+  "type": 505,
+  "purposeId": 0,
+  "iconPath": "94b952791f13182d807f0846b737a2b07695cc92b34874b9ee8918300c8a23cb",
+  "name": "Blade: Dinner Party",
+  "desc": "Avatar reward obtained from unlocking Nameless Honor.",
+  "lore": "Blade on a special mission.<br /><br />\"I have no interest in what the story requires.\"",
+  "purpose": "",
+  "rarity": 5,
+  "rewardPath": "/material/95171",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "95171"
+}

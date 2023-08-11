@@ -1,0 +1,24 @@
+{
+ "iconPath": "9a0106484e56501e70f6021e439fe7b2b6ead11a603a2ad4ea652731c8e6a5bc",
+ "name": "Wubbaboo",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 279609,
+  "type": 505,
+  "purposeId": 0,
+  "iconPath": "9a0106484e56501e70f6021e439fe7b2b6ead11a603a2ad4ea652731c8e6a5bc",
+  "name": "Wubbaboo",
+  "desc": "Avatar reward obtained from finishing the mission \"Requiem Mass.\"",
+  "lore": "As Astral Spirits contained by the Department of Ecology, it took a lot of effort to teach Wubbaboos to look at the camera.<br /><br />\"Here, look here. Wooo wooo. Wooo whooo wooo? Did you get it?\"",
+  "purpose": "",
+  "rarity": 4,
+  "rewardPath": "/material/279609",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "279609"
+}

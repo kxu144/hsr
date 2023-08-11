@@ -1,0 +1,338 @@
+{
+ "iconPath": "c8da596b38d65a38a9d8138b4e2658b9a1e93a907da3702bdc9c38029acc442b",
+ "name": "Key of Wisdom",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 836261,
+  "type": 601,
+  "purposeId": 3,
+  "iconPath": "c8da596b38d65a38a9d8138b4e2658b9a1e93a907da3702bdc9c38029acc442b",
+  "name": "Key of Wisdom",
+  "desc": "A mythical key that appears in the hands of the greatest prodigies of the galaxy. Used to level up Traces significantly for <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Erudition</span> characters.",
+  "lore": "This is the proof of invitation to the halls of the Nous Temple.<br />Finding the door of which this key opens is a far more arduous task than obtaining the key itself. Those who pass through the doors will immediately realize the impossibility of returning to this side.<br /><br />\"The Erudition does not have answers to the universe, but it will teach you how to ask the right questions.\"",
+  "purpose": "Trace Material<br />Light Cone Ascension Material",
+  "rarity": 4,
+  "rewardPath": "/material/836261",
+  "comeFrom": [
+   "Calyx (Rivet Town)",
+   "Omni-Synthesizer \u2014 Material Synthesis"
+  ]
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "af49f8c10262045a4f9e4740703b52056b5f396b48b99c2d130c22f3dbfa99d9",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards",
+    "Embers Exchange"
+   ]
+  },
+  "39350": {
+   "id": 39350,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "3673cfb878914626ddff6d257d7e0e9542bcaa471d76bf12c8445456a3a3316d",
+   "name": "Today Is Another Peaceful Day",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Erudition</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "There is the new book borrowed for lunch and she just figured out a new way to play tiles.<br />If she works slowly, the rest of her job should last exactly till the end of day.<br />She ducks easily into a corner.<br /><br />No one must disturb her in her wonderful off time<br />\u2014 not even diviner Fu.<br />Just on the off chance that she does show up...<br /><br />\"Then I'll give this milk candy ball to Diviner Fu. She can't be angry after having sweets!\"",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21034",
+   "comeFrom": []
+  },
+  "79829": {
+   "id": 79829,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "2c232ac6f812bd8dc7f9a85080648955a2026eb5834df26293ae553532856a90",
+   "name": "Night on the Milky Way",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Erudition</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "If you are concerned for the road, just look up again.<br />When the stars look gently down, the heart would already be soaring.<br />Every thought and every whisper,<br />becomes a life experience that would never leave.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/lightcone/23000",
+   "comeFrom": []
+  },
+  "196474": {
+   "id": 196474,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "28dac8c990eb4b6c6fb305c80cb9d8bb2088e48525ea62a446a48f3d7aa2ba46",
+   "name": "Before Dawn",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Erudition</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "\"Do not make this decision lightly, general... Think about how you will be remembered in history...\"<br />The general of the Cloud Knights listens to his subordinates' words with eyes half-closed.<br />\"History will make its own judgment, but I have no interest in my legacy.\"<br />\"If I succeed, history will state that I am currently supremely confident in my masterful strategy.\"<br />\"But if I fail, then history will state that I am currently neglecting my duties in wanton pleasure, preferring finches over my people.\"<br /><br />A finch jumps down from his shoulder, and he extends his hand to catch the small creature.<br />\"I have simply made my own decision.\"",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/lightcone/23010",
+   "comeFrom": []
+  },
+  "215955": {
+   "id": 215955,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "540466b61166cc9f54014cacad3701dd7e159647ca15208014d4ceb4ba93c397",
+   "name": "Jing Yuan",
+   "desc": "",
+   "lore": "The Divine Foresight, one of the Seven Arbiter-Generals of the Xianzhou Alliance, leads the Cloud Knights of the Xianzhou Luofu.<br />A student of the Luofu's previous Sword Champion, though not known for his martial prowess.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/jingyuan",
+   "comeFrom": []
+  },
+  "376066": {
+   "id": 376066,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "e651d4b59021ed37425d9465a03a4eac1fd086883a32554926a88f2e5e1017a2",
+   "name": "Himeko",
+   "desc": "",
+   "lore": "The one who repaired the Astral Express.<br />To witness the vast starry sky, she decided to travel with the Astral Express.<br />Her hobby is brewing hand-made coffee.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/himeko",
+   "comeFrom": []
+  },
+  "376067": {
+   "id": 376067,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "9e04eef55fb427ebf4218e4e9a96c94df3da870da73c90211e73ae6c36ae960e",
+   "name": "Herta",
+   "desc": "",
+   "lore": "Member <nobr>83</nobr> of the Genius Society. The real master of the space station.<br />An incredibly intelligent yet unsympathetic scientist.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/character/herta",
+   "comeFrom": []
+  },
+  "500482": {
+   "id": 500482,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "6c798127b50979196f42813638e25017d2e975a6fc41057bfd87d37757c95ad5",
+   "name": "Qingque",
+   "desc": "",
+   "lore": "Diviner of the Divination Commission on the Xianzhou Luofu, and a librarian.<br />Always slacks off and is about to be demoted to a \"door guardian.\"",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/character/qingque",
+   "comeFrom": []
+  },
+  "538567": {
+   "id": 538567,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "5c66640338faaa79d6fbc92bf9710cd40c6a1c57045b34ff43a5d368297f4842",
+   "name": "Serval",
+   "desc": "",
+   "lore": "A Belobog mechanic who used to be a researcher for the Technology Division of the Architects.<br />As Gepard Landau's elder sister, her personality stands in stark contrast to her brother's.<br />She loves an ancient form of music known as \"rock 'n' roll\" that was popular before the Eternal Freeze.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/character/serval",
+   "comeFrom": []
+  },
+  "676264": {
+   "id": 676264,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "3c6622d9c28dc3029f564aa85df6ff927b83dcdb4ac0a0ef4c6ff93e32b0233b",
+   "name": "Passkey",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Erudition</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate. <br /><br />\"Knowledge is locked behind a gate, the key to which is hidden from those seeking answers from others, while made obvious for those determined to find it on their own.\"",
+   "purpose": "",
+   "rarity": 3,
+   "rewardPath": "/lightcone/20013",
+   "comeFrom": []
+  },
+  "754821": {
+   "id": 754821,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "c249280522f3eb23e0e411137e569fe441b02e78b41d9723e0be95629be66bce",
+   "name": "The Birth of the Self",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Erudition</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "In the beginning, it had the exact same pose as the previous portrait.<br />Looking at the face identical to hers, she was convinced that this was not her.<br /><br />\"Impossible. How can two portraits be exactly the same?\"<br /><br />She tweaked its joints, opened its eyes, and made its fingers softer.<br />She looked happy when all the changes were done.<br /><br />\"Completely different from yesterday. This is more like who I am today.\"",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21006",
+   "comeFrom": []
+  },
+  "792906": {
+   "id": 792906,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "1d242aa7275fb0b336dcb3bedf5f668c7732712497988ebf47e009700c1069f9",
+   "name": "Data Bank",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Erudition</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.<br /><br />\"Human extinction is inevitable, but the library will live on: lonely, immobile, and hidden from the public. Its vast collection is useless, yet pure from corruption.\"",
+   "purpose": "",
+   "rarity": 3,
+   "rewardPath": "/lightcone/20006",
+   "comeFrom": []
+  },
+  "838765": {
+   "id": 838765,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "61a39265ee23ef556324cfccfc2073a8935725b02471ce35ffaa2d983012d3fd",
+   "name": "Make the World Clamor",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Erudition</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "She stood on the stage, waving at her audience, encouraging them to make their voice heard.<br />Songs, shouting, or sigh \u2014 anything that makes a sound.<br />Voice your thoughts, so others can come to help.<br /><br />\"Don't make your heart as cold as this concrete jungle.\"<br /><br />\u2014 Make the world clamor.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21013",
+   "comeFrom": []
+  },
+  "920202": {
+   "id": 920202,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "d8bf5d6dcdbb34d3c6843e4e2fc80f2ffa9c35df84ea23e29acfda78307bc5d4",
+   "name": "Key of Knowledge",
+   "desc": "A mythical key that appears in the hands of the sages of the worlds. Used to level up Traces moderately for <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Erudition</span> characters.",
+   "lore": "It can unlock the mysteries binding the truth of the world and grants knowledge beyond the understanding of humans.<br />No matter how the wielder attempts to display their possession of the key, no one but themselves can see its form. Some people believe that to be a gift from the heavens, while others think it's a sign of mental disorder.<br /><br />\"I had a dream of molecules coiling up into a loop like a snake biting its own tail. I woke up realizing that this is the answer I've been looking for all along!\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 3,
+   "rewardPath": "/material/920202",
+   "comeFrom": [
+    "Calyx (Rivet Town)",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Embers Exchange"
+   ]
+  },
+  "955406": {
+   "id": 955406,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "573922ae2f51175380f70b97dcbab1cbe419b7d3f19735388d94257e654d3bfc",
+   "name": "The Seriousness of Breakfast",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Erudition</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "Though the table is set...<br />Some people want a cup of tea first.<br />Some people want to take a picture first.<br />Some people want to read the newspaper first.<br />Some people want to write a page in their notebook first.<br />Some people want to play on their phone first.<br /><br />\"All of you, eat while the food is hot!\"",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21027",
+   "comeFrom": []
+  },
+  "955413": {
+   "id": 955413,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "f916bb843875eb49157960ec25ee8ee20027b806a02b0ef87ee9d2b93dbb770d",
+   "name": "Geniuses' Repose",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Erudition</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "She pointed at that green rice cake.<br />\"The experiment has ended. Time to take a break. I just can't miss this freshly made dessert.\"<br /><br />She saw the puppet girl frowning in deep thought.<br />\"Well, in your current body, you can only look but not eat. I'll make you a box of new ones when the time comes.\"<br /><br />She saw the mechanical aristocrat hesitating at his own cup.<br />\"Don't worry. It's only machine oil. Perfectly safe for you to consume.\"",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21020",
+   "comeFrom": []
+  },
+  "993498": {
+   "id": 993498,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "4b1a2563a2c44c97f2a26a37a90a284381f6604a3120d5770cc6c87502ea911e",
+   "name": "Sagacity",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Erudition</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate. <br /><br />\"Should Wise Ones be unable to abandon their identity as humans, they shall be abandoned by wisdom.\"",
+   "purpose": "",
+   "rarity": 3,
+   "rewardPath": "/lightcone/20020",
+   "comeFrom": []
+  }
+ },
+ "composeData": [
+  {
+   "items": [
+    {
+     "id": 920202,
+     "count": 3
+    },
+    {
+     "id": 29328,
+     "count": 20
+    }
+   ],
+   "tag": {
+    "name": "Traces Leveling Material",
+    "type": "Traces Activation Materials",
+    "icon": "9dbcfe3f6a430c2493309cb45108b80812fb0120f30c9e5c551f412b3062fc91"
+   }
+  }
+ ],
+ "avatarUsedBy": [
+  {
+   "id": 215955,
+   "rarity": 5
+  },
+  {
+   "id": 376066,
+   "rarity": 5
+  },
+  {
+   "id": 500482,
+   "rarity": 4
+  },
+  {
+   "id": 538567,
+   "rarity": 4
+  },
+  {
+   "id": 376067,
+   "rarity": 4
+  }
+ ],
+ "equipmentUsedBy": [
+  {
+   "id": 196474,
+   "rarity": 5
+  },
+  {
+   "id": 79829,
+   "rarity": 5
+  },
+  {
+   "id": 39350,
+   "rarity": 4
+  },
+  {
+   "id": 955406,
+   "rarity": 4
+  },
+  {
+   "id": 955413,
+   "rarity": 4
+  },
+  {
+   "id": 838765,
+   "rarity": 4
+  },
+  {
+   "id": 754821,
+   "rarity": 4
+  },
+  {
+   "id": 993498,
+   "rarity": 3
+  },
+  {
+   "id": 676264,
+   "rarity": 3
+  },
+  {
+   "id": 792906,
+   "rarity": 3
+  }
+ ],
+ "pageId": "836261"
+}

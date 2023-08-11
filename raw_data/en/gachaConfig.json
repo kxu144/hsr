@@ -1,0 +1,1386 @@
+{
+ "items": {
+  "0": {
+   "id": 0,
+   "rarity": 3,
+   "pageId": "",
+   "icon": "fe0b866da47250568100625c5149d3f3cca9877af92a61f01f2ac5c9615686ca",
+   "name": "???"
+  },
+  "1001": {
+   "id": 1001,
+   "rarity": 4,
+   "pageId": "character/mar7th",
+   "icon": "2606f8ef4a7204340932803a0c79506c13f43e2a121bf409112f8176195e49c8",
+   "splashIcon": "19c916bc3789c198907ae64821d6094db901649cadfcafb48b55659388a415aa",
+   "memorySplash": "ef80c532e0c26eb7e99b21c6994ab6f8400f68a1f7f2e5185c5cbc1249b9332c",
+   "name": "March 7th"
+  },
+  "1002": {
+   "id": 1002,
+   "rarity": 4,
+   "pageId": "character/danheng",
+   "icon": "3d22485ecf998c4c7ec37c5ea1def2b690c2de7eabde9bc0bb02d3125bcf628f",
+   "splashIcon": "84fecfc1e74a099028dd560119e68ad520fcd99a157fbb095b055de718f3f856",
+   "memorySplash": "1cdf0846a861864c4f8c754d00aa53ba7e3495af8512ab6ec3c5a2462ef73575",
+   "name": "Dan Heng"
+  },
+  "1003": {
+   "id": 1003,
+   "rarity": 5,
+   "pageId": "character/himeko",
+   "icon": "69aa518790fdc6d20b86efb405af6a49ecc7f57b4a5f76c5887c4fc40a320d93",
+   "splashIcon": "a9754977f525326172abed884a7eef0be5631e0da8d61f19962060b50fbd5c3b",
+   "memorySplash": "c29f8bf62c51c2e84c94d3d284896050eccdd3f331b4d8461167884bfeb24806",
+   "name": "Himeko"
+  },
+  "1004": {
+   "id": 1004,
+   "rarity": 5,
+   "pageId": "character/welt",
+   "icon": "9e4d1c519e4d7960c3f406f01afce85d710de27d2517024aaf80c9f196a7ddcf",
+   "splashIcon": "13ca923c04e44b4e121abbed3fad2985cf9a2d09b1f888fa6b46e3c125cffd1d",
+   "memorySplash": "e14d155b792573df10a6de131dee1d894573bcc0f4410151d62f1a0db1e52ba3",
+   "name": "Welt"
+  },
+  "1005": {
+   "id": 1005,
+   "rarity": 5,
+   "pageId": "character/kafka",
+   "icon": "9dcc998c64c6aedefa5d9507a356bcfa4230077449edba27a6581f4d009c113a",
+   "splashIcon": "003142928005063f6bc654d1675ee44f6b516b5c67597a1a771ab6cfaa80d25f",
+   "memorySplash": "c3d9b49fe10e24dd59eeb58ee6f31a1b3c939bc924bdd58ba66d71f676c70b04",
+   "name": "Kafka"
+  },
+  "1006": {
+   "id": 1006,
+   "rarity": 5,
+   "pageId": "character/silverwolf",
+   "icon": "2c15b44559a82b701784d48de4ca2012db59925f7e8ab244295512ca551ce2a8",
+   "splashIcon": "6d451d1de340ad47a09071e70a170bb7828c924cd33ad92637eb34a64f0761cf",
+   "memorySplash": "f15229cd4fd4bb41a7842eaddd243af78f7468a3608af425eedd79f9ecd8b056",
+   "name": "Silver Wolf"
+  },
+  "1008": {
+   "id": 1008,
+   "rarity": 4,
+   "pageId": "character/arlan",
+   "icon": "a4bb31a0f4fd5963fb69a00dfefa02bdc0de2124f665178d3bb53b223df4828b",
+   "splashIcon": "9d698e2eec72a99aace566d1dfa26386c712707bd94f8117d0a72dfa507e0029",
+   "memorySplash": "e478b12400c0e3db8967701ef0a10563d74223e6f422809ca163d351b56eab87",
+   "name": "Arlan"
+  },
+  "1009": {
+   "id": 1009,
+   "rarity": 4,
+   "pageId": "character/asta",
+   "icon": "13cd5338c08d2ce2d2e68dd67e0d5ff05c3d9ad863902e7df7914e60dcbcc605",
+   "splashIcon": "806abad8bc991e27473e3ad904e9b2d893bd6c3966e19f839557fe89b4ed156a",
+   "memorySplash": "855763460c68f6d7d80e19b0428e401d56f18f1debad3278570d890317f087ca",
+   "name": "Asta"
+  },
+  "1013": {
+   "id": 1013,
+   "rarity": 4,
+   "pageId": "character/herta",
+   "icon": "5d0ea94535f459a1dcf44caea0d20679f926ce051ed2b07fafe690b7081935b8",
+   "splashIcon": "d4587385f5364855922dc0f68c2901460f785d753743a27780f8ab31c1e13357",
+   "memorySplash": "095a769046fe69dc9559b8ee9cf8387fa53b9fcd4e2d9c1ffc7eb06c312e71f2",
+   "name": "Herta"
+  },
+  "1101": {
+   "id": 1101,
+   "rarity": 5,
+   "pageId": "character/bronya",
+   "icon": "1b8526358391b7db6625cad1c1a26cb65e6b02c0bf89c6cc4f9e0a17da6ac4e2",
+   "splashIcon": "e54404a449506c7e24c245f54dad95b5999e8a802a6eb15684d23c91d15f9c84",
+   "memorySplash": "7db9f002406a41307c2a7f02355efb51ebfc6dfb6947195091ff54ef1bc54e75",
+   "name": "Bronya"
+  },
+  "1102": {
+   "id": 1102,
+   "rarity": 5,
+   "pageId": "character/seele",
+   "icon": "0f36269e9801ec7b2fa60c38f63ead7d072fc467ed1d7b3900251f20a038c8c5",
+   "splashIcon": "5df11c84e78cf8972eb5233e2ea4b108755764d64cd92a11e75b9ceb79c80858",
+   "memorySplash": "7106b262f254a016701ab1db05f3ba057eadc3f7221bd9ba7d02f3b085edf6fc",
+   "name": "Seele"
+  },
+  "1103": {
+   "id": 1103,
+   "rarity": 4,
+   "pageId": "character/serval",
+   "icon": "71a61b73e98b7f14b25a8510cfb3470aa878b2a9373ebdf5bc409e874645b8c1",
+   "splashIcon": "d840a38ea50dca3a5db953432283c74d93ae4c2368baf1419f32221d21cabdfe",
+   "memorySplash": "07852e8a2b7640d7e8314b39818c1f714cd47aa478767fba617745caf0b98c8c",
+   "name": "Serval"
+  },
+  "1104": {
+   "id": 1104,
+   "rarity": 5,
+   "pageId": "character/gepard",
+   "icon": "eea7f3461205bd7adaa47768cd92c7c83eb728208522d854d7df1ee8b883b22c",
+   "splashIcon": "b369d9e9c04a77271a8a6be2bd79fdc591c00c57fde465509a1fe728a2b2f39c",
+   "memorySplash": "2ae4951f47aab7929cfe49d98d57fbd34c30abda483fc8c8840f82780bd6d56c",
+   "name": "Gepard"
+  },
+  "1105": {
+   "id": 1105,
+   "rarity": 4,
+   "pageId": "character/natasha",
+   "icon": "9689f7b26386c9fc347b1a5bd46418b31ab85e8de0fa6e8d8d3f562b821db4b3",
+   "splashIcon": "a69755374a059aa5f0cd13eba8890b785e313e83538aa2cf53071c951de1d5e4",
+   "memorySplash": "c9dc15d5c2ebe5a0f4e9693c1942b7304cee4774282972e035f74a4f1b3ec5f2",
+   "name": "Natasha"
+  },
+  "1106": {
+   "id": 1106,
+   "rarity": 4,
+   "pageId": "character/pela",
+   "icon": "d95a1936a83486640e4a4beb792960d1066941083d2eba730f85f38dea7b482f",
+   "splashIcon": "b1677c747e479d78b1968762f3e5741a7365efc12c8c7e6d91b90c96d79af97d",
+   "memorySplash": "633b045866f73f160d5cd62f818800ead4df1a7766cb007543dbb38351b3eb3f",
+   "name": "Pela"
+  },
+  "1107": {
+   "id": 1107,
+   "rarity": 5,
+   "pageId": "character/clara",
+   "icon": "27de43fdb865fd476196360726d4141d72596e75fc14896527f4e9a28dae9abc",
+   "splashIcon": "1f0651e2531e86d51347d9a0d001a46bf3f8134187f9dfcc25d5644aa541ab7d",
+   "memorySplash": "e23cf56192851de66128378e3975d121efbd04b9b14583fdf95734335370aba1",
+   "name": "Clara"
+  },
+  "1108": {
+   "id": 1108,
+   "rarity": 4,
+   "pageId": "character/sampo",
+   "icon": "b096164e9f304ebffc75f15f8e165b326647b5ee63792ab6e414a1144543ea62",
+   "splashIcon": "ca87a878d7a6f187966c366e200b3e500cb31f22455e2d43d11831b6f903f16d",
+   "memorySplash": "1ca3e6a44bd12a7e93c3407f25decc3497cdb990abdbb3b6a0c38b866ca8ad1b",
+   "name": "Sampo"
+  },
+  "1109": {
+   "id": 1109,
+   "rarity": 4,
+   "pageId": "character/hook",
+   "icon": "510efbbb2217f1acfe3538a9849f7e57bcfcd61d0fa78bb1e66e563f9bf52ab6",
+   "splashIcon": "ff3946ea6ddace62b46bc7382aed2090f7d19e3b632ab22a2544897014594a7b",
+   "memorySplash": "37f1f319e6feb99e8a925e02b14ff8c06e781abbf7dd9d9ed35147f131ff4f68",
+   "name": "Hook"
+  },
+  "1111": {
+   "id": 1111,
+   "rarity": 4,
+   "pageId": "character/luka",
+   "icon": "049bc6f2d242d4df2e14ac322a9a3adb1320a527ec2cfd7113783b1e3901dc7f",
+   "splashIcon": "d414cc0cb70946a0a3e3da12de2e57d8394c9f14944ecd63109ded10963d9905",
+   "memorySplash": "6ba71c287e1d8c3b11908abd92bad78691cf422f091c47e6b2bfc338773e0d01",
+   "name": "Luka"
+  },
+  "1201": {
+   "id": 1201,
+   "rarity": 4,
+   "pageId": "character/qingque",
+   "icon": "4e74b552376aefa807ba06d48d0634cdb64dd67d24c7bb0135dc025ac9d61bba",
+   "splashIcon": "1be34670efb7c87406c9f6edb11ffe1b6539aebd8f6acd87df23c98d463627de",
+   "memorySplash": "9198a79b2099203b07dd01b5e4e21c44453ce93e502aeedeef428cd03d5034ed",
+   "name": "Qingque"
+  },
+  "1202": {
+   "id": 1202,
+   "rarity": 4,
+   "pageId": "character/tingyun",
+   "icon": "91c798caca289d3f7dc6c7a726db3b7e1cfc486210d228c1d46e88344a502def",
+   "splashIcon": "1b779429f8809edb86a89c6418750810be2833aee57cce3de48443da5f1d6e98",
+   "memorySplash": "8bc8bea6d353e46503dc0df0a50bfba78b5d1972b1cbc294d8bbd538dedd91b9",
+   "name": "Tingyun"
+  },
+  "1203": {
+   "id": 1203,
+   "rarity": 5,
+   "pageId": "character/luocha",
+   "icon": "149eea07f87426b317ef6272b734b1842c7821f78094b4a59bff99645287446a",
+   "splashIcon": "9a4b24b447ff87427b8c58d306bba011c32dffc1e354941204bc2c216b677832",
+   "memorySplash": "66cccaec76eaf25a0961e721b50f6950adc7c799ccac7b09f19928721586767b",
+   "name": "Luocha"
+  },
+  "1204": {
+   "id": 1204,
+   "rarity": 5,
+   "pageId": "character/jingyuan",
+   "icon": "78ea9834c57d2be3dd7e5ddc4c2846894ca5519ab482158e382099dd26417a63",
+   "splashIcon": "cf29f70b9ec4ebd569aa0bedecf1651af4d253dfa98eb634e3fa581d50f85563",
+   "memorySplash": "17781d86b308cf7aae1a18c4d9ab8f3462e20be2d4fa7788f378d1b3611361ca",
+   "name": "Jing Yuan"
+  },
+  "1205": {
+   "id": 1205,
+   "rarity": 5,
+   "pageId": "character/blade",
+   "icon": "8d3a2149c30a2d8cf7ce5fe04eb60112109b795a1f3c3ab9b00686cc2a068e3b",
+   "splashIcon": "7fffeaec1168919fc26b9b6d7e0e8899494aec38a5fd2e5ad2af3ad6f6f76349",
+   "memorySplash": "08bcfc539e148c57b990427b530fd88545572ba361aa886940cc6b1bca181d4c",
+   "name": "Blade"
+  },
+  "1206": {
+   "id": 1206,
+   "rarity": 4,
+   "pageId": "character/sushang",
+   "icon": "faf65546b4dc5f67e9389d3101f3d55986dd378b3416864da0fa25372630a973",
+   "splashIcon": "dbc723e91eb7a171264935110b79b0ca9e7561925c969582e26c5b21f0de1776",
+   "memorySplash": "aee5992b4c267039c6615fd92760b82aa78a734146158e5a201c2d18e7b47b52",
+   "name": "Sushang"
+  },
+  "1207": {
+   "id": 1207,
+   "rarity": 4,
+   "pageId": "character/yukong",
+   "icon": "dcb767906cecc66719fca4b6834807cf4e9ec30b2447eeedc01b29d00e8d9169",
+   "splashIcon": "c00ba1e115b22ae1e578373364175814bc6b3a315c785a88dc9f4412f19d754a",
+   "memorySplash": "94727a1486e02836c71d025e5704fa1199737a2837e71a5e9a2ffe9de145bd4a",
+   "name": "Yukong"
+  },
+  "1209": {
+   "id": 1209,
+   "rarity": 5,
+   "pageId": "character/yanqing",
+   "icon": "6b1111c828cb89e8744bb5e9093833708313e5c5ef1538d392c131ada0471b11",
+   "splashIcon": "30eaff12c3ae1b8f5b469fe989853664864d91eb5ede7e22937f858059d10a67",
+   "memorySplash": "7f038dc2325dde375a2e438d0b2ab4fa3b9ad87790764050ae65b254dffbc7fc",
+   "name": "Yanqing"
+  },
+  "1211": {
+   "id": 1211,
+   "rarity": 5,
+   "pageId": "character/bailu",
+   "icon": "cb28a0a360f98c674da55eeabfcfa2a4487871cf82e5e2b2e74e8655a164343f",
+   "splashIcon": "afd48c7970d998c772caf1700f8c3bb9507eb8cf2b3df05865045baeeda235e1",
+   "memorySplash": "cdac21a887a7fada97303a1f18143743182fe1f0b3f7f764e1eb1b2f9d58ff0b",
+   "name": "Bailu"
+  },
+  "8001": {
+   "id": 8001,
+   "rarity": 5,
+   "pageId": "character/playerboy",
+   "icon": "182edbc3fbe126f1201ee28bbe0fe5ba82ef2924130a9dad06da3326e2cdb4f5",
+   "splashIcon": "b443f8f3575fa7e1cc667f9940e503a0eebdc78b114b0966ed2e9e8a0054d251",
+   "memorySplash": "7a417edcff0790005d626d4b864e9aae6e6bb1b7e2a898c068ab9309c741efe4",
+   "name": "Trailblazer"
+  },
+  "8002": {
+   "id": 8002,
+   "rarity": 5,
+   "pageId": "character/playergirl",
+   "icon": "23ed9c93aa8e7ca9e2f7de7978fa7714f51de09a2ebcfc3942fd4141a0730f8b",
+   "splashIcon": "7aaadefe0d98d516d39d9d7ed20b57a020c58a9468b6d8c9cc165da433e2d5f6",
+   "memorySplash": "97fcb731dc8522ce39cd4288d1be5e1989ef7d4aa2a33ce21d1e7965f68f8526",
+   "name": "Trailblazer"
+  },
+  "8003": {
+   "id": 8003,
+   "rarity": 5,
+   "pageId": "character/playerboy2",
+   "icon": "aed989733a17e2eeefe9304f3b19af3d595b0b9eebfa5af6ac4e8bfad3213027",
+   "splashIcon": "b22d7b76a23752740a3f31b66703a8dc3e59cb9e319d3cc5df36e4f6440c2df2",
+   "memorySplash": "19a1811ce1a7749c19e6fad7417b7636a3a926f527ea5e491f7eb4df077c543e",
+   "name": "Trailblazer"
+  },
+  "8004": {
+   "id": 8004,
+   "rarity": 5,
+   "pageId": "character/playergirl2",
+   "icon": "8da6944afeba042ebfcb504c8569def2a9afda8523f2940fb2fbdc7478cffee0",
+   "splashIcon": "520ca5e3911e5a37d3677bf3f348b6a604878b7216e2a6b169d7889da8e46880",
+   "memorySplash": "7b504891a39d395222dcfa787faddb425fd6fa08e98a2b1b481dad611dec9ca7",
+   "name": "Trailblazer"
+  },
+  "20000": {
+   "id": 20000,
+   "rarity": 3,
+   "pageId": "lightcone/20000",
+   "icon": "fe0b866da47250568100625c5149d3f3cca9877af92a61f01f2ac5c9615686ca",
+   "splashIcon": "718951c934757e30c82075b32eef34999fb97b4131e38779016d7fc4fb10a43f",
+   "memorySplash": "5ec5295eb8ff9a12f73d0cabb2db5461a59a3748ce057035acf00486e2250f14",
+   "name": "Arrows"
+  },
+  "20001": {
+   "id": 20001,
+   "rarity": 3,
+   "pageId": "lightcone/20001",
+   "icon": "c14e3cb598ed6793c3390b95bbaa4fac89970f2be466611fe39a451a29f28ea5",
+   "splashIcon": "623ac70967bc669c456b815579523ff08e04b0c67e445dd196ed9d18bc57b786",
+   "memorySplash": "05f9d75dceefc9a3607c0214bc3f14ab0b0a66f2a881c18ffd66fefdaff9a88f",
+   "name": "Cornucopia"
+  },
+  "20002": {
+   "id": 20002,
+   "rarity": 3,
+   "pageId": "lightcone/20002",
+   "icon": "1c1e889949f6ef40b065dccdb285577107a64f6c0a6671f5bec3137e70a6a1a1",
+   "splashIcon": "437bf49a2ba223fd612318f591df66435d12fff2a966967c21a94924f1d18646",
+   "memorySplash": "27f4702eb9d2ac2ff42735b7a825eae10fd7a7d09ee70d524a1d6042f0276ef9",
+   "name": "Collapsing Sky"
+  },
+  "20003": {
+   "id": 20003,
+   "rarity": 3,
+   "pageId": "lightcone/20003",
+   "icon": "382cf2d5bc33b239f3a9dede908e0e9a0c2b3b640346eafef8bd0cc4857b646f",
+   "splashIcon": "e2a5d19b9936fc5712ec784b81703dfd08ab72f9504c488f235e00c0aa3e3b48",
+   "memorySplash": "f541c18d9add2977590c82a86eb63f5403e73a2628d857def96c56ee3d0980bc",
+   "name": "Amber"
+  },
+  "20004": {
+   "id": 20004,
+   "rarity": 3,
+   "pageId": "lightcone/20004",
+   "icon": "bbb576376b6521ceb640afe3dbeec5ba6798af5f4d849d9b33d87e07ef719651",
+   "splashIcon": "464875d9b414cc71d68beee6cb6050c7ed19bf2308a6ed152f932f1dbdf49986",
+   "memorySplash": "d513ac8b0eeb81b470a31842467869ea6a76a8b285319128135bc74699bfca93",
+   "name": "Void"
+  },
+  "20005": {
+   "id": 20005,
+   "rarity": 3,
+   "pageId": "lightcone/20005",
+   "icon": "0abfa2f63d0c71320b833bd5288fcd8fee81a4b0642ab11cb7a002c3e4ac2aa8",
+   "splashIcon": "31d058224adbd9985ce9bd00224fadae153800d1b1534c777390ffff4ed6dc0f",
+   "memorySplash": "2f9ceb6223cc88260e3b5962f97026ab505bc901245d1d9e62856952b54cec93",
+   "name": "Chorus"
+  },
+  "20006": {
+   "id": 20006,
+   "rarity": 3,
+   "pageId": "lightcone/20006",
+   "icon": "1d242aa7275fb0b336dcb3bedf5f668c7732712497988ebf47e009700c1069f9",
+   "splashIcon": "66fb9cd73d9e68a68514c07627e38cd787fe5e8f63db37cf886f2ee6a00baaee",
+   "memorySplash": "db3687c0a1bdfbb6086fe6ef2de8705da8df85ba4871bb3ecde863c68f40ab70",
+   "name": "Data Bank"
+  },
+  "20007": {
+   "id": 20007,
+   "rarity": 3,
+   "pageId": "lightcone/20007",
+   "icon": "8ee9e82a0feba9b65d37db6b9da486aab9e68a9b2e6b39a098efb5af1e2c8070",
+   "splashIcon": "4319a723b1dd40179b9fa8a3b34e8c69fe20ffcdc5c8db6a34e19728ccbbe71c",
+   "memorySplash": "a57a65d0a2670797457e6f0decd021e017859cbd4183d003c39889e3b70f1964",
+   "name": "Darting Arrow"
+  },
+  "20008": {
+   "id": 20008,
+   "rarity": 3,
+   "pageId": "lightcone/20008",
+   "icon": "efe252a2b988f0444cac729011538bddee4d2f510bff656c4767be0c62e710c2",
+   "splashIcon": "2898c13d0ef32a650ea19fa30f264d9f577c8e9fa2ee7fa6175cfd0ae8293481",
+   "memorySplash": "b5fa0dbb439ccb895b475cff2eb28ea728ce9034335d1b1e3e252f17fd9a996f",
+   "name": "Fine Fruit"
+  },
+  "20009": {
+   "id": 20009,
+   "rarity": 3,
+   "pageId": "lightcone/20009",
+   "icon": "d65dc45ca84e6d42c2e526efee41c496ae1dd1632cd378d1309de6ab5890ba7a",
+   "splashIcon": "8bce4f10e3bb4f49be73b524764f51f1720b47f9a755610f5898339215deb72b",
+   "memorySplash": "31ea2856d50ee744b9a3a8d8cc78621795809f4dd8a5cb93e57eb481e1cf3fcf",
+   "name": "Shattered Home"
+  },
+  "20010": {
+   "id": 20010,
+   "rarity": 3,
+   "pageId": "lightcone/20010",
+   "icon": "e354b0aba3be0246b095439dc40832a4c1cd020f39a18d8c23bc0a2c8a9eab41",
+   "splashIcon": "2f5febab8930d4c3e5154eb43c3933ea84e13ea565e123a537218a5619a6f25a",
+   "memorySplash": "162f3eddf8f35ece79093f9cb7752db281f58b820a96f0d479c05301167940af",
+   "name": "Defense"
+  },
+  "20011": {
+   "id": 20011,
+   "rarity": 3,
+   "pageId": "lightcone/20011",
+   "icon": "8e1f9edb7cd6a787e45d5746ecc8fb77d9f3dc05d79b002cd293f98ca7114657",
+   "splashIcon": "107dd2269a88c6e9daf9d65986fd07dbd6add84aa83ee980fa0f8046cc31e4e9",
+   "memorySplash": "78da682b7f169ddf76709da364693901abc282e4bcb8961de767b728a3502931",
+   "name": "Loop"
+  },
+  "20012": {
+   "id": 20012,
+   "rarity": 3,
+   "pageId": "lightcone/20012",
+   "icon": "13d7ff621b4cdb0e246cfc372861b12f09373d3241300e2a17a6b075d17fa6ba",
+   "splashIcon": "36395e3c001e70ac4c42b7e903331c624bcfed4068a348e280b34ed64558b35c",
+   "memorySplash": "9b1da477441434a457913f5cfa44e62e91e13982c0c460d997a914c6ca2c64b9",
+   "name": "Meshing Cogs"
+  },
+  "20013": {
+   "id": 20013,
+   "rarity": 3,
+   "pageId": "lightcone/20013",
+   "icon": "3c6622d9c28dc3029f564aa85df6ff927b83dcdb4ac0a0ef4c6ff93e32b0233b",
+   "splashIcon": "e804d3a47c858488fbe96df426917595ea1f21785f6f46479f2609a55fc485a3",
+   "memorySplash": "b9916b201f5107d84e732e86421c7a9cac5a1646d8ebaa743512b5d73256b68d",
+   "name": "Passkey"
+  },
+  "20014": {
+   "id": 20014,
+   "rarity": 3,
+   "pageId": "lightcone/20014",
+   "icon": "ac880fb5adbad234e2b524f98813abae01df9fea6e7817f895afdb07fcee3cad",
+   "splashIcon": "c542e9574dab739a15a666bc99d19849f4c44a75ba49fb4bff9e9b06702f165f",
+   "memorySplash": "2d6a624414a7838429fc2cc4a708484e4655656510d9b604fc13fbe89b80c754",
+   "name": "Adversarial"
+  },
+  "20015": {
+   "id": 20015,
+   "rarity": 3,
+   "pageId": "lightcone/20015",
+   "icon": "aa5ce820bef8941dc2ee0504ae6a83378eb6e6eafac2299e1f79d0bb55c06a94",
+   "splashIcon": "d0de2a95e3fb99873155f3a9f4c4d6ba882f13d3728e13573b758988d46e76dd",
+   "memorySplash": "105f11c72b4d4abc4b070927f867a5da0a2b5f5e91d362908906ef238b64d9f5",
+   "name": "Multiplication"
+  },
+  "20016": {
+   "id": 20016,
+   "rarity": 3,
+   "pageId": "lightcone/20016",
+   "icon": "f907df0d722591d4a4bd7c859c82c3d73488e4e26ad39bcb7763cb6f92d2c02b",
+   "splashIcon": "3bf7af8550765a6c2b930750863e694a0b09290c0a239209b5192cf54e9d1595",
+   "memorySplash": "78cab391d5c5c9635efff3a3c76b251aa274cd4c183c8cec1a1b306d8c3aba60",
+   "name": "Mutual Demise"
+  },
+  "20017": {
+   "id": 20017,
+   "rarity": 3,
+   "pageId": "lightcone/20017",
+   "icon": "957eb636f5a793a2d92f3e1af204f7d25b28b11f3a7b98f2bb7514e7abd90a7e",
+   "splashIcon": "4b60f323abd5ddf179262c87d3c6f09183efbb7bc1a2ba5de565c433495946f8",
+   "memorySplash": "fb3137a5bf19424d544450d5a330ed9911a35e92af718b0b618f539b7daed1f9",
+   "name": "Pioneering"
+  },
+  "20018": {
+   "id": 20018,
+   "rarity": 3,
+   "pageId": "lightcone/20018",
+   "icon": "f5ec5eec0b2c00d7df98a3e9617665c65d4d6e0542ab12429f42bc0205633b92",
+   "splashIcon": "59ae7f0f0fe8c5169ef30b803e3c1d8c38e94791de4ea44d7555e82bdc94f434",
+   "memorySplash": "235a7bc39c0b4da7fd2f7a44432891ecc5d18e94602e30fa9b103c0a3ce65065",
+   "name": "Hidden Shadow"
+  },
+  "20019": {
+   "id": 20019,
+   "rarity": 3,
+   "pageId": "lightcone/20019",
+   "icon": "bbcd2d1007ad8eff3ce9ed7b3d1a2b2c761243a4a925a9acd8454542f5022f21",
+   "splashIcon": "fffd1d4a2afa56f1bc4aa88bc39742781f2efe89ce23f3ba9fc70671a05cac49",
+   "memorySplash": "c8acd4a22e0b0116acd82629549e51b1db013841daee35cc4cd8943cce424b77",
+   "name": "Mediation"
+  },
+  "20020": {
+   "id": 20020,
+   "rarity": 3,
+   "pageId": "lightcone/20020",
+   "icon": "4b1a2563a2c44c97f2a26a37a90a284381f6604a3120d5770cc6c87502ea911e",
+   "splashIcon": "89d747b8eff28694778d4262bf843cf540e9a3e0f7a576b782129c5cdac6bb54",
+   "memorySplash": "03e78b4bc42a4db24d8e023bb85997f98f92b8304fc124d8d82e667d89a29e99",
+   "name": "Sagacity"
+  },
+  "21000": {
+   "id": 21000,
+   "rarity": 4,
+   "pageId": "lightcone/21000",
+   "icon": "2a54ff049132566da88987936698ef4f5aa6d2a16f7dd88986f7487fc8598863",
+   "splashIcon": "dabddafed6ff18d8184bf2cce46d474426c0dee7d5d95270f391008c1dcaa867",
+   "memorySplash": "32af1fcef6336df3daac8394bce3e5827b442eedb6cdaa288367721aa978e337",
+   "name": "Post-Op Conversation"
+  },
+  "21001": {
+   "id": 21001,
+   "rarity": 4,
+   "pageId": "lightcone/21001",
+   "icon": "506914deacd171ff0698d6d703abfdfec63cc2807da087d228df6e15c3c1c26f",
+   "splashIcon": "c4a31e960074224ab1706099979f39f5d7bc8de2f2f0a133bbad04e40562e70d",
+   "memorySplash": "121d07793845af31469644ecefda75ccc080915c958ead1aa8d7927b827da87d",
+   "name": "Good Night and Sleep Well"
+  },
+  "21002": {
+   "id": 21002,
+   "rarity": 4,
+   "pageId": "lightcone/21002",
+   "icon": "a7344c8600723ddfc38ca8ecc378719bb8c703a9c85634fc424e00643088e45f",
+   "splashIcon": "e8f8783d638991d9895c06cfaf060dd91dd53899b1dedde141d6bec9290b361f",
+   "memorySplash": "22993e3da2a104165202864438360133ad62d0fbb46b4056099ccbe55b80135e",
+   "name": "Day One of My New Life"
+  },
+  "21003": {
+   "id": 21003,
+   "rarity": 4,
+   "pageId": "lightcone/21003",
+   "icon": "90e4cdd3df37ba7dc2a82a4e5d31dc782fa1bb5b6d49ac8afe0dc6e7a072fbbb",
+   "splashIcon": "483257d9b0a015432c6c2a56a18fc29940e04e17fcc4aae23beaf401449605f2",
+   "memorySplash": "789f412cc88979202554dbf5f699f3e3065385f7c684f694f07970ab1c0b85e6",
+   "name": "Only Silence Remains"
+  },
+  "21004": {
+   "id": 21004,
+   "rarity": 4,
+   "pageId": "lightcone/21004",
+   "icon": "c93f915bdc394756bdabac61a7478557811f3a4b2c36f0917cb528f8f0aa29bd",
+   "splashIcon": "93c0b1fbe9340e1e384b7dffa55c4bcc3d886b18df1653e315b96bf06d285e0c",
+   "memorySplash": "5cfe1630f406bc04ff5fc2519e3b7bf73b4e39eee01b76089c062e0e7ed68d47",
+   "name": "Memories of the Past"
+  },
+  "21005": {
+   "id": 21005,
+   "rarity": 4,
+   "pageId": "lightcone/21005",
+   "icon": "888022ff8241483d3a9d2fc326154e2535030b7062fccc1abae2dc76f90cef47",
+   "splashIcon": "b17c164b9c92a13375120dd5da44eb87682bd8ecae6938c14f4ac0cace70015f",
+   "memorySplash": "64c9214cc8fdb99ea030c67639e7335718701dea6d78f548bcfb6c1b72c898b5",
+   "name": "The Moles Welcome You"
+  },
+  "21006": {
+   "id": 21006,
+   "rarity": 4,
+   "pageId": "lightcone/21006",
+   "icon": "c249280522f3eb23e0e411137e569fe441b02e78b41d9723e0be95629be66bce",
+   "splashIcon": "b57e221860501c08d04dcd40cbc436f72f736eb08f97b465af3673799305a735",
+   "memorySplash": "6afb32f6b61e3e565ca49edb1d7bad27853945f0ccb4b073e64d55bca66d3e90",
+   "name": "The Birth of the Self"
+  },
+  "21007": {
+   "id": 21007,
+   "rarity": 4,
+   "pageId": "lightcone/21007",
+   "icon": "8b2d056ef4b6cb5b693565c4c516a3a7833b2104ee85deb9b3e0dae6088f8ca6",
+   "splashIcon": "4fe3c1140508b736fa034ab868e3c98e23a34e71f11fdf025c627d52cc47a841",
+   "memorySplash": "3c897a6bdce14a9e86153af6470d02b67fa3c4533ba4b5d72a945c0ce3c56544",
+   "name": "Shared Feeling"
+  },
+  "21008": {
+   "id": 21008,
+   "rarity": 4,
+   "pageId": "lightcone/21008",
+   "icon": "1084aeb94ac11bf6785530bc1a57f5bd52ecd39951b284ade1b36f8f65ea7ce8",
+   "splashIcon": "babcd32771001fcd7631b2eb55292a986854c3cd2cd4f3863b299753cb6c06ea",
+   "memorySplash": "f68ff6f03a006cec1684850db6567c125572f71237e6bc23da23610a9e3afd0d",
+   "name": "Eyes of the Prey"
+  },
+  "21009": {
+   "id": 21009,
+   "rarity": 4,
+   "pageId": "lightcone/21009",
+   "icon": "dc781cae43aef62a6ae1c556bc7ee47a98849ba69e15656fd9038b5ba6cdaab2",
+   "splashIcon": "8f5239a3a2d4f6f596c72eb6a22822df94f1fce698e087b59551dfe69c2f2ea9",
+   "memorySplash": "eecc98893e9e6ee51b918e42ee73423a2d9e311624425aa2271562a92ec26565",
+   "name": "Landau's Choice"
+  },
+  "21010": {
+   "id": 21010,
+   "rarity": 4,
+   "pageId": "lightcone/21010",
+   "icon": "7d891bd0220ab021dc9ee79379c2106d7877392408432c0f4857d632a63a2783",
+   "splashIcon": "399b2b58f2596ae1870e0c28b995f36730480d7c675c3d6ceaaa95d136c79e1f",
+   "memorySplash": "d03cbb6604aad58dfc1209d3d9fce022591ed741e66aa9b7b165f8f77918b54f",
+   "name": "Swordplay"
+  },
+  "21011": {
+   "id": 21011,
+   "rarity": 4,
+   "pageId": "lightcone/21011",
+   "icon": "51b2e67ff76f5b1c8b71722429cd902bfc8e3c2e4845a7e91201e145823fb544",
+   "splashIcon": "45f53750216df49c04e79893de3a4766e726064baa54b7f82d9eea99c12de3b3",
+   "memorySplash": "d3b749de5768b94138344d69067ca6e97c4e078200c50ac29393759a07b0fec0",
+   "name": "Planetary Rendezvous"
+  },
+  "21012": {
+   "id": 21012,
+   "rarity": 4,
+   "pageId": "lightcone/21012",
+   "icon": "ee85937ae3075f9ddf39472fc3144f44383b05146d98c685447e1cfc2bfdb13d",
+   "splashIcon": "765945f2e85c351674d5b2ee5aec8087ed4d43b8ae98121fbe81b7c025ddda18",
+   "memorySplash": "7bb19adeb6960f0b1c30a548d92bdc551540db32df1de0537012bb0b5af2c4a2",
+   "name": "A Secret Vow"
+  },
+  "21013": {
+   "id": 21013,
+   "rarity": 4,
+   "pageId": "lightcone/21013",
+   "icon": "61a39265ee23ef556324cfccfc2073a8935725b02471ce35ffaa2d983012d3fd",
+   "splashIcon": "fa93d1e0ce3ccc04ac1620c0b5e16884244144129ad9cdc1047c838aa0e3eb97",
+   "memorySplash": "7d5ba6f9e4b46a93ed518094fc818e502b618ee1d8c0dab00675de8f11f574ba",
+   "name": "Make the World Clamor"
+  },
+  "21014": {
+   "id": 21014,
+   "rarity": 4,
+   "pageId": "lightcone/21014",
+   "icon": "15dbfa1cb730b418d82835afa586f0908fa495049da5f700f4a5a6344a401986",
+   "splashIcon": "cebe311c480f0ff5fdcff91eef3f82eb8c5597304e5b850112f3a0aeabc10001",
+   "memorySplash": "dd725cb928062a00d2fbb68441835b2a67f5cdf6837fb898f0217f9f5f4d5df4",
+   "name": "Perfect Timing"
+  },
+  "21015": {
+   "id": 21015,
+   "rarity": 4,
+   "pageId": "lightcone/21015",
+   "icon": "1c5cb977d8ff22395e7980c91e5ae30f4e8cd6b77d7cd4b5b31f13fc5baee6cc",
+   "splashIcon": "ae152f7d783513250ca75d246dd6e7c6715cd5ab306f07c054d9641c4ea71d2c",
+   "memorySplash": "8228b6d8dac2c5b1b8782525ff5b9681f676d496efa90ae0b274392738e144f5",
+   "name": "Resolution Shines As Pearls of Sweat"
+  },
+  "21016": {
+   "id": 21016,
+   "rarity": 4,
+   "pageId": "lightcone/21016",
+   "icon": "d762c00139537c846c4cd82b1624b589976db5498eb0b7ad250f7759a45f731c",
+   "splashIcon": "a98f7d8fc78d2f8630659e873fc709afeb8f63a300afcc5bb29c413874155834",
+   "memorySplash": "e1418b36d44b8f36ba554fcb882a72319b860b407b67124c7bf21d15e9036e47",
+   "name": "Trend of the Universal Market"
+  },
+  "21017": {
+   "id": 21017,
+   "rarity": 4,
+   "pageId": "lightcone/21017",
+   "icon": "fedb111f6687c590feffb68f79219a1c79d4937363eb1305f424def3ba9e426a",
+   "splashIcon": "fe9c215a7215582614d595b9db0abb1fbf5adf9036a96f4a2c924a37170704a8",
+   "memorySplash": "f14badbc60f16b41b2c02f2f0c5e5f44b6dad848b729dae1fed135bf11938061",
+   "name": "Subscribe for More!"
+  },
+  "21018": {
+   "id": 21018,
+   "rarity": 4,
+   "pageId": "lightcone/21018",
+   "icon": "521343f5e1d7b52519f909907d89f2d57149e7b5c7ef983fde3b41eba822e738",
+   "splashIcon": "17ff5a7b67cb8c29cb52527153bda8f039d8ea6bd9fd424ad1a80f94bb3f43d2",
+   "memorySplash": "0670d3c43e11ac6d160bef45010faf5eb67060a3ccf9ba1db68c1398c8025daa",
+   "name": "Dance! Dance! Dance!"
+  },
+  "21019": {
+   "id": 21019,
+   "rarity": 4,
+   "pageId": "lightcone/21019",
+   "icon": "efc340b8e59dd52d73436adb798e1bef08b089b24846b822ae7b7730c9f65a6a",
+   "splashIcon": "3b8704e722e3437a4a185fd8e713caa4ab87b15ec215d4b64b2ff6ecb0e03e93",
+   "memorySplash": "4fe03000f70ea77c7647568d5045fad2f8890731887eedd1ed089152f3a53bf0",
+   "name": "Under the Blue Sky"
+  },
+  "21020": {
+   "id": 21020,
+   "rarity": 4,
+   "pageId": "lightcone/21020",
+   "icon": "f916bb843875eb49157960ec25ee8ee20027b806a02b0ef87ee9d2b93dbb770d",
+   "splashIcon": "a1328cd6123520f9a144ea286b5fc075de2df192ca5628d822bc9a5ad5a1f969",
+   "memorySplash": "a51b0f989d2365973f57fab33946fd9cab876b09335d4e1f3367afa88a3c61ea",
+   "name": "Geniuses' Repose"
+  },
+  "21021": {
+   "id": 21021,
+   "rarity": 4,
+   "pageId": "lightcone/21021",
+   "icon": "57a5f5d48a2c2bfab81da1a860f22eb85c85a56aff4a93ebdd70f8d01053f8a0",
+   "splashIcon": "d83904306366930f72e03757ebe00b3407e3d177748b3c2013b9e3bedc8ca019",
+   "memorySplash": "9cf767f2651860d82f6c4b3d345f8ff23b59c60b177d6a1ba8fcd93df3b9ef04",
+   "name": "Quid Pro Quo"
+  },
+  "21022": {
+   "id": 21022,
+   "rarity": 4,
+   "pageId": "lightcone/21022",
+   "icon": "5609152049f840cc20f4f4490503f1b98826857f2d35b0e5b09ec6d8d5f38fb7",
+   "splashIcon": "ebc926b1e47f74208e786c80a483fc7abada9e9837806d16a54a164c050b86cc",
+   "memorySplash": "f26afca9c3b2788285a28aa781ae1ac1417bbf9faec6e9aa32a756fbb388796a",
+   "name": "Fermata"
+  },
+  "21023": {
+   "id": 21023,
+   "rarity": 4,
+   "pageId": "lightcone/21023",
+   "icon": "5c7b142d48ab8e98c11a86c460aca68536ebe4fafeb2e97060f726fb260cf90f",
+   "splashIcon": "8f86c2ba23d907c9cd6a18c0495653f54abdf85f53d42eb1cbfb6c41a610fe95",
+   "memorySplash": "83903d047a4a0607d5ec417c94b31c608f58b8df575400063667cbd83cf04d5e",
+   "name": "We Are Wildfire"
+  },
+  "21024": {
+   "id": 21024,
+   "rarity": 4,
+   "pageId": "lightcone/21024",
+   "icon": "2be4c57bc9211c3f3cad30a72806b965493a988dde3061a1fc24249948da94fa",
+   "splashIcon": "99aee5297c5a4702d66f7a4d75e59da71d327fee624d8e16d18c7c56ca8c7f2f",
+   "memorySplash": "c9e9151def5a5084a5e2c284edbd5c97b18931c3720d08aa9ac9ab60ef971066",
+   "name": "River Flows in Spring"
+  },
+  "21025": {
+   "id": 21025,
+   "rarity": 4,
+   "pageId": "lightcone/21025",
+   "icon": "d21746fb9becf8e501052c548b5b45201cca47d25cf8ce0c80fd21e527e81518",
+   "splashIcon": "9f53529f28e1f0b752ab7a85f0e1c035ae7ade42b119cc5cb8a76ec3d814f67a",
+   "memorySplash": "65a003da1d3db1a43dcb17df04dd28185be7f3e27411af39d60ed83e868f9399",
+   "name": "Past and Future"
+  },
+  "21026": {
+   "id": 21026,
+   "rarity": 4,
+   "pageId": "lightcone/21026",
+   "icon": "d26155f4edfc26116014098c4d3abf9995ac3fd780fab752ba43cb03d6774187",
+   "splashIcon": "58120e063ad33a193eb542eed4bd2bef32623f7d6a90bfa315213343d4fa106c",
+   "memorySplash": "9a5c027e1f15f31cf1835f9c5914ee2f965feaee6d077b6603946edf14000e08",
+   "name": "Woof! Walk Time!"
+  },
+  "21027": {
+   "id": 21027,
+   "rarity": 4,
+   "pageId": "lightcone/21027",
+   "icon": "573922ae2f51175380f70b97dcbab1cbe419b7d3f19735388d94257e654d3bfc",
+   "splashIcon": "d84cfa84a9a163eeb556804e5b681012d10c38f761c36b3b6d166fb290fb8f0c",
+   "memorySplash": "2000bea68ca8e7648d8a4788021d87068e87eaa0ac8d7affc1db9f1413c0267a",
+   "name": "The Seriousness of Breakfast"
+  },
+  "21028": {
+   "id": 21028,
+   "rarity": 4,
+   "pageId": "lightcone/21028",
+   "icon": "0bc93f3ea2dc63a74aabc4d7785e495d0e880b72a371a21e82fecc67f37fdbb6",
+   "splashIcon": "a14ca574ca2d4a688cfb3bc9d8d25adbb93266b8544b066216c82817e1667ea2",
+   "memorySplash": "0464ef39608a14f9eb50620d90246e3f0442b7c4d052b7c2b58563c2729406da",
+   "name": "Warmth Shortens Cold Nights"
+  },
+  "21029": {
+   "id": 21029,
+   "rarity": 4,
+   "pageId": "lightcone/21029",
+   "icon": "e397744c0d25dba8cd3bb09e7b95dabebfda71fc70a996bd7e3fdf8d06cd938c",
+   "splashIcon": "ced5451f0cd00e11764b89d32a3e845272eae6d472886ab1a834b2edc4f35a26",
+   "memorySplash": "0f01dec68e6643abab528051cd07440e6880f17547814e5c5ffedf31f1466876",
+   "name": "We Will Meet Again"
+  },
+  "21030": {
+   "id": 21030,
+   "rarity": 4,
+   "pageId": "lightcone/21030",
+   "icon": "193466a31851e3e7bdf2dc4083ea729ee81a1c687bee750e703635e472545762",
+   "splashIcon": "12b62d1289c05959e7a70645e440e09e80486a9875bfa436718184a8e924f97e",
+   "memorySplash": "30dbfbf2c1549bc6ed19dd43c21c53c005d32e82563e19dab739552b679fef41",
+   "name": "This Is Me!"
+  },
+  "21031": {
+   "id": 21031,
+   "rarity": 4,
+   "pageId": "lightcone/21031",
+   "icon": "1db2d88b0f745ac0a20b29f32d0506b8fe370163a918eba5f6791158154073ab",
+   "splashIcon": "af0bdca42c99099e3907a4c7a8b327e8c661d58f17ca1c8298a2873ac6a294d0",
+   "memorySplash": "966a83b4b2ee897b958c212641deef35d47cd1c0bd50a431efb0f2bc502166b5",
+   "name": "Return to Darkness"
+  },
+  "21032": {
+   "id": 21032,
+   "rarity": 4,
+   "pageId": "lightcone/21032",
+   "icon": "6e373ba97e9ac3ef96f01823055865d96957e967bbcc0a48f5607234cac63e5f",
+   "splashIcon": "a1cde7f1eca2da5722bba802f89d48e9147611b76f09fc6bcb1267f820895fb6",
+   "memorySplash": "13d38aabdd59b4a17f80d69ceaa1b808ee96668513fd8170676a05d8ed2d2417",
+   "name": "Carve the Moon, Weave the Clouds"
+  },
+  "21033": {
+   "id": 21033,
+   "rarity": 4,
+   "pageId": "lightcone/21033",
+   "icon": "199fe3d2f5e72ce2e566fefcb8ef0831691b9fe0af479fc93b8dc7d91630cd8e",
+   "splashIcon": "33c2e052194bff339d37eb6ba2785e6b48cf19958c1e092e7a51f071fd4bd9d3",
+   "memorySplash": "e18249328bf70610feb02adb4a2d295df5cae8bd643423267d0a002cc120ae8c",
+   "name": "Nowhere to Run"
+  },
+  "21034": {
+   "id": 21034,
+   "rarity": 4,
+   "pageId": "lightcone/21034",
+   "icon": "3673cfb878914626ddff6d257d7e0e9542bcaa471d76bf12c8445456a3a3316d",
+   "splashIcon": "c53ca2f135d8521ff8f20b39438b1160e44f295cbd5babbd0603a61117d44172",
+   "memorySplash": "fb05a16e2e7687a79e6e17267eb96cce750e07ec591f685e7cd99e7098f27d18",
+   "name": "Today Is Another Peaceful Day"
+  },
+  "22000": {
+   "id": 22000,
+   "rarity": 4,
+   "pageId": "lightcone/22000",
+   "icon": "6feb7e9c521f95e2efd019e0e7c820257b3e1fa4dcbcc940eaf92d3a6012c210",
+   "splashIcon": "d10cff18e0cd80839e4179cf781c38cd87edb6ea9ae0ad71674bd52d73718ba3",
+   "memorySplash": "7df8536ba01c83c77e89dca3b1832bef0fb3c91360682ba92c9b238c12a52813",
+   "name": "Before the Tutorial Mission Starts"
+  },
+  "23000": {
+   "id": 23000,
+   "rarity": 5,
+   "pageId": "lightcone/23000",
+   "icon": "2c232ac6f812bd8dc7f9a85080648955a2026eb5834df26293ae553532856a90",
+   "splashIcon": "c58ed7b8c0f6f0abff1a4dcb102fac780a7371bd6d85b95f1d1eb64cc7174d1e",
+   "memorySplash": "8687bd1e4be4f3f7a0b30edd1b7f5abc5b5ebe48b67ef0a5b0646a55efd6cc5e",
+   "name": "Night on the Milky Way"
+  },
+  "23001": {
+   "id": 23001,
+   "rarity": 5,
+   "pageId": "lightcone/23001",
+   "icon": "b45123b96723038e62ffd74fca6c4afdc533e2a7ec8040e078b53f08d5b963d3",
+   "splashIcon": "45ee2cf31511416814b4669dfbbd0c8c2af7dfd16c92d3a61aa05b0d7baa8458",
+   "memorySplash": "d7d2c4d747d15a18358a75e3fb15332dd82c148830e7c2cf6e50984a551a08ea",
+   "name": "In the Night"
+  },
+  "23002": {
+   "id": 23002,
+   "rarity": 5,
+   "pageId": "lightcone/23002",
+   "icon": "af4665eef5e973fa168b5ae1ac0abc9ce415de5eb9bdecb09879fcaebbb5b32d",
+   "splashIcon": "f9b6b470175f92ae7d515cd4827d535e35f8e320a2c89b052be59f53c62427f3",
+   "memorySplash": "14f1e05bd6df873507b906b79b291e6c47f884590bbce9b818dbce9770c54ac1",
+   "name": "Something Irreplaceable"
+  },
+  "23003": {
+   "id": 23003,
+   "rarity": 5,
+   "pageId": "lightcone/23003",
+   "icon": "e4240f15da46d1b02c9cd5f4af52349af53c9e1a040cc422fd54eb9148c72821",
+   "splashIcon": "d8ce4c923c76e6e4ab8f4b49c4dcedb82cc73351c5cae4a03b1c549ea526d63b",
+   "memorySplash": "8dc45fc09dd6645819656f4429c20848aa68c08b641267cca4bf66312fccf26c",
+   "name": "But the Battle Isn't Over"
+  },
+  "23004": {
+   "id": 23004,
+   "rarity": 5,
+   "pageId": "lightcone/23004",
+   "icon": "7d5665de8c56042b6df9120d438a4a291674253c29a4f89054ae2f94aacb6268",
+   "splashIcon": "eb563a1da9d23913ee27c841924a32c91429dc49aecea4451877e5b8bc40c238",
+   "memorySplash": "7c40ae3c210167334abfd3e63b4e3eabe319e11f6e5c61119c3953d2be90f9e0",
+   "name": "In the Name of the World"
+  },
+  "23005": {
+   "id": 23005,
+   "rarity": 5,
+   "pageId": "lightcone/23005",
+   "icon": "722d9fce2b5b2e089abf5a53e77403338664994692871aeafe17cd1e7cf35b76",
+   "splashIcon": "4ef1a12272fbbd16a133b423697d3b13187b08c22e6c1c8e16d276b4817136c9",
+   "memorySplash": "e3cfedf906fa1288157553e2cea1b7c0fcaeb67f2c049d0e3abb82c9869ad93e",
+   "name": "Moment of Victory"
+  },
+  "23006": {
+   "id": 23006,
+   "rarity": 5,
+   "pageId": "lightcone/23006",
+   "icon": "b0db5d5b73a27888cb44ad6f7591a5b173f7557a006d84e19697edd477e6809e",
+   "splashIcon": "87d5d56ce6585eeceb154ee9d901b26073a20a7eb1d45f3eeab4c8e1c5007354",
+   "memorySplash": "7192ad5a816e5e9819c76c85a87c66d7b1d78508996e84e724e57c31cb3200f5",
+   "name": "Patience Is All You Need"
+  },
+  "23007": {
+   "id": 23007,
+   "rarity": 5,
+   "pageId": "lightcone/23007",
+   "icon": "978dd191d1fbfcc420fa6d784f5a1c6554b11b7fcaa18ed857673dc78f4609f1",
+   "splashIcon": "828ef2f97585436b38338719f415cbab920bf83c0708bca208b7d3c40df08b36",
+   "memorySplash": "6ee0a556d447feb45eadfcdd9d94b79832fc4f7e3c6139eee85ce10a6a27d8f2",
+   "name": "Incessant Rain"
+  },
+  "23008": {
+   "id": 23008,
+   "rarity": 5,
+   "pageId": "lightcone/23008",
+   "icon": "eda49b019115e7ef3b5530309a996a6d64a41811b59d9873892478759d122c57",
+   "splashIcon": "11a0db7dcbe51e329fa6a9c286dc3508e395249aa652f6661ef0f929d9ab0052",
+   "memorySplash": "47ab205056357e21458a8975609682dc154d7f0993e12ab905ea5f365ceb78ab",
+   "name": "Echoes of the Coffin"
+  },
+  "23009": {
+   "id": 23009,
+   "rarity": 5,
+   "pageId": "lightcone/23009",
+   "icon": "95a092cc444ebb8d94e00e48935b8f13070be158294977746ee0f71f34009233",
+   "splashIcon": "128f1770d2708f9fd2c7bf1b9809a5588ad7bb3bce8e546c7d612d3a61ad73ca",
+   "memorySplash": "bc8f7ce8f94daf8ef46e56bdf33e06706648883873855194155129e68c9a2314",
+   "name": "The Unreachable Side"
+  },
+  "23010": {
+   "id": 23010,
+   "rarity": 5,
+   "pageId": "lightcone/23010",
+   "icon": "28dac8c990eb4b6c6fb305c80cb9d8bb2088e48525ea62a446a48f3d7aa2ba46",
+   "splashIcon": "a413a1d934d553307a0ea5c9961cd58d4d7f5cf6bd91a43819c857ec54c802e8",
+   "memorySplash": "fc399c255bda7d51f2078728de1f53864f2dacb74ea5fd4aa40dc3d85d896137",
+   "name": "Before Dawn"
+  },
+  "23012": {
+   "id": 23012,
+   "rarity": 5,
+   "pageId": "lightcone/23012",
+   "icon": "913b46dfeb0fa8749e4c5a932de4a51322bd9901450fbd9b64df6aedc87cf6d6",
+   "splashIcon": "8f6cea0e11dd057ffa1518ecbf42c2b0b5c187db37e4a439e344024133731d10",
+   "memorySplash": "657db9298312fa0c0460ce907c9c1f91131e1122c19ec7847373786c7feccc99",
+   "name": "Sleep Like the Dead"
+  },
+  "23013": {
+   "id": 23013,
+   "rarity": 5,
+   "pageId": "lightcone/23013",
+   "icon": "0989e79ba68f39956144bd9003ed3c661fceb3c0c3529aef72b47e273d31bf85",
+   "splashIcon": "a7c96d3c06f58cd638d1c427e1527d4a95486e55fa0e8886627a83252fa59bb5",
+   "memorySplash": "ffd221a7dfb6217e3d541a1707d8b4664002f9b6b3358bbe0028dd86ee36bba0",
+   "name": "Time Waits for No One"
+  },
+  "24000": {
+   "id": 24000,
+   "rarity": 5,
+   "pageId": "lightcone/24000",
+   "icon": "c0a4a11ccd8efcf7f0a417dfbd44d09cb83fb80ec8de65f281b494ac85a76a9b",
+   "splashIcon": "49e04868c70944d9b983ae0159c06cc9ea4398cfea16b0f431f76995e1e436da",
+   "memorySplash": "19d7f6e3dd460dcb8d83cf1efabd89295540fb5ee0d29846a92628dfff84cd9a",
+   "name": "On the Fall of an Aeon"
+  },
+  "24001": {
+   "id": 24001,
+   "rarity": 5,
+   "pageId": "lightcone/24001",
+   "icon": "441387a59d06d9ef7a6b827eaf37a68b6b5860a8f186973ad1a268696c42f84a",
+   "splashIcon": "1bd8b31fd9d77be3c4241cadc85d59ce88fe03792041490d61cfd4eeb26f9c09",
+   "memorySplash": "49ec262db8ac321049ede790e071a04883859547d66f951c9a802a23a53b4b16",
+   "name": "Cruising in the Stellar Sea"
+  },
+  "24002": {
+   "id": 24002,
+   "rarity": 5,
+   "pageId": "lightcone/24002",
+   "icon": "71bc03cb87af7cfeb0e55242b02ab34fd136041692f55ab5291705510afde5a3",
+   "splashIcon": "9d3a6a06cd308bb38150500bf608a62f66378ecafa40b6989e788e3bacd32f68",
+   "memorySplash": "cbc0ebb1ea9f69696c7b8a97d4797d93f66c626e14dacce77bb87f49768a91ba",
+   "name": "Texture of Memories"
+  }
+ },
+ "icons": {
+  "1001": {
+   "id": 1001,
+   "rarity": 4,
+   "icon": "2606f8ef4a7204340932803a0c79506c13f43e2a121bf409112f8176195e49c8",
+   "name": "March 7th"
+  },
+  "1002": {
+   "id": 1002,
+   "rarity": 4,
+   "icon": "3d22485ecf998c4c7ec37c5ea1def2b690c2de7eabde9bc0bb02d3125bcf628f",
+   "name": "Dan Heng"
+  },
+  "1003": {
+   "id": 1003,
+   "rarity": 5,
+   "icon": "69aa518790fdc6d20b86efb405af6a49ecc7f57b4a5f76c5887c4fc40a320d93",
+   "name": "Himeko"
+  },
+  "1004": {
+   "id": 1004,
+   "rarity": 5,
+   "icon": "9e4d1c519e4d7960c3f406f01afce85d710de27d2517024aaf80c9f196a7ddcf",
+   "name": "Welt"
+  },
+  "1005": {
+   "id": 1005,
+   "rarity": 5,
+   "icon": "9dcc998c64c6aedefa5d9507a356bcfa4230077449edba27a6581f4d009c113a",
+   "name": "Kafka"
+  },
+  "1006": {
+   "id": 1006,
+   "rarity": 5,
+   "icon": "2c15b44559a82b701784d48de4ca2012db59925f7e8ab244295512ca551ce2a8",
+   "name": "Silver Wolf"
+  },
+  "1008": {
+   "id": 1008,
+   "rarity": 4,
+   "icon": "a4bb31a0f4fd5963fb69a00dfefa02bdc0de2124f665178d3bb53b223df4828b",
+   "name": "Arlan"
+  },
+  "1009": {
+   "id": 1009,
+   "rarity": 4,
+   "icon": "13cd5338c08d2ce2d2e68dd67e0d5ff05c3d9ad863902e7df7914e60dcbcc605",
+   "name": "Asta"
+  },
+  "1013": {
+   "id": 1013,
+   "rarity": 4,
+   "icon": "5d0ea94535f459a1dcf44caea0d20679f926ce051ed2b07fafe690b7081935b8",
+   "name": "Herta"
+  },
+  "1101": {
+   "id": 1101,
+   "rarity": 5,
+   "icon": "1b8526358391b7db6625cad1c1a26cb65e6b02c0bf89c6cc4f9e0a17da6ac4e2",
+   "name": "Bronya"
+  },
+  "1102": {
+   "id": 1102,
+   "rarity": 5,
+   "icon": "0f36269e9801ec7b2fa60c38f63ead7d072fc467ed1d7b3900251f20a038c8c5",
+   "name": "Seele"
+  },
+  "1103": {
+   "id": 1103,
+   "rarity": 4,
+   "icon": "71a61b73e98b7f14b25a8510cfb3470aa878b2a9373ebdf5bc409e874645b8c1",
+   "name": "Serval"
+  },
+  "1104": {
+   "id": 1104,
+   "rarity": 5,
+   "icon": "eea7f3461205bd7adaa47768cd92c7c83eb728208522d854d7df1ee8b883b22c",
+   "name": "Gepard"
+  },
+  "1105": {
+   "id": 1105,
+   "rarity": 4,
+   "icon": "9689f7b26386c9fc347b1a5bd46418b31ab85e8de0fa6e8d8d3f562b821db4b3",
+   "name": "Natasha"
+  },
+  "1106": {
+   "id": 1106,
+   "rarity": 4,
+   "icon": "d95a1936a83486640e4a4beb792960d1066941083d2eba730f85f38dea7b482f",
+   "name": "Pela"
+  },
+  "1107": {
+   "id": 1107,
+   "rarity": 5,
+   "icon": "27de43fdb865fd476196360726d4141d72596e75fc14896527f4e9a28dae9abc",
+   "name": "Clara"
+  },
+  "1108": {
+   "id": 1108,
+   "rarity": 4,
+   "icon": "b096164e9f304ebffc75f15f8e165b326647b5ee63792ab6e414a1144543ea62",
+   "name": "Sampo"
+  },
+  "1109": {
+   "id": 1109,
+   "rarity": 4,
+   "icon": "510efbbb2217f1acfe3538a9849f7e57bcfcd61d0fa78bb1e66e563f9bf52ab6",
+   "name": "Hook"
+  },
+  "1111": {
+   "id": 1111,
+   "rarity": 4,
+   "icon": "049bc6f2d242d4df2e14ac322a9a3adb1320a527ec2cfd7113783b1e3901dc7f",
+   "name": "Luka"
+  },
+  "1201": {
+   "id": 1201,
+   "rarity": 4,
+   "icon": "4e74b552376aefa807ba06d48d0634cdb64dd67d24c7bb0135dc025ac9d61bba",
+   "name": "Qingque"
+  },
+  "1202": {
+   "id": 1202,
+   "rarity": 4,
+   "icon": "91c798caca289d3f7dc6c7a726db3b7e1cfc486210d228c1d46e88344a502def",
+   "name": "Tingyun"
+  },
+  "1203": {
+   "id": 1203,
+   "rarity": 5,
+   "icon": "149eea07f87426b317ef6272b734b1842c7821f78094b4a59bff99645287446a",
+   "name": "Luocha"
+  },
+  "1204": {
+   "id": 1204,
+   "rarity": 5,
+   "icon": "78ea9834c57d2be3dd7e5ddc4c2846894ca5519ab482158e382099dd26417a63",
+   "name": "Jing Yuan"
+  },
+  "1205": {
+   "id": 1205,
+   "rarity": 5,
+   "icon": "8d3a2149c30a2d8cf7ce5fe04eb60112109b795a1f3c3ab9b00686cc2a068e3b",
+   "name": "Blade"
+  },
+  "1206": {
+   "id": 1206,
+   "rarity": 4,
+   "icon": "faf65546b4dc5f67e9389d3101f3d55986dd378b3416864da0fa25372630a973",
+   "name": "Sushang"
+  },
+  "1207": {
+   "id": 1207,
+   "rarity": 4,
+   "icon": "dcb767906cecc66719fca4b6834807cf4e9ec30b2447eeedc01b29d00e8d9169",
+   "name": "Yukong"
+  },
+  "1209": {
+   "id": 1209,
+   "rarity": 5,
+   "icon": "6b1111c828cb89e8744bb5e9093833708313e5c5ef1538d392c131ada0471b11",
+   "name": "Yanqing"
+  },
+  "1211": {
+   "id": 1211,
+   "rarity": 5,
+   "icon": "cb28a0a360f98c674da55eeabfcfa2a4487871cf82e5e2b2e74e8655a164343f",
+   "name": "Bailu"
+  },
+  "8001": {
+   "id": 8001,
+   "rarity": 5,
+   "icon": "182edbc3fbe126f1201ee28bbe0fe5ba82ef2924130a9dad06da3326e2cdb4f5",
+   "name": "Trailblazer"
+  },
+  "8002": {
+   "id": 8002,
+   "rarity": 5,
+   "icon": "23ed9c93aa8e7ca9e2f7de7978fa7714f51de09a2ebcfc3942fd4141a0730f8b",
+   "name": "Trailblazer"
+  },
+  "8003": {
+   "id": 8003,
+   "rarity": 5,
+   "icon": "aed989733a17e2eeefe9304f3b19af3d595b0b9eebfa5af6ac4e8bfad3213027",
+   "name": "Trailblazer"
+  },
+  "8004": {
+   "id": 8004,
+   "rarity": 5,
+   "icon": "8da6944afeba042ebfcb504c8569def2a9afda8523f2940fb2fbdc7478cffee0",
+   "name": "Trailblazer"
+  },
+  "200101": {
+   "id": 200101,
+   "rarity": 5,
+   "icon": "868a76c3993655bbb3357b165a1914bac74deb2e724d7fca704963c64c2ec0d8",
+   "name": "March 7th \u2014 Welcome"
+  },
+  "200102": {
+   "id": 200102,
+   "rarity": 5,
+   "icon": "79d6528c77cb45a1e8a87e4a42721b85bb50be25ec1711313f30c4344bd59414",
+   "name": "Dan Heng \u2014 Welcome"
+  },
+  "200103": {
+   "id": 200103,
+   "rarity": 5,
+   "icon": "c71e59226a0e97becee22da44282611f57338449790a8766fc5dffd869380be8",
+   "name": "Himeko \u2014 Welcome"
+  },
+  "200104": {
+   "id": 200104,
+   "rarity": 5,
+   "icon": "5d3eada7ac1b4ac94b3fcecfedf13f83a9ffca93d9cb2983080f3a6836fa3fe6",
+   "name": "Welt \u2014 Welcome"
+  },
+  "200105": {
+   "id": 200105,
+   "rarity": 5,
+   "icon": "e256eadae49791f8b8d0bf8c7081cbb8e6eb851aa8928433864bbd266d3ac8e0",
+   "name": "Trailblazer \u2014 Welcome"
+  },
+  "200106": {
+   "id": 200106,
+   "rarity": 5,
+   "icon": "a5c08e9ccf7cbb224bbe68c5c7aecd8c384892a8e7a9d68828c78fd46052f4f6",
+   "name": "Trailblazer \u2014 Welcome"
+  },
+  "200107": {
+   "id": 200107,
+   "rarity": 5,
+   "icon": "79144f83a250e646a269eba8533edd60e87bb73d98a82d825868d8373aa17cc7",
+   "name": "Kafka: Dinner Party"
+  },
+  "200108": {
+   "id": 200108,
+   "rarity": 5,
+   "icon": "fe6f560d86d51e0d9d5e1788221bb254b4754ef78d78cc9a0397bb56c1e55b9b",
+   "name": "Blade: Dinner Party"
+  },
+  "202001": {
+   "id": 202001,
+   "rarity": 4,
+   "icon": "592b6dffbc695ae5167d7dabe9080c59a7c008dd1ad0f1a654f31c7dced3b782",
+   "name": "Wubbaboo"
+  },
+  "202002": {
+   "id": 202002,
+   "rarity": 4,
+   "icon": "92f36192fe4b3b3dddcc42bdef3c650c0cfb233685712fc97db7cfacdf42ddd0",
+   "name": "Trash Can"
+  },
+  "202003": {
+   "id": 202003,
+   "rarity": 4,
+   "icon": "638ac4bab526756e87f07edf16a3cade476fa61f3fcaace877e11ee8a47e97fc",
+   "name": "Junjun"
+  },
+  "202004": {
+   "id": 202004,
+   "rarity": 4,
+   "icon": "da28f31144ed03a2b3385fc94f61e12c87e03d849ffa7d61cb7131d7d1a0b87d",
+   "name": "Peppy"
+  },
+  "202005": {
+   "id": 202005,
+   "rarity": 4,
+   "icon": "69515b4d66687d0100720a346e82eb578c708af27ec29364285a4bf7e74b77b9",
+   "name": "Diting"
+  },
+  "202006": {
+   "id": 202006,
+   "rarity": 4,
+   "icon": "24ab5292e834b509f5896a6fb7cfdcc41b7dd4219f7f0aec912c5a9d6d321385",
+   "name": "Wanted Poster"
+  }
+ },
+ "basicBannerData": {
+  "1001": {
+   "icon": "0e8387d5030270d851c0caece7fccd6bfeb6a7d81e154257cc60683795da3050",
+   "name": "Stellar Warp",
+   "id": 1001,
+   "gachaType": 1
+  },
+  "2001": {
+   "icon": "275498feaeb71aeb4d25405bfb484d1b939458083eb6a4aa5b590fe40697490d",
+   "name": "Butterfly on Swordtip",
+   "id": 2001,
+   "gachaType": 11
+  },
+  "2002": {
+   "icon": "1c69d9e65634f9bf8274c62b71f93378163b63535ddc914dc39bf48cfc43ad2c",
+   "name": "Swirl of Heavenly Spear",
+   "id": 2002,
+   "gachaType": 11
+  },
+  "2003": {
+   "icon": "275498feaeb71aeb4d25405bfb484d1b939458083eb6a4aa5b590fe40697490d",
+   "name": "Butterfly on Swordtip",
+   "id": 2003,
+   "gachaType": 11
+  },
+  "2004": {
+   "icon": "1c69d9e65634f9bf8274c62b71f93378163b63535ddc914dc39bf48cfc43ad2c",
+   "name": "Swirl of Heavenly Spear",
+   "id": 2004,
+   "gachaType": 11
+  },
+  "2005": {
+   "icon": "6f3ee3a66886e167aaf9b6b777436222ea133f4a48749724ca3694fbe24744e9",
+   "name": "Contract Zero",
+   "id": 2005,
+   "gachaType": 11
+  },
+  "2006": {
+   "icon": "62d6fe99dc01d927cb1d3628fde913607a41d29b597310005965e40bb4c1508d",
+   "name": "Laic Pursuit",
+   "id": 2006,
+   "gachaType": 11
+  },
+  "2007": {
+   "icon": "a7e7e45493e9d2e3c18da30979a34e464386153bdf7aad1688c4c9f95d1b6351",
+   "name": "A Lost Soul",
+   "id": 2007,
+   "gachaType": 11
+  },
+  "2008": {
+   "icon": "379b57ed5e466f0ed9f8b6fe31152257e4f6763d16361dd0001980e995020556",
+   "name": "Nessun Dorma",
+   "id": 2008,
+   "gachaType": 11
+  },
+  "3001": {
+   "icon": "0807e59b6507ee5709ec5802f6377ee222d04c0b5211971d188fc62c21ab257c",
+   "name": "Brilliant Fixation",
+   "id": 3001,
+   "gachaType": 12
+  },
+  "3002": {
+   "icon": "a73343212088c71f9459284c7222f20c0ea61f4b010ea7d4fc6153ff33a87524",
+   "name": "Brilliant Fixation",
+   "id": 3002,
+   "gachaType": 12
+  },
+  "3003": {
+   "icon": "0807e59b6507ee5709ec5802f6377ee222d04c0b5211971d188fc62c21ab257c",
+   "name": "Brilliant Fixation",
+   "id": 3003,
+   "gachaType": 12
+  },
+  "3004": {
+   "icon": "a73343212088c71f9459284c7222f20c0ea61f4b010ea7d4fc6153ff33a87524",
+   "name": "Brilliant Fixation",
+   "id": 3004,
+   "gachaType": 12
+  },
+  "3005": {
+   "icon": "08585ce3a7073ad030d871dbd4eb18b79cf64021a03f5bdc312f50f347ceb802",
+   "name": "Brilliant Fixation",
+   "id": 3005,
+   "gachaType": 12
+  },
+  "3006": {
+   "icon": "e95446f02d445ea9d6927f082433679d91573f7b6958968c98ea66f8f4a164d8",
+   "name": "Brilliant Fixation",
+   "id": 3006,
+   "gachaType": 12
+  },
+  "3007": {
+   "icon": "5104287f46c76b192ca3bdf0be686b25e239d2fda21e8d874dbafbcd7ac4c7ea",
+   "name": "Brilliant Fixation",
+   "id": 3007,
+   "gachaType": 12
+  },
+  "3008": {
+   "icon": "7b2f5682815f8ce266b39c4526f48155b276f7b7875318ab740b39520a1a2de5",
+   "name": "Brilliant Fixation",
+   "id": 3008,
+   "gachaType": 12
+  },
+  "4001": {
+   "icon": "80005e1a18aa1342eaf7fbc8b106777ce87772f7552b717e16c6b2497ae9ad79",
+   "name": "Departure Warp",
+   "id": 4001,
+   "gachaType": 2
+  }
+ },
+ "filterCategories": [
+  {
+   "name": "4\u2b50",
+   "group": "rarityChar",
+   "dataKey": "rarity",
+   "dataValue": 4,
+   "rarity": 4,
+   "type": 0
+  },
+  {
+   "name": "5\u2b50",
+   "group": "rarityChar",
+   "dataKey": "rarity",
+   "dataValue": 5,
+   "rarity": 5,
+   "type": 0
+  },
+  {
+   "name": "3\u2b50",
+   "group": "rarityEquipment",
+   "dataKey": "rarity",
+   "dataValue": 3,
+   "rarity": 3,
+   "type": 0
+  },
+  {
+   "name": "4\u2b50",
+   "group": "rarityEquipment",
+   "dataKey": "rarity",
+   "dataValue": 4,
+   "rarity": 4,
+   "type": 0
+  },
+  {
+   "name": "5\u2b50",
+   "group": "rarityEquipment",
+   "dataKey": "rarity",
+   "dataValue": 5,
+   "rarity": 5,
+   "type": 0
+  }
+ ]
+}

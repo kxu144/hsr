@@ -1,0 +1,24 @@
+{
+ "iconPath": "cd6d5d5fae73d3efe3048c17bce6cd79dd408078121463b292e30b6c41f97c03",
+ "name": "Stellar Jade",
+ "rarity": 5,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 29325,
+  "type": 101,
+  "purposeId": 12,
+  "iconPath": "cd6d5d5fae73d3efe3048c17bce6cd79dd408078121463b292e30b6c41f97c03",
+  "name": "Stellar Jade",
+  "desc": "",
+  "lore": "A fleeting gleam arrowing across the night sky. Catch it before it's gone. Maybe it can be used to barter?<br /><br />\"Some say that the lights are wishes of sentient beings. While insignificant and elusive, they did light up the pocket of sky around them, right?\"",
+  "purpose": "Rare currency",
+  "rarity": 5,
+  "rewardPath": "/material/29325",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "29325"
+}

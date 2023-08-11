@@ -1,0 +1,24 @@
+{
+ "iconPath": "e7b2bf760db49a33321c30a2e1856a16f7a68882894e02ee1b2dfdee7ec48cb6",
+ "name": "Oneiric Shard",
+ "rarity": 5,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 29327,
+  "type": 101,
+  "purposeId": 12,
+  "iconPath": "e7b2bf760db49a33321c30a2e1856a16f7a68882894e02ee1b2dfdee7ec48cb6",
+  "name": "Oneiric Shard",
+  "desc": "",
+  "lore": "Crystallized lights floating in the sea of stars, pulsing with the residual dream of an ancient Leviathan. Everything of the old world turned in the end into candlelight that illuminates the darkness ahead.",
+  "purpose": "Rare currency",
+  "rarity": 5,
+  "rewardPath": "/material/29327",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "29327"
+}

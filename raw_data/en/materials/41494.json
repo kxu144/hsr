@@ -1,0 +1,26 @@
+{
+ "iconPath": "575a3a6e41dbb05968c9f8aa403ed3945efa79ea9a7de614f816598dc55883c8",
+ "name": "Undying Embers",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 41494,
+  "type": 601,
+  "purposeId": 0,
+  "iconPath": "575a3a6e41dbb05968c9f8aa403ed3945efa79ea9a7de614f816598dc55883c8",
+  "name": "Undying Embers",
+  "desc": "",
+  "lore": "Sighing embers formed when a shooting star fell from the sky.<br /><br />\"At least they were once hot and bright.\"",
+  "purpose": "",
+  "rarity": 4,
+  "rewardPath": "/material/41494",
+  "comeFrom": [
+   "Warp"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "41494"
+}

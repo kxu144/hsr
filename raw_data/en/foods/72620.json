@@ -1,0 +1,133 @@
+{
+ "iconPath": "7a3a60336bf24ff6064c1541d5f989cb40b248235373f27a42b9ee0179b2ca85",
+ "name": "All Good Potion",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 72620,
+  "type": 502,
+  "purposeId": 10,
+  "iconPath": "7a3a60336bf24ff6064c1541d5f989cb40b248235373f27a42b9ee0179b2ca85",
+  "name": "All Good Potion",
+  "desc": "Upon use, immediately regenerates <nobr>50%</nobr> of Max Energy for a single ally.",
+  "lore": "A surprise side product obtained during the Department of Implement Arts' experiments. Research has proven it to be harmless to humans. Most researchers indicate they \"feel all good\" after using this liquid, therefore giving this item the non-official name of \"All Good Potion.\"<br /><br />\"Note: Caution! Side effects from this liquid remains unknown!\"",
+  "purpose": "Consumables",
+  "rarity": 3,
+  "rewardPath": "/material/72620",
+  "comeFrom": [
+   "Omni-Synthesizer"
+  ]
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "af49f8c10262045a4f9e4740703b52056b5f396b48b99c2d130c22f3dbfa99d9",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards",
+    "Embers Exchange"
+   ]
+  },
+  "71948": {
+   "id": 71948,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "197cc70e3044731da2ec968ac268621ff44ed905278a9aa0f1d611a27e7d60eb",
+   "name": "Metal",
+   "desc": "Tier 1 Synthesis Material",
+   "lore": "A substance abundant in planets' crust and the ocean.<br />Very useful, very handy.<br /><br />\"I've been to a planet where the locals consume metals to get superpowers. Please don't do that at home, as most metals are not digestible by humans.\"",
+   "purpose": "Synthesis material",
+   "rarity": 1,
+   "rewardPath": "/material/71948",
+   "comeFrom": [
+    "Found in destructible objects in the Herta Space Station",
+    "Administrative District Shop"
+   ]
+  },
+  "72752": {
+   "id": 72752,
+   "type": 507,
+   "purposeId": 19,
+   "iconPath": "fcbc98250cf072ffc78c6a2ec6389abe5ffc52c1c2a096ff6d047a9dbd3a519a",
+   "name": "Recipe: All Good Potion",
+   "desc": "A simple equation. When entered into the Omni-Synthesizer, it will unlock a new recipe.",
+   "lore": "A recipe that Wen Shiling created by accident. Small amounts of experimental data shows this can consistently produce All Good Potions. This recipe is yet to be used in large-scale production.<br /><br />\"This recipe is only to be used by Shiling and her friends. If anyone else were to use it, I am not accountable for the product's effects!\"",
+   "purpose": "Recipe",
+   "rarity": 3,
+   "rewardPath": "/material/72752",
+   "comeFrom": []
+  },
+  "641099": {
+   "id": 641099,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "89d7a77a2d371a6f2127286b26b70a24b379ae2d3a23988dcffd9571328092b6",
+   "name": "Protein Rice",
+   "desc": "Tier 2 Synthesis Material",
+   "lore": "Nature's gift to human society, friend of mankind, savior of lives.<br />Smooth as egg white and full of protein.<br /><br />\"Every grain costs sweat and blood.\"",
+   "purpose": "Synthesis material",
+   "rarity": 2,
+   "rewardPath": "/material/641099",
+   "comeFrom": [
+    "Storage Zone: Voidranger: Reavers or other enemies",
+    "Found in destructible objects in the Herta Space Station",
+    "Grocery Stand"
+   ]
+  },
+  "757647": {
+   "id": 757647,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "20fd8c68185f8429d242793fab57f53e71d03a6d85f2d5f66960d55c2c3cd4ee",
+   "name": "Basic Ingredients",
+   "desc": "Tier 1 Synthesis Material",
+   "lore": "Ingredients that keep you fed but taste less than ideal.<br />Not particularly good, but is edible.<br /><br />\"Can I eat it? Is it good? What do I eat it with?\"",
+   "purpose": "Synthesis material",
+   "rarity": 1,
+   "rewardPath": "/material/757647",
+   "comeFrom": [
+    "Found in destructible objects in the Herta Space Station",
+    "Administrative District Shop"
+   ]
+  }
+ },
+ "composeData": [
+  {
+   "items": [
+    {
+     "id": 71948,
+     "count": 2
+    },
+    {
+     "id": 757647,
+     "count": 4
+    },
+    {
+     "id": 641099,
+     "count": 4
+    },
+    {
+     "id": 72752,
+     "count": 1
+    }
+   ],
+   "tag": {
+    "name": "Restorative Consumables",
+    "type": "Consumables",
+    "icon": "8743e720b0f60c4b11bc7f188cf7b5ae3921e2cf3dacfdd180f1bcb5a1bae09e"
+   }
+  }
+ ],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "72620"
+}

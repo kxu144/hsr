@@ -1,0 +1,27 @@
+{
+ "iconPath": "56ab8085d932c0a9521f684246a42bd320b199c3c1a6f3bd54b869c5f294fec9",
+ "name": "Refined Aether",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 694487,
+  "type": 601,
+  "purposeId": 5,
+  "iconPath": "56ab8085d932c0a9521f684246a42bd320b199c3c1a6f3bd54b869c5f294fec9",
+  "name": "Refined Aether",
+  "desc": "Enhancement material for Light Cones, provides <nobr>6000</nobr> Light Cone EXP.",
+  "lore": "A canister of aether that has been extracted and distilled using special procedures.<br /><br />\"The Garden looks forward to recreating a past glory, but it is a 'past glory' selected by them. Do you understand?\"",
+  "purpose": "Light Cone EXP Material",
+  "rarity": 4,
+  "rewardPath": "/material/694487",
+  "comeFrom": [
+   "Calyx (Backwater Pass)",
+   "Forgotten Hall"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "694487"
+}

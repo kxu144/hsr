@@ -1,0 +1,26 @@
+{
+ "iconPath": "c0cfacb5177229bc4cdf76cabc4f63ed1cd6a45955a14885dbc7088fb0dad273",
+ "name": "The Art of Language",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 154090,
+  "type": 508,
+  "purposeId": 0,
+  "iconPath": "c0cfacb5177229bc4cdf76cabc4f63ed1cd6a45955a14885dbc7088fb0dad273",
+  "name": "The Art of Language",
+  "desc": "Message and Chat speech bubbles can be changed in the Message or Chat functions",
+  "lore": "As a Trailblazer, not only should you carry out Akivili's will in your actions, you should also embody the style of the Trailblaze with your words!",
+  "purpose": "",
+  "rarity": 4,
+  "rewardPath": "/material/154090",
+  "comeFrom": [
+   "Default Rewards"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "154090"
+}

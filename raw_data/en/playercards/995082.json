@@ -1,0 +1,24 @@
+{
+ "iconPath": "50b207d8d1a69b519bd5d3daa72839a1f12299db4494701d16c03a7c01431e29",
+ "name": "Peppy",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 995082,
+  "type": 505,
+  "purposeId": 0,
+  "iconPath": "50b207d8d1a69b519bd5d3daa72839a1f12299db4494701d16c03a7c01431e29",
+  "name": "Peppy",
+  "desc": "Avatar reward obtained from finishing the mission \"An Unexpected Turn of Events.\"",
+  "lore": "Peppy's name card picture, taken when he got employed by the Space Station.<br /><br />\"*sniff* ...Woof woof woof! Woof!\"",
+  "purpose": "",
+  "rarity": 4,
+  "rewardPath": "/material/995082",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "995082"
+}

@@ -1,0 +1,27 @@
+{
+ "iconPath": "20fd8c68185f8429d242793fab57f53e71d03a6d85f2d5f66960d55c2c3cd4ee",
+ "name": "Basic Ingredients",
+ "rarity": 1,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 757647,
+  "type": 601,
+  "purposeId": 17,
+  "iconPath": "20fd8c68185f8429d242793fab57f53e71d03a6d85f2d5f66960d55c2c3cd4ee",
+  "name": "Basic Ingredients",
+  "desc": "Tier 1 Synthesis Material",
+  "lore": "Ingredients that keep you fed but taste less than ideal.<br />Not particularly good, but is edible.<br /><br />\"Can I eat it? Is it good? What do I eat it with?\"",
+  "purpose": "Synthesis material",
+  "rarity": 1,
+  "rewardPath": "/material/757647",
+  "comeFrom": [
+   "Found in destructible objects in the Herta Space Station",
+   "Administrative District Shop"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "757647"
+}

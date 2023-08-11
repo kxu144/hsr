@@ -1,0 +1,305 @@
+{
+ "iconPath": "f35663b201c893327da3e5dd27e184a3ef67f4093ffd9c195470145bbe4df409",
+ "name": "Lightning Crown of the Past Shadow",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 151160,
+  "type": 601,
+  "purposeId": 2,
+  "iconPath": "f35663b201c893327da3e5dd27e184a3ef67f4093ffd9c195470145bbe4df409",
+  "name": "Lightning Crown of the Past Shadow",
+  "desc": "Headwear of the Guardian Shadows. Can be used for the Ascension of Lightning characters.",
+  "lore": "Accessory left behind by the shadow of a past Guardian, telling tales of the city of Everwinter.<br /><br />\"Svetlana the Iron Fist \u2014 her wrath as terrifying as thunder and her retribution as swift as lightning.\"",
+  "purpose": "Character Ascension Materials",
+  "rarity": 4,
+  "rewardPath": "/material/151160",
+  "comeFrom": [
+   "Stagnant Shadow (Corridor of Fading Echoes)",
+   "Omni-Synthesizer \u2014 Material Exchange"
+  ]
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "af49f8c10262045a4f9e4740703b52056b5f396b48b99c2d130c22f3dbfa99d9",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards",
+    "Embers Exchange"
+   ]
+  },
+  "61765": {
+   "id": 61765,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "1cc00d638b5643d706fcc9f3e14e7083a7c9ab005b077a728830acbee6c79629",
+   "name": "Arlan",
+   "desc": "",
+   "lore": "The head of Herta Space Station's Security Department.<br />This quiet boy hopes to protect the researchers who value their pursuit of knowledge, and to help them to complete their work.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/character/arlan",
+   "comeFrom": []
+  },
+  "67219": {
+   "id": 67219,
+   "type": 601,
+   "purposeId": 2,
+   "iconPath": "3e5913686312fc997eaf757f97ef76dc23feb02eb8ec3661a05b2e5fa3d2ad8c",
+   "name": "Horn of Snow",
+   "desc": "Broken horn of a Frigid Prowler. Can be used for the Ascension of Ice characters.",
+   "lore": "The Silvermane Guards would host contests where the winner must take a body part from a monster and bring it back within a set time limit. This cold broken horn must have been a trophy of one such contest.<br /><br />\"Sir Bova, this is no moose horn and is certainly not fit for decoration above the Geomarrow furnace.\"",
+   "purpose": "Character Ascension Materials",
+   "rarity": 4,
+   "rewardPath": "/material/67219",
+   "comeFrom": [
+    "Stagnant Shadow (Corridor of Fading Echoes)",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "67220": {
+   "id": 67220,
+   "type": 601,
+   "purposeId": 2,
+   "iconPath": "a2fa1145ffb36cc314f474ae3921d54fcc1ba1a4b64b1fe18a15e817d1d454ff",
+   "name": "Gelid Chitin",
+   "desc": "Frosty chitin emitting a cold humming. Can be used for the Ascension of Ice characters.",
+   "lore": "Strange chitin peeled off from an interdimensional creature. Although not freezing cold anymore, it remains trembling, absorbing heat from its surroundings.<br /><br />\"How has no one thought of selling it to worlds where they don't have air conditioners? It works like an air conditioner and sounds as loud as one, too.\"",
+   "purpose": "Character Ascension Materials",
+   "rarity": 4,
+   "rewardPath": "/material/67220",
+   "comeFrom": [
+    "Stagnant Shadow (Cloudford)",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "151161": {
+   "id": 151161,
+   "type": 601,
+   "purposeId": 2,
+   "iconPath": "0e90bc4981e151e0911918ca07ff55d038f82c2fd201a4129191d67d9a56ca76",
+   "name": "Shape Shifter's Lightning Staff",
+   "desc": "A wooden staff with a pointed tip. It belonged to a shape shifter from the Disciples of Sanctus Medicus. Can be used for the Ascension of Lightning characters.",
+   "lore": "According to ancient Xianzhou records, those who have ascended can summon lightning and command the wind. The Disciples of Sanctus Medicus claimed to have inherited the way of the gods. By demonstrating godly power, the disciples gathered large numbers of worshipers in secret. Branches of lightning coil around this wooden staff \u2014 could it be that the disciples were indeed no mere mortals?<br /><br />\"The mortal body is but an illusion. Truth is only revealed to those who choose to ascend.\"",
+   "purpose": "Character Ascension Materials",
+   "rarity": 4,
+   "rewardPath": "/material/151161",
+   "comeFrom": [
+    "Stagnant Shadow (Stargazer Navalia)",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "267805": {
+   "id": 267805,
+   "type": 601,
+   "purposeId": 2,
+   "iconPath": "688a8ce4c1341aeb5c4467503a6266ed93baf9b96b15a65ead2254ccdc8b8e29",
+   "name": "Storm Eye",
+   "desc": "Arrows belonged to a Stormbringer. Can be used for the Ascension of Wind characters.",
+   "lore": "Used to belong to a certain Fragmentum monster modeled after a certain kind of Voidrangers. An arrowhead can be barely seen buried in the center of the vortex.<br /><br />\"Those who perish in the Fragmentum shall rise again where they met their demise.\"",
+   "purpose": "Character Ascension Materials",
+   "rarity": 4,
+   "rewardPath": "/material/267805",
+   "comeFrom": [
+    "Stagnant Shadow (Rivet Town)",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "267806": {
+   "id": 267806,
+   "type": 601,
+   "purposeId": 2,
+   "iconPath": "7742b55404dc7a9f0dd7bf8a952f5c3d1ff2a303cd246847c23450b7e10d53f5",
+   "name": "Ascendant Debris",
+   "desc": "Remains of The Ascended. Can be used for Ascension of Wind characters.",
+   "lore": "The Ascended originally intended to bring the world a legacy of kindness, but as the bestowment of Abundance fades, understanding arrives alongside liberation: They were nothing more than a mortal with flesh and blood. Their ability to traverse the skies was nothing but an illusion, and all that remained of their existence was dust and dirt.<br /><br />\"I curse ye, Reignbow Arbiter...\"",
+   "purpose": "Character Ascension Materials",
+   "rarity": 4,
+   "rewardPath": "/material/267806",
+   "comeFrom": [
+    "Stagnant Shadow (Alchemy Commission)",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "351746": {
+   "id": 351746,
+   "type": 601,
+   "purposeId": 2,
+   "iconPath": "c2ede3047a424d4284226c481a94ec198db2019c2839e7a92d4846d905e7d622",
+   "name": "Void Cast Iron",
+   "desc": "Horseshoe of a Voidranger: Trampler. Can be used for the Ascension of Quantum characters.",
+   "lore": "Rare horseshoe obtained when a Trampler of the Antimatter Legion is defeated. When no one is observing, it pops in and out of existence.<br /><br />\"The name of the experiment? It's just called \"Horseshoe of the Trampler\"... \"",
+   "purpose": "Character Ascension Materials",
+   "rarity": 4,
+   "rewardPath": "/material/351746",
+   "comeFrom": [
+    "Stagnant Shadow (Base Zone)",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "416541": {
+   "id": 416541,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "b79ba01fcb3755088c6d718dcd75d9bb1664706e42e9768c1fb1c06ba2c4e453",
+   "name": "Tingyun",
+   "desc": "",
+   "lore": "Amicassador of the Sky-Faring Commission of the Xianzhou Luofu.<br />She travels with business delegates, forging trade relationships and alliances with many worlds.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/character/tingyun",
+   "comeFrom": []
+  },
+  "468391": {
+   "id": 468391,
+   "type": 601,
+   "purposeId": 2,
+   "iconPath": "13ea8e54efb3930b934fb523a1fb7f3cc2793f9ddf94fbbcb3b43013b2c35208",
+   "name": "Golden Crown of the Past Shadow",
+   "desc": "Headwear of the Decaying Shadow. Can be used for the Ascension of Imaginary characters.",
+   "lore": "Accessory left behind by the shadow of a past Guardian, telling tales of the city of Everwinter.<br /><br />\"Alina the Loving \u2014 her kindness as lofty as the sky and her compassion as brilliant as gold.\"",
+   "purpose": "Character Ascension Materials",
+   "rarity": 4,
+   "rewardPath": "/material/468391",
+   "comeFrom": [
+    "Stagnant Shadow (Backwater Pass)",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "500483": {
+   "id": 500483,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "51d60322aa0c03f444c3547835e0aa48da78961cef14db1d13966ebb2279e4aa",
+   "name": "Bailu",
+   "desc": "",
+   "lore": "The High Elder of the Vidyadhara, who is also known as the \"Healer Lady\" on the Luofu.<br />She uses her unique medical science and the medical treatment that can only be provided by the Vidyadhara dragon race to save lives.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/bailu",
+   "comeFrom": []
+  },
+  "538567": {
+   "id": 538567,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "5c66640338faaa79d6fbc92bf9710cd40c6a1c57045b34ff43a5d368297f4842",
+   "name": "Serval",
+   "desc": "",
+   "lore": "A Belobog mechanic who used to be a researcher for the Technology Division of the Architects.<br />As Gepard Landau's elder sister, her personality stands in stark contrast to her brother's.<br />She loves an ancient form of music known as \"rock 'n' roll\" that was popular before the Eternal Freeze.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/character/serval",
+   "comeFrom": []
+  },
+  "866633": {
+   "id": 866633,
+   "type": 601,
+   "purposeId": 2,
+   "iconPath": "75a6695fd516788793ac69343900ddec581b619732d7d6771f4bcb5da1a9996c",
+   "name": "Broken Teeth of Iron Wolf",
+   "desc": "Fragmented saw teeth left behind by automatons. Can be used for the Ascension of Physical characters.",
+   "lore": "It is said that the smelting techniques of the Architects allowed them to make chainsaws sturdy enough to split giant boulders. Such techniques have been long lost to history.<br /><br />\"Boss Svarog says its blade is so thin that it can cut into the gap between molecules... What are molecules?\"",
+   "purpose": "Character Ascension Materials",
+   "rarity": 4,
+   "rewardPath": "/material/866633",
+   "comeFrom": [
+    "Stagnant Shadow (Great Mine)",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "983278": {
+   "id": 983278,
+   "type": 601,
+   "purposeId": 2,
+   "iconPath": "86f73cc2cbe3bc9c009144bc3e48e7c043691cb5d860e426112f0e0c3a896840",
+   "name": "Endotherm Chitin",
+   "desc": "Hot, translucent substance almost like fire in the solid state. Can be used for the Ascension of Fire characters.",
+   "lore": "Strange chitin peeled off from an interdimensional creature. Although not piping hot anymore, it still radiates warmth.<br /><br />\"It's too cold outside. But with this gemstone on you, you'll be able to travel far and wide, even to search for cities with humans left...\"",
+   "purpose": "Character Ascension Materials",
+   "rarity": 4,
+   "rewardPath": "/material/983278",
+   "comeFrom": [
+    "Stagnant Shadow (Silvermane Guard Restricted Zone)",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  }
+ },
+ "composeData": [
+  {
+   "items": [
+    {
+     "id": 866633,
+     "count": 2
+    },
+    {
+     "id": 983278,
+     "count": 2
+    },
+    {
+     "id": 67219,
+     "count": 2
+    },
+    {
+     "id": 267805,
+     "count": 2
+    },
+    {
+     "id": 351746,
+     "count": 2
+    },
+    {
+     "id": 468391,
+     "count": 2
+    },
+    {
+     "id": 67220,
+     "count": 2
+    },
+    {
+     "id": 151161,
+     "count": 2
+    },
+    {
+     "id": 267806,
+     "count": 2
+    }
+   ],
+   "tag": {
+    "name": "Character Ascension Material",
+    "type": "Material Exchange",
+    "icon": "f35209048cb550e1786097300bddc706b6011b9c8831b2d78717580ef9e357b9"
+   }
+  }
+ ],
+ "avatarUsedBy": [
+  {
+   "id": 500483,
+   "rarity": 5
+  },
+  {
+   "id": 416541,
+   "rarity": 4
+  },
+  {
+   "id": 538567,
+   "rarity": 4
+  },
+  {
+   "id": 61765,
+   "rarity": 4
+  }
+ ],
+ "equipmentUsedBy": [],
+ "pageId": "151160"
+}

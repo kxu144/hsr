@@ -1,0 +1,27 @@
+{
+ "iconPath": "986cb8eacfc77a347d7be45f6ba74ecf909ec26ffffd577c9ff6129bdfa93544",
+ "name": "Travel Encounters",
+ "rarity": 2,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 409962,
+  "type": 601,
+  "purposeId": 1,
+  "iconPath": "986cb8eacfc77a347d7be45f6ba74ecf909ec26ffffd577c9ff6129bdfa93544",
+  "name": "Travel Encounters",
+  "desc": "Experience material for characters. Provides <nobr>1000</nobr> Character EXP.",
+  "lore": "A travel diary with messy handwriting and random content. It's not of much use to you.<br /><br />\"Dan Heng, hurry up and finish reading it so you can throw it away.\"",
+  "purpose": "Character EXP Material",
+  "rarity": 2,
+  "rewardPath": "/material/409962",
+  "comeFrom": [
+   "Calyx (Outlying Snow Plains)",
+   "Assignment rewards"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "409962"
+}

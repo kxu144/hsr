@@ -1,0 +1,132 @@
+{
+ "iconPath": "8d41e103d34bceb9bb137e5466beffa0517e140f9084b7465b1e5ab78a78a89b",
+ "name": "Dust of Alacrity",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 126788,
+  "type": 502,
+  "purposeId": 10,
+  "iconPath": "8d41e103d34bceb9bb137e5466beffa0517e140f9084b7465b1e5ab78a78a89b",
+  "name": "Dust of Alacrity",
+  "desc": "Upon use, increases SPD of all allies by <nobr>12%</nobr> for the next battle.",
+  "lore": "Of all the memories collected by the Garden of Recollection, one clip comes from an ancient tribe in a long-gone world. It contains a secret recipe: take the seeds of life, Virtual Particles of energy, and Stone of The Hunt representing the Aeon's Path; grind them into powder and mix to a ratio of 2:5:1 \u2014 you'll get the magical dust. Applying the dust to your body makes you exceptionally agile and swift.<br /><br />\"Sparrowhawk, bathe in the dust of our ancestors and fly to the top of the mountain. Bring the sacred banner back to our tribe.\"",
+  "purpose": "Consumables",
+  "rarity": 3,
+  "rewardPath": "/material/126788",
+  "comeFrom": [
+   "All-in-One Synthesis Machine"
+  ]
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "af49f8c10262045a4f9e4740703b52056b5f396b48b99c2d130c22f3dbfa99d9",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards",
+    "Embers Exchange"
+   ]
+  },
+  "126920": {
+   "id": 126920,
+   "type": 507,
+   "purposeId": 19,
+   "iconPath": "97b725bf30cb93710ab886445989ccfc097aef5eccb30e05da6a347f35fb4c9f",
+   "name": "Recipe: Dust of Alacrity",
+   "desc": "A simple equation. When entered into the Synthesizer, it will unlock a new recipe.",
+   "lore": "",
+   "purpose": "Recipe",
+   "rarity": 3,
+   "rewardPath": "/material/126920",
+   "comeFrom": []
+  },
+  "272534": {
+   "id": 272534,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "b4f20f63061ae4db3ce40dade7275ccbf1c581f229331775add3b2bc7a457b46",
+   "name": "Seed",
+   "desc": "Tier 1 Synthesis Material",
+   "lore": "Reproductive unit unique to plants.<br />Most of them symbolize life, some of them taste pretty good.<br /><br />\"Sow in the spring, harvest in the Autumn.\"",
+   "purpose": "Synthesis material",
+   "rarity": 1,
+   "rewardPath": "/material/272534",
+   "comeFrom": [
+    "Found in destructible objects in Jarilo-VI",
+    "Grocery Stand"
+   ]
+  },
+  "641068": {
+   "id": 641068,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "881502cd912cb7669f4a46f4314772c5c38b77ab9caaef1dc8cf7fa49612740b",
+   "name": "Stone of The Hunt",
+   "desc": "Tier 3 Synthesis Material",
+   "lore": "Small stone with the power of The Hunt.<br />As if guided by someone's will, it moves by itself towards a certain direction.<br />Sounds like what a magnet would do? I assure you it is not.<br /><br />\"The destination lies where my arrow is heading.\"",
+   "purpose": "Synthesis material",
+   "rarity": 3,
+   "rewardPath": "/material/641068",
+   "comeFrom": [
+    "Grocery Stand"
+   ]
+  },
+  "757744": {
+   "id": 757744,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "1603e1e0c8be925b5d5fd7a767acd60f0fe7a33122e56a5e506aae91b824a779",
+   "name": "Virtual Particle",
+   "desc": "Tier 2 Synthesis Material",
+   "lore": "Tiny particles commonly found in the universe but cannot be observed in theory.<br />Scientists are good at transforming theories into reality.<br /><br />\"I've got a virtual particle and an anti virtual particle here. How do we turn them into a real particle and a real antiparticle? Now, look closely...\"",
+   "purpose": "Synthesis material",
+   "rarity": 2,
+   "rewardPath": "/material/757744",
+   "comeFrom": [
+    "Storage Zone: Baryons or other enemies",
+    "Found in destructible objects in the Herta Space Station",
+    "Grocery Stand"
+   ]
+  }
+ },
+ "composeData": [
+  {
+   "items": [
+    {
+     "id": 272534,
+     "count": 2
+    },
+    {
+     "id": 757744,
+     "count": 5
+    },
+    {
+     "id": 641068,
+     "count": 1
+    },
+    {
+     "id": 126920,
+     "count": 1
+    }
+   ],
+   "tag": {
+    "name": "Attack Consumables",
+    "type": "Consumables",
+    "icon": "8743e720b0f60c4b11bc7f188cf7b5ae3921e2cf3dacfdd180f1bcb5a1bae09e"
+   }
+  }
+ ],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "126788"
+}

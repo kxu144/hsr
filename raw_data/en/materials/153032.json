@@ -1,0 +1,24 @@
+{
+ "iconPath": "3363fea77d63e442f311e36b9f3e9ee04b859ef0a7d44ade6f6c70321a3efae3",
+ "name": "Lil' Twisty Bubble Gum",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 153032,
+  "type": 601,
+  "purposeId": 14,
+  "iconPath": "3363fea77d63e442f311e36b9f3e9ee04b859ef0a7d44ade6f6c70321a3efae3",
+  "name": "Lil' Twisty Bubble Gum",
+  "desc": "A tasty and cheap Punklorde snack. Can be used to Superimpose the Light Cone \"Before the Tutorial Mission Starts.\"",
+  "lore": "A candy favored by a certain Stellaron Hunter. It contains rocket tree gum, and the crispy sound of bubbles popping is absolutely irresistible.<br /><br />\"Pop!\"",
+  "purpose": "Valuable object",
+  "rarity": 4,
+  "rewardPath": "/material/153032",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "153032"
+}

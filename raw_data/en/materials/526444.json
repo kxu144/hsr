@@ -1,0 +1,26 @@
+{
+ "iconPath": "a8c7be5521823e5fddced2d03f195dc9572731b7b7cd56caeaabce5f3aec0dd5",
+ "name": "Herta Bond",
+ "rarity": 5,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 526444,
+  "type": 601,
+  "purposeId": 11,
+  "iconPath": "a8c7be5521823e5fddced2d03f195dc9572731b7b7cd56caeaabce5f3aec0dd5",
+  "name": "Herta Bond",
+  "desc": "A reward from the Simulated Universe. Can be used to buy items from Herta's Store.",
+  "lore": "",
+  "purpose": "Common currency",
+  "rarity": 5,
+  "rewardPath": "/material/526444",
+  "comeFrom": [
+   "Simulated Universe Point Rewards"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "526444"
+}

@@ -1,0 +1,24 @@
+{
+ "iconPath": "807fe85a9c824c0bcd364eb8fbb4438e854d96807c93419edeca182eb52adc04",
+ "name": "Jim Roger Bread Soda",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 988878,
+  "type": 502,
+  "purposeId": 10,
+  "iconPath": "807fe85a9c824c0bcd364eb8fbb4438e854d96807c93419edeca182eb52adc04",
+  "name": "Jim Roger Bread Soda",
+  "desc": "When used, instantly heal a single ally by <nobr>100%</nobr> of their Max HP.",
+  "lore": "Crush dried bread into fine crumbs, add water, extract the liquid and let it undergo fermentation. Add Jim Roger patented ingredients as the last step. And there you go, authentic taste of Jim Roger!",
+  "purpose": "Consumables",
+  "rarity": 3,
+  "rewardPath": "/material/988878",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "988878"
+}

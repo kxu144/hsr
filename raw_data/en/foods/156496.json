@@ -1,0 +1,95 @@
+{
+ "iconPath": "d563a3c38f4938c2b5fd90a6b216d87c3d833a067af76b8bb7adba4dca77b9ad",
+ "name": "Trick Snack",
+ "rarity": 1,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 156496,
+  "type": 502,
+  "purposeId": 10,
+  "iconPath": "d563a3c38f4938c2b5fd90a6b216d87c3d833a067af76b8bb7adba4dca77b9ad",
+  "name": "Trick Snack",
+  "desc": "Upon use, immediately recovers 2 Technique Points for the team.",
+  "lore": "A packet of cooked seeds made by utilizing the Vortex Theory.<br />Eat a handful of them, and they'll launch themselves to the roof of your mouth like popping candy.<br />Downside is, they'll stay there. It's recommended that you eat them while lying on your stomach.<br /><br />\"People start all sorts of shenanigans when they're fed.\"",
+  "purpose": "Consumables",
+  "rarity": 1,
+  "rewardPath": "/material/156496",
+  "comeFrom": [
+   "All-in-One Synthesis Machine"
+  ]
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "af49f8c10262045a4f9e4740703b52056b5f396b48b99c2d130c22f3dbfa99d9",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards",
+    "Embers Exchange"
+   ]
+  },
+  "272534": {
+   "id": 272534,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "b4f20f63061ae4db3ce40dade7275ccbf1c581f229331775add3b2bc7a457b46",
+   "name": "Seed",
+   "desc": "Tier 1 Synthesis Material",
+   "lore": "Reproductive unit unique to plants.<br />Most of them symbolize life, some of them taste pretty good.<br /><br />\"Sow in the spring, harvest in the Autumn.\"",
+   "purpose": "Synthesis material",
+   "rarity": 1,
+   "rewardPath": "/material/272534",
+   "comeFrom": [
+    "Found in destructible objects in Jarilo-VI",
+    "Grocery Stand"
+   ]
+  },
+  "356475": {
+   "id": 356475,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "be8d1752cf4ee0b38e52deb9c323be52d141c830b9988161e4bd47a80e4cf3af",
+   "name": "Gaseous Liquid",
+   "desc": "Tier 1 Synthesis Material",
+   "lore": "Is it fog, rain, or wind?<br />You can't tell if it's still in the container without lifting the lid.<br /><br />\"The answer my friend, is blowing in the gaseous liquid...\"<br />\"The answer is blowing in the gaseous liquid.\"",
+   "purpose": "Synthesis material",
+   "rarity": 1,
+   "rewardPath": "/material/356475",
+   "comeFrom": [
+    "Found in destructible objects in Jarilo-VI",
+    "Grocery Stand"
+   ]
+  }
+ },
+ "composeData": [
+  {
+   "items": [
+    {
+     "id": 356475,
+     "count": 1
+    },
+    {
+     "id": 272534,
+     "count": 1
+    }
+   ],
+   "tag": {
+    "name": "Restorative Consumables",
+    "type": "Consumables",
+    "icon": "8743e720b0f60c4b11bc7f188cf7b5ae3921e2cf3dacfdd180f1bcb5a1bae09e"
+   }
+  }
+ ],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "156496"
+}

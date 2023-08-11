@@ -1,0 +1,97 @@
+{
+ "iconPath": "e097c6276fd3b832a6bbd1cfab2d00eb3fb1c8c2e6febf584585af3b31bf5f44",
+ "name": "Enigmatic Ectostella",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 782692,
+  "type": 601,
+  "purposeId": 2,
+  "iconPath": "e097c6276fd3b832a6bbd1cfab2d00eb3fb1c8c2e6febf584585af3b31bf5f44",
+  "name": "Enigmatic Ectostella",
+  "desc": "A fathomless crystal. Ascension material for the Trailblazer.",
+  "lore": "Severed from the highest of beings, this crystal reflects ever-changing mirages. The past and future intertwine on each of its countless facets, attempting to swallow up all observers.<br /><br />\"Civilization is but a thin sheet of ice on top of the deep dark ocean of chaos.\"",
+  "purpose": "Character Ascension Materials",
+  "rarity": 4,
+  "rewardPath": "/material/782692",
+  "comeFrom": [
+   "Mission Rewards",
+   "Level Rewards"
+  ]
+ },
+ "itemReferences": {
+  "175713": {
+   "id": 175713,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "aab8b27e07015f6ccd8732aa36f9094bdc445d4cac65451e5bc1854094f6b1e2",
+   "name": "Trailblazer",
+   "desc": "",
+   "lore": "A girl/boy who boarded the Astral Express.<br />They chose to travel with the Astral Express to eliminate the dangers posed by the Stellaron.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/playerboy",
+   "comeFrom": []
+  },
+  "376299": {
+   "id": 376299,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "bde722de0b0a725884ca960e7232356aa8324982e173c22e4121a24f50674981",
+   "name": "Trailblazer",
+   "desc": "",
+   "lore": "A girl/boy who boarded the Astral Express.<br />They chose to travel with the Astral Express to eliminate the dangers posed by the Stellaron.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/playerboy2",
+   "comeFrom": []
+  },
+  "460240": {
+   "id": 460240,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "55062ef1a50d252f1e2ff0f9930c60afc52f6890bb0da10971c350121c1d3ae8",
+   "name": "Trailblazer",
+   "desc": "",
+   "lore": "A girl/boy who boarded the Astral Express.<br />They chose to travel with the Astral Express to eliminate the dangers posed by the Stellaron.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/playergirl",
+   "comeFrom": []
+  },
+  "891186": {
+   "id": 891186,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "20af1fa026ccafd46ca14155f39290d855c20e323ebccae4eca9e14d9bcc3894",
+   "name": "Trailblazer",
+   "desc": "",
+   "lore": "A girl/boy who boarded the Astral Express.<br />They chose to travel with the Astral Express to eliminate the dangers posed by the Stellaron.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/playergirl2",
+   "comeFrom": []
+  }
+ },
+ "composeData": [],
+ "avatarUsedBy": [
+  {
+   "id": 175713,
+   "rarity": 5
+  },
+  {
+   "id": 460240,
+   "rarity": 5
+  },
+  {
+   "id": 376299,
+   "rarity": 5
+  },
+  {
+   "id": 891186,
+   "rarity": 5
+  }
+ ],
+ "equipmentUsedBy": [],
+ "pageId": "782692"
+}

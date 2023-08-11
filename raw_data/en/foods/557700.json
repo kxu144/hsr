@@ -1,0 +1,96 @@
+{
+ "iconPath": "d13d1d7ff1e874fc7dc01f5d22941824de2e9a9b1a98346f69127c3f695cf441",
+ "name": "Diet Fried Rice",
+ "rarity": 2,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 557700,
+  "type": 502,
+  "purposeId": 10,
+  "iconPath": "d13d1d7ff1e874fc7dc01f5d22941824de2e9a9b1a98346f69127c3f695cf441",
+  "name": "Diet Fried Rice",
+  "desc": "Upon use, immediately heals a single ally by <nobr>28%</nobr> of their Max HP plus <nobr>250</nobr> extra HP.",
+  "lore": "No smoke, no grease, no additives. Keeps you fed and tastes good.<br />The child of human wisdom and nature's gift.<br /><br />\"Is it truly healthy to only eat healthy food?\"",
+  "purpose": "Consumables",
+  "rarity": 2,
+  "rewardPath": "/material/557700",
+  "comeFrom": [
+   "All-in-One Synthesis Machine"
+  ]
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "af49f8c10262045a4f9e4740703b52056b5f396b48b99c2d130c22f3dbfa99d9",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards",
+    "Embers Exchange"
+   ]
+  },
+  "356475": {
+   "id": 356475,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "be8d1752cf4ee0b38e52deb9c323be52d141c830b9988161e4bd47a80e4cf3af",
+   "name": "Gaseous Liquid",
+   "desc": "Tier 1 Synthesis Material",
+   "lore": "Is it fog, rain, or wind?<br />You can't tell if it's still in the container without lifting the lid.<br /><br />\"The answer my friend, is blowing in the gaseous liquid...\"<br />\"The answer is blowing in the gaseous liquid.\"",
+   "purpose": "Synthesis material",
+   "rarity": 1,
+   "rewardPath": "/material/356475",
+   "comeFrom": [
+    "Found in destructible objects in Jarilo-VI",
+    "Grocery Stand"
+   ]
+  },
+  "641099": {
+   "id": 641099,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "89d7a77a2d371a6f2127286b26b70a24b379ae2d3a23988dcffd9571328092b6",
+   "name": "Protein Rice",
+   "desc": "Tier 2 Synthesis Material",
+   "lore": "Nature's gift to human society, friend of mankind, savior of lives.<br />Smooth as egg white and full of protein.<br /><br />\"Every grain costs sweat and blood.\"",
+   "purpose": "Synthesis material",
+   "rarity": 2,
+   "rewardPath": "/material/641099",
+   "comeFrom": [
+    "Storage Zone: Voidranger: Reavers or other enemies",
+    "Found in destructible objects in the Herta Space Station",
+    "Grocery Stand"
+   ]
+  }
+ },
+ "composeData": [
+  {
+   "items": [
+    {
+     "id": 356475,
+     "count": 2
+    },
+    {
+     "id": 641099,
+     "count": 2
+    }
+   ],
+   "tag": {
+    "name": "Restorative Consumables",
+    "type": "Consumables",
+    "icon": "8743e720b0f60c4b11bc7f188cf7b5ae3921e2cf3dacfdd180f1bcb5a1bae09e"
+   }
+  }
+ ],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "557700"
+}

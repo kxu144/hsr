@@ -1,0 +1,27 @@
+{
+    "name": "Rutilant Arena",
+    "rarity": 5,
+    "effects": [
+        {
+            "useNum": 2,
+            "desc": "Increases the wearer's CRIT Rate by <nobr>#1[i]%</nobr>. When the wearer's current CRIT Rate reaches <nobr>#2[i]%</nobr> or higher, the wearer's Basic ATK and Skill DMG increase by <nobr>#3[i]%</nobr>.",
+            "params": [
+                0.08,
+                0.7,
+                0.2
+            ]
+        }
+    ],
+    "pieces": {
+        "5": {
+            "name": "Taikiyan Laser Stadium",
+            "maxRarity": 5,
+            "type": "Planar Sphere"
+        },
+        "6": {
+            "name": "Taikiyan's Arclight Race Track",
+            "maxRarity": 5,
+            "type": "Link Rope"
+        }
+    }
+}

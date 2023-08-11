@@ -1,0 +1,96 @@
+{
+ "iconPath": "b8f87fdebd5271f729dd34c00dbe7445d6c20981d345525ab0d5879dd5c93179",
+ "name": "Life Transmitter",
+ "rarity": 2,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 72586,
+  "type": 502,
+  "purposeId": 10,
+  "iconPath": "b8f87fdebd5271f729dd34c00dbe7445d6c20981d345525ab0d5879dd5c93179",
+  "name": "Life Transmitter",
+  "desc": "Upon use, immediately heals one downed character for <nobr>10%</nobr> of the character's Max HP.",
+  "lore": "A simple device used to provide life-saving oxygen.<br /><br />\"Breathe in, breathe out. You'll be fine.\"",
+  "purpose": "Consumables",
+  "rarity": 2,
+  "rewardPath": "/material/72586",
+  "comeFrom": [
+   "All-in-One Synthesis Machine"
+  ]
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "af49f8c10262045a4f9e4740703b52056b5f396b48b99c2d130c22f3dbfa99d9",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards",
+    "Embers Exchange"
+   ]
+  },
+  "356475": {
+   "id": 356475,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "be8d1752cf4ee0b38e52deb9c323be52d141c830b9988161e4bd47a80e4cf3af",
+   "name": "Gaseous Liquid",
+   "desc": "Tier 1 Synthesis Material",
+   "lore": "Is it fog, rain, or wind?<br />You can't tell if it's still in the container without lifting the lid.<br /><br />\"The answer my friend, is blowing in the gaseous liquid...\"<br />\"The answer is blowing in the gaseous liquid.\"",
+   "purpose": "Synthesis material",
+   "rarity": 1,
+   "rewardPath": "/material/356475",
+   "comeFrom": [
+    "Found in destructible objects in Jarilo-VI",
+    "Grocery Stand"
+   ]
+  },
+  "440513": {
+   "id": 440513,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "6ea5c33b5315f8f6f218cf8c335a1e98cda9e7ad4c2746cb02e7edeea9903574",
+   "name": "Mechanical Parts",
+   "desc": "Tier 2 Synthesis Material",
+   "lore": "Essential components of all machines with strange shapes and specific functions.<br />Without them, nothing can be made.<br /><br />\"With the same parts, Screwllum can make entire planets and create cyborgs. But you can only make me a watch that runs seven seconds late every day.\"<br />\"Seven seconds is good enough! Just a hair later than the clocks they use in observatories.\"",
+   "purpose": "Synthesis material",
+   "rarity": 2,
+   "rewardPath": "/material/440513",
+   "comeFrom": [
+    "Robot Settlement: Automatons or other enemies",
+    "Found in destructible objects in the Herta Space Station",
+    "Administrative District Shop"
+   ]
+  }
+ },
+ "composeData": [
+  {
+   "items": [
+    {
+     "id": 356475,
+     "count": 2
+    },
+    {
+     "id": 440513,
+     "count": 2
+    }
+   ],
+   "tag": {
+    "name": "Restorative Consumables",
+    "type": "Consumables",
+    "icon": "8743e720b0f60c4b11bc7f188cf7b5ae3921e2cf3dacfdd180f1bcb5a1bae09e"
+   }
+  }
+ ],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "72586"
+}

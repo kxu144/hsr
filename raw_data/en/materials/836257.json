@@ -1,0 +1,304 @@
+{
+ "iconPath": "71dd8f16d472b4b68f3296f67d6421f2b8aab12a6712c56506f336283bd0220c",
+ "name": "Flower of Eternity",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 836257,
+  "type": 601,
+  "purposeId": 3,
+  "iconPath": "71dd8f16d472b4b68f3296f67d6421f2b8aab12a6712c56506f336283bd0220c",
+  "name": "Flower of Eternity",
+  "desc": "A gorgeous flower blooming from the Sprout of Life. Used to level up Traces significantly for <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Abundance</span> characters.",
+  "lore": "The stamen contains the concentrated power of the Path of Abundance, ensuring the flower's ever-lasting vitality. No fire, ice, or any harshness can hinder the growth of this magnificent life form.<br />Given time, its leaves shall feed upon starlight. Its roots shall burrow into the flesh of every being of this world, all-connected, never-perishing. Its fruits shall fulfill the promise of immortality.<br /><br />\"There be giant ships, eclipsing mountains, drifting over the void. Upon them grows the undying tree. Its consumption grants immortality.\"",
+  "purpose": "Trace Material<br />Light Cone Ascension Material",
+  "rarity": 4,
+  "rewardPath": "/material/836257",
+  "comeFrom": [
+   "Calyx (Backwater Pass)",
+   "Omni-Synthesizer \u2014 Material Synthesis"
+  ]
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "af49f8c10262045a4f9e4740703b52056b5f396b48b99c2d130c22f3dbfa99d9",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards",
+    "Embers Exchange"
+   ]
+  },
+  "79837": {
+   "id": 79837,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "eda49b019115e7ef3b5530309a996a6d64a41811b59d9873892478759d122c57",
+   "name": "Echoes of the Coffin",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Abundance</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "Under the watch of the white irises, he knocks on the coffin.<br />\"Sometimes I feel I underestimated you by proposing this deal.\"<br />He receives no response other than a thorny branch piercing through his palm.<br />Yet he smiles, and tightly grasps the thorn.<br /><br />\"Indeed. This is how it is. We wanted to use each other, and both ended up underestimating the other.\"",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/lightcone/23008",
+   "comeFrom": []
+  },
+  "196471": {
+   "id": 196471,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "0989e79ba68f39956144bd9003ed3c661fceb3c0c3529aef72b47e273d31bf85",
+   "name": "Time Waits for No One",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Abundance</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "She had spent many days next to the window.<br /><br />Flowers were blooming outside when she made gentle medicines with mint and nepeta.<br />Rain was falling outside when she made strong medicines with mosla and ginger.<br />Leaves were falling outside when she made sour medicines with peony roots and dry plums.<br />And snow was falling outside when she made bitter medicines with skullcaps and anemarrhena.<br /><br />Time flows endlessly, but this window and the person sitting next to it remain forever the same.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/lightcone/23013",
+   "comeFrom": []
+  },
+  "332600": {
+   "id": 332600,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "6bea90f23bb97f9219aad9f73f1501b1ea7c1f956946fe598dde7d44c401488a",
+   "name": "Luocha",
+   "desc": "",
+   "lore": "Carrying a coffin wherever he goes, he is a foreign trader who came from beyond the stellar seas.<br />Has excellent medical skills.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/luocha",
+   "comeFrom": []
+  },
+  "500483": {
+   "id": 500483,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "51d60322aa0c03f444c3547835e0aa48da78961cef14db1d13966ebb2279e4aa",
+   "name": "Bailu",
+   "desc": "",
+   "lore": "The High Elder of the Vidyadhara, who is also known as the \"Healer Lady\" on the Luofu.<br />She uses her unique medical science and the medical treatment that can only be provided by the Vidyadhara dragon race to save lives.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/bailu",
+   "comeFrom": []
+  },
+  "676262": {
+   "id": 676262,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "aa5ce820bef8941dc2ee0504ae6a83378eb6e6eafac2299e1f79d0bb55c06a94",
+   "name": "Multiplication",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Abundance</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.<br /><br />\"When life has lost its meaning, please continue to bestow life upon it.\"",
+   "purpose": "",
+   "rarity": 3,
+   "rewardPath": "/lightcone/20015",
+   "comeFrom": []
+  },
+  "754820": {
+   "id": 754820,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "8b2d056ef4b6cb5b693565c4c516a3a7833b2104ee85deb9b3e0dae6088f8ca6",
+   "name": "Shared Feeling",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Abundance</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "When the doctor found the wounded girl, she was clinging to a machine that had stopped working, with all sorts of parts filling her pocket.<br />She took the girl back to her clinic and treated the wounds.<br />Drops of sweat slowly rolled down the girl's cheek, but she remained silent and her hands didn't stop fiddling the machine.<br />To the doctor, the way the girl was attached to the machine was very much like how she was attached to her patients who needed help.<br />So the doctor did not try to comfort the girl nor did she nag her about being more careful; but rather, she sat down with her to give her a moment of peace.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21007",
+   "comeFrom": []
+  },
+  "754827": {
+   "id": 754827,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "2a54ff049132566da88987936698ef4f5aa6d2a16f7dd88986f7487fc8598863",
+   "name": "Post-Op Conversation",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Abundance</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "\"You're awake... Thank you.\"<br />\"You... saved my life, Natasha. The one who should be saying thanks... is me.\"<br />\"No, I should be thanking you... for holding on until I finished the surgery.\"<br /><br />The doctor and patient smiled wearily at each other and said nothing more.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21000",
+   "comeFrom": []
+  },
+  "792911": {
+   "id": 792911,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "c14e3cb598ed6793c3390b95bbaa4fac89970f2be466611fe39a451a29f28ea5",
+   "name": "Cornucopia",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Abundance</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.<br /><br />\"Life is the existence of order beyond a certain threshold. Its birth is the final answer to the silent universe, declaring the end to the era of old chaos.\"",
+   "purpose": "",
+   "rarity": 3,
+   "rewardPath": "/lightcone/20001",
+   "comeFrom": []
+  },
+  "792920": {
+   "id": 792920,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "efe252a2b988f0444cac729011538bddee4d2f510bff656c4767be0c62e710c2",
+   "name": "Fine Fruit",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Abundance</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate. <br /><br />\"Everything tastes sweet for those desperate for water.\"",
+   "purpose": "",
+   "rarity": 3,
+   "rewardPath": "/lightcone/20008",
+   "comeFrom": []
+  },
+  "838764": {
+   "id": 838764,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "15dbfa1cb730b418d82835afa586f0908fa495049da5f700f4a5a6344a401986",
+   "name": "Perfect Timing",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Abundance</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "On a bustling street, he walks and walks. The sunlight closely follows his footsteps.<br />He makes a stop and picks up an umbrella to shade himself from the sun<br />...and from that prying gaze.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21014",
+   "comeFrom": []
+  },
+  "920198": {
+   "id": 920198,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "9a770eaee0f4119cbd5510afe63536ba85cda116f02bf1d0841bba6e565c5cd2",
+   "name": "Sprout of Life",
+   "desc": "A young sprout emerging from the Seed of Abundance. Used to level up Traces moderately for <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Abundance</span> characters.",
+   "lore": "Radiating warmth, life and growth flourish around the place where it sinks its roots. Barren wastelands turn into luscious grass fields, withered plants rejuvenate and blossom, and springs burst through the ground to moisten the land.<br />As you get closer to it, your muscles and bones twitch and propagate with an unbearable itch.<br /><br />\"Life is unfailing where the soul abounds.\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 3,
+   "rewardPath": "/material/920198",
+   "comeFrom": [
+    "Calyx (Backwater Pass)",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Embers Exchange"
+   ]
+  },
+  "955412": {
+   "id": 955412,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "57a5f5d48a2c2bfab81da1a860f22eb85c85a56aff4a93ebdd70f8d01053f8a0",
+   "name": "Quid Pro Quo",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Abundance</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "After enjoying an intense massage from the dragon girl,<br />the Foxian girl held out her hand and playfully pinched the dragon girl's little chubby cheeks.<br />The little girl then pouted her lips, clearly offended, only to elicit a gleeful giggle from the Foxian girl.<br /><br />\"Now that's what I call a proper quid pro quo.\"",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21021",
+   "comeFrom": []
+  },
+  "955421": {
+   "id": 955421,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "0bc93f3ea2dc63a74aabc4d7785e495d0e880b72a371a21e82fecc67f37fdbb6",
+   "name": "Warmth Shortens Cold Nights",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Abundance</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "Lighting a light, she glanced at her friend beside her while holding a mug of warm chocolate.<br />Watching her read the books and notes she gifted her.<br />Watching her expressing a rare smile.<br /><br />In cold nights like this, even the tiniest bit of bliss can chase away the chills.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21028",
+   "comeFrom": []
+  },
+  "969513": {
+   "id": 969513,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "a335b20a8e91beb32d0b8ed58333c63860a71c3952d2c0ad09c3d2f7743816e3",
+   "name": "Natasha",
+   "desc": "",
+   "lore": "A doctor from the Underworld and a caregiver of children.<br />Alongside her kindness and caring, she also has a hidden dangerous side.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/character/natasha",
+   "comeFrom": []
+  }
+ },
+ "composeData": [
+  {
+   "items": [
+    {
+     "id": 920198,
+     "count": 3
+    },
+    {
+     "id": 29328,
+     "count": 20
+    }
+   ],
+   "tag": {
+    "name": "Traces Leveling Material",
+    "type": "Traces Activation Materials",
+    "icon": "9dbcfe3f6a430c2493309cb45108b80812fb0120f30c9e5c551f412b3062fc91"
+   }
+  }
+ ],
+ "avatarUsedBy": [
+  {
+   "id": 500483,
+   "rarity": 5
+  },
+  {
+   "id": 332600,
+   "rarity": 5
+  },
+  {
+   "id": 969513,
+   "rarity": 4
+  }
+ ],
+ "equipmentUsedBy": [
+  {
+   "id": 196471,
+   "rarity": 5
+  },
+  {
+   "id": 79837,
+   "rarity": 5
+  },
+  {
+   "id": 955421,
+   "rarity": 4
+  },
+  {
+   "id": 955412,
+   "rarity": 4
+  },
+  {
+   "id": 838764,
+   "rarity": 4
+  },
+  {
+   "id": 754820,
+   "rarity": 4
+  },
+  {
+   "id": 754827,
+   "rarity": 4
+  },
+  {
+   "id": 676262,
+   "rarity": 3
+  },
+  {
+   "id": 792920,
+   "rarity": 3
+  },
+  {
+   "id": 792911,
+   "rarity": 3
+  }
+ ],
+ "pageId": "836257"
+}

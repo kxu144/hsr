@@ -1,0 +1,111 @@
+{
+ "iconPath": "a256f10635c998ec7f1b8b31874db07111ec3fcc43018e5f545a2c4133109203",
+ "name": "Punitive Food",
+ "rarity": 1,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 871969,
+  "type": 502,
+  "purposeId": 10,
+  "iconPath": "a256f10635c998ec7f1b8b31874db07111ec3fcc43018e5f545a2c4133109203",
+  "name": "Punitive Food",
+  "desc": "Upon use, immediately recovers 2 Technique Points for your team, but each team member loses HP equal to <nobr>15%</nobr> of their Max HP.",
+  "lore": "Simple food that tastes strange. Eating it almost feels like some punishment game.<br />Just looking at it fills you with determination.<br /><br />\"The things we do to survive.\"",
+  "purpose": "Consumables",
+  "rarity": 1,
+  "rewardPath": "/material/871969",
+  "comeFrom": [
+   "All-in-One Synthesis Machine"
+  ]
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "af49f8c10262045a4f9e4740703b52056b5f396b48b99c2d130c22f3dbfa99d9",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards",
+    "Embers Exchange"
+   ]
+  },
+  "273405": {
+   "id": 273405,
+   "type": 502,
+   "purposeId": 10,
+   "iconPath": "d69d74e6fcb7d7d77f123d62f26274fbc7ef9ef83975b965a1b5354de0fb1517",
+   "name": "Trash",
+   "desc": "Upon use, immediately causes a single ally to lose HP equal to <nobr>15%</nobr> of their Max HP.",
+   "lore": "Worthless trash.<br />Better carry some with you.<br /><br />\"Some say that in the deep retreats of the Galaxy, an invisible portal will open to those carrying a piece of junk.\"",
+   "purpose": "Consumables",
+   "rarity": 1,
+   "rewardPath": "/material/273405",
+   "comeFrom": [
+    "Found in destructible objects in Jarilo-VI"
+   ]
+  },
+  "757647": {
+   "id": 757647,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "20fd8c68185f8429d242793fab57f53e71d03a6d85f2d5f66960d55c2c3cd4ee",
+   "name": "Basic Ingredients",
+   "desc": "Tier 1 Synthesis Material",
+   "lore": "Ingredients that keep you fed but taste less than ideal.<br />Not particularly good, but is edible.<br /><br />\"Can I eat it? Is it good? What do I eat it with?\"",
+   "purpose": "Synthesis material",
+   "rarity": 1,
+   "rewardPath": "/material/757647",
+   "comeFrom": [
+    "Found in destructible objects in the Herta Space Station",
+    "Administrative District Shop"
+   ]
+  },
+  "872101": {
+   "id": 872101,
+   "type": 507,
+   "purposeId": 19,
+   "iconPath": "97b725bf30cb93710ab886445989ccfc097aef5eccb30e05da6a347f35fb4c9f",
+   "name": "Recipe: Punitive Food",
+   "desc": "A simple equation. When entered into the Synthesizer, it will unlock a new recipe.",
+   "lore": "",
+   "purpose": "Recipe",
+   "rarity": 1,
+   "rewardPath": "/material/872101",
+   "comeFrom": []
+  }
+ },
+ "composeData": [
+  {
+   "items": [
+    {
+     "id": 273405,
+     "count": 1
+    },
+    {
+     "id": 757647,
+     "count": 1
+    },
+    {
+     "id": 872101,
+     "count": 1
+    }
+   ],
+   "tag": {
+    "name": "Restorative Consumables",
+    "type": "Consumables",
+    "icon": "8743e720b0f60c4b11bc7f188cf7b5ae3921e2cf3dacfdd180f1bcb5a1bae09e"
+   }
+  }
+ ],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "871969"
+}

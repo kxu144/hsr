@@ -1,0 +1,24 @@
+{
+ "iconPath": "fcbc98250cf072ffc78c6a2ec6389abe5ffc52c1c2a096ff6d047a9dbd3a519a",
+ "name": "Recipe: All Good Potion",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 72752,
+  "type": 507,
+  "purposeId": 19,
+  "iconPath": "fcbc98250cf072ffc78c6a2ec6389abe5ffc52c1c2a096ff6d047a9dbd3a519a",
+  "name": "Recipe: All Good Potion",
+  "desc": "A simple equation. When entered into the Omni-Synthesizer, it will unlock a new recipe.",
+  "lore": "A recipe that Wen Shiling created by accident. Small amounts of experimental data shows this can consistently produce All Good Potions. This recipe is yet to be used in large-scale production.<br /><br />\"This recipe is only to be used by Shiling and her friends. If anyone else were to use it, I am not accountable for the product's effects!\"",
+  "purpose": "Recipe",
+  "rarity": 3,
+  "rewardPath": "/material/72752",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "72752"
+}

@@ -1,0 +1,24 @@
+{
+ "iconPath": "6e3b83c4218004863dbab3edb21cf2aca47ccf7ccea1d1169b33e71fff069192",
+ "name": "Immortal's Delight",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 747817,
+  "type": 502,
+  "purposeId": 10,
+  "iconPath": "6e3b83c4218004863dbab3edb21cf2aca47ccf7ccea1d1169b33e71fff069192",
+  "name": "Immortal's Delight",
+  "desc": "Upon use, ATK of all allies increases by <nobr>14%</nobr> plus an extra <nobr>230</nobr> for the next battle.",
+  "lore": "An extremely unhealthy drink, but when you drink it, you will have a mysterious smile on your face.<br /><br />\"Don't drink too much of it. This stuff has a lot of calories.\"<br />\"Don't worry. It's frozen, and the ingredient list says that there is L-carnitine in it.\"",
+  "purpose": "Consumables",
+  "rarity": 3,
+  "rewardPath": "/material/747817",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "747817"
+}

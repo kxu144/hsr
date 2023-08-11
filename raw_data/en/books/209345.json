@@ -1,0 +1,16 @@
+{
+ "name": "Wanted Poster Gallery",
+ "iconPath": "fc2a93e8e11161a78ef059e6766b79b7efbe3718e905a05e08d876018fdbe5de",
+ "desc": "You have collected all the wanted posters of you in Belobog. The price on your head is not that high, but congratulations anyway!",
+ "volumes": [
+  {
+   "title": "Wanted Poster Gallery",
+   "localTitle": "Wanted Poster Gallery",
+   "localDesc": "{Img#1}",
+   "images": [
+    "4c6040aa25f8fc5e4be6572b7632dfa827fe5beac21614dfcd562f7482669171"
+   ]
+  }
+ ],
+ "pageId": "209345"
+}

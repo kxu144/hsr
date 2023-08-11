@@ -1,0 +1,24 @@
+{
+ "iconPath": "b5ae9cd2fd75d2429339f8c1edc5e7c055cb7200d5ae429666a5a9c749416977",
+ "name": "Trailblazer \u2014 Welcome",
+ "rarity": 5,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 157649,
+  "type": 505,
+  "purposeId": 0,
+  "iconPath": "b5ae9cd2fd75d2429339f8c1edc5e7c055cb7200d5ae429666a5a9c749416977",
+  "name": "Trailblazer \u2014 Welcome",
+  "desc": "Avatar reward unlocked from the Pre-registration Event.",
+  "lore": "Trailblazer, participant of the Express Crew Newbie Welcome Party.<br /><br />\"Hi everyone, I'm Trailblazer, the newbie for the Express Crew Newbie Welcome Party.\"",
+  "purpose": "",
+  "rarity": 5,
+  "rewardPath": "/material/157649",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "157649"
+}

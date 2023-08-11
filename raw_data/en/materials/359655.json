@@ -1,0 +1,24 @@
+{
+ "iconPath": "9609ef08ef428e4de27d194652ed06ce20414d6d12b7059a1e3791ef31ffd1b1",
+ "name": "The Returning Trail",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 359655,
+  "type": 101,
+  "purposeId": 0,
+  "iconPath": "9609ef08ef428e4de27d194652ed06ce20414d6d12b7059a1e3791ef31ffd1b1",
+  "name": "The Returning Trail",
+  "desc": "Traces from a past journey. Accumulate this to progress on the Path of Return.",
+  "lore": "Tracks left behind by the Nameless. Follow its guidance to find your way back to Trailblaze's star rail.",
+  "purpose": "",
+  "rarity": 3,
+  "rewardPath": "/material/359655",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "359655"
+}

@@ -1,0 +1,24 @@
+{
+ "iconPath": "8f4d52c55cc3aef0986d7dc230feac3841e08dd578b9b54d31bbaa75c6f82107",
+ "name": "Lost Essence",
+ "rarity": 5,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 610545,
+  "type": 601,
+  "purposeId": 6,
+  "iconPath": "8f4d52c55cc3aef0986d7dc230feac3841e08dd578b9b54d31bbaa75c6f82107",
+  "name": "Lost Essence",
+  "desc": "Enhancement material for Relics. Provides <nobr>2000</nobr> Relic EXP.",
+  "lore": "A large Fragmentum dust crystal that had densified after being reduced to its original form.<br /><br />\"It can even recreate our deceased mother if it has enough information! It really can! Even if it was only for <nobr>26</nobr> seconds... I just have one question after I completed the experiment: Just why was the Fragmentum created?\"",
+  "purpose": "Relic EXP Material",
+  "rarity": 5,
+  "rewardPath": "/material/610545",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "610545"
+}

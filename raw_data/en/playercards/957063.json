@@ -1,0 +1,24 @@
+{
+ "iconPath": "9659e07868d96f579dd15b46aba48e2e4f92f993b668f46afcbd89e07bab2500",
+ "name": "Welt \u2014 Welcome",
+ "rarity": 5,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 957063,
+  "type": 505,
+  "purposeId": 0,
+  "iconPath": "9659e07868d96f579dd15b46aba48e2e4f92f993b668f46afcbd89e07bab2500",
+  "name": "Welt \u2014 Welcome",
+  "desc": "Avatar reward obtained from unlocking Nameless Honor.",
+  "lore": "Welt, participant of the Express Crew Newbie Welcome Party.<br /><br />\"I hope the finished cake can help you forget about the carnage in the kitchen.\"",
+  "purpose": "",
+  "rarity": 5,
+  "rewardPath": "/material/957063",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "957063"
+}

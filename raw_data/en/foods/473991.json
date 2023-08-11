@@ -1,0 +1,24 @@
+{
+ "iconPath": "b950fffc00fd42a91e055a92586b540a149d8ee8d2ab82f915de0f68eb290fdd",
+ "name": "Sanctity of the Trash Can",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 473991,
+  "type": 502,
+  "purposeId": 10,
+  "iconPath": "b950fffc00fd42a91e055a92586b540a149d8ee8d2ab82f915de0f68eb290fdd",
+  "name": "Sanctity of the Trash Can",
+  "desc": "Increase DEF of all allies by <nobr>20%</nobr> in the next battle.",
+  "lore": "It's hard to explain why a trash can has dignity and why that dignity is so heavy.",
+  "purpose": "Consumables",
+  "rarity": 3,
+  "rewardPath": "/material/473991",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "473991"
+}

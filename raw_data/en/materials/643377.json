@@ -1,0 +1,24 @@
+{
+ "iconPath": "a134ce429cf8468cad8d2581a450f90fa06fec1e21704e711a3b23e02d42fb73",
+ "name": "Always Smiling",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 643377,
+  "type": 601,
+  "purposeId": 0,
+  "iconPath": "a134ce429cf8468cad8d2581a450f90fa06fec1e21704e711a3b23e02d42fb73",
+  "name": "Always Smiling",
+  "desc": "A digital smile that can be used to purchase items in the Deep Web Gray Market.",
+  "lore": "Countless graffiti flourish on the streets of Punklorde, and this plain smiley face is one of the favorite signatures of internet dwellers. Once, when the hacker known as Zero paralyzed the entire planet's network, this smile of freedom was everywhere in Rainbow City.",
+  "purpose": "",
+  "rarity": 3,
+  "rewardPath": "/material/643377",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "643377"
+}

@@ -1,0 +1,24 @@
+{
+ "iconPath": "4c84582d17f151513ff92ebc98abbce7996ba387ad2d2399cffee33679034a9d",
+ "name": "Memo-Keeping Light Casket",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 364637,
+  "type": 503,
+  "purposeId": 0,
+  "iconPath": "4c84582d17f151513ff92ebc98abbce7996ba387ad2d2399cffee33679034a9d",
+  "name": "Memo-Keeping Light Casket",
+  "desc": "The container used by the Garden of Recollection to store Light Cones. You can choose to obtain one of the following 4-star Light Cones after opening it:<br />Quid Pro Quo, Fermata, We Are Wildfire, River Flows in Spring, Past and Future, Woof! Walk Time!, The Seriousness of Breakfast",
+  "lore": "This casket stores rare memories plucked by the Memokeepers. Crystallized slices of time will emerge when the casket cracks open.",
+  "purpose": "",
+  "rarity": 4,
+  "rewardPath": "/material/364637",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "364637"
+}

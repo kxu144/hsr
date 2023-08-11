@@ -1,0 +1,27 @@
+{
+ "iconPath": "be8d1752cf4ee0b38e52deb9c323be52d141c830b9988161e4bd47a80e4cf3af",
+ "name": "Gaseous Liquid",
+ "rarity": 1,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 356475,
+  "type": 601,
+  "purposeId": 17,
+  "iconPath": "be8d1752cf4ee0b38e52deb9c323be52d141c830b9988161e4bd47a80e4cf3af",
+  "name": "Gaseous Liquid",
+  "desc": "Tier 1 Synthesis Material",
+  "lore": "Is it fog, rain, or wind?<br />You can't tell if it's still in the container without lifting the lid.<br /><br />\"The answer my friend, is blowing in the gaseous liquid...\"<br />\"The answer is blowing in the gaseous liquid.\"",
+  "purpose": "Synthesis material",
+  "rarity": 1,
+  "rewardPath": "/material/356475",
+  "comeFrom": [
+   "Found in destructible objects in Jarilo-VI",
+   "Grocery Stand"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "356475"
+}

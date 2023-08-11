@@ -1,0 +1,24 @@
+{
+ "iconPath": "8fe6d8ca50b2caaa24b5f752c137264875a0b06ca7ffd6e185e7ebc3d89a2351",
+ "name": "Achievement Points",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 728117,
+  "type": 101,
+  "purposeId": 0,
+  "iconPath": "8fe6d8ca50b2caaa24b5f752c137264875a0b06ca7ffd6e185e7ebc3d89a2351",
+  "name": "Achievement Points",
+  "desc": "Every step of your journey leads to something bigger.",
+  "lore": "\"The definition of success is broader than conquering a formidable foe or touching the stars. Success is every time you achieve something you've never done before.\"",
+  "purpose": "",
+  "rarity": 3,
+  "rewardPath": "/material/728117",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "728117"
+}

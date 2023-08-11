@@ -1,0 +1,24 @@
+{
+ "iconPath": "82fcd286f1380acd068b76048d9ce97d731744945b41dbc8aed6e8f354dc1783",
+ "name": "Herta Contract: Fuel Refill",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 635460,
+  "type": 501,
+  "purposeId": 0,
+  "iconPath": "82fcd286f1380acd068b76048d9ce97d731744945b41dbc8aed6e8f354dc1783",
+  "name": "Herta Contract: Fuel Refill",
+  "desc": "A mutual aid contract between Herta and the Express. She will help the Express whenever she can, in exchange for treasures found during trailblazing.",
+  "lore": "",
+  "purpose": "",
+  "rarity": 4,
+  "rewardPath": "/material/635460",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "635460"
+}

@@ -1,0 +1,24 @@
+{
+ "iconPath": "dc43e7096699cd86c341c4b4479108adb505f703c6c4185b0602505f4202a1c1",
+ "name": "Gift of the Stars",
+ "rarity": 5,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 280697,
+  "type": 501,
+  "purposeId": 14,
+  "iconPath": "dc43e7096699cd86c341c4b4479108adb505f703c6c4185b0602505f4202a1c1",
+  "name": "Gift of the Stars",
+  "desc": "A fine-looking envelope containing a custom-made ticket.",
+  "lore": "\"Look for yours among the stars.\"",
+  "purpose": "Valuable object",
+  "rarity": 5,
+  "rewardPath": "/material/280697",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "280697"
+}

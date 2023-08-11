@@ -1,0 +1,24 @@
+{
+ "iconPath": "ac0abfefe15e8b72b3cde724d343366382f5f74a066405def90798aaa3309438",
+ "name": "Honkai: Star Rail PlayStation Departure Bundle (Limited)",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 350933,
+  "type": 501,
+  "purposeId": 0,
+  "iconPath": "ac0abfefe15e8b72b3cde724d343366382f5f74a066405def90798aaa3309438",
+  "name": "Honkai: Star Rail PlayStation Departure Bundle (Limited)",
+  "desc": "Use to obtain the following items:<br />\u00b7 Star Rail Pass \u00d72<br />\u00b7 Credit \u00d7<nobr>150,000</nobr><br />\u00b7 Adventure Log \u00d7<nobr>80</nobr><br />\u00b7 Sparse Aether \u00d7<nobr>50</nobr><br />\u00b7 Trick Snack \u00d7<nobr>10</nobr><br />\u00b7 Diet Fried Rice \u00d7<nobr>10</nobr><br />\u00b7 Bottled Soda \u00d7<nobr>10</nobr><br />\u00b7 Life Transmitter \u00d7<nobr>10</nobr><br />\u00b7 Traveler's Guide \u00d7<nobr>15</nobr><br />\u00b7 Refined Aether \u00d75<br />\u00b7 Lost Crystal \u00d75",
+  "lore": "",
+  "purpose": "",
+  "rarity": 4,
+  "rewardPath": "/material/350933",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "350933"
+}

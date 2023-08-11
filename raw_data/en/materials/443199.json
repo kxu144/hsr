@@ -1,0 +1,24 @@
+{
+ "iconPath": "4a1040313adcb09c6071991153f3816e262fa16e6f0887cc07b218df0b0a15d3",
+ "name": "Express Supply Pass",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 443199,
+  "type": 501,
+  "purposeId": 14,
+  "iconPath": "4a1040313adcb09c6071991153f3816e262fa16e6f0887cc07b218df0b0a15d3",
+  "name": "Express Supply Pass",
+  "desc": "",
+  "lore": "Provisions prepared by the Express for Trailblazers. Claim with pass.<br /><br />\"Dear conductor, can we not punch holes in the cards? I want to collect a whole collection of them.\"",
+  "purpose": "Valuable object",
+  "rarity": 4,
+  "rewardPath": "/material/443199",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "443199"
+}

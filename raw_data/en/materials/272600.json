@@ -1,0 +1,26 @@
+{
+ "iconPath": "d0ce941a66912f8ec3334de85b1f982f765577205a044979c6524e6e3c1e25c1",
+ "name": "Slime of Harmony",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 272600,
+  "type": 601,
+  "purposeId": 17,
+  "iconPath": "d0ce941a66912f8ec3334de85b1f982f765577205a044979c6524e6e3c1e25c1",
+  "name": "Slime of Harmony",
+  "desc": "Tier 3 Synthesis Material",
+  "lore": "A torus that seems to possess the power of Harmony.<br />It only has one surface. No matter where you depart, you're destined to not reach your destination.<br />A tiny complaint would be that it is a bit sticky, as if it does not want to let you go.<br /><br />\"All are connected and the wind of blessing breathes across the lands!\"",
+  "purpose": "Synthesis material",
+  "rarity": 3,
+  "rewardPath": "/material/272600",
+  "comeFrom": [
+   "Stargazer Navalia: Entranced Ingenium: Obedient Dracolion or other enemies"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "272600"
+}

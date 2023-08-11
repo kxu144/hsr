@@ -1,0 +1,24 @@
+{
+ "iconPath": "676be6cde9d0d27128350dfd85950b308263168cf71a1f15027345faa6a85d4b",
+ "name": "Wanted Poster",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 162964,
+  "type": 505,
+  "purposeId": 0,
+  "iconPath": "676be6cde9d0d27128350dfd85950b308263168cf71a1f15027345faa6a85d4b",
+  "name": "Wanted Poster",
+  "desc": "Avatar reward from collecting all the wanted posters in Jarilo-VI.",
+  "lore": "The portrait of the heroes who saved Belobog. These pictures are demure and solemn, containing a hint of liveliness.<br /><br />\"This is the pinnacle of abstract art in the winter city.\"",
+  "purpose": "",
+  "rarity": 4,
+  "rewardPath": "/material/162964",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "162964"
+}

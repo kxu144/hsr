@@ -1,0 +1,114 @@
+{
+ "iconPath": "f0539121be972f4106e14df8f48a7db7df5905ebeb605892c0b55c92cabffd12",
+ "name": "Wrathful Gauntlets",
+ "rarity": 2,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 473759,
+  "type": 502,
+  "purposeId": 10,
+  "iconPath": "f0539121be972f4106e14df8f48a7db7df5905ebeb605892c0b55c92cabffd12",
+  "name": "Wrathful Gauntlets",
+  "desc": "Upon use, increases ATK of all allies by 5% with an extra <nobr>170</nobr> to ATK for the next battle.",
+  "lore": "This pair of gauntlets are driven by pure flame of anger.<br />Pure flame would also work.<br /><br />\"Scott Business Alliance, made for the champions!\"",
+  "purpose": "Consumables",
+  "rarity": 2,
+  "rewardPath": "/material/473759",
+  "comeFrom": [
+   "All-in-One Synthesis Machine"
+  ]
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "af49f8c10262045a4f9e4740703b52056b5f396b48b99c2d130c22f3dbfa99d9",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards",
+    "Embers Exchange"
+   ]
+  },
+  "155889": {
+   "id": 155889,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "5e616ec068260f49fb80b75cc78609033b5bacf16218f8799fe74933f9ef8f9e",
+   "name": "Phlogiston",
+   "desc": "Tier 1 Synthesis Material",
+   "lore": "Particles that form the flame.<br />Genius Society #2 Harald Punch proved its existence, but #3 Nyul Iman disproved it.<br />#7 Bohdan overthrew Iman's conclusion and proved it again before getting killed by #4 Polka Kakamond days after announcing Phlogiston's existence.<br /><br />\"Does it exist or not? We're not interested, frankly speaking.\"",
+   "purpose": "Synthesis material",
+   "rarity": 1,
+   "rewardPath": "/material/155889",
+   "comeFrom": [
+    "Backwater Pass: Flamespawns or other enemies",
+    "Found in destructible objects in the Herta Space Station",
+    "Administrative District Shop"
+   ]
+  },
+  "440513": {
+   "id": 440513,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "6ea5c33b5315f8f6f218cf8c335a1e98cda9e7ad4c2746cb02e7edeea9903574",
+   "name": "Mechanical Parts",
+   "desc": "Tier 2 Synthesis Material",
+   "lore": "Essential components of all machines with strange shapes and specific functions.<br />Without them, nothing can be made.<br /><br />\"With the same parts, Screwllum can make entire planets and create cyborgs. But you can only make me a watch that runs seven seconds late every day.\"<br />\"Seven seconds is good enough! Just a hair later than the clocks they use in observatories.\"",
+   "purpose": "Synthesis material",
+   "rarity": 2,
+   "rewardPath": "/material/440513",
+   "comeFrom": [
+    "Robot Settlement: Automatons or other enemies",
+    "Found in destructible objects in the Herta Space Station",
+    "Administrative District Shop"
+   ]
+  },
+  "473891": {
+   "id": 473891,
+   "type": 507,
+   "purposeId": 19,
+   "iconPath": "97b725bf30cb93710ab886445989ccfc097aef5eccb30e05da6a347f35fb4c9f",
+   "name": "Recipe: Wrathful Gauntlets",
+   "desc": "A simple equation. When entered into the Synthesizer, it will unlock a new recipe.",
+   "lore": "",
+   "purpose": "Recipe",
+   "rarity": 2,
+   "rewardPath": "/material/473891",
+   "comeFrom": []
+  }
+ },
+ "composeData": [
+  {
+   "items": [
+    {
+     "id": 155889,
+     "count": 3
+    },
+    {
+     "id": 440513,
+     "count": 2
+    },
+    {
+     "id": 473891,
+     "count": 1
+    }
+   ],
+   "tag": {
+    "name": "Attack Consumables",
+    "type": "Consumables",
+    "icon": "8743e720b0f60c4b11bc7f188cf7b5ae3921e2cf3dacfdd180f1bcb5a1bae09e"
+   }
+  }
+ ],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "473759"
+}

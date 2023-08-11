@@ -1,0 +1,24 @@
+{
+ "iconPath": "ed4f1e84c3a87114da32658be0076da32e6403b534280a0017ffc09afd984855",
+ "name": "Star Rail Special Pass",
+ "rarity": 5,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 526575,
+  "type": 601,
+  "purposeId": 9,
+  "iconPath": "ed4f1e84c3a87114da32658be0076da32e6403b534280a0017ffc09afd984855",
+  "name": "Star Rail Special Pass",
+  "desc": "",
+  "lore": "Direct ticket for the Astral Express with coordinates of specific worlds, suitable for passengers who just want to go from point A to point B.<br /><br />\"Need to catch up with an old friend? Hop on and see the universe with him/her/it/them!\"",
+  "purpose": "Limited Warp Item",
+  "rarity": 5,
+  "rewardPath": "/material/526575",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "526575"
+}

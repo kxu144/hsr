@@ -1,0 +1,24 @@
+{
+ "iconPath": "8eee63225c05c89a9578ed72cdffcb9022b7152416c95f4455aca88a8827a611",
+ "name": "March 7th \u2014 Welcome",
+ "rarity": 5,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 442176,
+  "type": 505,
+  "purposeId": 0,
+  "iconPath": "8eee63225c05c89a9578ed72cdffcb9022b7152416c95f4455aca88a8827a611",
+  "name": "March 7th \u2014 Welcome",
+  "desc": "Avatar reward obtained from unlocking Nameless Honor.",
+  "lore": "March 7th, participant of the Express Crew Newbie Welcome Party.<br /><br />\"The best donuts around are all for you!\"",
+  "purpose": "",
+  "rarity": 5,
+  "rewardPath": "/material/442176",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "442176"
+}

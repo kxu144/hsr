@@ -1,0 +1,24 @@
+{
+ "iconPath": "b6ab1eccc16b127653f051847c7aed72d1f71d5a3ab054f66646159741714e27",
+ "name": "Trash Can",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 564136,
+  "type": 505,
+  "purposeId": 0,
+  "iconPath": "b6ab1eccc16b127653f051847c7aed72d1f71d5a3ab054f66646159741714e27",
+  "name": "Trash Can",
+  "desc": "Avatar obtained from completing Hidden Missions in Jarilo-VI.",
+  "lore": "Guys who can laugh at themselves usually have plenty of friends.<br /><br />\"Who are you cursing out?\"",
+  "purpose": "",
+  "rarity": 4,
+  "rewardPath": "/material/564136",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "564136"
+}

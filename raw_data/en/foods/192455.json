@@ -1,0 +1,24 @@
+{
+ "iconPath": "5408c0516e5173dbc809c8ea724011f7dcc9e13be690554c8519a4f8fcca9c2f",
+ "name": "Songlotus Cake",
+ "rarity": 2,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 192455,
+  "type": 502,
+  "purposeId": 10,
+  "iconPath": "5408c0516e5173dbc809c8ea724011f7dcc9e13be690554c8519a4f8fcca9c2f",
+  "name": "Songlotus Cake",
+  "desc": "Upon use, immediately regenerates <nobr>30%</nobr> of Max Energy for a single ally.",
+  "lore": "A classic snack made from songlotus on the Luofu.<br />Once you take a bite of it, it makes a crisp laughing sound. Occasionally Luofu's gormandizers use it to tease outworlders.<br /><br />\"You scared me!\"",
+  "purpose": "Consumables",
+  "rarity": 2,
+  "rewardPath": "/material/192455",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "192455"
+}

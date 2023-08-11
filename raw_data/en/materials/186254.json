@@ -1,0 +1,79 @@
+{
+ "iconPath": "e23000552918166759cdcf3f7cef87ae31a78cb8ae8f5dcedc0c74a92b68f963",
+ "name": "Regret of Infinite Ochema",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 186254,
+  "type": 601,
+  "purposeId": 4,
+  "iconPath": "e23000552918166759cdcf3f7cef87ae31a78cb8ae8f5dcedc0c74a92b68f963",
+  "name": "Regret of Infinite Ochema",
+  "desc": "Advanced level-up material for Traces.",
+  "lore": "No matter how many bodies it steals, its wish remains unfulfilled. Like those who seek the medicines of immortality, it craves an imperishable vessel, one that will rid it of its fear of destruction. And yet, it knows this is a dream that will never come true.<br /><br />\"I have seen countless worlds devoured by The Blemished One's conflagration, and I was one of their flames. I danced at the twirl of their fingers, keenly aware that should the fuel burn out, this fire will also extinguish...\"",
+  "purpose": "Trace Materials",
+  "rarity": 4,
+  "rewardPath": "/material/186254",
+  "comeFrom": [
+   "Echo of War: Scalegorge Waterscape"
+  ]
+ },
+ "itemReferences": {
+  "132014": {
+   "id": 132014,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "496415d55483445823d6d04ae6a15953a1a7253eff8cc81a78cf32a67a0edad9",
+   "name": "Blade",
+   "desc": "",
+   "lore": "A member of the Stellaron Hunters, and a swordsman who abandoned his body to become a blade.<br />Pledges loyalty to \"Destiny's Slave,\" and possesses a terrifying self-healing ability.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/blade",
+   "comeFrom": []
+  },
+  "337982": {
+   "id": 337982,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "a9c745fbcac7da736ba2a3891f9ea0ff5d816a247504de0d37c577542a696686",
+   "name": "Luka",
+   "desc": "",
+   "lore": "The boxing champion in Belobog's Underworld, and one of Wildfire's most capable fighters.<br />The consecutive champion of the Fight Club, his enthusiasm inspires children of the Underworld who dare to dream.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/character/luka",
+   "comeFrom": []
+  },
+  "807012": {
+   "id": 807012,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "f859b7e6883888a5c67f95c0b77ab9022baa8d5b7127c9e69e54c73882a3f5bc",
+   "name": "Kafka",
+   "desc": "",
+   "lore": "A member of the Stellaron Hunters. A dashing, collected, and professional beauty.<br />Used the enchantment of Spirit Whisper to set up Trailblazer to absorb the Stellaron.<br />Her hobby is shopping for and organizing her collection of coats.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/kafka",
+   "comeFrom": []
+  }
+ },
+ "composeData": [],
+ "avatarUsedBy": [
+  {
+   "id": 132014,
+   "rarity": 5
+  },
+  {
+   "id": 807012,
+   "rarity": 5
+  },
+  {
+   "id": 337982,
+   "rarity": 4
+  }
+ ],
+ "equipmentUsedBy": [],
+ "pageId": "186254"
+}

@@ -1,0 +1,24 @@
+{
+ "iconPath": "65ab66d6bd2b8948d586561bb7be240f9369bb59e1b5783ba4f4a89cd18d9185",
+ "name": "Development Fund",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 928702,
+  "type": 101,
+  "purposeId": 0,
+  "iconPath": "65ab66d6bd2b8948d586561bb7be240f9369bb59e1b5783ba4f4a89cd18d9185",
+  "name": "Development Fund",
+  "desc": "The museum development fund issued by the Architects.",
+  "lore": "As the museum continues to revitalize and improve, the Architects will issue a development budget for upgrading and recruiting staff, so that Trailblazer can better manage the various exhibit halls.",
+  "purpose": "",
+  "rarity": 3,
+  "rewardPath": "/material/928702",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "928702"
+}

@@ -1,0 +1,96 @@
+{
+ "iconPath": "4fbd741e1c158b5779b3cb19fcdba83310dda5cc926548677f2356130eabf37c",
+ "name": "Rice Plant Panicle",
+ "rarity": 2,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 357114,
+  "type": 502,
+  "purposeId": 10,
+  "iconPath": "4fbd741e1c158b5779b3cb19fcdba83310dda5cc926548677f2356130eabf37c",
+  "name": "Rice Plant Panicle",
+  "desc": "Upon use, increases Incoming Healing of all allies by <nobr>18%</nobr> for the next battle.",
+  "lore": "The pleasant smell gives you good appetite, so you choose not to ask why seeds planted on Protein Rice can yield flowers.<br /><br />\"The wind carries its fragrance down the waterway.\"",
+  "purpose": "Consumables",
+  "rarity": 2,
+  "rewardPath": "/material/357114",
+  "comeFrom": [
+   "All-in-One Synthesis Machine"
+  ]
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "af49f8c10262045a4f9e4740703b52056b5f396b48b99c2d130c22f3dbfa99d9",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards",
+    "Embers Exchange"
+   ]
+  },
+  "272534": {
+   "id": 272534,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "b4f20f63061ae4db3ce40dade7275ccbf1c581f229331775add3b2bc7a457b46",
+   "name": "Seed",
+   "desc": "Tier 1 Synthesis Material",
+   "lore": "Reproductive unit unique to plants.<br />Most of them symbolize life, some of them taste pretty good.<br /><br />\"Sow in the spring, harvest in the Autumn.\"",
+   "purpose": "Synthesis material",
+   "rarity": 1,
+   "rewardPath": "/material/272534",
+   "comeFrom": [
+    "Found in destructible objects in Jarilo-VI",
+    "Grocery Stand"
+   ]
+  },
+  "641099": {
+   "id": 641099,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "89d7a77a2d371a6f2127286b26b70a24b379ae2d3a23988dcffd9571328092b6",
+   "name": "Protein Rice",
+   "desc": "Tier 2 Synthesis Material",
+   "lore": "Nature's gift to human society, friend of mankind, savior of lives.<br />Smooth as egg white and full of protein.<br /><br />\"Every grain costs sweat and blood.\"",
+   "purpose": "Synthesis material",
+   "rarity": 2,
+   "rewardPath": "/material/641099",
+   "comeFrom": [
+    "Storage Zone: Voidranger: Reavers or other enemies",
+    "Found in destructible objects in the Herta Space Station",
+    "Grocery Stand"
+   ]
+  }
+ },
+ "composeData": [
+  {
+   "items": [
+    {
+     "id": 272534,
+     "count": 1
+    },
+    {
+     "id": 641099,
+     "count": 3
+    }
+   ],
+   "tag": {
+    "name": "Defense Consumables",
+    "type": "Consumables",
+    "icon": "8743e720b0f60c4b11bc7f188cf7b5ae3921e2cf3dacfdd180f1bcb5a1bae09e"
+   }
+  }
+ ],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "357114"
+}

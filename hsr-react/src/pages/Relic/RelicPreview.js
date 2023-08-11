@@ -6,13 +6,13 @@ import TextField from '@mui/material/TextField';
 import Autocomplete from '@mui/material/Autocomplete';
 
 function RelicPreview({ relic, setRelic }) {
-    const [setKey, setSetKey] = useState({label: relic.setKey, json: RELICSETS.find((item) => item.label === relic.setKey)?.json});
+    const [setKey, setSetKey] = useState({label: relic.setKey, id: RELICSETS.find((item) => item.label === relic.setKey)?.id});
     const [slotKey, setSlotKey] = useState({label: relic.slotKey, id: RELICSLOTS.find((item) => item.label === relic.slotKey)?.id});
     const [level, setLevel] = useState(relic.level || 0);
     const [mainStat, setMainStat] = useState([relic.mainStatKey, (relic.substats && relic.substats[relic.mainStatKey])]);
     const [substats, setSubstats] = useState([
         ...Object.entries(relic.substats).filter((e) => e[0] !== relic.mainStatKey),
-        ...Array.from({ length: Math.max(4 - Object.keys(relic.substats).length, 0) }, () => ["", ""]),
+        ...Array.from({ length: Math.max(5 - Object.keys(relic.substats).length, 0) }, () => ["", ""]),
     ]);
     const [raw, setRaw] = useState(relic.raw);
 
@@ -24,13 +24,13 @@ function RelicPreview({ relic, setRelic }) {
 
     useEffect(() => {
         console.log("relic update");
-        setSetKey({label: relic.setKey, json: RELICSETS.find((item) => item.label === relic.setKey)?.json});
+        setSetKey({label: relic.setKey, id: RELICSETS.find((item) => item.label === relic.setKey)?.id});
         setSlotKey({label: relic.slotKey, id: RELICSLOTS.find((item) => item.label === relic.slotKey)?.id});
         setLevel(relic.level || 0);
         setMainStat([relic.mainStatKey, (relic.substats && relic.substats[relic.mainStatKey])]);
         setSubstats([
             ...Object.entries(relic.substats).filter((e) => e[0] !== relic.mainStatKey),
-            ...Array.from({ length: Math.max(4 - Object.keys(relic.substats).length, 0) }, () => ["", ""]),
+            ...Array.from({ length: Math.max(5 - Object.keys(relic.substats).length, 0) }, () => ["", ""]),
         ]);
         setRaw(relic.raw);
         setID(relic.id);
@@ -41,7 +41,7 @@ function RelicPreview({ relic, setRelic }) {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch(`${process.env.PUBLIC_URL}/json/relics/${setKey.json}`);
+                const response = await fetch(`${process.env.PUBLIC_URL}/json/relics/${setKey.id}.json`);
                 const json = await response.json();
                 setJSON(json);
                 console.log(json);
@@ -66,9 +66,9 @@ function RelicPreview({ relic, setRelic }) {
             for (let piece of Object.values(json.pieces)) {
                 console.log("PIECE", piece);
                 if (raw.includes(piece.name)) {
-                    console.log("FOUND", piece.baseTypeText);
+                    console.log("FOUND", piece.type);
                     let copy = {...relic};
-                    copy.slotKey = piece.baseTypeText;
+                    copy.slotKey = piece.type;
                     setRelic(copy);
                 }
             }
@@ -85,12 +85,13 @@ function RelicPreview({ relic, setRelic }) {
     //INFER END
 
     useEffect(() => {
-        if (slotKey && json && slotKey.id in json.pieces) {
-            setArtPath(`${process.env.PUBLIC_URL}/image/relics/${json.pieces[slotKey.id].iconPath}.webp`);
+        if (setKey && slotKey) {
+            console.log("ART?" + `${process.env.PUBLIC_URL}/image/relics/${setKey.id}_${slotKey.id}.webp`);
+            setArtPath(`${process.env.PUBLIC_URL}/image/relics/${setKey.id}_${slotKey.id}.webp`);
         } else {
             setArtPath("");
         }
-    }, [slotKey, json]);
+    }, [setKey, slotKey]);
 
     const save = () => {
         console.log("SAVE");
@@ -149,6 +150,7 @@ function RelicPreview({ relic, setRelic }) {
                         <input type="text" value={substats[i][1]} onChange={(e) => {let copy = [...substats]; copy[i][1] = e.target.value; setSubstats(copy);}} style={{ position: 'absolute', textAlign: 'right', width: '15%', top: `${62 + 8*i}%`, right: '2%', color: 'white' }} />
                     </div>
                 ))}
+                
             </div>
         </div>
     );

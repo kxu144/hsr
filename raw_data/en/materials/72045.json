@@ -1,0 +1,27 @@
+{
+ "iconPath": "eb1fd638dc7deef12f48d3cc25b80638dc8cabdcf476e6f8ec196b6370887c59",
+ "name": "Core of Ice",
+ "rarity": 2,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 72045,
+  "type": 601,
+  "purposeId": 17,
+  "iconPath": "eb1fd638dc7deef12f48d3cc25b80638dc8cabdcf476e6f8ec196b6370887c59",
+  "name": "Core of Ice",
+  "desc": "Tier 2 Synthesis Material",
+  "lore": "Shattered ice fallen from the stars.<br />The frosty mist it emits when removed from a specialized canister looks like the breath of wintertime.<br /><br />\"Zoom in on a snowflake <nobr>100</nobr> times and behold the wonder of nature.\"",
+  "purpose": "Synthesis material",
+  "rarity": 2,
+  "rewardPath": "/material/72045",
+  "comeFrom": [
+   "Corridor of Fading Echoes: Everwinter Shadewalkers or other enemies",
+   "Administrative District Shop"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "72045"
+}

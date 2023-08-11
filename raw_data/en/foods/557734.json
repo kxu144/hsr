@@ -1,0 +1,114 @@
+{
+ "iconPath": "3a828ab549f61663570a7c53183ec7bf14d5e6c9d7bb3e44f5b9c60c5df3a8a7",
+ "name": "Disposable Shield",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 557734,
+  "type": 502,
+  "purposeId": 10,
+  "iconPath": "3a828ab549f61663570a7c53183ec7bf14d5e6c9d7bb3e44f5b9c60c5df3a8a7",
+  "name": "Disposable Shield",
+  "desc": "When used, increase DEF of all allies by <nobr>15%</nobr>, and Effect RES by <nobr>10%</nobr> for the next battle.",
+  "lore": "When the Armed Archaeologists of Intelligentsia Guild was first established, its casualty rate reached an appalling <nobr>34.88%</nobr>, for they were met with heavy resistance from the natives wherever they went because of their barbaric behavior. To change this, the Interastral Peace Corporation provided them with large quantities of basic protection gears that can fend off one fatal blow when hit.<br />While the protection offered by these gears was limited, they did reduce the casualty rate by <nobr>9.72%</nobr>, at least on paper. The IPC was very pleased to see that.<br /><br />\"First thing first my scholars, always turn your shields on. Second, remember morons: they can block explosions only once! Don't ever forget that!\"",
+  "purpose": "Consumables",
+  "rarity": 3,
+  "rewardPath": "/material/557734",
+  "comeFrom": [
+   "All-in-One Synthesis Machine"
+  ]
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "af49f8c10262045a4f9e4740703b52056b5f396b48b99c2d130c22f3dbfa99d9",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards",
+    "Embers Exchange"
+   ]
+  },
+  "72014": {
+   "id": 72014,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "b28d55bbfe31290893d1ac03c0d1747e94638a846387ed6b493de94a7c7f4074",
+   "name": "Hard Chip of Nihility",
+   "desc": "Tier 3 Synthesis Material",
+   "lore": "A chip made of iron that seems to possess the power of Nihility.<br />It may have been a coin that people use to buy things.<br />But apparently, as the engravings on it fade away, its value went with them.<br /><br />\"I don't know what I'm writing between these quotation marks. What's the point of this item description? My life is meaningless, so is this piece of flavor text.\"",
+   "purpose": "Synthesis material",
+   "rarity": 3,
+   "rewardPath": "/material/72014",
+   "comeFrom": [
+    "Rivet Town: Imaginary Weavers or other enemies"
+   ]
+  },
+  "155955": {
+   "id": 155955,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "372cc5a9fd892f4c2db6a5d505404405726581cecd41fe7d526d15d29e5897e4",
+   "name": "Preservation Construction Material",
+   "desc": "Tier 3 Synthesis Material",
+   "lore": "Construction materials that seem to possess the power of Preservation.<br />When mixed with water it forms a paste, when exposed to air it turns rock-hard.<br />Please do not use together with Solid Water.<br /><br />\"I regret to say that Intelligentsia Guild's research on the material used to build the Subspace Crystalline Barrier by Amber Lord still needs time to reveal its nature.\"<br />\"I'm sure it's not cement \u2014 am I right, Taravan?\"",
+   "purpose": "Synthesis material",
+   "rarity": 3,
+   "rewardPath": "/material/155955",
+   "comeFrom": [
+    "Corridor of Fading Echoes: Everwinter Shadewalkers or other enemies"
+   ]
+  },
+  "440513": {
+   "id": 440513,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "6ea5c33b5315f8f6f218cf8c335a1e98cda9e7ad4c2746cb02e7edeea9903574",
+   "name": "Mechanical Parts",
+   "desc": "Tier 2 Synthesis Material",
+   "lore": "Essential components of all machines with strange shapes and specific functions.<br />Without them, nothing can be made.<br /><br />\"With the same parts, Screwllum can make entire planets and create cyborgs. But you can only make me a watch that runs seven seconds late every day.\"<br />\"Seven seconds is good enough! Just a hair later than the clocks they use in observatories.\"",
+   "purpose": "Synthesis material",
+   "rarity": 2,
+   "rewardPath": "/material/440513",
+   "comeFrom": [
+    "Robot Settlement: Automatons or other enemies",
+    "Found in destructible objects in the Herta Space Station",
+    "Administrative District Shop"
+   ]
+  }
+ },
+ "composeData": [
+  {
+   "items": [
+    {
+     "id": 440513,
+     "count": 4
+    },
+    {
+     "id": 155955,
+     "count": 2
+    },
+    {
+     "id": 72014,
+     "count": 1
+    }
+   ],
+   "tag": {
+    "name": "Defense Consumables",
+    "type": "Consumables",
+    "icon": "8743e720b0f60c4b11bc7f188cf7b5ae3921e2cf3dacfdd180f1bcb5a1bae09e"
+   }
+  }
+ ],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "557734"
+}

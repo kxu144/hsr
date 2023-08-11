@@ -1,0 +1,27 @@
+{
+    "name": "Broken Keel",
+    "rarity": 5,
+    "effects": [
+        {
+            "useNum": 2,
+            "desc": "Increases the wearer's Effect RES by <nobr>#1[i]%</nobr>. When the wearer's Effect RES is at <nobr>#2[i]%</nobr> or higher, all allies' CRIT DMG increases by <nobr>#3[i]%</nobr>.",
+            "params": [
+                0.1,
+                0.3,
+                0.1
+            ]
+        }
+    ],
+    "pieces": {
+        "5": {
+            "name": "Insumousu's Whalefall Ship",
+            "maxRarity": 5,
+            "type": "Planar Sphere"
+        },
+        "6": {
+            "name": "Insumousu's Frayed Hawser",
+            "maxRarity": 5,
+            "type": "Link Rope"
+        }
+    }
+}

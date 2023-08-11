@@ -1,0 +1,29 @@
+{
+ "iconPath": "b0f1cfc56ed708ca47e85bd5f199c02e9c2804f06ed290d904d0118b171f57e5",
+ "name": "Tracks of Destiny",
+ "rarity": 5,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 125435,
+  "type": 601,
+  "purposeId": 4,
+  "iconPath": "b0f1cfc56ed708ca47e85bd5f199c02e9c2804f06ed290d904d0118b171f57e5",
+  "name": "Tracks of Destiny",
+  "desc": "Advanced level-up material for Traces.",
+  "lore": "Your victory is secured by countless failures, and the small steps you have taken led you to the turning point of fate.",
+  "purpose": "Trace Materials",
+  "rarity": 5,
+  "rewardPath": "/material/125435",
+  "comeFrom": [
+   "Simulated Universe Point Rewards",
+   "Nameless Honor",
+   "Embers Exchange",
+   "Limited-Time Event Rewards"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "125435"
+}

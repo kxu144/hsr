@@ -1,0 +1,26 @@
+{
+ "iconPath": "2afe0de1db31d9b352c11ed04032e32a338c41ae832efa77de81d343d0d94229",
+ "name": "Tree Bark of Erudition",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 356541,
+  "type": 601,
+  "purposeId": 17,
+  "iconPath": "2afe0de1db31d9b352c11ed04032e32a338c41ae832efa77de81d343d0d94229",
+  "name": "Tree Bark of Erudition",
+  "desc": "Tier 3 Synthesis Material",
+  "lore": "Dried tree bark that seems to possess the power of Erudition.<br />Its creases tell the story of the years passed and the wisdom of nature.<br />It says a lot more when beaten into pulp used for papermaking.<br /><br />\"The wisdom of mankind is contained in this one word.\"",
+  "purpose": "Synthesis material",
+  "rarity": 3,
+  "rewardPath": "/material/356541",
+  "comeFrom": [
+   "Robot Settlement: Automatons or other enemies"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "356541"
+}

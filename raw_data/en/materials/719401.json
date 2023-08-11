@@ -1,0 +1,24 @@
+{
+ "iconPath": "992f1f80f52a6fb31ffb7ec1b53b1978a97c5870a14c9ed88fe961899a14c907",
+ "name": "Herta Contract: Quest Sharing",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 719401,
+  "type": 501,
+  "purposeId": 0,
+  "iconPath": "992f1f80f52a6fb31ffb7ec1b53b1978a97c5870a14c9ed88fe961899a14c907",
+  "name": "Herta Contract: Quest Sharing",
+  "desc": "A mutual aid contract between Herta and the Express. She will help the Express whenever she can, in exchange for treasures found during trailblazing.",
+  "lore": "",
+  "purpose": "",
+  "rarity": 3,
+  "rewardPath": "/material/719401",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "719401"
+}

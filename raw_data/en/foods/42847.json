@@ -1,0 +1,132 @@
+{
+ "iconPath": "e18096378c6a95be3481c4ccd65b692629ea61ffbb6a526a0d5d9683924efae2",
+ "name": "Enhancement Paste: Physical",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 42847,
+  "type": 502,
+  "purposeId": 10,
+  "iconPath": "e18096378c6a95be3481c4ccd65b692629ea61ffbb6a526a0d5d9683924efae2",
+  "name": "Enhancement Paste: Physical",
+  "desc": "Upon use, increases Physical DMG of all allies by <nobr>24%</nobr> for the next battle.",
+  "lore": "A cream made from a mixture of Path materials and other things.<br />Apply it to the right weapon to boost combat effectiveness.<br /><br />\"Half the effort, double the result.\"",
+  "purpose": "Consumables",
+  "rarity": 3,
+  "rewardPath": "/material/42847",
+  "comeFrom": [
+   "All-in-One Synthesis Machine"
+  ]
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "af49f8c10262045a4f9e4740703b52056b5f396b48b99c2d130c22f3dbfa99d9",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards",
+    "Embers Exchange"
+   ]
+  },
+  "42979": {
+   "id": 42979,
+   "type": 507,
+   "purposeId": 19,
+   "iconPath": "97b725bf30cb93710ab886445989ccfc097aef5eccb30e05da6a347f35fb4c9f",
+   "name": "Recipe: Enhancement Paste: Physical",
+   "desc": "A simple equation. When entered into the Synthesizer, it will unlock a new recipe.",
+   "lore": "",
+   "purpose": "Recipe",
+   "rarity": 3,
+   "rewardPath": "/material/42979",
+   "comeFrom": []
+  },
+  "71948": {
+   "id": 71948,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "197cc70e3044731da2ec968ac268621ff44ed905278a9aa0f1d611a27e7d60eb",
+   "name": "Metal",
+   "desc": "Tier 1 Synthesis Material",
+   "lore": "A substance abundant in planets' crust and the ocean.<br />Very useful, very handy.<br /><br />\"I've been to a planet where the locals consume metals to get superpowers. Please don't do that at home, as most metals are not digestible by humans.\"",
+   "purpose": "Synthesis material",
+   "rarity": 1,
+   "rewardPath": "/material/71948",
+   "comeFrom": [
+    "Found in destructible objects in the Herta Space Station",
+    "Administrative District Shop"
+   ]
+  },
+  "155955": {
+   "id": 155955,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "372cc5a9fd892f4c2db6a5d505404405726581cecd41fe7d526d15d29e5897e4",
+   "name": "Preservation Construction Material",
+   "desc": "Tier 3 Synthesis Material",
+   "lore": "Construction materials that seem to possess the power of Preservation.<br />When mixed with water it forms a paste, when exposed to air it turns rock-hard.<br />Please do not use together with Solid Water.<br /><br />\"I regret to say that Intelligentsia Guild's research on the material used to build the Subspace Crystalline Barrier by Amber Lord still needs time to reveal its nature.\"<br />\"I'm sure it's not cement \u2014 am I right, Taravan?\"",
+   "purpose": "Synthesis material",
+   "rarity": 3,
+   "rewardPath": "/material/155955",
+   "comeFrom": [
+    "Corridor of Fading Echoes: Everwinter Shadewalkers or other enemies"
+   ]
+  },
+  "557157": {
+   "id": 557157,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "75da0e2c6bf18e07ff5d5060087474cd866da66cdd488404cc50229f63ffbd0b",
+   "name": "Meteoric Alloy",
+   "desc": "Tier 2 Synthesis Material",
+   "lore": "Resilient meteoric ironsand.<br />Its tenacity is far superior to solid boulders.<br /><br />\"Let's grab as much as we can. Qlipoth will need them.\"<br />\"I have no idea whether the Aeon need them or not. All I know is that the IPC will pay big bucks for them.\"",
+   "purpose": "Synthesis material",
+   "rarity": 2,
+   "rewardPath": "/material/557157",
+   "comeFrom": [
+    "Robot Settlement: Automatons or other enemies",
+    "Found in destructible objects in Jarilo-VI",
+    "Administrative District Shop"
+   ]
+  }
+ },
+ "composeData": [
+  {
+   "items": [
+    {
+     "id": 71948,
+     "count": 5
+    },
+    {
+     "id": 557157,
+     "count": 2
+    },
+    {
+     "id": 155955,
+     "count": 2
+    },
+    {
+     "id": 42979,
+     "count": 1
+    }
+   ],
+   "tag": {
+    "name": "Attack Consumables",
+    "type": "Consumables",
+    "icon": "8743e720b0f60c4b11bc7f188cf7b5ae3921e2cf3dacfdd180f1bcb5a1bae09e"
+   }
+  }
+ ],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "42847"
+}

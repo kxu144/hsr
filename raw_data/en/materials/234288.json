@@ -1,0 +1,24 @@
+{
+ "iconPath": "9870bf6f5d51f2aa18d8fd989c8cb6cf578160ebe000c8f3636b86a3ba5d6360",
+ "name": "Herta Contract: Resource Supply",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 234288,
+  "type": 501,
+  "purposeId": 0,
+  "iconPath": "9870bf6f5d51f2aa18d8fd989c8cb6cf578160ebe000c8f3636b86a3ba5d6360",
+  "name": "Herta Contract: Resource Supply",
+  "desc": "A mutual aid contract between Herta and the Express. She will help the Express whenever she can, in exchange for treasures found during trailblazing.",
+  "lore": "",
+  "purpose": "",
+  "rarity": 4,
+  "rewardPath": "/material/234288",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "234288"
+}

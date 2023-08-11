@@ -1,0 +1,26 @@
+{
+ "iconPath": "ce7cb6391c557099fd355bc8a16f203382eed332bce8705cd5b4e63460fb3d92",
+ "name": "Where's the Rabbit?",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 70149,
+  "type": 508,
+  "purposeId": 0,
+  "iconPath": "ce7cb6391c557099fd355bc8a16f203382eed332bce8705cd5b4e63460fb3d92",
+  "name": "Where's the Rabbit?",
+  "desc": "Message and Chat speech bubbles can be changed in the Message or Chat functions",
+  "lore": "\"Perkins, be a good robot and open up the chest!\"<br />\"I won't... I won't... not until Clara is back...\"",
+  "purpose": "",
+  "rarity": 4,
+  "rewardPath": "/material/70149",
+  "comeFrom": [
+   "Obtained from the Underground Treasure Hunt Event"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "70149"
+}

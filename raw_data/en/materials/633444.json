@@ -1,0 +1,377 @@
+{
+ "iconPath": "70a8938f2ceb297722769c3899bb3657304924c15cafc50fa23390de5eabacbc",
+ "name": "Artifex's Cogwheel",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 633444,
+  "type": 601,
+  "purposeId": 7,
+  "iconPath": "70a8938f2ceb297722769c3899bb3657304924c15cafc50fa23390de5eabacbc",
+  "name": "Artifex's Cogwheel",
+  "desc": "Parts of the Xianzhou machines. Normal material used for enhancement.",
+  "lore": "The connective components used in Xianzhou's ingenium technology. The intricate and thin teeth of the cogwheels are as minute as mustard seeds, and yet are interconnected to form a complex body, making the machine able to pass as true life.<br /><br />\"Its form lies in harmony, a parallel to nature. Its movements cyclical, echoing the cosmos.\"",
+  "purpose": "Trace Material<br />Character Ascension Materials",
+  "rarity": 3,
+  "rewardPath": "/material/633444",
+  "comeFrom": [
+   "Entranced Ingenia at Equilibrium Level 2 or higher",
+   "Omni-Synthesizer \u2014 Material Synthesis",
+   "Simulated Universe enemies",
+   "Omni-Synthesizer \u2014 Material Exchange"
+  ]
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "af49f8c10262045a4f9e4740703b52056b5f396b48b99c2d130c22f3dbfa99d9",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards",
+    "Embers Exchange"
+   ]
+  },
+  "48073": {
+   "id": 48073,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "f6ef5d375d72d70ff30fd9c9a5d87afb58f9b017b105e71a7b70ac4e8c3c3c4d",
+   "name": "Sushang",
+   "desc": "",
+   "lore": "Born on the Xianzhou Yaoqing, sent to the Cloud Knights of the Luofu for military training.<br />She wields her family sword, a gift from her mother, and longs for the future she will go on to write.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/character/sushang",
+   "comeFrom": []
+  },
+  "79837": {
+   "id": 79837,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "eda49b019115e7ef3b5530309a996a6d64a41811b59d9873892478759d122c57",
+   "name": "Echoes of the Coffin",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Abundance</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "Under the watch of the white irises, he knocks on the coffin.<br />\"Sometimes I feel I underestimated you by proposing this deal.\"<br />He receives no response other than a thorny branch piercing through his palm.<br />Yet he smiles, and tightly grasps the thorn.<br /><br />\"Indeed. This is how it is. We wanted to use each other, and both ended up underestimating the other.\"",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/lightcone/23008",
+   "comeFrom": []
+  },
+  "332600": {
+   "id": 332600,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "6bea90f23bb97f9219aad9f73f1501b1ea7c1f956946fe598dde7d44c401488a",
+   "name": "Luocha",
+   "desc": "",
+   "lore": "Carrying a coffin wherever he goes, he is a foreign trader who came from beyond the stellar seas.<br />Has excellent medical skills.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/luocha",
+   "comeFrom": []
+  },
+  "549503": {
+   "id": 549503,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "a9982fbfd0b91bf955e7490167c11c9813a73f915e9665110456d1658daac9b6",
+   "name": "Artifex's Module",
+   "desc": "Components used in Xianzhou's ingenium creations. Crude material used for enhancement.",
+   "lore": "The foundation of Xianzhou's ingenium technology. The smallest constituent of all machine parts. Breaking it apart would be akin to destroying the cellular structure of a living being.<br /><br />\"The Intelligentsia Guild put up a bounty of two million credits for technical plans that can flawlessly disassemble Xianzhou mechanical puppets.\"<br />\"If you know Screwllum, then these two millions are basically yours to take...\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 2,
+   "rewardPath": "/material/549503",
+   "comeFrom": [
+    "Entranced Ingenia",
+    "Simulated Universe enemies",
+    "Assignment rewards",
+    "Embers Exchange",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "633348": {
+   "id": 633348,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "e5af7170577a761afe972e82e7b980c3aed8f051c5cab42f9ade781324e3a0ee",
+   "name": "Silvermane Insignia",
+   "desc": "Military rank insignia worn by captains of the Silvermane Guard. Normal material used for enhancement.",
+   "lore": "Maybe it's a proof of heroics that you can brag about to your family. Maybe it's a lucky charm that protects you from a bullet.<br /><br />\"Times have changed.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 3,
+   "rewardPath": "/material/633348",
+   "comeFrom": [
+    "Everwinter Shadewalker and Incineration Shadewalker at Equilibrium Level 2 or higher",
+    "Silvermane Guards and vagrants at Equilibrium Level 2 or higher",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "633349": {
+   "id": 633349,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "3066320d078375498b310e64107e444343b667691e130afcbe189ba2af568fe5",
+   "name": "Ancient Spindle",
+   "desc": "Mechanical spindle left behind from the Old World. Normal material used for enhancement.",
+   "lore": "Once taken apart, the precision components can never be put back together. Even the maintenance veterans in Belobog's Technology Division would think twice before touching it.<br /><br />\"You idiot, the Bluecoats will only give you a few canned goods for this. Take it to Boss Svarog and you won't need to worry about food and clothing for a while.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 3,
+   "rewardPath": "/material/633349",
+   "comeFrom": [
+    "Automatons at Equilibrium Level 2 or higher",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "633378": {
+   "id": 633378,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "a37da05958d9ef643e353e23b21bf7c7fd29f11504f3d16bb382ec0ecf6b2241",
+   "name": "Usurper's Scheme",
+   "desc": "A moderate amount of anti-matter. Normal material used for enhancement.",
+   "lore": "A moderate amount of anti-matter that floats around the Voidranger: Distorter. The amount of matter and anti-matter particles has reached a dangerous balance...<br /><br />\"They are all looking forward to the moment of obliteration, when they will be reforged and fused with the entire world.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 3,
+   "rewardPath": "/material/633378",
+   "comeFrom": [
+    "Antimatter Legion at Equilibrium Level 2 or higher",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "633379": {
+   "id": 633379,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "b2e2e1f644af07632c29e36a478b53e1c5109c28609acec12e88364084b2860e",
+   "name": "Glimmering Core",
+   "desc": "The heart of a monster wandering the Fragmentum. Normal material used for enhancement.",
+   "lore": "It is a lesion that breeds evil, the impulse to sin. It is the source of the Fragmentum distortion.<br />The heart is glimmering and the veins on it indicate it's still alive.<br /><br />\"What kind of monster is this? Did you see it... Its face! It has the face of our previous leader!\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 3,
+   "rewardPath": "/material/633379",
+   "comeFrom": [
+    "Certain Fragmentum Monsters at Equilibrium Level 2 or higher",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "633445": {
+   "id": 633445,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "031003e14c276a2aba3c945ea8ca9e78edba44061b597959f42cc62c1e051542",
+   "name": "Immortal Aeroblossom",
+   "desc": "New flowers blooming out of an ancient divine construct. Normal material used for enhancement.",
+   "lore": "The source of the Xianzhou long-life species' \"Endless Lifespan.\" The remnants of the Aeon of Abundance's influence. After endless trials, the fleet seeking the medicine of immortality was able to behold the visage of the celestial being. The divine one cast down its blessings in material form, and the Ambrosial Arbor sprouted its leaves.<br /><br />\"New buds descend into the moon, divine flowers bloom by the clouds. In the blink of a blossom's life, old wood returns to youthful grove.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 3,
+   "rewardPath": "/material/633445",
+   "comeFrom": [
+    "Abominations of Abundance at Equilibrium Level 2 or higher",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "676275": {
+   "id": 676275,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "f5ec5eec0b2c00d7df98a3e9617665c65d4d6e0542ab12429f42bc0205633b92",
+   "name": "Hidden Shadow",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Nihility</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate. <br /><br />\"The Nihility might find us, but there is a non-zero chance that they might not.\"",
+   "purpose": "",
+   "rarity": 3,
+   "rewardPath": "/lightcone/20018",
+   "comeFrom": []
+  },
+  "754820": {
+   "id": 754820,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "8b2d056ef4b6cb5b693565c4c516a3a7833b2104ee85deb9b3e0dae6088f8ca6",
+   "name": "Shared Feeling",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Abundance</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "When the doctor found the wounded girl, she was clinging to a machine that had stopped working, with all sorts of parts filling her pocket.<br />She took the girl back to her clinic and treated the wounds.<br />Drops of sweat slowly rolled down the girl's cheek, but she remained silent and her hands didn't stop fiddling the machine.<br />To the doctor, the way the girl was attached to the machine was very much like how she was attached to her patients who needed help.<br />So the doctor did not try to comfort the girl nor did she nag her about being more careful; but rather, she sat down with her to give her a moment of peace.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21007",
+   "comeFrom": []
+  },
+  "838761": {
+   "id": 838761,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "fedb111f6687c590feffb68f79219a1c79d4937363eb1305f424def3ba9e426a",
+   "name": "Subscribe for More!",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">The Hunt</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "\"Yo, yo. What is up! Is everything coming through?\"<br /><br />The orange-haired girl slowly lifts a sledgehammer while shouting enthusiastically at the camera.<br />\"Ever seen a pretty girl doing the cinder-block-smashed-on-chest stunt?\"<br /><br />\"I didn't sign up for this!\"<br />The brunette girl cried out loud, only to be met with a sly smile from the girl with the orange hair.<br />\"Please. Just let me do this. This is what people would've wanted.\"",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21017",
+   "comeFrom": []
+  },
+  "838763": {
+   "id": 838763,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "1c5cb977d8ff22395e7980c91e5ae30f4e8cd6b77d7cd4b5b31f13fc5baee6cc",
+   "name": "Resolution Shines As Pearls of Sweat",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Nihility</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "The limelight cast on the boxing ring is bright, but no brighter than all those beads of sweat running down his back.<br /><br />He has long been determined to use his two fists to protect those he cherishes the most.<br />After all, they are the ones who ignited his determination in the first place.<br />They are the ones who have always been there for him, be it inside or outside the boxing ring.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21015",
+   "comeFrom": []
+  },
+  "838764": {
+   "id": 838764,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "15dbfa1cb730b418d82835afa586f0908fa495049da5f700f4a5a6344a401986",
+   "name": "Perfect Timing",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Abundance</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "On a bustling street, he walks and walks. The sunlight closely follows his footsteps.<br />He makes a stop and picks up an umbrella to shade himself from the sun<br />...and from that prying gaze.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21014",
+   "comeFrom": []
+  },
+  "838776": {
+   "id": 838776,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "521343f5e1d7b52519f909907d89f2d57149e7b5c7ef983fde3b41eba822e738",
+   "name": "Dance! Dance! Dance!",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Harmony</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "\"Why couldn't Hook do a spinning dance move, just like how Clara does?\"<br />She clenched her tiny fists and pouted her cute lips, her chubby little face looking redder than ever under her signature felt hat.<br />\"Please, Mr. Svarog, can you please help Hook with this?\"<br />Without saying any words, Mr. Svarog began to hold out his robotic arm.<br /><br />\"I'm g\u2014gonna be sick!!! Put me down now! Please!\"",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21018",
+   "comeFrom": []
+  },
+  "931428": {
+   "id": 931428,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "1f1cd84e7a8305b16b6123512c96cb5cb1523628f6849360d810aac6b6e26f52",
+   "name": "Yukong",
+   "desc": "",
+   "lore": "Head of the Sky-Faring Commission on the Xianzhou Luofu. Yukong was a seasoned pilot and a deadshot.<br />Since heading up the commission, she's been buried under mountains of paperwork.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/character/yukong",
+   "comeFrom": []
+  }
+ },
+ "composeData": [
+  {
+   "items": [
+    {
+     "id": 549503,
+     "count": 3
+    },
+    {
+     "id": 29328,
+     "count": 20
+    }
+   ],
+   "tag": {
+    "name": "Universal Enhancement Material",
+    "type": "Traces Activation Materials",
+    "icon": "9dbcfe3f6a430c2493309cb45108b80812fb0120f30c9e5c551f412b3062fc91"
+   }
+  },
+  {
+   "items": [
+    {
+     "id": 633379,
+     "count": 2
+    },
+    {
+     "id": 633378,
+     "count": 2
+    },
+    {
+     "id": 633348,
+     "count": 2
+    },
+    {
+     "id": 633349,
+     "count": 2
+    },
+    {
+     "id": 633445,
+     "count": 2
+    }
+   ],
+   "tag": {
+    "name": "Universal Enhancement Material",
+    "type": "Material Exchange",
+    "icon": "f35209048cb550e1786097300bddc706b6011b9c8831b2d78717580ef9e357b9"
+   }
+  }
+ ],
+ "avatarUsedBy": [
+  {
+   "id": 332600,
+   "rarity": 5
+  },
+  {
+   "id": 931428,
+   "rarity": 4
+  },
+  {
+   "id": 48073,
+   "rarity": 4
+  }
+ ],
+ "equipmentUsedBy": [
+  {
+   "id": 79837,
+   "rarity": 5
+  },
+  {
+   "id": 838776,
+   "rarity": 4
+  },
+  {
+   "id": 838761,
+   "rarity": 4
+  },
+  {
+   "id": 838763,
+   "rarity": 4
+  },
+  {
+   "id": 838764,
+   "rarity": 4
+  },
+  {
+   "id": 754820,
+   "rarity": 4
+  },
+  {
+   "id": 676275,
+   "rarity": 3
+  }
+ ],
+ "pageId": "633444"
+}
